@@ -1,0 +1,36 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Ammo_Cartridge.name",
+    "Description": "server.items.RS_Ammo_Cartridge.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Common",
+  "Model": "Items/RangerSnipers/Ammo/RS_Ammo_Cartridge.blockymodel",
+  "Texture": "Items/RangerSnipers/Ammo/RS_Ammo_Cartridge.png",
+  "Icon": "Icons/ItemsGenerated/RS_Ammo_Cartridge.png",
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  }
+}

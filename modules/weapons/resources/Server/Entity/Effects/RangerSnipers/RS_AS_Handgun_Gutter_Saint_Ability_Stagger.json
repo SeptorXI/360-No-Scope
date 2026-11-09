@@ -1,0 +1,35 @@
+{
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer",
+      "Inverse": true
+    },
+    {
+      "Id": "HasEffect",
+      "EffectId": "Immunity_Freeze",
+      "Inverse": true
+    },
+    {
+      "Id": "HasEffect",
+      "EffectId": "Hit_Interrupt_Enraged",
+      "Inverse": true
+    }
+  ],
+  "Duration": 0.2,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 0,
+    "EntityTopTint": "#ffc176",
+    "EntityBottomTint": "#b57a3f",
+    "AbilityEffects": {
+      "Disabled": [
+        "Primary",
+        "Ability1",
+        "Ability2",
+        "Ability3",
+        "Ability4"
+      ]
+    }
+  }
+}

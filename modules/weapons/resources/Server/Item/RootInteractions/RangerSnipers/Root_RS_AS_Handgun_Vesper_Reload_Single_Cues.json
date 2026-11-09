@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.383333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.35
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.566666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.066666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.266666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.233333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ReloadClose_World"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7230 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Gutter Saint, Mercy of the Deepworks reload rig",
+  "resolution": {
+    "width": 512,
+    "height": 1024
+  },
+  "elements": [
+    {
+      "name": "Trigger_Geo",
+      "uuid": "046c525d-b3db-5d66-9916-f7058d82c232",
+      "type": "cube",
+      "origin": [
+        4.875,
+        -7.8,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            2,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            4,
+            1,
+            5,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            9,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            11,
+            1,
+            13,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            15,
+            1,
+            16,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            18,
+            1,
+            19,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        4.3875,
+        -9.75,
+        -0.5484375
+      ],
+      "to": [
+        5.3625,
+        -5.85,
+        0.5484375
+      ]
+    },
+    {
+      "name": "Guard_Spar_Geo",
+      "uuid": "8c45d8f3-42b6-5fd0-9bad-5f4d8630b39d",
+      "type": "cube",
+      "origin": [
+        2.925,
+        -12.674999999999999,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            21,
+            1,
+            29,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            31,
+            1,
+            39,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            1,
+            45,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            47,
+            1,
+            51,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            53,
+            1,
+            61,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            63,
+            1,
+            71,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -0.9750000000000001,
+        -13.649999999999999,
+        -1.096875
+      ],
+      "to": [
+        6.824999999999999,
+        -11.7,
+        1.096875
+      ]
+    },
+    {
+      "name": "Handcannon_Yoke_Geo",
+      "uuid": "3c5f0999-f380-5fd6-91c7-48dc25d1651c",
+      "type": "cube",
+      "origin": [
+        2.925,
+        -1.95,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            73,
+            1,
+            89,
+            6
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            91,
+            1,
+            107,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            109,
+            1,
+            118,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            120,
+            1,
+            129,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            131,
+            1,
+            147,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            149,
+            1,
+            165,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -4.875,
+        -4.3875,
+        -2.4679687500000003
+      ],
+      "to": [
+        10.725,
+        0.48750000000000004,
+        2.4679687500000003
+      ]
+    },
+    {
+      "name": "Heavy_Barrel_Geo",
+      "uuid": "3b73f900-2b61-5f05-a817-32304f9f96cd",
+      "type": "cube",
+      "origin": [
+        -22.425,
+        2.925,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            407,
+            1,
+            427,
+            7
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            429,
+            1,
+            449,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            451,
+            1,
+            457,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            459,
+            1,
+            465,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            467,
+            1,
+            487,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            489,
+            1,
+            509,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -32.175,
+        0.0,
+        -1.6453125000000002
+      ],
+      "to": [
+        -12.675,
+        5.85,
+        1.6453125000000002
+      ]
+    },
+    {
+      "name": "Maw_Brake_Geo",
+      "uuid": "81cea91a-96e1-52af-9dba-9331b45bbbcc",
+      "type": "cube",
+      "origin": [
+        -33.15,
+        2.925,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            12,
+            9,
+            22
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            11,
+            12,
+            19,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            12,
+            31,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            12,
+            43,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            45,
+            12,
+            53,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            55,
+            12,
+            63,
+            22
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -37.05,
+        -1.9500000000000002,
+        -2.7421875
+      ],
+      "to": [
+        -29.25,
+        7.8,
+        2.7421875
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_0_L_Geo",
+      "uuid": "0adc74e8-5830-5d11-8ff1-d0d129838db2",
+      "type": "cube",
+      "origin": [
+        -35.1,
+        5.85,
+        -3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -36.075,
+        2.925,
+        -3.56484375
+      ],
+      "to": [
+        -34.125,
+        8.774999999999999,
+        -2.4679687500000003
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_0_R_Geo",
+      "uuid": "0d561516-9121-50cb-8994-135d56bf328d",
+      "type": "cube",
+      "origin": [
+        -35.1,
+        5.85,
+        3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -36.075,
+        2.925,
+        2.4679687500000003
+      ],
+      "to": [
+        -34.125,
+        8.774999999999999,
+        3.56484375
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_1_L_Geo",
+      "uuid": "56160070-ec34-53bf-9629-52e937d7b501",
+      "type": "cube",
+      "origin": [
+        -32.175,
+        5.85,
+        -3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -33.15,
+        2.925,
+        -3.56484375
+      ],
+      "to": [
+        -31.199999999999996,
+        8.774999999999999,
+        -2.4679687500000003
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_1_R_Geo",
+      "uuid": "ef26d804-56e1-5523-9115-2939e887cc03",
+      "type": "cube",
+      "origin": [
+        -32.175,
+        5.85,
+        3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -33.15,
+        2.925,
+        2.4679687500000003
+      ],
+      "to": [
+        -31.199999999999996,
+        8.774999999999999,
+        3.56484375
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_2_L_Geo",
+      "uuid": "565146ba-9694-53bf-949c-7424432fa3be",
+      "type": "cube",
+      "origin": [
+        -29.25,
+        5.85,
+        -3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -30.225,
+        2.925,
+        -3.56484375
+      ],
+      "to": [
+        -28.275,
+        8.774999999999999,
+        -2.4679687500000003
+      ]
+    },
+    {
+      "name": "Brake_Sawtooth_2_R_Geo",
+      "uuid": "5551e4c9-ca88-50ce-84f1-fa27c3d53165",
+      "type": "cube",
+      "origin": [
+        -29.25,
+        5.85,
+        3.01640625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            12,
+            67,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            69,
+            12,
+            71,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            12,
+            75,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            77,
+            12,
+            79,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            12,
+            83,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            85,
+            12,
+            87,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -30.225,
+        2.925,
+        2.4679687500000003
+      ],
+      "to": [
+        -28.275,
+        8.774999999999999,
+        3.56484375
+      ]
+    },
+    {
+      "name": "Counterweight_Arm_Geo",
+      "uuid": "11e9f48f-8310-5aae-8502-ced864907bef",
+      "type": "cube",
+      "origin": [
+        -14.625,
+        -6.825,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            89,
+            12,
+            109,
+            15
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            111,
+            12,
+            131,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            133,
+            12,
+            138,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            140,
+            12,
+            145,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            147,
+            12,
+            167,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            169,
+            12,
+            189,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -24.375,
+        -8.2875,
+        -1.37109375
+      ],
+      "to": [
+        -4.875,
+        -5.362500000000001,
+        1.37109375
+      ]
+    },
+    {
+      "name": "Counterweight_Geo",
+      "uuid": "5abfd136-15a7-5c48-b146-7b223c833991",
+      "type": "cube",
+      "origin": [
+        -22.425,
+        -9.75,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            191,
+            12,
+            203,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            205,
+            12,
+            217,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            219,
+            12,
+            228,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            230,
+            12,
+            239,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            241,
+            12,
+            253,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            255,
+            12,
+            267,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -28.275,
+        -13.1625,
+        -2.4679687500000003
+      ],
+      "to": [
+        -16.575000000000003,
+        -6.3375,
+        2.4679687500000003
+      ]
+    },
+    {
+      "name": "Hammer_Geo",
+      "uuid": "5485c490-8697-515f-b42e-f88417718450",
+      "type": "cube",
+      "origin": [
+        7.8,
+        7.8,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            337,
+            12,
+            342,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            344,
+            12,
+            349,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            351,
+            12,
+            355,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            357,
+            12,
+            361,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            363,
+            12,
+            368,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            370,
+            12,
+            375,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        5.3625,
+        3.9,
+        -1.096875
+      ],
+      "to": [
+        10.2375,
+        11.7,
+        1.096875
+      ]
+    },
+    {
+      "name": "Slide_Geo",
+      "uuid": "cacefe29-2687-5c33-ab90-0482739beccd",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        2.925,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            1,
+            182,
+            6
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            184,
+            1,
+            199,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            201,
+            1,
+            206,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            208,
+            1,
+            213,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            230,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            232,
+            1,
+            247,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.1875,
+        0.4874999999999998,
+        -1.37109375
+      ],
+      "to": [
+        2.4375,
+        5.3625,
+        1.37109375
+      ]
+    },
+    {
+      "name": "Magazine_Geo",
+      "uuid": "5fa0fc47-266f-576e-a773-55cb6f375cd8",
+      "type": "cube",
+      "origin": [
+        -3.9,
+        -2.925,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            269,
+            12,
+            279,
+            17
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            281,
+            12,
+            291,
+            17
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            293,
+            12,
+            301,
+            17
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            303,
+            12,
+            311,
+            17
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            313,
+            12,
+            323,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            325,
+            12,
+            335,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.775,
+        -5.3625,
+        -2.19375
+      ],
+      "to": [
+        0.9750000000000001,
+        -0.4874999999999998,
+        2.19375
+      ]
+    },
+    {
+      "name": "Turret_Chamber_0_Geo",
+      "uuid": "4b5b6fb2-00ff-582f-bdb9-c522756ee586",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        7.8,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        6.3375,
+        -0.8226562500000001
+      ],
+      "to": [
+        2.925,
+        9.2625,
+        0.8226562500000001
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_0_Geo",
+      "uuid": "c4c604ca-cbd9-5d4b-bc33-ea6934b3e57b",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        8.4825,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        7.995,
+        -0.5484375
+      ],
+      "to": [
+        -1.4625,
+        8.97,
+        0.5484375
+      ]
+    },
+    {
+      "name": "Turret_Chamber_1_Geo",
+      "uuid": "b1cd9b7e-68f5-5036-8449-f4edf9f716d6",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        6.372145558284419,
+        1.939019376534986
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        4.909645558284419,
+        1.1163631265349858
+      ],
+      "to": [
+        2.925,
+        7.83464555828442,
+        2.761675626534986
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_1_Geo",
+      "uuid": "773c82dc-37cf-586b-987b-c853e175e876",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        6.854745936444238,
+        2.2104820892498838
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        6.367245936444238,
+        1.6620445892498839
+      ],
+      "to": [
+        -1.4625,
+        7.342245936444238,
+        2.7589195892498837
+      ]
+    },
+    {
+      "name": "Turret_Chamber_2_Geo",
+      "uuid": "5fcbe3a4-d67f-5a76-8f5d-02968c08ba57",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        2.9250000000000003,
+        2.7421875
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        1.4625000000000004,
+        1.91953125
+      ],
+      "to": [
+        2.925,
+        4.3875,
+        3.56484375
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_2_Geo",
+      "uuid": "830b3c7f-025e-5600-bc13-e480e754c7e4",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        2.9250000000000003,
+        3.1260937500000003
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        2.4375000000000004,
+        2.5776562500000004
+      ],
+      "to": [
+        -1.4625,
+        3.4125,
+        3.6745312500000002
+      ]
+    },
+    {
+      "name": "Turret_Chamber_3_Geo",
+      "uuid": "60587ff4-5ba9-591e-873f-8104c3ee6040",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -0.5221455582844188,
+        1.939019376534986
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        -1.9846455582844187,
+        1.1163631265349858
+      ],
+      "to": [
+        2.925,
+        0.9403544417155811,
+        2.761675626534986
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_3_Geo",
+      "uuid": "c5b00d46-f211-509d-a8dd-05a1f8db0f49",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -1.004745936444238,
+        2.2104820892498838
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        -1.492245936444238,
+        1.6620445892498839
+      ],
+      "to": [
+        -1.4625,
+        -0.5172459364442379,
+        2.7589195892498837
+      ]
+    },
+    {
+      "name": "Turret_Chamber_4_Geo",
+      "uuid": "24eb2140-425d-52d8-a9be-155d8807b19b",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -1.9500000000000002,
+        3.358211144536883e-16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        -3.4125,
+        -0.8226562499999998
+      ],
+      "to": [
+        2.925,
+        -0.48750000000000027,
+        0.8226562500000004
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_4_Geo",
+      "uuid": "e5ae6817-5b72-5d83-a2cb-2664b4d4024a",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -2.6325000000000003,
+        3.8283607047720463e-16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        -3.12,
+        -0.5484374999999997
+      ],
+      "to": [
+        -1.4625,
+        -2.1450000000000005,
+        0.5484375000000004
+      ]
+    },
+    {
+      "name": "Turret_Chamber_5_Geo",
+      "uuid": "92b132ff-df9a-5c8f-beb8-da958cfd84e9",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -0.5221455582844201,
+        -1.9390193765349857
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        -1.98464555828442,
+        -2.761675626534986
+      ],
+      "to": [
+        2.925,
+        0.9403544417155798,
+        -1.1163631265349856
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_5_Geo",
+      "uuid": "5ced3a0c-7108-5854-bb85-2e69a794d8ef",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        -1.0047459364442388,
+        -2.2104820892498838
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        -1.4922459364442389,
+        -2.7589195892498837
+      ],
+      "to": [
+        -1.4625,
+        -0.5172459364442388,
+        -1.6620445892498839
+      ]
+    },
+    {
+      "name": "Turret_Chamber_6_Geo",
+      "uuid": "f629e362-a3b0-5baa-a3c4-01c5593ddae2",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        2.924999999999999,
+        -2.7421875
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        1.462499999999999,
+        -3.56484375
+      ],
+      "to": [
+        2.925,
+        4.387499999999999,
+        -1.91953125
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_6_Geo",
+      "uuid": "e532d20b-9efc-5459-a130-6f74148b1227",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        2.924999999999999,
+        -3.1260937500000003
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        2.437499999999999,
+        -3.6745312500000002
+      ],
+      "to": [
+        -1.4625,
+        3.4124999999999988,
+        -2.5776562500000004
+      ]
+    },
+    {
+      "name": "Turret_Chamber_7_Geo",
+      "uuid": "663410d6-806c-514b-bc03-294c7e369fa4",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        6.372145558284418,
+        -1.9390193765349863
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            1,
+            265,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            267,
+            1,
+            283,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            285,
+            1,
+            288,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            290,
+            1,
+            293,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            295,
+            1,
+            311,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            313,
+            1,
+            329,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -12.675,
+        4.909645558284419,
+        -2.7616756265349864
+      ],
+      "to": [
+        2.925,
+        7.834645558284418,
+        -1.1163631265349863
+      ]
+    },
+    {
+      "name": "Turret_Amber_Window_7_Geo",
+      "uuid": "e627eadd-f000-50f3-ba5d-e41d2bb6077b",
+      "type": "cube",
+      "origin": [
+        -4.875,
+        6.854745936444237,
+        -2.210482089249884
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            331,
+            1,
+            338,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            340,
+            1,
+            347,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            349,
+            1,
+            351,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            353,
+            1,
+            355,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -8.2875,
+        6.367245936444237,
+        -2.758919589249884
+      ],
+      "to": [
+        -1.4625,
+        7.342245936444237,
+        -1.6620445892498843
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_0_Geo",
+      "uuid": "96f46505-91fb-5da7-a01c-372b67b08180",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        8.775,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        7.800000000000001,
+        -1.6453125000000002
+      ],
+      "to": [
+        -11.7,
+        9.75,
+        1.6453125000000002
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_1_Geo",
+      "uuid": "6a33ea64-711b-5f9c-b932-37fd9b30cad2",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        7.061574669941304,
+        2.3268232518419834
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        6.086574669941304,
+        0.6815107518419832
+      ],
+      "to": [
+        -11.7,
+        8.036574669941304,
+        3.9721357518419835
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_2_Geo",
+      "uuid": "92bbc77f-cd40-52e4-a480-e9c2e6e40675",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        2.9250000000000003,
+        3.2906250000000004
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        1.9500000000000002,
+        1.6453125000000002
+      ],
+      "to": [
+        -11.7,
+        3.9000000000000004,
+        4.9359375000000005
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_3_Geo",
+      "uuid": "f169287d-a102-5a27-9d2a-7248c0b58f7e",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        -1.2115746699413021,
+        2.3268232518419834
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        -2.1865746699413022,
+        0.6815107518419832
+      ],
+      "to": [
+        -11.7,
+        -0.23657466994130216,
+        3.9721357518419835
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_4_Geo",
+      "uuid": "bb9f434f-a2ac-579d-9214-af94fdfc43c1",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        -2.925,
+        4.029853373444259e-16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        -3.9,
+        -1.6453124999999997
+      ],
+      "to": [
+        -11.7,
+        -1.9499999999999997,
+        1.6453125000000006
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_5_Geo",
+      "uuid": "6bba82b6-1899-5a5b-a311-170f33cc0c94",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        -1.211574669941304,
+        -2.326823251841983
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        -2.186574669941304,
+        -3.972135751841983
+      ],
+      "to": [
+        -11.7,
+        -0.23657466994130394,
+        -0.6815107518419827
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_6_Geo",
+      "uuid": "52f3686f-d241-5328-b881-242d04079960",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        2.924999999999999,
+        -3.2906250000000004
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        1.9499999999999988,
+        -4.9359375000000005
+      ],
+      "to": [
+        -11.7,
+        3.899999999999999,
+        -1.6453125000000002
+      ]
+    },
+    {
+      "name": "Turret_Copper_Clamp_7_Geo",
+      "uuid": "076fcb50-8886-5272-a0ef-9ff5e3d26cf3",
+      "type": "cube",
+      "origin": [
+        -12.674999999999999,
+        7.061574669941302,
+        -2.3268232518419834
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            375,
+            1,
+            377,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            379,
+            1,
+            381,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            383,
+            1,
+            389,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            391,
+            1,
+            397,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            399,
+            1,
+            401,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            403,
+            1,
+            405,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.649999999999999,
+        6.086574669941302,
+        -3.9721357518419835
+      ],
+      "to": [
+        -11.7,
+        8.036574669941302,
+        -0.6815107518419832
+      ]
+    },
+    {
+      "name": "Energy_Core_Geo",
+      "uuid": "1a7b1bb2-52cb-5f26-8a2f-885a671de7ea",
+      "type": "cube",
+      "origin": [
+        -5.85,
+        2.925,
+        -3.8390625000000003
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            377,
+            12,
+            384,
+            16
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            386,
+            12,
+            393,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            395,
+            12,
+            397,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            399,
+            12,
+            401,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            357,
+            1,
+            364,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            366,
+            1,
+            373,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -9.2625,
+        0.9749999999999999,
+        -4.3875
+      ],
+      "to": [
+        -2.4374999999999996,
+        4.875,
+        -3.2906250000000004
+      ]
+    },
+    {
+      "name": "AS_Prop_Case_Geo",
+      "uuid": "56517213-fc65-515f-bd80-11b2ce46e912",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -8.775,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            513,
+            6,
+            523
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            8,
+            513,
+            13,
+            523
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            513,
+            20,
+            523
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            513,
+            27,
+            523
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            29,
+            513,
+            34,
+            518
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            36,
+            513,
+            41,
+            518
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.8,
+        -10.675,
+        -0.95
+      ],
+      "to": [
+        10.7,
+        -6.875,
+        0.95
+      ]
+    },
+    {
+      "name": "AS_Prop_Extractor_Rim_Geo",
+      "uuid": "5f92877b-92bb-591d-b39a-703ac82b2407",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -10.675,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            43,
+            513,
+            50,
+            515
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            52,
+            513,
+            59,
+            515
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            61,
+            513,
+            68,
+            515
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            70,
+            513,
+            77,
+            515
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            79,
+            513,
+            86,
+            520
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            513,
+            95,
+            520
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.42,
+        -11.055000000000001,
+        -1.33
+      ],
+      "to": [
+        11.08,
+        -10.295,
+        1.33
+      ]
+    },
+    {
+      "name": "AS_Prop_Primer_Geo",
+      "uuid": "a6e77b2a-f804-5687-b0aa-11b1ffd70d2d",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -11.169,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            97,
+            513,
+            100,
+            514
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            102,
+            513,
+            105,
+            514
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            107,
+            513,
+            110,
+            514
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            112,
+            513,
+            115,
+            514
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            117,
+            513,
+            120,
+            516
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            122,
+            513,
+            125,
+            516
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        9.18,
+        -11.359,
+        -0.5700000000000001
+      ],
+      "to": [
+        10.32,
+        -10.979000000000001,
+        0.5700000000000001
+      ]
+    },
+    {
+      "name": "AS_Prop_Shoulder_Geo",
+      "uuid": "75d310ef-ec84-51ca-99f1-3383f3a2fe43",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -6.875,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            127,
+            513,
+            132,
+            515
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            134,
+            513,
+            139,
+            515
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            141,
+            513,
+            146,
+            515
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            148,
+            513,
+            153,
+            515
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            155,
+            513,
+            160,
+            518
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            162,
+            513,
+            167,
+            518
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.8,
+        -7.255,
+        -0.95
+      ],
+      "to": [
+        10.7,
+        -6.495,
+        0.95
+      ]
+    },
+    {
+      "name": "AS_Prop_Projectile_Geo",
+      "uuid": "80684f5d-8956-5016-b9ea-8e67e22e13d3",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -5.735,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            169,
+            513,
+            172,
+            517
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            174,
+            513,
+            177,
+            517
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            179,
+            513,
+            182,
+            517
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            184,
+            513,
+            187,
+            517
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            189,
+            513,
+            192,
+            516
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            194,
+            513,
+            197,
+            516
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        9.18,
+        -6.495,
+        -0.5700000000000001
+      ],
+      "to": [
+        10.32,
+        -4.9750000000000005,
+        0.5700000000000001
+      ]
+    },
+    {
+      "name": "AS_Prop_Nose_Geo",
+      "uuid": "edfd8e09-9516-57fa-9a5d-f58e31b13691",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -4.785,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            199,
+            513,
+            201,
+            515
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            203,
+            513,
+            205,
+            515
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            207,
+            513,
+            209,
+            515
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            211,
+            513,
+            213,
+            515
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            513,
+            217,
+            515
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            219,
+            513,
+            221,
+            515
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        9.37,
+        -5.165,
+        -0.38
+      ],
+      "to": [
+        10.13,
+        -4.405,
+        0.38
+      ]
+    },
+    {
+      "name": "AS_Prop_Regional_Seal_L_Geo",
+      "uuid": "c7c0ae7d-57bd-5048-bcf3-b216595ab7fc",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -8.775,
+        -0.9880000000000001
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            223,
+            513,
+            226,
+            517
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            228,
+            513,
+            231,
+            517
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            513,
+            234,
+            517
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            513,
+            237,
+            517
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            513,
+            242,
+            514
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            513,
+            247,
+            514
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        9.18,
+        -9.535,
+        -1.1780000000000002
+      ],
+      "to": [
+        10.32,
+        -8.015,
+        -0.798
+      ]
+    },
+    {
+      "name": "AS_Prop_Regional_Seal_R_Geo",
+      "uuid": "07ac59a8-7fa9-56d6-8bce-33ef104390fe",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -8.775,
+        0.9880000000000001
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            223,
+            513,
+            226,
+            517
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            228,
+            513,
+            231,
+            517
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            513,
+            234,
+            517
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            513,
+            237,
+            517
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            513,
+            242,
+            514
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            513,
+            247,
+            514
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        9.18,
+        -9.535,
+        0.798
+      ],
+      "to": [
+        10.32,
+        -8.015,
+        1.1780000000000002
+      ]
+    },
+    {
+      "name": "AS_Prop_Energy_Band_0_Geo",
+      "uuid": "c25bec5d-fc44-5a97-b9fb-ca6aace28ac1",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -9.725,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            513,
+            255,
+            514
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            257,
+            513,
+            263,
+            514
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            265,
+            513,
+            271,
+            514
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            273,
+            513,
+            279,
+            514
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            281,
+            513,
+            287,
+            519
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            289,
+            513,
+            295,
+            519
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.61,
+        -9.915,
+        -1.1400000000000001
+      ],
+      "to": [
+        10.89,
+        -9.535,
+        1.1400000000000001
+      ]
+    },
+    {
+      "name": "AS_Prop_Energy_Band_1_Geo",
+      "uuid": "314f3f82-cf73-5228-9cf3-6dded57fba9f",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -8.775,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            513,
+            255,
+            514
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            257,
+            513,
+            263,
+            514
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            265,
+            513,
+            271,
+            514
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            273,
+            513,
+            279,
+            514
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            281,
+            513,
+            287,
+            519
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            289,
+            513,
+            295,
+            519
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.61,
+        -8.965,
+        -1.1400000000000001
+      ],
+      "to": [
+        10.89,
+        -8.585,
+        1.1400000000000001
+      ]
+    },
+    {
+      "name": "AS_Prop_Energy_Band_2_Geo",
+      "uuid": "ff68995d-1a4f-54a5-bd0a-f90fb09a391b",
+      "type": "cube",
+      "origin": [
+        9.75,
+        -7.825,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            249,
+            513,
+            255,
+            514
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            257,
+            513,
+            263,
+            514
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            265,
+            513,
+            271,
+            514
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            273,
+            513,
+            279,
+            514
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            281,
+            513,
+            287,
+            519
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            289,
+            513,
+            295,
+            519
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.61,
+        -8.015,
+        -1.1400000000000001
+      ],
+      "to": [
+        10.89,
+        -7.635,
+        1.1400000000000001
+      ]
+    },
+    {
+      "name": "AS_Prop_Replacement_Magazine_Geo",
+      "uuid": "44c42f08-ccf4-5ede-866b-9d18d0ab36d2",
+      "type": "cube",
+      "origin": [
+        -3.9,
+        -2.925,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            269,
+            12,
+            279,
+            17
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            281,
+            12,
+            291,
+            17
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            293,
+            12,
+            301,
+            17
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            303,
+            12,
+            311,
+            17
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            313,
+            12,
+            323,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            325,
+            12,
+            335,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        -8.775,
+        -5.3625,
+        -2.19375
+      ],
+      "to": [
+        0.9750000000000001,
+        -0.4874999999999998,
+        2.19375
+      ]
+    },
+    {
+      "name": "Handle_Geo",
+      "uuid": "6a556492-4e53-57f8-a716-228b96cea48d",
+      "type": "cube",
+      "origin": [
+        11.098076,
+        -13.222432,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            403,
+            12,
+            407,
+            26
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            409,
+            12,
+            413,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            12,
+            421,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            423,
+            12,
+            429,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            431,
+            12,
+            435,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            437,
+            12,
+            441,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        9.098076,
+        -21.922432,
+        -2.925
+      ],
+      "to": [
+        13.098076,
+        -6.5224319999999985,
+        2.925
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Trigger",
+      "uuid": "b192bb0a-bd26-5168-a118-f04cab2ed5c1",
+      "origin": [
+        4.875,
+        -7.8,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        11.999999673734875
+      ],
+      "children": [
+        "046c525d-b3db-5d66-9916-f7058d82c232"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Guard_Spar",
+      "uuid": "c41b4dcb-2b41-5acc-a656-9bc242159914",
+      "origin": [
+        2.925,
+        -12.674999999999999,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "8c45d8f3-42b6-5fd0-9bad-5f4d8630b39d"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Handcannon_Yoke",
+      "uuid": "349d3212-52de-5ca5-a6e4-3b78e27d9803",
+      "origin": [
+        2.925,
+        -1.95,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3c5f0999-f380-5fd6-91c7-48dc25d1651c"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Heavy_Barrel",
+      "uuid": "569c3f21-dc9a-5934-810e-d2aab3a445d4",
+      "origin": [
+        -22.425,
+        2.925,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3b73f900-2b61-5f05-a817-32304f9f96cd"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Maw_Brake",
+      "uuid": "66493ea5-b24b-58ec-90ea-83ac976063ea",
+      "origin": [
+        -33.15,
+        2.925,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "81cea91a-96e1-52af-9dba-9331b45bbbcc"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_0_L",
+      "uuid": "54b82c8f-7463-565b-9363-87111fd1dffa",
+      "origin": [
+        -35.1,
+        5.85,
+        -3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "0adc74e8-5830-5d11-8ff1-d0d129838db2"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_0_R",
+      "uuid": "b6fafca6-d1f9-54ac-8f4d-26b23cc1fb86",
+      "origin": [
+        -35.1,
+        5.85,
+        3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "0d561516-9121-50cb-8994-135d56bf328d"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_1_L",
+      "uuid": "8289b678-5a85-56f6-80af-4e42068919c0",
+      "origin": [
+        -32.175,
+        5.85,
+        -3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "56160070-ec34-53bf-9629-52e937d7b501"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_1_R",
+      "uuid": "40da5928-e035-5f69-8fcf-7ea0fb5f66d6",
+      "origin": [
+        -32.175,
+        5.85,
+        3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "ef26d804-56e1-5523-9115-2939e887cc03"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_2_L",
+      "uuid": "60ffcc0b-a101-5d55-b1f6-56c7b63233b9",
+      "origin": [
+        -29.25,
+        5.85,
+        -3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "565146ba-9694-53bf-949c-7424432fa3be"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Brake_Sawtooth_2_R",
+      "uuid": "c353a58b-add3-5aca-a961-9bc4e5211a03",
+      "origin": [
+        -29.25,
+        5.85,
+        3.01640625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "5551e4c9-ca88-50ce-84f1-fa27c3d53165"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Counterweight_Arm",
+      "uuid": "ed4d71b4-c7bd-5b64-b34a-2596cd9a0874",
+      "origin": [
+        -14.625,
+        -6.825,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "11e9f48f-8310-5aae-8502-ced864907bef"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Counterweight",
+      "uuid": "92d2625b-a923-5ba3-beaf-928bd5b46577",
+      "origin": [
+        -22.425,
+        -9.75,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "5abfd136-15a7-5c48-b146-7b223c833991"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Hammer",
+      "uuid": "88fa6540-be1b-5604-8e08-16000f38dd4e",
+      "origin": [
+        7.8,
+        7.8,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -22.000000488050322
+      ],
+      "children": [
+        "5485c490-8697-515f-b42e-f88417718450"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle",
+      "uuid": "d17c578e-0074-567d-bb00-15c73d5e1db7",
+      "origin": [
+        -36.5625,
+        1.95,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [],
+      "is_piece": true
+    },
+    {
+      "name": "Energy_Core_Anchor",
+      "uuid": "e834ebd7-e602-5d56-bbd3-c5d0400eaf59",
+      "origin": [
+        -7.8,
+        0.975,
+        -2.19375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [],
+      "is_piece": true
+    },
+    {
+      "name": "AS_Reload_Action",
+      "uuid": "9a6ada3a-4e2c-5b6c-9fc8-039b07f71028",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Slide",
+          "uuid": "3d4b990c-5da9-5e4e-b65a-3530744c6265",
+          "origin": [
+            -4.875,
+            2.925,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "cacefe29-2687-5c33-ab90-0482739beccd"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "AS_Reload_Magazine",
+      "uuid": "55f1fb74-8c51-5a20-a7c9-b925da7c984f",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Magazine",
+          "uuid": "ff56f111-a0fa-54f0-be37-d38cfafa6dbf",
+          "origin": [
+            -3.9,
+            -2.925,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "5fa0fc47-266f-576e-a773-55cb6f375cd8"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "AS_Character",
+      "uuid": "b78420fe-5156-5e46-93f8-7b3b894343fc",
+      "origin": [
+        -4.875,
+        2.925,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Turret_Chamber_0",
+          "uuid": "ab8abb97-fad6-5324-9969-359f90b5799c",
+          "origin": [
+            -4.875,
+            7.8,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "4b5b6fb2-00ff-582f-bdb9-c522756ee586"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_0",
+          "uuid": "2eed49cb-02c2-53c9-b979-afae273118c7",
+          "origin": [
+            -4.875,
+            8.4825,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "c4c604ca-cbd9-5d4b-bc33-ea6934b3e57b"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_1",
+          "uuid": "5524377e-02db-5d5f-b151-c876a8c4921f",
+          "origin": [
+            -4.875,
+            6.372145558284419,
+            1.939019376534986
+          ],
+          "rotation": [
+            44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "b1cd9b7e-68f5-5036-8449-f4edf9f716d6"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_1",
+          "uuid": "25ed8fef-97f5-5885-890f-1d88609a8a0b",
+          "origin": [
+            -4.875,
+            6.854745936444238,
+            2.2104820892498838
+          ],
+          "rotation": [
+            44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "773c82dc-37cf-586b-987b-c853e175e876"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_2",
+          "uuid": "c0f5f029-6cbc-5058-a450-77efdd6ce09c",
+          "origin": [
+            -4.875,
+            2.9250000000000003,
+            2.7421875
+          ],
+          "rotation": [
+            89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "5fcbe3a4-d67f-5a76-8f5d-02968c08ba57"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_2",
+          "uuid": "d4e1b299-ad57-50d3-94b8-6325a06c62c6",
+          "origin": [
+            -4.875,
+            2.9250000000000003,
+            3.1260937500000003
+          ],
+          "rotation": [
+            89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "830b3c7f-025e-5600-bc13-e480e754c7e4"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_3",
+          "uuid": "2715dc28-0a81-5555-ab68-b07fe1ef7d49",
+          "origin": [
+            -4.875,
+            -0.5221455582844188,
+            1.939019376534986
+          ],
+          "rotation": [
+            134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "60587ff4-5ba9-591e-873f-8104c3ee6040"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_3",
+          "uuid": "486f3790-29bf-52d3-aaf9-28815e048247",
+          "origin": [
+            -4.875,
+            -1.004745936444238,
+            2.2104820892498838
+          ],
+          "rotation": [
+            134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "c5b00d46-f211-509d-a8dd-05a1f8db0f49"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_4",
+          "uuid": "b766515e-fb6a-5351-9465-f136ccf2480f",
+          "origin": [
+            -4.875,
+            -1.9500000000000002,
+            3.358211144536883e-16
+          ],
+          "rotation": [
+            180.0,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "24eb2140-425d-52d8-a9be-155d8807b19b"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_4",
+          "uuid": "b4d82498-a705-5b8c-b459-34015797fdfa",
+          "origin": [
+            -4.875,
+            -2.6325000000000003,
+            3.8283607047720463e-16
+          ],
+          "rotation": [
+            180.0,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "e5ae6817-5b72-5d83-a2cb-2664b4d4024a"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_5",
+          "uuid": "a97d7faa-ce5a-5deb-9cc4-8520274f6857",
+          "origin": [
+            -4.875,
+            -0.5221455582844201,
+            -1.9390193765349857
+          ],
+          "rotation": [
+            -134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "92b132ff-df9a-5c8f-beb8-da958cfd84e9"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_5",
+          "uuid": "03adec86-a5d5-58de-999c-88c6058941fa",
+          "origin": [
+            -4.875,
+            -1.0047459364442388,
+            -2.2104820892498838
+          ],
+          "rotation": [
+            -134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "5ced3a0c-7108-5854-bb85-2e69a794d8ef"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_6",
+          "uuid": "8c5c7c1e-310e-566a-865f-46487688ec3c",
+          "origin": [
+            -4.875,
+            2.924999999999999,
+            -2.7421875
+          ],
+          "rotation": [
+            -89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "f629e362-a3b0-5baa-a3c4-01c5593ddae2"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_6",
+          "uuid": "0df77825-3723-5e9e-aa1b-c7e7bbc0ee35",
+          "origin": [
+            -4.875,
+            2.924999999999999,
+            -3.1260937500000003
+          ],
+          "rotation": [
+            -89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "e532d20b-9efc-5459-a130-6f74148b1227"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Chamber_7",
+          "uuid": "eec1f019-8355-5691-9ba1-8b2df52da350",
+          "origin": [
+            -4.875,
+            6.372145558284418,
+            -1.9390193765349863
+          ],
+          "rotation": [
+            -44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "663410d6-806c-514b-bc03-294c7e369fa4"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Amber_Window_7",
+          "uuid": "e7250911-7fd9-5e84-906d-6da88b4bdac7",
+          "origin": [
+            -4.875,
+            6.854745936444237,
+            -2.210482089249884
+          ],
+          "rotation": [
+            -44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "e627eadd-f000-50f3-ba5d-e41d2bb6077b"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_0",
+          "uuid": "d8cd2cc7-2b53-50a6-bb9c-fd36d2bdc85e",
+          "origin": [
+            -12.674999999999999,
+            8.775,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "96f46505-91fb-5da7-a01c-372b67b08180"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_1",
+          "uuid": "4e78f7d9-6c78-5539-beb1-766dac9d84a9",
+          "origin": [
+            -12.674999999999999,
+            7.061574669941304,
+            2.3268232518419834
+          ],
+          "rotation": [
+            44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "6a33ea64-711b-5f9c-b932-37fd9b30cad2"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_2",
+          "uuid": "882e65ac-9ab5-5b68-a9da-91dd6872bed8",
+          "origin": [
+            -12.674999999999999,
+            2.9250000000000003,
+            3.2906250000000004
+          ],
+          "rotation": [
+            89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "92bbc77f-cd40-52e4-a480-e9c2e6e40675"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_3",
+          "uuid": "8eba1217-de34-5daa-8776-7669367f38d6",
+          "origin": [
+            -12.674999999999999,
+            -1.2115746699413021,
+            2.3268232518419834
+          ],
+          "rotation": [
+            134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "f169287d-a102-5a27-9d2a-7248c0b58f7e"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_4",
+          "uuid": "2c16bc83-e848-5bcf-9038-11404b64b2ac",
+          "origin": [
+            -12.674999999999999,
+            -2.925,
+            4.029853373444259e-16
+          ],
+          "rotation": [
+            180.0,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "bb9f434f-a2ac-579d-9214-af94fdfc43c1"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_5",
+          "uuid": "ced2ecd6-e740-5035-ac98-01821db95b04",
+          "origin": [
+            -12.674999999999999,
+            -1.211574669941304,
+            -2.326823251841983
+          ],
+          "rotation": [
+            -134.99999987892994,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "6bba82b6-1899-5a5b-a311-170f33cc0c94"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_6",
+          "uuid": "f17ff672-c785-57c8-8e20-f30a9f89a85f",
+          "origin": [
+            -12.674999999999999,
+            2.924999999999999,
+            -3.2906250000000004
+          ],
+          "rotation": [
+            -89.99999980771176,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "52f3686f-d241-5328-b881-242d04079960"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Turret_Copper_Clamp_7",
+          "uuid": "4d22e640-c15a-5760-bc01-72db06552555",
+          "origin": [
+            -12.674999999999999,
+            7.061574669941302,
+            -2.3268232518419834
+          ],
+          "rotation": [
+            -44.99999959840288,
+            -0.0,
+            0.0
+          ],
+          "children": [
+            "076fcb50-8886-5272-a0ef-9ff5e3d26cf3"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "AS_Reload_Energy",
+      "uuid": "4d4dfc27-2c40-5bd5-9469-0ae6dbe973f2",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Energy_Core",
+          "uuid": "9d9021b4-bd99-5924-ac10-b033008a884e",
+          "origin": [
+            -5.85,
+            2.925,
+            -3.8390625000000003
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "1a7b1bb2-52cb-5f26-8a2f-885a671de7ea"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "AS_Reload_Ammo",
+      "uuid": "2435f0c2-9710-5efe-bf59-4983d9702185",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "AS_Reload_Matching_Cartridge",
+          "uuid": "c929997e-0dc3-58fa-80a4-a2903739b4e4",
+          "origin": [
+            9.75,
+            -8.775,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "AS_Prop_Case",
+              "uuid": "7932d46c-5fe0-5e5e-a0a8-70e728f6b74d",
+              "origin": [
+                9.75,
+                -8.775,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "56517213-fc65-515f-bd80-11b2ce46e912"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Extractor_Rim",
+              "uuid": "dc93c37c-3889-56c1-bb85-b70767ff0ede",
+              "origin": [
+                9.75,
+                -10.675,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "5f92877b-92bb-591d-b39a-703ac82b2407"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Primer",
+              "uuid": "be4e42da-b10a-5a78-999e-830bf1e5db7e",
+              "origin": [
+                9.75,
+                -11.169,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "a6e77b2a-f804-5687-b0aa-11b1ffd70d2d"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Shoulder",
+              "uuid": "e2b2c586-2e86-51ab-bf8b-887b2e5830fe",
+              "origin": [
+                9.75,
+                -6.875,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "75d310ef-ec84-51ca-99f1-3383f3a2fe43"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Projectile",
+              "uuid": "94489a2e-b388-5ccf-90bb-a609563fa9fe",
+              "origin": [
+                9.75,
+                -5.735,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "80684f5d-8956-5016-b9ea-8e67e22e13d3"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Nose",
+              "uuid": "f53a37a8-cf24-5b1f-bdb3-3ec4760ed00d",
+              "origin": [
+                9.75,
+                -4.785,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "edfd8e09-9516-57fa-9a5d-f58e31b13691"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Regional_Seal_L",
+              "uuid": "c3d7a817-c650-5825-ba6e-c9deab9bfde5",
+              "origin": [
+                9.75,
+                -8.775,
+                -0.9880000000000001
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "c7c0ae7d-57bd-5048-bcf3-b216595ab7fc"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Regional_Seal_R",
+              "uuid": "e9562c63-60bd-5372-9c66-61c75ed9a91b",
+              "origin": [
+                9.75,
+                -8.775,
+                0.9880000000000001
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "07ac59a8-7fa9-56d6-8bce-33ef104390fe"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Energy_Band_0",
+              "uuid": "97b4bb25-c294-5d2f-bab4-ff65ac8831d7",
+              "origin": [
+                9.75,
+                -9.725,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "c25bec5d-fc44-5a97-b9fb-ca6aace28ac1"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Energy_Band_1",
+              "uuid": "f8e16630-85e4-5381-9d26-3ff4380e2542",
+              "origin": [
+                9.75,
+                -8.775,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "314f3f82-cf73-5228-9cf3-6dded57fba9f"
+              ],
+              "is_piece": false
+            },
+            {
+              "name": "AS_Prop_Energy_Band_2",
+              "uuid": "b1b23dd5-d64f-5352-98f5-65365b2c2870",
+              "origin": [
+                9.75,
+                -7.825,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "children": [
+                "ff68995d-1a4f-54a5-bd0a-f90fb09a391b"
+              ],
+              "is_piece": false
+            }
+          ],
+          "is_piece": true
+        },
+        {
+          "name": "AS_Prop_Replacement_Magazine",
+          "uuid": "7f8c1901-9162-5b78-b3c9-de33611ff2bc",
+          "origin": [
+            -3.9,
+            -2.925,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "children": [
+            "44c42f08-ccf4-5ede-866b-9d18d0ab36d2"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "Handle",
+      "uuid": "af6ba534-d430-5493-8f15-ca9a675fa40d",
+      "origin": [
+        11.098076,
+        -13.222432,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        29.999999999999996
+      ],
+      "children": [
+        "6a556492-4e53-57f8-a716-228b96cea48d"
+      ],
+      "is_piece": false
+    }
+  ],
+  "animations": [
+    {
+      "name": "Reload_weapon_mechanics",
+      "uuid": "2e15cd9e-6c07-587f-853d-7e25d8f6f1b3",
+      "loop": "once",
+      "override": false,
+      "length": 2.1,
+      "snapping": 60,
+      "animators": {
+        "9a6ada3a-4e2c-5b6c-9fc8-039b07f71028": {
+          "name": "AS_Reload_Action",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "c940f54c-1cb1-55af-ace3-07ffe8663e42"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.21666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "0010c06d-a2b9-58cb-99f3-b0a180cc0eda"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 5.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.5333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "505116c0-e1d2-5d14-861a-488b35841257"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 5.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "3d3c2a51-1d52-5193-b540-948ff6dfe0f2"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "catmullrom",
+              "uuid": "d09b0dce-1ddc-5ea7-9243-c1a409c5c0fb"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "2c6ebb2d-a92a-559f-a33a-1f32e566d761"
+            }
+          ]
+        },
+        "b78420fe-5156-5e46-93f8-7b3b894343fc": {
+          "name": "AS_Character",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "31da8baa-3149-59a2-be57-05b77898ab17"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.4166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "44e6006c-6bee-5f1e-bad4-6a765de8b955"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 65.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.8333333333333334,
+              "interpolation": "catmullrom",
+              "uuid": "4b758291-352b-5030-852e-cb698a3571a6"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 65.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.4666666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "61d34c14-d0a9-5943-8f50-cfa99bc09039"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "catmullrom",
+              "uuid": "1e64173b-7c80-5e0b-a21b-21671795647c"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "613560f8-de29-5fba-826a-5ff07b768d4b"
+            }
+          ]
+        },
+        "55f1fb74-8c51-5a20-a7c9-b925da7c984f": {
+          "name": "AS_Reload_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "11055be3-14cd-5331-9aa0-47656f1a8473"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.4166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "6e043601-a670-5aa6-9614-7c75aa591d7c"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -10.0,
+                  "z": -3.0
+                }
+              ],
+              "time": 0.6666666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "b94a9fcf-747b-5ee3-be76-0e09a056fd2e"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -10.0,
+                  "z": -3.0
+                }
+              ],
+              "time": 1.2333333333333334,
+              "interpolation": "catmullrom",
+              "uuid": "f24c95c3-570e-5d79-a0a1-712599897faa"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.5666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "c3ff7e65-1c54-5a54-ae27-7b08bfb0d236"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "df97b071-c0da-585e-ba89-7a903ad60c4e"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "1cd49603-82fb-5c30-8096-92fad69c47c8"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.4666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "f99e1ef4-2ac7-5051-a718-141a242cbb1c"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 15.0
+                }
+              ],
+              "time": 0.7833333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "22629a49-8252-5b1b-822b-144137343371"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 15.0
+                }
+              ],
+              "time": 1.3666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "fe8b85f0-6243-5a58-81fa-d825381a7726"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.6833333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "f6565fff-02ca-5d08-9300-e00137cff347"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "452be7ac-cf53-5a4f-9b0b-8a44a6b4c736"
+            }
+          ]
+        },
+        "4d4dfc27-2c40-5bd5-9469-0ae6dbe973f2": {
+          "name": "AS_Reload_Energy",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "97a7215b-6557-5d8a-9302-a53493da7035"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.7333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "0eae43b3-f4d6-5b46-931d-202107172806"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": -2.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.2,
+              "interpolation": "catmullrom",
+              "uuid": "a5bedb09-635e-5e87-894b-b4951000e499"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.9166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "f14f6425-4104-595d-9ec1-6b224e329bed"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "ed6bff05-f0dc-56b6-91ee-f30ca6a2f247"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "09f6605c-c17d-57ca-a2a8-9be1c072ea21"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.7333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "59c98904-d176-5588-bcd0-5c52548a7e16"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 15.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.2,
+              "interpolation": "catmullrom",
+              "uuid": "2a66c6c7-34dd-51b5-b3d1-7e02a5142f51"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": -8.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.6,
+              "interpolation": "catmullrom",
+              "uuid": "2dfee058-407e-509e-9e1c-8733abe2d1c1"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.9166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "ac45deda-34fc-5d80-8eeb-f43e229358a1"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "3510d830-d584-5093-9a5f-e2074e38cd07"
+            }
+          ]
+        },
+        "2435f0c2-9710-5efe-bf59-4983d9702185": {
+          "name": "AS_Reload_Ammo",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "7ba716c7-e473-5f0b-a639-8e28dc1e168a"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 8.0,
+                  "y": -13.0,
+                  "z": -10.0
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "af818124-4e80-578b-863f-08dc404a94a3"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 4.0,
+                  "y": -6.0,
+                  "z": -4.0
+                }
+              ],
+              "time": 1.05,
+              "interpolation": "catmullrom",
+              "uuid": "eb5931e4-b768-5f96-ab64-f8a25429492a"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.4666666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "b1b3d4a8-748c-503c-99de-d80a299f8bdb"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "catmullrom",
+              "uuid": "5cba948e-8ac2-57d1-b887-973ca7303bca"
+            }
+          ]
+        },
+        "7932d46c-5fe0-5e5e-a0a8-70e728f6b74d": {
+          "name": "AS_Prop_Case",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "5d32b960-7a25-5e64-a9c9-9636d98fd98d"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "1374f508-7d8e-5189-a01c-765013b9381d"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "baf0e4f7-6710-5635-952a-87a609479bff"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "5b73e2d3-cc65-5d96-8b7e-718d6c6a6516"
+            }
+          ]
+        },
+        "dc93c37c-3889-56c1-bb85-b70767ff0ede": {
+          "name": "AS_Prop_Extractor_Rim",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "157392da-f71b-5d66-8657-c5fb001516a5"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "96aded02-b4e7-5ce1-b6d5-ebd8d9bff929"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "b5e6ef58-b059-51de-9225-aaa64c765cbb"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "4bda0756-a9a7-54c1-b57c-46733f78fded"
+            }
+          ]
+        },
+        "be4e42da-b10a-5a78-999e-830bf1e5db7e": {
+          "name": "AS_Prop_Primer",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "b90dad22-1f33-5757-9553-14f8c4d7dcf3"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "ececb181-2e98-5ebb-8a8c-8fe704e6272f"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "b3e548fb-eb0e-5ea0-a844-1268e072ea98"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "1e8d2806-2f63-5e65-8ff4-b6087a6f2bfe"
+            }
+          ]
+        },
+        "e2b2c586-2e86-51ab-bf8b-887b2e5830fe": {
+          "name": "AS_Prop_Shoulder",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "70ec885c-cae4-5a5a-8eae-446fd56b2fdd"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "be1d958f-a7c7-544c-85d4-c284a37cf76a"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "ff6ee921-68fb-5c2f-9372-5ab3a6c74620"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "fd794a55-acbe-5843-8952-59e67f01ef90"
+            }
+          ]
+        },
+        "94489a2e-b388-5ccf-90bb-a609563fa9fe": {
+          "name": "AS_Prop_Projectile",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "1f6f4b77-6856-5bf5-87c2-8eb89353bc98"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "a437ad3b-818b-5175-86bb-dd8849ee7dba"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "fd17a706-9fa6-5be5-a3c8-9b7cc3046465"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "ca2566b8-4032-5f2a-aa97-8aad2fad723c"
+            }
+          ]
+        },
+        "f53a37a8-cf24-5b1f-bdb3-3ec4760ed00d": {
+          "name": "AS_Prop_Nose",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "fab681f0-2724-549a-bbfe-a4cdef80429f"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "83697c83-92f3-52b8-9c10-06b82d9ed4d2"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "82ed8609-ac07-5e48-8efe-1894ae6ea1b5"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "27930a28-c968-5966-bf8b-bdc3eba5081e"
+            }
+          ]
+        },
+        "c3d7a817-c650-5825-ba6e-c9deab9bfde5": {
+          "name": "AS_Prop_Regional_Seal_L",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "482cfda2-82bc-531a-8d61-b7dc3178db71"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "1ebc543c-213f-5699-9a67-acd00cdc16b6"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "0ffe86a1-017b-58ae-86d5-63ce1644a62e"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "e447a51d-7294-5eca-a8f9-f46f10b5aff4"
+            }
+          ]
+        },
+        "e9562c63-60bd-5372-9c66-61c75ed9a91b": {
+          "name": "AS_Prop_Regional_Seal_R",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "188774ae-82f4-58a5-aa2e-7e75ab4c0fa1"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "88f9970d-16ac-59b6-880c-e4875d3b39bd"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "9b1e0a07-2010-5dc1-9402-a3766966102e"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "5eda3c90-a369-54a5-86fe-f99f3b55fb93"
+            }
+          ]
+        },
+        "97b4bb25-c294-5d2f-bab4-ff65ac8831d7": {
+          "name": "AS_Prop_Energy_Band_0",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "a8f3462e-3e34-5af6-aee1-134989711ce8"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "eec1f279-8d07-543f-849c-a21f651bd1ba"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "c9d8b4ff-de0a-5bed-b686-9fc38893073d"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "4c1b164e-9907-5ef3-a546-dcacf87b85ce"
+            }
+          ]
+        },
+        "f8e16630-85e4-5381-9d26-3ff4380e2542": {
+          "name": "AS_Prop_Energy_Band_1",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "ada364c4-3f32-54ae-9cd4-180ab840ec07"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "e4432e19-370c-55ac-8fd4-997247cdf3b3"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "2b3c0d59-1b2e-573a-9f15-cb6c8e0151b8"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "ee75134a-24bf-53f0-aca3-048e59b256af"
+            }
+          ]
+        },
+        "b1b23dd5-d64f-5352-98f5-65365b2c2870": {
+          "name": "AS_Prop_Energy_Band_2",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "c632ba44-b455-5923-9a13-f240f39c2cf4"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "bb46ea33-ca4f-5e24-a004-af99dec3adf1"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "df3056c9-5772-585a-abe1-6c7dd066111e"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "f8e94452-5fee-5b57-a818-9e0d3961c133"
+            }
+          ]
+        },
+        "7f8c1901-9162-5b78-b3c9-de33611ff2bc": {
+          "name": "AS_Prop_Replacement_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "44cca624-4f86-518f-bf72-54844df1ab77"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "d54c4228-0c4e-5f15-8d3d-aa2dd79f634e"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "47177f6b-c790-5a1b-8e9a-23304adf4172"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "3e5f424c-f275-5df2-a8dc-1e1f2577f9eb"
+            }
+          ]
+        },
+        "ff56f111-a0fa-54f0-be37-d38cfafa6dbf": {
+          "name": "Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "eca0335b-867b-5c96-a500-d64b41f9481a"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.7166666666666667,
+              "interpolation": "linear",
+              "uuid": "082c11aa-9908-5ed0-88a0-0f21e39a12e5"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.5166666666666666,
+              "interpolation": "linear",
+              "uuid": "4815309b-becd-5d9c-88c0-4522447f69a6"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 2.1,
+              "interpolation": "linear",
+              "uuid": "ab4bd576-06fe-5c2e-9204-7c6d0682e692"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shoot_weapon_mechanics",
+      "uuid": "8d9ce4c5-db74-5f1a-98ed-69a6ef930ced",
+      "loop": "once",
+      "override": false,
+      "length": 0.55,
+      "snapping": 60,
+      "animators": {
+        "9a6ada3a-4e2c-5b6c-9fc8-039b07f71028": {
+          "name": "AS_Reload_Action",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "3ce5adf6-0ddd-516e-bf26-80d83ca5fc7f"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 3.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.08333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "f939a475-e44c-52cf-9bab-3b9e5dfaa496"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 3.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.2,
+              "interpolation": "catmullrom",
+              "uuid": "d05a827a-196d-5643-8004-3a3ca05e17ef"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.45,
+              "interpolation": "catmullrom",
+              "uuid": "f5124fac-ce8d-5dba-a679-7ecd5fd55bce"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.55,
+              "interpolation": "catmullrom",
+              "uuid": "98327cc5-8432-5460-afb9-189bf288164d"
+            }
+          ]
+        },
+        "b78420fe-5156-5e46-93f8-7b3b894343fc": {
+          "name": "AS_Character",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "75097010-f0d3-50a1-8b85-915ee4d90a70"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 65.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.13333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "ed05f92a-5427-56f9-a655-96b2e2127ff6"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 52.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.3,
+              "interpolation": "catmullrom",
+              "uuid": "0a89bbb8-c9e9-5f1d-b4b1-5d09d70e7305"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.55,
+              "interpolation": "catmullrom",
+              "uuid": "5b985e6b-12ec-5547-9917-51562c81bbc4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Charge_weapon_mechanics",
+      "uuid": "40e25dc1-34c1-598b-a24e-e45061434535",
+      "loop": "once",
+      "override": false,
+      "length": 0.35,
+      "snapping": 60,
+      "animators": {
+        "4d4dfc27-2c40-5bd5-9469-0ae6dbe973f2": {
+          "name": "AS_Reload_Energy",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "73d78f92-5f17-5851-a879-c6e5a0c4ed4a"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 10.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.06666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "365f4ab6-0dee-59bc-90f6-91cfab3d9a47"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": -8.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.16666666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "4bb7a08c-f173-5b6d-9f41-bf34a977ca66"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 15.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.2833333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "03f68f82-1b10-5eb8-b8a3-995f4284aa34"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.35,
+              "interpolation": "catmullrom",
+              "uuid": "ac002c1f-5d08-55d1-98a0-d08886726027"
+            }
+          ]
+        },
+        "b78420fe-5156-5e46-93f8-7b3b894343fc": {
+          "name": "AS_Character",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "7670d9d6-60c9-5dfc-993b-7d9d49367054"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 32.5,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.08333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "cd13e087-1474-50c3-9d87-20a331541255"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 117.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.23333333333333334,
+              "interpolation": "catmullrom",
+              "uuid": "96657263-1900-571a-a3c1-e5efb57ae28d"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 65.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.31666666666666665,
+              "interpolation": "catmullrom",
+              "uuid": "b1a6ba6e-6ed4-56ae-a5c6-9d6cbc9fc12f"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.35,
+              "interpolation": "catmullrom",
+              "uuid": "c56ad7b4-373e-5adb-8f9a-3f603c8af03b"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "AS_Handgun_Gutter_Saint.png",
+      "path": "360-arsenal\\art\\Common\\Items\\Arsenal\\AS_Handgun_Gutter_Saint\\AS_Handgun_Gutter_Saint.png",
+      "id": "0",
+      "uuid": "4b3883d4-13d3-578a-bf23-977fcdcb379b",
+      "source": "data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6zx//HyakZRh8bcHlAAAAAElFTkSuQmCC",
+      "width": 512,
+      "height": 1024,
+      "uv_width": 512,
+      "uv_height": 1024,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

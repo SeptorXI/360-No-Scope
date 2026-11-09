@@ -1,0 +1,909 @@
+{
+  "theme": {
+    "index": 4,
+    "name": "Gravelight Reliquary Rounds",
+    "rifle": "Mournhollow Epitaph",
+    "rifle_id": "Weapon_Crossbow_Mournhollow_Epitaph",
+    "region": "Mournhollow",
+    "colors": {
+      "body": "#3e3749",
+      "light": "#83778e",
+      "dark": "#242630",
+      "trim": "#b1a7a1",
+      "tip": "#a9a7b1",
+      "glow": "#a47cce",
+      "inlay": "#705085",
+      "pale": "#d5c9b1"
+    },
+    "ammo_id": "RS_Ammo_Gravelight"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\04\\Ranger_Ammo_04.png",
+  "parts": [
+    {
+      "name": "Blackiron_Reliquary",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        7,
+        18,
+        9
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          8,
+          19
+        ],
+        "back": [
+          10,
+          1,
+          17,
+          19
+        ],
+        "left": [
+          19,
+          1,
+          28,
+          19
+        ],
+        "right": [
+          30,
+          1,
+          39,
+          19
+        ],
+        "top": [
+          41,
+          1,
+          48,
+          10
+        ],
+        "bottom": [
+          50,
+          1,
+          57,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Blackiron_Reliquary_Facets",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        18,
+        7
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          59,
+          1,
+          68,
+          19
+        ],
+        "back": [
+          70,
+          1,
+          79,
+          19
+        ],
+        "left": [
+          81,
+          1,
+          88,
+          19
+        ],
+        "right": [
+          90,
+          1,
+          97,
+          19
+        ],
+        "top": [
+          99,
+          1,
+          108,
+          8
+        ],
+        "bottom": [
+          110,
+          1,
+          119,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Violet_Sealed_Core",
+      "center": [
+        0,
+        1,
+        -4.8
+      ],
+      "size": [
+        6,
+        10,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "energy",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          121,
+          1,
+          127,
+          11
+        ],
+        "back": [
+          129,
+          1,
+          135,
+          11
+        ],
+        "left": [
+          137,
+          1,
+          138,
+          11
+        ],
+        "right": [
+          140,
+          1,
+          141,
+          11
+        ],
+        "top": [
+          143,
+          1,
+          149,
+          2
+        ],
+        "bottom": [
+          151,
+          1,
+          157,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Bone_Cage_L",
+      "center": [
+        -4.2,
+        0,
+        -5.5
+      ],
+      "size": [
+        2,
+        16,
+        2
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          159,
+          1,
+          161,
+          17
+        ],
+        "back": [
+          163,
+          1,
+          165,
+          17
+        ],
+        "left": [
+          167,
+          1,
+          169,
+          17
+        ],
+        "right": [
+          171,
+          1,
+          173,
+          17
+        ],
+        "top": [
+          175,
+          1,
+          177,
+          3
+        ],
+        "bottom": [
+          179,
+          1,
+          181,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Bone_Cage_R",
+      "center": [
+        4.2,
+        0,
+        -5.5
+      ],
+      "size": [
+        2,
+        16,
+        2
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          159,
+          1,
+          161,
+          17
+        ],
+        "back": [
+          163,
+          1,
+          165,
+          17
+        ],
+        "left": [
+          167,
+          1,
+          169,
+          17
+        ],
+        "right": [
+          171,
+          1,
+          173,
+          17
+        ],
+        "top": [
+          175,
+          1,
+          177,
+          3
+        ],
+        "bottom": [
+          179,
+          1,
+          181,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Bone_Upper_Seal",
+      "center": [
+        0,
+        8,
+        -5.1
+      ],
+      "size": [
+        10,
+        3,
+        2
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "rune",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          183,
+          1,
+          193,
+          4
+        ],
+        "back": [
+          195,
+          1,
+          205,
+          4
+        ],
+        "left": [
+          207,
+          1,
+          209,
+          4
+        ],
+        "right": [
+          211,
+          1,
+          213,
+          4
+        ],
+        "top": [
+          215,
+          1,
+          225,
+          3
+        ],
+        "bottom": [
+          227,
+          1,
+          237,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Bone_Lower_Seal",
+      "center": [
+        0,
+        -7,
+        -5.1
+      ],
+      "size": [
+        10,
+        3,
+        2
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          239,
+          1,
+          249,
+          4
+        ],
+        "back": [
+          1,
+          21,
+          11,
+          24
+        ],
+        "left": [
+          13,
+          21,
+          15,
+          24
+        ],
+        "right": [
+          17,
+          21,
+          19,
+          24
+        ],
+        "top": [
+          21,
+          21,
+          31,
+          23
+        ],
+        "bottom": [
+          33,
+          21,
+          43,
+          23
+        ]
+      }
+    },
+    {
+      "name": "Iron_Extractor",
+      "center": [
+        0,
+        -10,
+        0
+      ],
+      "size": [
+        11,
+        3,
+        9
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          45,
+          21,
+          56,
+          24
+        ],
+        "back": [
+          58,
+          21,
+          69,
+          24
+        ],
+        "left": [
+          71,
+          21,
+          80,
+          24
+        ],
+        "right": [
+          82,
+          21,
+          91,
+          24
+        ],
+        "top": [
+          93,
+          21,
+          104,
+          30
+        ],
+        "bottom": [
+          106,
+          21,
+          117,
+          30
+        ]
+      }
+    },
+    {
+      "name": "Iron_Extractor_Corners",
+      "center": [
+        0,
+        -10,
+        0
+      ],
+      "size": [
+        9,
+        3,
+        11
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          119,
+          21,
+          128,
+          24
+        ],
+        "back": [
+          130,
+          21,
+          139,
+          24
+        ],
+        "left": [
+          141,
+          21,
+          152,
+          24
+        ],
+        "right": [
+          154,
+          21,
+          165,
+          24
+        ],
+        "top": [
+          167,
+          21,
+          176,
+          32
+        ],
+        "bottom": [
+          178,
+          21,
+          187,
+          32
+        ]
+      }
+    },
+    {
+      "name": "Bone_Projectile",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        4,
+        7,
+        6
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          189,
+          21,
+          193,
+          28
+        ],
+        "back": [
+          195,
+          21,
+          199,
+          28
+        ],
+        "left": [
+          201,
+          21,
+          207,
+          28
+        ],
+        "right": [
+          209,
+          21,
+          215,
+          28
+        ],
+        "top": [
+          217,
+          21,
+          221,
+          27
+        ],
+        "bottom": [
+          223,
+          21,
+          227,
+          27
+        ]
+      }
+    },
+    {
+      "name": "Bone_Projectile_Facets",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        6,
+        7,
+        4
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          229,
+          21,
+          235,
+          28
+        ],
+        "back": [
+          237,
+          21,
+          243,
+          28
+        ],
+        "left": [
+          245,
+          21,
+          249,
+          28
+        ],
+        "right": [
+          251,
+          21,
+          255,
+          28
+        ],
+        "top": [
+          1,
+          34,
+          7,
+          38
+        ],
+        "bottom": [
+          9,
+          34,
+          15,
+          38
+        ]
+      }
+    },
+    {
+      "name": "Iron_Nose",
+      "center": [
+        0,
+        16,
+        0
+      ],
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          17,
+          34,
+          20,
+          37
+        ],
+        "back": [
+          22,
+          34,
+          25,
+          37
+        ],
+        "left": [
+          27,
+          34,
+          30,
+          37
+        ],
+        "right": [
+          32,
+          34,
+          35,
+          37
+        ],
+        "top": [
+          37,
+          34,
+          40,
+          37
+        ],
+        "bottom": [
+          42,
+          34,
+          45,
+          37
+        ]
+      }
+    },
+    {
+      "name": "Prayer_Stud",
+      "center": [
+        0,
+        8,
+        -6.5
+      ],
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          47,
+          34,
+          50,
+          37
+        ],
+        "back": [
+          52,
+          34,
+          55,
+          37
+        ],
+        "left": [
+          57,
+          34,
+          58,
+          37
+        ],
+        "right": [
+          60,
+          34,
+          61,
+          37
+        ],
+        "top": [
+          63,
+          34,
+          66,
+          35
+        ],
+        "bottom": [
+          68,
+          34,
+          71,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Bone_Rear_Brace_L",
+      "center": [
+        0,
+        1,
+        -4.6
+      ],
+      "size": [
+        2,
+        12,
+        1
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          73,
+          34,
+          75,
+          46
+        ],
+        "back": [
+          77,
+          34,
+          79,
+          46
+        ],
+        "left": [
+          81,
+          34,
+          82,
+          46
+        ],
+        "right": [
+          84,
+          34,
+          85,
+          46
+        ],
+        "top": [
+          87,
+          34,
+          89,
+          35
+        ],
+        "bottom": [
+          91,
+          34,
+          93,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Bone_Rear_Brace_R",
+      "center": [
+        0,
+        1,
+        4.6
+      ],
+      "size": [
+        2,
+        12,
+        1
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          73,
+          34,
+          75,
+          46
+        ],
+        "back": [
+          77,
+          34,
+          79,
+          46
+        ],
+        "left": [
+          81,
+          34,
+          82,
+          46
+        ],
+        "right": [
+          84,
+          34,
+          85,
+          46
+        ],
+        "top": [
+          87,
+          34,
+          89,
+          35
+        ],
+        "bottom": [
+          91,
+          34,
+          93,
+          35
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

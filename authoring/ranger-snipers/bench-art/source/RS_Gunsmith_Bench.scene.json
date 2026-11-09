@@ -1,0 +1,10750 @@
+{
+  "name": "360 Gunsmith Bench",
+  "texture": "ranger-snipers\\bench-art\\Common\\Blocks\\Benches\\RangerSnipers\\RS_Gunsmith_Bench.png",
+  "atlas_size": 512,
+  "parts": [
+    {
+      "name": "Walnut_Leg_-27_-11",
+      "center": [
+        -27,
+        14,
+        -11
+      ],
+      "size": [
+        5,
+        26,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          27
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          27
+        ],
+        "left": [
+          15,
+          1,
+          20,
+          27
+        ],
+        "right": [
+          22,
+          1,
+          27,
+          27
+        ],
+        "top": [
+          29,
+          1,
+          34,
+          6
+        ],
+        "bottom": [
+          36,
+          1,
+          41,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Steel_Foot_-27_-11",
+      "center": [
+        -27,
+        2,
+        -11
+      ],
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          43,
+          1,
+          50,
+          5
+        ],
+        "back": [
+          52,
+          1,
+          59,
+          5
+        ],
+        "left": [
+          61,
+          1,
+          68,
+          5
+        ],
+        "right": [
+          70,
+          1,
+          77,
+          5
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Copper_Leg_Collar_-27_-11",
+      "center": [
+        -27,
+        25,
+        -11
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          97,
+          1,
+          103,
+          4
+        ],
+        "back": [
+          105,
+          1,
+          111,
+          4
+        ],
+        "left": [
+          113,
+          1,
+          119,
+          4
+        ],
+        "right": [
+          121,
+          1,
+          127,
+          4
+        ],
+        "top": [
+          129,
+          1,
+          135,
+          7
+        ],
+        "bottom": [
+          137,
+          1,
+          143,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_-27_-118",
+      "center": [
+        -27,
+        8,
+        -13.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_-27_-1123",
+      "center": [
+        -27,
+        23,
+        -13.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Leg_-27_11",
+      "center": [
+        -27,
+        14,
+        11
+      ],
+      "size": [
+        5,
+        26,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          27
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          27
+        ],
+        "left": [
+          15,
+          1,
+          20,
+          27
+        ],
+        "right": [
+          22,
+          1,
+          27,
+          27
+        ],
+        "top": [
+          29,
+          1,
+          34,
+          6
+        ],
+        "bottom": [
+          36,
+          1,
+          41,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Steel_Foot_-27_11",
+      "center": [
+        -27,
+        2,
+        11
+      ],
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          43,
+          1,
+          50,
+          5
+        ],
+        "back": [
+          52,
+          1,
+          59,
+          5
+        ],
+        "left": [
+          61,
+          1,
+          68,
+          5
+        ],
+        "right": [
+          70,
+          1,
+          77,
+          5
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Copper_Leg_Collar_-27_11",
+      "center": [
+        -27,
+        25,
+        11
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          97,
+          1,
+          103,
+          4
+        ],
+        "back": [
+          105,
+          1,
+          111,
+          4
+        ],
+        "left": [
+          113,
+          1,
+          119,
+          4
+        ],
+        "right": [
+          121,
+          1,
+          127,
+          4
+        ],
+        "top": [
+          129,
+          1,
+          135,
+          7
+        ],
+        "bottom": [
+          137,
+          1,
+          143,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_-27_118",
+      "center": [
+        -27,
+        8,
+        8.4
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_-27_1123",
+      "center": [
+        -27,
+        23,
+        8.4
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Leg_27_-11",
+      "center": [
+        27,
+        14,
+        -11
+      ],
+      "size": [
+        5,
+        26,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          27
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          27
+        ],
+        "left": [
+          15,
+          1,
+          20,
+          27
+        ],
+        "right": [
+          22,
+          1,
+          27,
+          27
+        ],
+        "top": [
+          29,
+          1,
+          34,
+          6
+        ],
+        "bottom": [
+          36,
+          1,
+          41,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Steel_Foot_27_-11",
+      "center": [
+        27,
+        2,
+        -11
+      ],
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          43,
+          1,
+          50,
+          5
+        ],
+        "back": [
+          52,
+          1,
+          59,
+          5
+        ],
+        "left": [
+          61,
+          1,
+          68,
+          5
+        ],
+        "right": [
+          70,
+          1,
+          77,
+          5
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Copper_Leg_Collar_27_-11",
+      "center": [
+        27,
+        25,
+        -11
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          97,
+          1,
+          103,
+          4
+        ],
+        "back": [
+          105,
+          1,
+          111,
+          4
+        ],
+        "left": [
+          113,
+          1,
+          119,
+          4
+        ],
+        "right": [
+          121,
+          1,
+          127,
+          4
+        ],
+        "top": [
+          129,
+          1,
+          135,
+          7
+        ],
+        "bottom": [
+          137,
+          1,
+          143,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_27_-118",
+      "center": [
+        27,
+        8,
+        -13.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_27_-1123",
+      "center": [
+        27,
+        23,
+        -13.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Leg_27_11",
+      "center": [
+        27,
+        14,
+        11
+      ],
+      "size": [
+        5,
+        26,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          27
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          27
+        ],
+        "left": [
+          15,
+          1,
+          20,
+          27
+        ],
+        "right": [
+          22,
+          1,
+          27,
+          27
+        ],
+        "top": [
+          29,
+          1,
+          34,
+          6
+        ],
+        "bottom": [
+          36,
+          1,
+          41,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Steel_Foot_27_11",
+      "center": [
+        27,
+        2,
+        11
+      ],
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          43,
+          1,
+          50,
+          5
+        ],
+        "back": [
+          52,
+          1,
+          59,
+          5
+        ],
+        "left": [
+          61,
+          1,
+          68,
+          5
+        ],
+        "right": [
+          70,
+          1,
+          77,
+          5
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Copper_Leg_Collar_27_11",
+      "center": [
+        27,
+        25,
+        11
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          97,
+          1,
+          103,
+          4
+        ],
+        "back": [
+          105,
+          1,
+          111,
+          4
+        ],
+        "left": [
+          113,
+          1,
+          119,
+          4
+        ],
+        "right": [
+          121,
+          1,
+          127,
+          4
+        ],
+        "top": [
+          129,
+          1,
+          135,
+          7
+        ],
+        "bottom": [
+          137,
+          1,
+          143,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_27_118",
+      "center": [
+        27,
+        8,
+        8.4
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Leg_Pin_27_1123",
+      "center": [
+        27,
+        23,
+        8.4
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Lower_Stretcher_-11",
+      "center": [
+        0,
+        6,
+        -11
+      ],
+      "size": [
+        54,
+        4,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          163,
+          1,
+          217,
+          5
+        ],
+        "back": [
+          219,
+          1,
+          273,
+          5
+        ],
+        "left": [
+          275,
+          1,
+          279,
+          5
+        ],
+        "right": [
+          281,
+          1,
+          285,
+          5
+        ],
+        "top": [
+          287,
+          1,
+          341,
+          5
+        ],
+        "bottom": [
+          343,
+          1,
+          397,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Worktop_Rail_-11",
+      "center": [
+        0,
+        27,
+        -11
+      ],
+      "size": [
+        59,
+        4,
+        4
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          399,
+          1,
+          458,
+          5
+        ],
+        "back": [
+          1,
+          29,
+          60,
+          33
+        ],
+        "left": [
+          62,
+          29,
+          66,
+          33
+        ],
+        "right": [
+          68,
+          29,
+          72,
+          33
+        ],
+        "top": [
+          74,
+          29,
+          133,
+          33
+        ],
+        "bottom": [
+          135,
+          29,
+          194,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Lower_Stretcher_11",
+      "center": [
+        0,
+        6,
+        11
+      ],
+      "size": [
+        54,
+        4,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          163,
+          1,
+          217,
+          5
+        ],
+        "back": [
+          219,
+          1,
+          273,
+          5
+        ],
+        "left": [
+          275,
+          1,
+          279,
+          5
+        ],
+        "right": [
+          281,
+          1,
+          285,
+          5
+        ],
+        "top": [
+          287,
+          1,
+          341,
+          5
+        ],
+        "bottom": [
+          343,
+          1,
+          397,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Worktop_Rail_11",
+      "center": [
+        0,
+        27,
+        11
+      ],
+      "size": [
+        59,
+        4,
+        4
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          399,
+          1,
+          458,
+          5
+        ],
+        "back": [
+          1,
+          29,
+          60,
+          33
+        ],
+        "left": [
+          62,
+          29,
+          66,
+          33
+        ],
+        "right": [
+          68,
+          29,
+          72,
+          33
+        ],
+        "top": [
+          74,
+          29,
+          133,
+          33
+        ],
+        "bottom": [
+          135,
+          29,
+          194,
+          33
+        ]
+      }
+    },
+    {
+      "name": "End_Stretcher_-27",
+      "center": [
+        -27,
+        7,
+        0
+      ],
+      "size": [
+        4,
+        4,
+        21
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          196,
+          29,
+          200,
+          33
+        ],
+        "back": [
+          202,
+          29,
+          206,
+          33
+        ],
+        "left": [
+          208,
+          29,
+          229,
+          33
+        ],
+        "right": [
+          231,
+          29,
+          252,
+          33
+        ],
+        "top": [
+          254,
+          29,
+          258,
+          50
+        ],
+        "bottom": [
+          260,
+          29,
+          264,
+          50
+        ]
+      }
+    },
+    {
+      "name": "End_Stretcher_27",
+      "center": [
+        27,
+        7,
+        0
+      ],
+      "size": [
+        4,
+        4,
+        21
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          196,
+          29,
+          200,
+          33
+        ],
+        "back": [
+          202,
+          29,
+          206,
+          33
+        ],
+        "left": [
+          208,
+          29,
+          229,
+          33
+        ],
+        "right": [
+          231,
+          29,
+          252,
+          33
+        ],
+        "top": [
+          254,
+          29,
+          258,
+          50
+        ],
+        "bottom": [
+          260,
+          29,
+          264,
+          50
+        ]
+      }
+    },
+    {
+      "name": "Shelf_Plank_0",
+      "center": [
+        0,
+        9,
+        -8
+      ],
+      "size": [
+        51,
+        2,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          266,
+          29,
+          317,
+          31
+        ],
+        "back": [
+          319,
+          29,
+          370,
+          31
+        ],
+        "left": [
+          372,
+          29,
+          377,
+          31
+        ],
+        "right": [
+          379,
+          29,
+          384,
+          31
+        ],
+        "top": [
+          386,
+          29,
+          437,
+          34
+        ],
+        "bottom": [
+          439,
+          29,
+          490,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Shelf_Plank_1",
+      "center": [
+        0,
+        9,
+        -3
+      ],
+      "size": [
+        51,
+        2,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          266,
+          29,
+          317,
+          31
+        ],
+        "back": [
+          319,
+          29,
+          370,
+          31
+        ],
+        "left": [
+          372,
+          29,
+          377,
+          31
+        ],
+        "right": [
+          379,
+          29,
+          384,
+          31
+        ],
+        "top": [
+          386,
+          29,
+          437,
+          34
+        ],
+        "bottom": [
+          439,
+          29,
+          490,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Shelf_Plank_2",
+      "center": [
+        0,
+        9,
+        2
+      ],
+      "size": [
+        51,
+        2,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          266,
+          29,
+          317,
+          31
+        ],
+        "back": [
+          319,
+          29,
+          370,
+          31
+        ],
+        "left": [
+          372,
+          29,
+          377,
+          31
+        ],
+        "right": [
+          379,
+          29,
+          384,
+          31
+        ],
+        "top": [
+          386,
+          29,
+          437,
+          34
+        ],
+        "bottom": [
+          439,
+          29,
+          490,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Shelf_Plank_3",
+      "center": [
+        0,
+        9,
+        7
+      ],
+      "size": [
+        51,
+        2,
+        5
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          266,
+          29,
+          317,
+          31
+        ],
+        "back": [
+          319,
+          29,
+          370,
+          31
+        ],
+        "left": [
+          372,
+          29,
+          377,
+          31
+        ],
+        "right": [
+          379,
+          29,
+          384,
+          31
+        ],
+        "top": [
+          386,
+          29,
+          437,
+          34
+        ],
+        "bottom": [
+          439,
+          29,
+          490,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Butcherblock_Top_0",
+      "center": [
+        0,
+        30,
+        -10
+      ],
+      "size": [
+        62,
+        5,
+        10
+      ],
+      "material": "woodedge",
+      "detail": "worktop",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          52,
+          63,
+          57
+        ],
+        "back": [
+          65,
+          52,
+          127,
+          57
+        ],
+        "left": [
+          129,
+          52,
+          139,
+          57
+        ],
+        "right": [
+          141,
+          52,
+          151,
+          57
+        ],
+        "top": [
+          153,
+          52,
+          215,
+          62
+        ],
+        "bottom": [
+          217,
+          52,
+          279,
+          62
+        ]
+      }
+    },
+    {
+      "name": "Butcherblock_Top_1",
+      "center": [
+        0,
+        30,
+        0
+      ],
+      "size": [
+        62,
+        5,
+        10
+      ],
+      "material": "woodedge",
+      "detail": "worktop",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          52,
+          63,
+          57
+        ],
+        "back": [
+          65,
+          52,
+          127,
+          57
+        ],
+        "left": [
+          129,
+          52,
+          139,
+          57
+        ],
+        "right": [
+          141,
+          52,
+          151,
+          57
+        ],
+        "top": [
+          153,
+          52,
+          215,
+          62
+        ],
+        "bottom": [
+          217,
+          52,
+          279,
+          62
+        ]
+      }
+    },
+    {
+      "name": "Butcherblock_Top_2",
+      "center": [
+        0,
+        30,
+        10
+      ],
+      "size": [
+        62,
+        5,
+        10
+      ],
+      "material": "woodedge",
+      "detail": "worktop",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          52,
+          63,
+          57
+        ],
+        "back": [
+          65,
+          52,
+          127,
+          57
+        ],
+        "left": [
+          129,
+          52,
+          139,
+          57
+        ],
+        "right": [
+          141,
+          52,
+          151,
+          57
+        ],
+        "top": [
+          153,
+          52,
+          215,
+          62
+        ],
+        "bottom": [
+          217,
+          52,
+          279,
+          62
+        ]
+      }
+    },
+    {
+      "name": "Forged_End_Cap_-31",
+      "center": [
+        -31,
+        30,
+        0
+      ],
+      "size": [
+        2,
+        6,
+        32
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          281,
+          52,
+          283,
+          58
+        ],
+        "back": [
+          285,
+          52,
+          287,
+          58
+        ],
+        "left": [
+          289,
+          52,
+          321,
+          58
+        ],
+        "right": [
+          323,
+          52,
+          355,
+          58
+        ],
+        "top": [
+          357,
+          52,
+          359,
+          84
+        ],
+        "bottom": [
+          361,
+          52,
+          363,
+          84
+        ]
+      }
+    },
+    {
+      "name": "Top_Rivet_-31-12",
+      "center": [
+        -31,
+        33.1,
+        -12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Top_Rivet_-3112",
+      "center": [
+        -31,
+        33.1,
+        12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Forged_End_Cap_31",
+      "center": [
+        31,
+        30,
+        0
+      ],
+      "size": [
+        2,
+        6,
+        32
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          281,
+          52,
+          283,
+          58
+        ],
+        "back": [
+          285,
+          52,
+          287,
+          58
+        ],
+        "left": [
+          289,
+          52,
+          321,
+          58
+        ],
+        "right": [
+          323,
+          52,
+          355,
+          58
+        ],
+        "top": [
+          357,
+          52,
+          359,
+          84
+        ],
+        "bottom": [
+          361,
+          52,
+          363,
+          84
+        ]
+      }
+    },
+    {
+      "name": "Top_Rivet_31-12",
+      "center": [
+        31,
+        33.1,
+        -12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Top_Rivet_3112",
+      "center": [
+        31,
+        33.1,
+        12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Front_Iron_Apron",
+      "center": [
+        0,
+        26,
+        -14.5
+      ],
+      "size": [
+        58,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          365,
+          52,
+          423,
+          57
+        ],
+        "back": [
+          425,
+          52,
+          483,
+          57
+        ],
+        "left": [
+          485,
+          52,
+          487,
+          57
+        ],
+        "right": [
+          489,
+          52,
+          491,
+          57
+        ],
+        "top": [
+          1,
+          86,
+          59,
+          88
+        ],
+        "bottom": [
+          61,
+          86,
+          119,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Rear_Iron_Apron",
+      "center": [
+        0,
+        26,
+        14.5
+      ],
+      "size": [
+        58,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          365,
+          52,
+          423,
+          57
+        ],
+        "back": [
+          425,
+          52,
+          483,
+          57
+        ],
+        "left": [
+          485,
+          52,
+          487,
+          57
+        ],
+        "right": [
+          489,
+          52,
+          491,
+          57
+        ],
+        "top": [
+          1,
+          86,
+          59,
+          88
+        ],
+        "bottom": [
+          61,
+          86,
+          119,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Brass_Makers_Plate",
+      "center": [
+        1,
+        26,
+        -15.6
+      ],
+      "size": [
+        14,
+        3,
+        1
+      ],
+      "material": "brass",
+      "detail": "makers",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          86,
+          135,
+          89
+        ],
+        "back": [
+          137,
+          86,
+          151,
+          89
+        ],
+        "left": [
+          153,
+          86,
+          154,
+          89
+        ],
+        "right": [
+          156,
+          86,
+          157,
+          89
+        ],
+        "top": [
+          159,
+          86,
+          173,
+          87
+        ],
+        "bottom": [
+          175,
+          86,
+          189,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Cabinet",
+      "center": [
+        18,
+        19,
+        1
+      ],
+      "size": [
+        18,
+        17,
+        22
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          191,
+          86,
+          209,
+          103
+        ],
+        "back": [
+          211,
+          86,
+          229,
+          103
+        ],
+        "left": [
+          231,
+          86,
+          253,
+          103
+        ],
+        "right": [
+          255,
+          86,
+          277,
+          103
+        ],
+        "top": [
+          279,
+          86,
+          297,
+          108
+        ],
+        "bottom": [
+          299,
+          86,
+          317,
+          108
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Front_0",
+      "center": [
+        18,
+        15,
+        -10.7
+      ],
+      "size": [
+        17,
+        5,
+        2
+      ],
+      "material": "walnut",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          319,
+          86,
+          336,
+          91
+        ],
+        "back": [
+          338,
+          86,
+          355,
+          91
+        ],
+        "left": [
+          357,
+          86,
+          359,
+          91
+        ],
+        "right": [
+          361,
+          86,
+          363,
+          91
+        ],
+        "top": [
+          365,
+          86,
+          382,
+          88
+        ],
+        "bottom": [
+          384,
+          86,
+          401,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Brass_Label_0",
+      "center": [
+        18,
+        15,
+        -11.8
+      ],
+      "size": [
+        5,
+        2,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          403,
+          86,
+          408,
+          88
+        ],
+        "back": [
+          410,
+          86,
+          415,
+          88
+        ],
+        "left": [
+          417,
+          86,
+          418,
+          88
+        ],
+        "right": [
+          420,
+          86,
+          421,
+          88
+        ],
+        "top": [
+          423,
+          86,
+          428,
+          87
+        ],
+        "bottom": [
+          430,
+          86,
+          435,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pull_0",
+      "center": [
+        18,
+        14,
+        -12.6
+      ],
+      "size": [
+        7,
+        1,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          437,
+          86,
+          444,
+          87
+        ],
+        "back": [
+          446,
+          86,
+          453,
+          87
+        ],
+        "left": [
+          455,
+          86,
+          457,
+          87
+        ],
+        "right": [
+          459,
+          86,
+          461,
+          87
+        ],
+        "top": [
+          463,
+          86,
+          470,
+          88
+        ],
+        "bottom": [
+          472,
+          86,
+          479,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pin_012",
+      "center": [
+        12,
+        15,
+        -11.8
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pin_024",
+      "center": [
+        24,
+        15,
+        -11.8
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Front_1",
+      "center": [
+        18,
+        21,
+        -10.7
+      ],
+      "size": [
+        17,
+        5,
+        2
+      ],
+      "material": "walnut",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          319,
+          86,
+          336,
+          91
+        ],
+        "back": [
+          338,
+          86,
+          355,
+          91
+        ],
+        "left": [
+          357,
+          86,
+          359,
+          91
+        ],
+        "right": [
+          361,
+          86,
+          363,
+          91
+        ],
+        "top": [
+          365,
+          86,
+          382,
+          88
+        ],
+        "bottom": [
+          384,
+          86,
+          401,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Brass_Label_1",
+      "center": [
+        18,
+        21,
+        -11.8
+      ],
+      "size": [
+        5,
+        2,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          403,
+          86,
+          408,
+          88
+        ],
+        "back": [
+          410,
+          86,
+          415,
+          88
+        ],
+        "left": [
+          417,
+          86,
+          418,
+          88
+        ],
+        "right": [
+          420,
+          86,
+          421,
+          88
+        ],
+        "top": [
+          423,
+          86,
+          428,
+          87
+        ],
+        "bottom": [
+          430,
+          86,
+          435,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pull_1",
+      "center": [
+        18,
+        20,
+        -12.6
+      ],
+      "size": [
+        7,
+        1,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          437,
+          86,
+          444,
+          87
+        ],
+        "back": [
+          446,
+          86,
+          453,
+          87
+        ],
+        "left": [
+          455,
+          86,
+          457,
+          87
+        ],
+        "right": [
+          459,
+          86,
+          461,
+          87
+        ],
+        "top": [
+          463,
+          86,
+          470,
+          88
+        ],
+        "bottom": [
+          472,
+          86,
+          479,
+          88
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pin_112",
+      "center": [
+        12,
+        21,
+        -11.8
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Drawer_Pin_124",
+      "center": [
+        24,
+        21,
+        -11.8
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Crate_Floor",
+      "center": [
+        -17,
+        11,
+        0
+      ],
+      "size": [
+        19,
+        2,
+        19
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          110,
+          20,
+          112
+        ],
+        "back": [
+          22,
+          110,
+          41,
+          112
+        ],
+        "left": [
+          43,
+          110,
+          62,
+          112
+        ],
+        "right": [
+          64,
+          110,
+          83,
+          112
+        ],
+        "top": [
+          85,
+          110,
+          104,
+          129
+        ],
+        "bottom": [
+          106,
+          110,
+          125,
+          129
+        ]
+      }
+    },
+    {
+      "name": "Crate_Slat_-913",
+      "center": [
+        -17,
+        13,
+        -9
+      ],
+      "size": [
+        20,
+        3,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          127,
+          110,
+          147,
+          113
+        ],
+        "back": [
+          149,
+          110,
+          169,
+          113
+        ],
+        "left": [
+          171,
+          110,
+          173,
+          113
+        ],
+        "right": [
+          175,
+          110,
+          177,
+          113
+        ],
+        "top": [
+          179,
+          110,
+          199,
+          112
+        ],
+        "bottom": [
+          201,
+          110,
+          221,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crate_Slat_-917",
+      "center": [
+        -17,
+        17,
+        -9
+      ],
+      "size": [
+        20,
+        3,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          127,
+          110,
+          147,
+          113
+        ],
+        "back": [
+          149,
+          110,
+          169,
+          113
+        ],
+        "left": [
+          171,
+          110,
+          173,
+          113
+        ],
+        "right": [
+          175,
+          110,
+          177,
+          113
+        ],
+        "top": [
+          179,
+          110,
+          199,
+          112
+        ],
+        "bottom": [
+          201,
+          110,
+          221,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crate_Slat_913",
+      "center": [
+        -17,
+        13,
+        9
+      ],
+      "size": [
+        20,
+        3,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          127,
+          110,
+          147,
+          113
+        ],
+        "back": [
+          149,
+          110,
+          169,
+          113
+        ],
+        "left": [
+          171,
+          110,
+          173,
+          113
+        ],
+        "right": [
+          175,
+          110,
+          177,
+          113
+        ],
+        "top": [
+          179,
+          110,
+          199,
+          112
+        ],
+        "bottom": [
+          201,
+          110,
+          221,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crate_Slat_917",
+      "center": [
+        -17,
+        17,
+        9
+      ],
+      "size": [
+        20,
+        3,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          127,
+          110,
+          147,
+          113
+        ],
+        "back": [
+          149,
+          110,
+          169,
+          113
+        ],
+        "left": [
+          171,
+          110,
+          173,
+          113
+        ],
+        "right": [
+          175,
+          110,
+          177,
+          113
+        ],
+        "top": [
+          179,
+          110,
+          199,
+          112
+        ],
+        "bottom": [
+          201,
+          110,
+          221,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crate_End_-2613",
+      "center": [
+        -26,
+        13,
+        0
+      ],
+      "size": [
+        2,
+        3,
+        17
+      ],
+      "material": "woodedge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          223,
+          110,
+          225,
+          113
+        ],
+        "back": [
+          227,
+          110,
+          229,
+          113
+        ],
+        "left": [
+          231,
+          110,
+          248,
+          113
+        ],
+        "right": [
+          250,
+          110,
+          267,
+          113
+        ],
+        "top": [
+          269,
+          110,
+          271,
+          127
+        ],
+        "bottom": [
+          273,
+          110,
+          275,
+          127
+        ]
+      }
+    },
+    {
+      "name": "Crate_End_-2617",
+      "center": [
+        -26,
+        17,
+        0
+      ],
+      "size": [
+        2,
+        3,
+        17
+      ],
+      "material": "woodedge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          223,
+          110,
+          225,
+          113
+        ],
+        "back": [
+          227,
+          110,
+          229,
+          113
+        ],
+        "left": [
+          231,
+          110,
+          248,
+          113
+        ],
+        "right": [
+          250,
+          110,
+          267,
+          113
+        ],
+        "top": [
+          269,
+          110,
+          271,
+          127
+        ],
+        "bottom": [
+          273,
+          110,
+          275,
+          127
+        ]
+      }
+    },
+    {
+      "name": "Crate_End_-813",
+      "center": [
+        -8,
+        13,
+        0
+      ],
+      "size": [
+        2,
+        3,
+        17
+      ],
+      "material": "woodedge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          223,
+          110,
+          225,
+          113
+        ],
+        "back": [
+          227,
+          110,
+          229,
+          113
+        ],
+        "left": [
+          231,
+          110,
+          248,
+          113
+        ],
+        "right": [
+          250,
+          110,
+          267,
+          113
+        ],
+        "top": [
+          269,
+          110,
+          271,
+          127
+        ],
+        "bottom": [
+          273,
+          110,
+          275,
+          127
+        ]
+      }
+    },
+    {
+      "name": "Crate_End_-817",
+      "center": [
+        -8,
+        17,
+        0
+      ],
+      "size": [
+        2,
+        3,
+        17
+      ],
+      "material": "woodedge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          223,
+          110,
+          225,
+          113
+        ],
+        "back": [
+          227,
+          110,
+          229,
+          113
+        ],
+        "left": [
+          231,
+          110,
+          248,
+          113
+        ],
+        "right": [
+          250,
+          110,
+          267,
+          113
+        ],
+        "top": [
+          269,
+          110,
+          271,
+          127
+        ],
+        "bottom": [
+          273,
+          110,
+          275,
+          127
+        ]
+      }
+    },
+    {
+      "name": "Crated_Copper_Rounds_-22",
+      "center": [
+        -22,
+        19,
+        1
+      ],
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          277,
+          110,
+          280,
+          116
+        ],
+        "back": [
+          282,
+          110,
+          285,
+          116
+        ],
+        "left": [
+          287,
+          110,
+          290,
+          116
+        ],
+        "right": [
+          292,
+          110,
+          295,
+          116
+        ],
+        "top": [
+          297,
+          110,
+          300,
+          113
+        ],
+        "bottom": [
+          302,
+          110,
+          305,
+          113
+        ]
+      }
+    },
+    {
+      "name": "Crated_Round_Tip_-22",
+      "center": [
+        -22,
+        22.5,
+        1
+      ],
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          307,
+          110,
+          309,
+          111
+        ],
+        "back": [
+          311,
+          110,
+          313,
+          111
+        ],
+        "left": [
+          315,
+          110,
+          317,
+          111
+        ],
+        "right": [
+          319,
+          110,
+          321,
+          111
+        ],
+        "top": [
+          323,
+          110,
+          325,
+          112
+        ],
+        "bottom": [
+          327,
+          110,
+          329,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crated_Copper_Rounds_-17",
+      "center": [
+        -17,
+        19,
+        1
+      ],
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          277,
+          110,
+          280,
+          116
+        ],
+        "back": [
+          282,
+          110,
+          285,
+          116
+        ],
+        "left": [
+          287,
+          110,
+          290,
+          116
+        ],
+        "right": [
+          292,
+          110,
+          295,
+          116
+        ],
+        "top": [
+          297,
+          110,
+          300,
+          113
+        ],
+        "bottom": [
+          302,
+          110,
+          305,
+          113
+        ]
+      }
+    },
+    {
+      "name": "Crated_Round_Tip_-17",
+      "center": [
+        -17,
+        22.5,
+        1
+      ],
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          307,
+          110,
+          309,
+          111
+        ],
+        "back": [
+          311,
+          110,
+          313,
+          111
+        ],
+        "left": [
+          315,
+          110,
+          317,
+          111
+        ],
+        "right": [
+          319,
+          110,
+          321,
+          111
+        ],
+        "top": [
+          323,
+          110,
+          325,
+          112
+        ],
+        "bottom": [
+          327,
+          110,
+          329,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Crated_Copper_Rounds_-12",
+      "center": [
+        -12,
+        19,
+        1
+      ],
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          277,
+          110,
+          280,
+          116
+        ],
+        "back": [
+          282,
+          110,
+          285,
+          116
+        ],
+        "left": [
+          287,
+          110,
+          290,
+          116
+        ],
+        "right": [
+          292,
+          110,
+          295,
+          116
+        ],
+        "top": [
+          297,
+          110,
+          300,
+          113
+        ],
+        "bottom": [
+          302,
+          110,
+          305,
+          113
+        ]
+      }
+    },
+    {
+      "name": "Crated_Round_Tip_-12",
+      "center": [
+        -12,
+        22.5,
+        1
+      ],
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          307,
+          110,
+          309,
+          111
+        ],
+        "back": [
+          311,
+          110,
+          313,
+          111
+        ],
+        "left": [
+          315,
+          110,
+          317,
+          111
+        ],
+        "right": [
+          319,
+          110,
+          321,
+          111
+        ],
+        "top": [
+          323,
+          110,
+          325,
+          112
+        ],
+        "bottom": [
+          327,
+          110,
+          329,
+          112
+        ]
+      }
+    },
+    {
+      "name": "Steel_Tool_Case",
+      "center": [
+        -1,
+        13,
+        6
+      ],
+      "size": [
+        12,
+        5,
+        12
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          331,
+          110,
+          343,
+          115
+        ],
+        "back": [
+          345,
+          110,
+          357,
+          115
+        ],
+        "left": [
+          359,
+          110,
+          371,
+          115
+        ],
+        "right": [
+          373,
+          110,
+          385,
+          115
+        ],
+        "top": [
+          387,
+          110,
+          399,
+          122
+        ],
+        "bottom": [
+          401,
+          110,
+          413,
+          122
+        ]
+      }
+    },
+    {
+      "name": "Tool_Case_Lid",
+      "center": [
+        -1,
+        16,
+        6
+      ],
+      "size": [
+        13,
+        2,
+        13
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          415,
+          110,
+          428,
+          112
+        ],
+        "back": [
+          430,
+          110,
+          443,
+          112
+        ],
+        "left": [
+          445,
+          110,
+          458,
+          112
+        ],
+        "right": [
+          460,
+          110,
+          473,
+          112
+        ],
+        "top": [
+          475,
+          110,
+          488,
+          123
+        ],
+        "bottom": [
+          490,
+          110,
+          503,
+          123
+        ]
+      }
+    },
+    {
+      "name": "Tool_Case_Latch",
+      "center": [
+        -1,
+        14,
+        -0.7
+      ],
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          505,
+          110,
+          508,
+          113
+        ],
+        "back": [
+          1,
+          131,
+          4,
+          134
+        ],
+        "left": [
+          6,
+          131,
+          7,
+          134
+        ],
+        "right": [
+          9,
+          131,
+          10,
+          134
+        ],
+        "top": [
+          12,
+          131,
+          15,
+          132
+        ],
+        "bottom": [
+          17,
+          131,
+          20,
+          132
+        ]
+      }
+    },
+    {
+      "name": "Cutting_Mat",
+      "center": [
+        1,
+        33,
+        -4
+      ],
+      "size": [
+        32,
+        1,
+        16
+      ],
+      "material": "mat",
+      "detail": "grid",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          22,
+          131,
+          54,
+          132
+        ],
+        "back": [
+          56,
+          131,
+          88,
+          132
+        ],
+        "left": [
+          90,
+          131,
+          106,
+          132
+        ],
+        "right": [
+          108,
+          131,
+          124,
+          132
+        ],
+        "top": [
+          126,
+          131,
+          158,
+          147
+        ],
+        "bottom": [
+          160,
+          131,
+          192,
+          147
+        ]
+      }
+    },
+    {
+      "name": "Calibration_Blueprint",
+      "center": [
+        2,
+        33.6,
+        6
+      ],
+      "size": [
+        19,
+        1,
+        8
+      ],
+      "material": "blueprint",
+      "detail": "blueprint",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          194,
+          131,
+          213,
+          132
+        ],
+        "back": [
+          215,
+          131,
+          234,
+          132
+        ],
+        "left": [
+          236,
+          131,
+          244,
+          132
+        ],
+        "right": [
+          246,
+          131,
+          254,
+          132
+        ],
+        "top": [
+          256,
+          131,
+          275,
+          139
+        ],
+        "bottom": [
+          277,
+          131,
+          296,
+          139
+        ]
+      }
+    },
+    {
+      "name": "Paper_Weight",
+      "center": [
+        10,
+        34.4,
+        8
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          298,
+          131,
+          301,
+          132
+        ],
+        "back": [
+          303,
+          131,
+          306,
+          132
+        ],
+        "left": [
+          308,
+          131,
+          311,
+          132
+        ],
+        "right": [
+          313,
+          131,
+          316,
+          132
+        ],
+        "top": [
+          318,
+          131,
+          321,
+          134
+        ],
+        "bottom": [
+          323,
+          131,
+          326,
+          134
+        ]
+      }
+    },
+    {
+      "name": "Vise_Base",
+      "center": [
+        -3,
+        34.5,
+        -2
+      ],
+      "size": [
+        13,
+        2,
+        10
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          415,
+          110,
+          428,
+          112
+        ],
+        "back": [
+          430,
+          110,
+          443,
+          112
+        ],
+        "left": [
+          328,
+          131,
+          338,
+          133
+        ],
+        "right": [
+          340,
+          131,
+          350,
+          133
+        ],
+        "top": [
+          352,
+          131,
+          365,
+          141
+        ],
+        "bottom": [
+          367,
+          131,
+          380,
+          141
+        ]
+      }
+    },
+    {
+      "name": "Vise_Anvil",
+      "center": [
+        -3,
+        36.5,
+        -2
+      ],
+      "size": [
+        10,
+        2,
+        8
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          382,
+          131,
+          392,
+          133
+        ],
+        "back": [
+          394,
+          131,
+          404,
+          133
+        ],
+        "left": [
+          406,
+          131,
+          414,
+          133
+        ],
+        "right": [
+          416,
+          131,
+          424,
+          133
+        ],
+        "top": [
+          426,
+          131,
+          436,
+          139
+        ],
+        "bottom": [
+          438,
+          131,
+          448,
+          139
+        ]
+      }
+    },
+    {
+      "name": "Vise_Jaw_-6",
+      "center": [
+        -3,
+        39,
+        -6
+      ],
+      "size": [
+        10,
+        5,
+        2
+      ],
+      "material": "steelbright",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          450,
+          131,
+          460,
+          136
+        ],
+        "back": [
+          462,
+          131,
+          472,
+          136
+        ],
+        "left": [
+          474,
+          131,
+          476,
+          136
+        ],
+        "right": [
+          478,
+          131,
+          480,
+          136
+        ],
+        "top": [
+          482,
+          131,
+          492,
+          133
+        ],
+        "bottom": [
+          494,
+          131,
+          504,
+          133
+        ]
+      }
+    },
+    {
+      "name": "Vise_Leather_Pad_-6",
+      "center": [
+        -3,
+        39,
+        -5.35
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          149,
+          9,
+          152
+        ],
+        "back": [
+          11,
+          149,
+          19,
+          152
+        ],
+        "left": [
+          21,
+          149,
+          22,
+          152
+        ],
+        "right": [
+          24,
+          149,
+          25,
+          152
+        ],
+        "top": [
+          27,
+          149,
+          35,
+          150
+        ],
+        "bottom": [
+          37,
+          149,
+          45,
+          150
+        ]
+      }
+    },
+    {
+      "name": "Vise_Jaw_2",
+      "center": [
+        -3,
+        39,
+        2
+      ],
+      "size": [
+        10,
+        5,
+        2
+      ],
+      "material": "steelbright",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          450,
+          131,
+          460,
+          136
+        ],
+        "back": [
+          462,
+          131,
+          472,
+          136
+        ],
+        "left": [
+          474,
+          131,
+          476,
+          136
+        ],
+        "right": [
+          478,
+          131,
+          480,
+          136
+        ],
+        "top": [
+          482,
+          131,
+          492,
+          133
+        ],
+        "bottom": [
+          494,
+          131,
+          504,
+          133
+        ]
+      }
+    },
+    {
+      "name": "Vise_Leather_Pad_2",
+      "center": [
+        -3,
+        39,
+        1.35
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          149,
+          9,
+          152
+        ],
+        "back": [
+          11,
+          149,
+          19,
+          152
+        ],
+        "left": [
+          21,
+          149,
+          22,
+          152
+        ],
+        "right": [
+          24,
+          149,
+          25,
+          152
+        ],
+        "top": [
+          27,
+          149,
+          35,
+          150
+        ],
+        "bottom": [
+          37,
+          149,
+          45,
+          150
+        ]
+      }
+    },
+    {
+      "name": "Vise_Screw",
+      "center": [
+        -3,
+        36,
+        -9
+      ],
+      "size": [
+        3,
+        3,
+        10
+      ],
+      "material": "iron",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          47,
+          149,
+          50,
+          152
+        ],
+        "back": [
+          52,
+          149,
+          55,
+          152
+        ],
+        "left": [
+          57,
+          149,
+          67,
+          152
+        ],
+        "right": [
+          69,
+          149,
+          79,
+          152
+        ],
+        "top": [
+          81,
+          149,
+          84,
+          159
+        ],
+        "bottom": [
+          86,
+          149,
+          89,
+          159
+        ]
+      }
+    },
+    {
+      "name": "Vise_Screw_Collar",
+      "center": [
+        -3,
+        36,
+        -13
+      ],
+      "size": [
+        5,
+        4,
+        3
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          91,
+          149,
+          96,
+          153
+        ],
+        "back": [
+          98,
+          149,
+          103,
+          153
+        ],
+        "left": [
+          105,
+          149,
+          108,
+          153
+        ],
+        "right": [
+          110,
+          149,
+          113,
+          153
+        ],
+        "top": [
+          115,
+          149,
+          120,
+          152
+        ],
+        "bottom": [
+          122,
+          149,
+          127,
+          152
+        ]
+      }
+    },
+    {
+      "name": "Vise_Cross_Handle",
+      "center": [
+        -3,
+        35,
+        -14
+      ],
+      "size": [
+        11,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          129,
+          149,
+          140,
+          150
+        ],
+        "back": [
+          142,
+          149,
+          153,
+          150
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          155,
+          149,
+          166,
+          150
+        ],
+        "bottom": [
+          168,
+          149,
+          179,
+          150
+        ]
+      }
+    },
+    {
+      "name": "Vise_Handle_Stop_-9",
+      "center": [
+        -9,
+        35,
+        -14
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          181,
+          149,
+          183,
+          152
+        ],
+        "back": [
+          185,
+          149,
+          187,
+          152
+        ],
+        "left": [
+          189,
+          149,
+          191,
+          152
+        ],
+        "right": [
+          193,
+          149,
+          195,
+          152
+        ],
+        "top": [
+          197,
+          149,
+          199,
+          151
+        ],
+        "bottom": [
+          201,
+          149,
+          203,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Vise_Handle_Stop_3",
+      "center": [
+        3,
+        35,
+        -14
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          181,
+          149,
+          183,
+          152
+        ],
+        "back": [
+          185,
+          149,
+          187,
+          152
+        ],
+        "left": [
+          189,
+          149,
+          191,
+          152
+        ],
+        "right": [
+          193,
+          149,
+          195,
+          152
+        ],
+        "top": [
+          197,
+          149,
+          199,
+          151
+        ],
+        "bottom": [
+          201,
+          149,
+          203,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Receiver",
+      "center": [
+        -1,
+        40,
+        -2
+      ],
+      "size": [
+        15,
+        4,
+        4
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          205,
+          149,
+          220,
+          153
+        ],
+        "back": [
+          222,
+          149,
+          237,
+          153
+        ],
+        "left": [
+          239,
+          149,
+          243,
+          153
+        ],
+        "right": [
+          245,
+          149,
+          249,
+          153
+        ],
+        "top": [
+          251,
+          149,
+          266,
+          153
+        ],
+        "bottom": [
+          268,
+          149,
+          283,
+          153
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Barrel",
+      "center": [
+        -14,
+        40,
+        -2
+      ],
+      "size": [
+        15,
+        2,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          285,
+          149,
+          300,
+          151
+        ],
+        "back": [
+          302,
+          149,
+          317,
+          151
+        ],
+        "left": [
+          319,
+          149,
+          321,
+          151
+        ],
+        "right": [
+          323,
+          149,
+          325,
+          151
+        ],
+        "top": [
+          327,
+          149,
+          342,
+          151
+        ],
+        "bottom": [
+          344,
+          149,
+          359,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Bolt",
+      "center": [
+        3,
+        42,
+        -2
+      ],
+      "size": [
+        4,
+        1,
+        3
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          361,
+          149,
+          365,
+          150
+        ],
+        "back": [
+          367,
+          149,
+          371,
+          150
+        ],
+        "left": [
+          308,
+          131,
+          311,
+          132
+        ],
+        "right": [
+          313,
+          131,
+          316,
+          132
+        ],
+        "top": [
+          373,
+          149,
+          377,
+          152
+        ],
+        "bottom": [
+          379,
+          149,
+          383,
+          152
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Stock",
+      "center": [
+        11,
+        39,
+        -2
+      ],
+      "size": [
+        10,
+        5,
+        3
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          385,
+          149,
+          395,
+          154
+        ],
+        "back": [
+          397,
+          149,
+          407,
+          154
+        ],
+        "left": [
+          409,
+          149,
+          412,
+          154
+        ],
+        "right": [
+          414,
+          149,
+          417,
+          154
+        ],
+        "top": [
+          419,
+          149,
+          429,
+          152
+        ],
+        "bottom": [
+          431,
+          149,
+          441,
+          152
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Butt",
+      "center": [
+        16,
+        38,
+        -2
+      ],
+      "size": [
+        2,
+        7,
+        4
+      ],
+      "material": "wooddark",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          443,
+          149,
+          445,
+          156
+        ],
+        "back": [
+          447,
+          149,
+          449,
+          156
+        ],
+        "left": [
+          451,
+          149,
+          455,
+          156
+        ],
+        "right": [
+          457,
+          149,
+          461,
+          156
+        ],
+        "top": [
+          463,
+          149,
+          465,
+          153
+        ],
+        "bottom": [
+          467,
+          149,
+          469,
+          153
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Rifle_Trigger",
+      "center": [
+        5,
+        37,
+        -2
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          471,
+          149,
+          473,
+          152
+        ],
+        "back": [
+          475,
+          149,
+          477,
+          152
+        ],
+        "left": [
+          479,
+          149,
+          481,
+          152
+        ],
+        "right": [
+          483,
+          149,
+          485,
+          152
+        ],
+        "top": [
+          487,
+          149,
+          489,
+          151
+        ],
+        "bottom": [
+          491,
+          149,
+          493,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Clamped_Barrel_Collar",
+      "center": [
+        -20,
+        40,
+        -2
+      ],
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          495,
+          149,
+          498,
+          152
+        ],
+        "back": [
+          500,
+          149,
+          503,
+          152
+        ],
+        "left": [
+          505,
+          149,
+          508,
+          152
+        ],
+        "right": [
+          1,
+          161,
+          4,
+          164
+        ],
+        "top": [
+          318,
+          131,
+          321,
+          134
+        ],
+        "bottom": [
+          323,
+          131,
+          326,
+          134
+        ]
+      }
+    },
+    {
+      "name": "Press_Base",
+      "center": [
+        -23,
+        34,
+        -2
+      ],
+      "size": [
+        11,
+        3,
+        13
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          6,
+          161,
+          17,
+          164
+        ],
+        "back": [
+          19,
+          161,
+          30,
+          164
+        ],
+        "left": [
+          32,
+          161,
+          45,
+          164
+        ],
+        "right": [
+          47,
+          161,
+          60,
+          164
+        ],
+        "top": [
+          62,
+          161,
+          73,
+          174
+        ],
+        "bottom": [
+          75,
+          161,
+          86,
+          174
+        ]
+      }
+    },
+    {
+      "name": "Press_Foot_Copper_Inset",
+      "center": [
+        -23,
+        35.8,
+        -2
+      ],
+      "size": [
+        8,
+        1,
+        10
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          88,
+          161,
+          96,
+          162
+        ],
+        "back": [
+          98,
+          161,
+          106,
+          162
+        ],
+        "left": [
+          108,
+          161,
+          118,
+          162
+        ],
+        "right": [
+          120,
+          161,
+          130,
+          162
+        ],
+        "top": [
+          132,
+          161,
+          140,
+          171
+        ],
+        "bottom": [
+          142,
+          161,
+          150,
+          171
+        ]
+      }
+    },
+    {
+      "name": "Press_Upright_-27",
+      "center": [
+        -27,
+        43,
+        1
+      ],
+      "size": [
+        2,
+        15,
+        3
+      ],
+      "material": "copper",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          152,
+          161,
+          154,
+          176
+        ],
+        "back": [
+          156,
+          161,
+          158,
+          176
+        ],
+        "left": [
+          160,
+          161,
+          163,
+          176
+        ],
+        "right": [
+          165,
+          161,
+          168,
+          176
+        ],
+        "top": [
+          170,
+          161,
+          172,
+          164
+        ],
+        "bottom": [
+          174,
+          161,
+          176,
+          164
+        ]
+      }
+    },
+    {
+      "name": "Press_Upright_-19",
+      "center": [
+        -19,
+        43,
+        1
+      ],
+      "size": [
+        2,
+        15,
+        3
+      ],
+      "material": "copper",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          152,
+          161,
+          154,
+          176
+        ],
+        "back": [
+          156,
+          161,
+          158,
+          176
+        ],
+        "left": [
+          160,
+          161,
+          163,
+          176
+        ],
+        "right": [
+          165,
+          161,
+          168,
+          176
+        ],
+        "top": [
+          170,
+          161,
+          172,
+          164
+        ],
+        "bottom": [
+          174,
+          161,
+          176,
+          164
+        ]
+      }
+    },
+    {
+      "name": "Press_Top_Bridge",
+      "center": [
+        -23,
+        50.5,
+        1
+      ],
+      "size": [
+        11,
+        3,
+        5
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          178,
+          161,
+          189,
+          164
+        ],
+        "back": [
+          191,
+          161,
+          202,
+          164
+        ],
+        "left": [
+          204,
+          161,
+          209,
+          164
+        ],
+        "right": [
+          211,
+          161,
+          216,
+          164
+        ],
+        "top": [
+          218,
+          161,
+          229,
+          166
+        ],
+        "bottom": [
+          231,
+          161,
+          242,
+          166
+        ]
+      }
+    },
+    {
+      "name": "Press_Ram",
+      "center": [
+        -23,
+        43,
+        1
+      ],
+      "size": [
+        3,
+        12,
+        3
+      ],
+      "material": "steelbright",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          244,
+          161,
+          247,
+          173
+        ],
+        "back": [
+          249,
+          161,
+          252,
+          173
+        ],
+        "left": [
+          254,
+          161,
+          257,
+          173
+        ],
+        "right": [
+          259,
+          161,
+          262,
+          173
+        ],
+        "top": [
+          264,
+          161,
+          267,
+          164
+        ],
+        "bottom": [
+          269,
+          161,
+          272,
+          164
+        ]
+      }
+    },
+    {
+      "name": "Press_Die",
+      "center": [
+        -23,
+        39.5,
+        1
+      ],
+      "size": [
+        5,
+        3,
+        5
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          274,
+          161,
+          279,
+          164
+        ],
+        "back": [
+          281,
+          161,
+          286,
+          164
+        ],
+        "left": [
+          288,
+          161,
+          293,
+          164
+        ],
+        "right": [
+          295,
+          161,
+          300,
+          164
+        ],
+        "top": [
+          302,
+          161,
+          307,
+          166
+        ],
+        "bottom": [
+          309,
+          161,
+          314,
+          166
+        ]
+      }
+    },
+    {
+      "name": "Press_Loaded_Cartridge",
+      "center": [
+        -23,
+        37,
+        -2
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "brass",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          316,
+          161,
+          318,
+          164
+        ],
+        "back": [
+          320,
+          161,
+          322,
+          164
+        ],
+        "left": [
+          324,
+          161,
+          326,
+          164
+        ],
+        "right": [
+          328,
+          161,
+          330,
+          164
+        ],
+        "top": [
+          332,
+          161,
+          334,
+          163
+        ],
+        "bottom": [
+          336,
+          161,
+          338,
+          163
+        ]
+      }
+    },
+    {
+      "name": "Press_Lever_Pivot",
+      "center": [
+        -29,
+        45,
+        1
+      ],
+      "size": [
+        3,
+        4,
+        4
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          340,
+          161,
+          343,
+          165
+        ],
+        "back": [
+          345,
+          161,
+          348,
+          165
+        ],
+        "left": [
+          350,
+          161,
+          354,
+          165
+        ],
+        "right": [
+          356,
+          161,
+          360,
+          165
+        ],
+        "top": [
+          362,
+          161,
+          365,
+          165
+        ],
+        "bottom": [
+          367,
+          161,
+          370,
+          165
+        ]
+      }
+    },
+    {
+      "name": "Press_Lever",
+      "center": [
+        -29,
+        46,
+        -4
+      ],
+      "size": [
+        2,
+        2,
+        12
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        28,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          372,
+          161,
+          374,
+          163
+        ],
+        "back": [
+          376,
+          161,
+          378,
+          163
+        ],
+        "left": [
+          380,
+          161,
+          392,
+          163
+        ],
+        "right": [
+          394,
+          161,
+          406,
+          163
+        ],
+        "top": [
+          408,
+          161,
+          410,
+          173
+        ],
+        "bottom": [
+          412,
+          161,
+          414,
+          173
+        ]
+      }
+    },
+    {
+      "name": "Press_Lever_Grip",
+      "center": [
+        -29,
+        49,
+        -10
+      ],
+      "size": [
+        3,
+        3,
+        5
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        28,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          416,
+          161,
+          419,
+          164
+        ],
+        "back": [
+          421,
+          161,
+          424,
+          164
+        ],
+        "left": [
+          426,
+          161,
+          431,
+          164
+        ],
+        "right": [
+          433,
+          161,
+          438,
+          164
+        ],
+        "top": [
+          440,
+          161,
+          443,
+          166
+        ],
+        "bottom": [
+          445,
+          161,
+          448,
+          166
+        ]
+      }
+    },
+    {
+      "name": "Press_Powder_Hopper",
+      "center": [
+        -24,
+        54,
+        4
+      ],
+      "size": [
+        5,
+        5,
+        5
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          450,
+          161,
+          455,
+          166
+        ],
+        "back": [
+          457,
+          161,
+          462,
+          166
+        ],
+        "left": [
+          464,
+          161,
+          469,
+          166
+        ],
+        "right": [
+          471,
+          161,
+          476,
+          166
+        ],
+        "top": [
+          478,
+          161,
+          483,
+          166
+        ],
+        "bottom": [
+          485,
+          161,
+          490,
+          166
+        ]
+      }
+    },
+    {
+      "name": "Press_Hopper_Lid",
+      "center": [
+        -24,
+        57,
+        4
+      ],
+      "size": [
+        6,
+        1,
+        6
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          492,
+          161,
+          498,
+          162
+        ],
+        "back": [
+          500,
+          161,
+          506,
+          162
+        ],
+        "left": [
+          1,
+          178,
+          7,
+          179
+        ],
+        "right": [
+          9,
+          178,
+          15,
+          179
+        ],
+        "top": [
+          17,
+          178,
+          23,
+          184
+        ],
+        "bottom": [
+          25,
+          178,
+          31,
+          184
+        ]
+      }
+    },
+    {
+      "name": "Press_Powder_Window",
+      "center": [
+        -24,
+        54,
+        1.3
+      ],
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "material": "amber",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          33,
+          178,
+          36,
+          181
+        ],
+        "back": [
+          38,
+          178,
+          41,
+          181
+        ],
+        "left": [
+          43,
+          178,
+          44,
+          181
+        ],
+        "right": [
+          46,
+          178,
+          47,
+          181
+        ],
+        "top": [
+          49,
+          178,
+          52,
+          179
+        ],
+        "bottom": [
+          54,
+          178,
+          57,
+          179
+        ]
+      }
+    },
+    {
+      "name": "Cartridge_Tray",
+      "center": [
+        -18,
+        34,
+        -10
+      ],
+      "size": [
+        9,
+        2,
+        7
+      ],
+      "material": "wooddark",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          59,
+          178,
+          68,
+          180
+        ],
+        "back": [
+          70,
+          178,
+          79,
+          180
+        ],
+        "left": [
+          81,
+          178,
+          88,
+          180
+        ],
+        "right": [
+          90,
+          178,
+          97,
+          180
+        ],
+        "top": [
+          99,
+          178,
+          108,
+          185
+        ],
+        "bottom": [
+          110,
+          178,
+          119,
+          185
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_00",
+      "center": [
+        -21,
+        36,
+        -12
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_00",
+      "center": [
+        -21,
+        38,
+        -12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_01",
+      "center": [
+        -21,
+        36,
+        -9
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_01",
+      "center": [
+        -21,
+        38,
+        -9
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_10",
+      "center": [
+        -18,
+        36,
+        -12
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_10",
+      "center": [
+        -18,
+        38,
+        -12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_11",
+      "center": [
+        -18,
+        36,
+        -9
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_11",
+      "center": [
+        -18,
+        38,
+        -9
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_20",
+      "center": [
+        -15,
+        36,
+        -12
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_20",
+      "center": [
+        -15,
+        38,
+        -12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Tray_Case_21",
+      "center": [
+        -15,
+        36,
+        -9
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "copper",
+      "detail": "cartridge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          121,
+          178,
+          123,
+          181
+        ],
+        "back": [
+          125,
+          178,
+          127,
+          181
+        ],
+        "left": [
+          129,
+          178,
+          131,
+          181
+        ],
+        "right": [
+          133,
+          178,
+          135,
+          181
+        ],
+        "top": [
+          137,
+          178,
+          139,
+          180
+        ],
+        "bottom": [
+          141,
+          178,
+          143,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Tray_Tip_21",
+      "center": [
+        -15,
+        38,
+        -9
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Foot",
+      "center": [
+        24,
+        34,
+        6
+      ],
+      "size": [
+        12,
+        3,
+        14
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          178,
+          157,
+          181
+        ],
+        "back": [
+          159,
+          178,
+          171,
+          181
+        ],
+        "left": [
+          173,
+          178,
+          187,
+          181
+        ],
+        "right": [
+          189,
+          178,
+          203,
+          181
+        ],
+        "top": [
+          205,
+          178,
+          217,
+          192
+        ],
+        "bottom": [
+          219,
+          178,
+          231,
+          192
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Cabinet",
+      "center": [
+        25,
+        40,
+        8
+      ],
+      "size": [
+        10,
+        10,
+        11
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          233,
+          178,
+          243,
+          188
+        ],
+        "back": [
+          245,
+          178,
+          255,
+          188
+        ],
+        "left": [
+          257,
+          178,
+          268,
+          188
+        ],
+        "right": [
+          270,
+          178,
+          281,
+          188
+        ],
+        "top": [
+          283,
+          178,
+          293,
+          189
+        ],
+        "bottom": [
+          295,
+          178,
+          305,
+          189
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Copper_Lid",
+      "center": [
+        25,
+        46,
+        8
+      ],
+      "size": [
+        11,
+        2,
+        12
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          307,
+          178,
+          318,
+          180
+        ],
+        "back": [
+          320,
+          178,
+          331,
+          180
+        ],
+        "left": [
+          333,
+          178,
+          345,
+          180
+        ],
+        "right": [
+          347,
+          178,
+          359,
+          180
+        ],
+        "top": [
+          361,
+          178,
+          372,
+          190
+        ],
+        "bottom": [
+          374,
+          178,
+          385,
+          190
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Front_Recess",
+      "center": [
+        25,
+        40,
+        1.9
+      ],
+      "size": [
+        8,
+        7,
+        1
+      ],
+      "material": "dark",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          178,
+          395,
+          185
+        ],
+        "back": [
+          397,
+          178,
+          405,
+          185
+        ],
+        "left": [
+          407,
+          178,
+          408,
+          185
+        ],
+        "right": [
+          410,
+          178,
+          411,
+          185
+        ],
+        "top": [
+          413,
+          178,
+          421,
+          179
+        ],
+        "bottom": [
+          423,
+          178,
+          431,
+          179
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Charge_Channel_22",
+      "center": [
+        22,
+        40,
+        1.1
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "cyan",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          433,
+          178,
+          434,
+          183
+        ],
+        "back": [
+          436,
+          178,
+          437,
+          183
+        ],
+        "left": [
+          439,
+          178,
+          440,
+          183
+        ],
+        "right": [
+          442,
+          178,
+          443,
+          183
+        ],
+        "top": [
+          445,
+          178,
+          446,
+          179
+        ],
+        "bottom": [
+          448,
+          178,
+          449,
+          179
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Charge_Channel_25",
+      "center": [
+        25,
+        40,
+        1.1
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "cyan",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          433,
+          178,
+          434,
+          183
+        ],
+        "back": [
+          436,
+          178,
+          437,
+          183
+        ],
+        "left": [
+          439,
+          178,
+          440,
+          183
+        ],
+        "right": [
+          442,
+          178,
+          443,
+          183
+        ],
+        "top": [
+          445,
+          178,
+          446,
+          179
+        ],
+        "bottom": [
+          448,
+          178,
+          449,
+          179
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Charge_Channel_28",
+      "center": [
+        28,
+        40,
+        1.1
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "cyan",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          433,
+          178,
+          434,
+          183
+        ],
+        "back": [
+          436,
+          178,
+          437,
+          183
+        ],
+        "left": [
+          439,
+          178,
+          440,
+          183
+        ],
+        "right": [
+          442,
+          178,
+          443,
+          183
+        ],
+        "top": [
+          445,
+          178,
+          446,
+          179
+        ],
+        "bottom": [
+          448,
+          178,
+          449,
+          179
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Meter_Rim",
+      "center": [
+        25,
+        45,
+        1
+      ],
+      "size": [
+        7,
+        4,
+        2
+      ],
+      "material": "brass",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          451,
+          178,
+          458,
+          182
+        ],
+        "back": [
+          460,
+          178,
+          467,
+          182
+        ],
+        "left": [
+          469,
+          178,
+          471,
+          182
+        ],
+        "right": [
+          473,
+          178,
+          475,
+          182
+        ],
+        "top": [
+          477,
+          178,
+          484,
+          180
+        ],
+        "bottom": [
+          486,
+          178,
+          493,
+          180
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Meter_Face",
+      "center": [
+        25,
+        45,
+        -0.1
+      ],
+      "size": [
+        5,
+        2,
+        1
+      ],
+      "material": "cyan",
+      "detail": "meter",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          495,
+          178,
+          500,
+          180
+        ],
+        "back": [
+          502,
+          178,
+          507,
+          180
+        ],
+        "left": [
+          509,
+          178,
+          510,
+          180
+        ],
+        "right": [
+          1,
+          194,
+          2,
+          196
+        ],
+        "top": [
+          4,
+          194,
+          9,
+          195
+        ],
+        "bottom": [
+          11,
+          194,
+          16,
+          195
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Knob",
+      "center": [
+        28,
+        36,
+        -0.2
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          18,
+          194,
+          20,
+          196
+        ],
+        "back": [
+          22,
+          194,
+          24,
+          196
+        ],
+        "left": [
+          319,
+          149,
+          321,
+          151
+        ],
+        "right": [
+          323,
+          149,
+          325,
+          151
+        ],
+        "top": [
+          197,
+          149,
+          199,
+          151
+        ],
+        "bottom": [
+          201,
+          149,
+          203,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Status_Amber",
+      "center": [
+        22,
+        36,
+        0.3
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "amber",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          26,
+          194,
+          27,
+          195
+        ],
+        "back": [
+          29,
+          194,
+          30,
+          195
+        ],
+        "left": [
+          32,
+          194,
+          33,
+          195
+        ],
+        "right": [
+          35,
+          194,
+          36,
+          195
+        ],
+        "top": [
+          38,
+          194,
+          39,
+          195
+        ],
+        "bottom": [
+          41,
+          194,
+          42,
+          195
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Protective_Bar_6",
+      "center": [
+        18.5,
+        41,
+        6
+      ],
+      "size": [
+        2,
+        10,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          44,
+          194,
+          46,
+          204
+        ],
+        "back": [
+          48,
+          194,
+          50,
+          204
+        ],
+        "left": [
+          52,
+          194,
+          54,
+          204
+        ],
+        "right": [
+          56,
+          194,
+          58,
+          204
+        ],
+        "top": [
+          197,
+          149,
+          199,
+          151
+        ],
+        "bottom": [
+          201,
+          149,
+          203,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Calibrator_Protective_Bar_10",
+      "center": [
+        18.5,
+        41,
+        10
+      ],
+      "size": [
+        2,
+        10,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          44,
+          194,
+          46,
+          204
+        ],
+        "back": [
+          48,
+          194,
+          50,
+          204
+        ],
+        "left": [
+          52,
+          194,
+          54,
+          204
+        ],
+        "right": [
+          56,
+          194,
+          58,
+          204
+        ],
+        "top": [
+          197,
+          149,
+          199,
+          151
+        ],
+        "bottom": [
+          201,
+          149,
+          203,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Calibration_Cell",
+      "center": [
+        18.5,
+        41,
+        8
+      ],
+      "size": [
+        3,
+        7,
+        3
+      ],
+      "material": "cyan",
+      "detail": "crystal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          60,
+          194,
+          63,
+          201
+        ],
+        "back": [
+          65,
+          194,
+          68,
+          201
+        ],
+        "left": [
+          70,
+          194,
+          73,
+          201
+        ],
+        "right": [
+          75,
+          194,
+          78,
+          201
+        ],
+        "top": [
+          80,
+          194,
+          83,
+          197
+        ],
+        "bottom": [
+          85,
+          194,
+          88,
+          197
+        ]
+      }
+    },
+    {
+      "name": "Calibration_Cell_Cap_37",
+      "center": [
+        18.5,
+        37,
+        8
+      ],
+      "size": [
+        4,
+        2,
+        5
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          90,
+          194,
+          94,
+          196
+        ],
+        "back": [
+          96,
+          194,
+          100,
+          196
+        ],
+        "left": [
+          102,
+          194,
+          107,
+          196
+        ],
+        "right": [
+          109,
+          194,
+          114,
+          196
+        ],
+        "top": [
+          116,
+          194,
+          120,
+          199
+        ],
+        "bottom": [
+          122,
+          194,
+          126,
+          199
+        ]
+      }
+    },
+    {
+      "name": "Calibration_Cell_Cap_45",
+      "center": [
+        18.5,
+        45,
+        8
+      ],
+      "size": [
+        4,
+        2,
+        5
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          90,
+          194,
+          94,
+          196
+        ],
+        "back": [
+          96,
+          194,
+          100,
+          196
+        ],
+        "left": [
+          102,
+          194,
+          107,
+          196
+        ],
+        "right": [
+          109,
+          194,
+          114,
+          196
+        ],
+        "top": [
+          116,
+          194,
+          120,
+          199
+        ],
+        "bottom": [
+          122,
+          194,
+          126,
+          199
+        ]
+      }
+    },
+    {
+      "name": "Power_Coil_Fin_19",
+      "center": [
+        19,
+        48,
+        8
+      ],
+      "size": [
+        2,
+        3,
+        8
+      ],
+      "material": "copper",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          128,
+          194,
+          130,
+          197
+        ],
+        "back": [
+          132,
+          194,
+          134,
+          197
+        ],
+        "left": [
+          136,
+          194,
+          144,
+          197
+        ],
+        "right": [
+          146,
+          194,
+          154,
+          197
+        ],
+        "top": [
+          156,
+          194,
+          158,
+          202
+        ],
+        "bottom": [
+          160,
+          194,
+          162,
+          202
+        ]
+      }
+    },
+    {
+      "name": "Power_Coil_Fin_23",
+      "center": [
+        23,
+        48,
+        8
+      ],
+      "size": [
+        2,
+        3,
+        8
+      ],
+      "material": "copper",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          128,
+          194,
+          130,
+          197
+        ],
+        "back": [
+          132,
+          194,
+          134,
+          197
+        ],
+        "left": [
+          136,
+          194,
+          144,
+          197
+        ],
+        "right": [
+          146,
+          194,
+          154,
+          197
+        ],
+        "top": [
+          156,
+          194,
+          158,
+          202
+        ],
+        "bottom": [
+          160,
+          194,
+          162,
+          202
+        ]
+      }
+    },
+    {
+      "name": "Power_Coil_Fin_27",
+      "center": [
+        27,
+        48,
+        8
+      ],
+      "size": [
+        2,
+        3,
+        8
+      ],
+      "material": "copper",
+      "detail": "thread",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          128,
+          194,
+          130,
+          197
+        ],
+        "back": [
+          132,
+          194,
+          134,
+          197
+        ],
+        "left": [
+          136,
+          194,
+          144,
+          197
+        ],
+        "right": [
+          146,
+          194,
+          154,
+          197
+        ],
+        "top": [
+          156,
+          194,
+          158,
+          202
+        ],
+        "bottom": [
+          160,
+          194,
+          162,
+          202
+        ]
+      }
+    },
+    {
+      "name": "Power_Conduit_Rear",
+      "center": [
+        14,
+        35,
+        13
+      ],
+      "size": [
+        18,
+        2,
+        2
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          164,
+          194,
+          182,
+          196
+        ],
+        "back": [
+          184,
+          194,
+          202,
+          196
+        ],
+        "left": [
+          319,
+          149,
+          321,
+          151
+        ],
+        "right": [
+          323,
+          149,
+          325,
+          151
+        ],
+        "top": [
+          204,
+          194,
+          222,
+          196
+        ],
+        "bottom": [
+          224,
+          194,
+          242,
+          196
+        ]
+      }
+    },
+    {
+      "name": "Power_Conduit_Elbow",
+      "center": [
+        6,
+        36,
+        13
+      ],
+      "size": [
+        3,
+        4,
+        3
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          244,
+          194,
+          247,
+          198
+        ],
+        "back": [
+          249,
+          194,
+          252,
+          198
+        ],
+        "left": [
+          105,
+          149,
+          108,
+          153
+        ],
+        "right": [
+          110,
+          149,
+          113,
+          153
+        ],
+        "top": [
+          318,
+          131,
+          321,
+          134
+        ],
+        "bottom": [
+          323,
+          131,
+          326,
+          134
+        ]
+      }
+    },
+    {
+      "name": "Power_Conduit_To_Vise",
+      "center": [
+        6,
+        35,
+        9
+      ],
+      "size": [
+        2,
+        2,
+        8
+      ],
+      "material": "iron",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          18,
+          194,
+          20,
+          196
+        ],
+        "back": [
+          22,
+          194,
+          24,
+          196
+        ],
+        "left": [
+          254,
+          194,
+          262,
+          196
+        ],
+        "right": [
+          264,
+          194,
+          272,
+          196
+        ],
+        "top": [
+          274,
+          194,
+          276,
+          202
+        ],
+        "bottom": [
+          278,
+          194,
+          280,
+          202
+        ]
+      }
+    },
+    {
+      "name": "Backboard_Post_-28",
+      "center": [
+        -28,
+        41,
+        13.5
+      ],
+      "size": [
+        3,
+        24,
+        3
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          282,
+          194,
+          285,
+          218
+        ],
+        "back": [
+          287,
+          194,
+          290,
+          218
+        ],
+        "left": [
+          292,
+          194,
+          295,
+          218
+        ],
+        "right": [
+          297,
+          194,
+          300,
+          218
+        ],
+        "top": [
+          302,
+          194,
+          305,
+          197
+        ],
+        "bottom": [
+          307,
+          194,
+          310,
+          197
+        ]
+      }
+    },
+    {
+      "name": "Backboard_Post_Cap_-28",
+      "center": [
+        -28,
+        54,
+        13.5
+      ],
+      "size": [
+        4,
+        2,
+        4
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          312,
+          194,
+          316,
+          196
+        ],
+        "back": [
+          318,
+          194,
+          322,
+          196
+        ],
+        "left": [
+          324,
+          194,
+          328,
+          196
+        ],
+        "right": [
+          330,
+          194,
+          334,
+          196
+        ],
+        "top": [
+          336,
+          194,
+          340,
+          198
+        ],
+        "bottom": [
+          342,
+          194,
+          346,
+          198
+        ]
+      }
+    },
+    {
+      "name": "Backboard_Post_28",
+      "center": [
+        28,
+        41,
+        13.5
+      ],
+      "size": [
+        3,
+        24,
+        3
+      ],
+      "material": "wooddark",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          282,
+          194,
+          285,
+          218
+        ],
+        "back": [
+          287,
+          194,
+          290,
+          218
+        ],
+        "left": [
+          292,
+          194,
+          295,
+          218
+        ],
+        "right": [
+          297,
+          194,
+          300,
+          218
+        ],
+        "top": [
+          302,
+          194,
+          305,
+          197
+        ],
+        "bottom": [
+          307,
+          194,
+          310,
+          197
+        ]
+      }
+    },
+    {
+      "name": "Backboard_Post_Cap_28",
+      "center": [
+        28,
+        54,
+        13.5
+      ],
+      "size": [
+        4,
+        2,
+        4
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          312,
+          194,
+          316,
+          196
+        ],
+        "back": [
+          318,
+          194,
+          322,
+          196
+        ],
+        "left": [
+          324,
+          194,
+          328,
+          196
+        ],
+        "right": [
+          330,
+          194,
+          334,
+          196
+        ],
+        "top": [
+          336,
+          194,
+          340,
+          198
+        ],
+        "bottom": [
+          342,
+          194,
+          346,
+          198
+        ]
+      }
+    },
+    {
+      "name": "Rear_Tool_Plank_0",
+      "center": [
+        0,
+        43,
+        14
+      ],
+      "size": [
+        54,
+        4,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          163,
+          1,
+          217,
+          5
+        ],
+        "back": [
+          219,
+          1,
+          273,
+          5
+        ],
+        "left": [
+          348,
+          194,
+          350,
+          198
+        ],
+        "right": [
+          352,
+          194,
+          354,
+          198
+        ],
+        "top": [
+          356,
+          194,
+          410,
+          196
+        ],
+        "bottom": [
+          412,
+          194,
+          466,
+          196
+        ]
+      }
+    },
+    {
+      "name": "Rear_Tool_Plank_1",
+      "center": [
+        0,
+        48,
+        14
+      ],
+      "size": [
+        54,
+        4,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          163,
+          1,
+          217,
+          5
+        ],
+        "back": [
+          219,
+          1,
+          273,
+          5
+        ],
+        "left": [
+          348,
+          194,
+          350,
+          198
+        ],
+        "right": [
+          352,
+          194,
+          354,
+          198
+        ],
+        "top": [
+          356,
+          194,
+          410,
+          196
+        ],
+        "bottom": [
+          412,
+          194,
+          466,
+          196
+        ]
+      }
+    },
+    {
+      "name": "Rear_Tool_Plank_2",
+      "center": [
+        0,
+        53,
+        14
+      ],
+      "size": [
+        54,
+        4,
+        2
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          163,
+          1,
+          217,
+          5
+        ],
+        "back": [
+          219,
+          1,
+          273,
+          5
+        ],
+        "left": [
+          348,
+          194,
+          350,
+          198
+        ],
+        "right": [
+          352,
+          194,
+          354,
+          198
+        ],
+        "top": [
+          356,
+          194,
+          410,
+          196
+        ],
+        "bottom": [
+          412,
+          194,
+          466,
+          196
+        ]
+      }
+    },
+    {
+      "name": "Top_Tool_Rail",
+      "center": [
+        0,
+        55,
+        13
+      ],
+      "size": [
+        56,
+        2,
+        3
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          220,
+          57,
+          222
+        ],
+        "back": [
+          59,
+          220,
+          115,
+          222
+        ],
+        "left": [
+          117,
+          220,
+          120,
+          222
+        ],
+        "right": [
+          122,
+          220,
+          125,
+          222
+        ],
+        "top": [
+          127,
+          220,
+          183,
+          223
+        ],
+        "bottom": [
+          185,
+          220,
+          241,
+          223
+        ]
+      }
+    },
+    {
+      "name": "Peg_-24",
+      "center": [
+        -24,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_-18",
+      "center": [
+        -18,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_-12",
+      "center": [
+        -12,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_-6",
+      "center": [
+        -6,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_0",
+      "center": [
+        0,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_6",
+      "center": [
+        6,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_12",
+      "center": [
+        12,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_18",
+      "center": [
+        18,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Peg_24",
+      "center": [
+        24,
+        49,
+        12.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          145,
+          1,
+          146,
+          2
+        ],
+        "back": [
+          148,
+          1,
+          149,
+          2
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          157,
+          1,
+          158,
+          2
+        ],
+        "bottom": [
+          160,
+          1,
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Mallet_Handle",
+      "center": [
+        -13,
+        46,
+        11.6
+      ],
+      "size": [
+        2,
+        11,
+        2
+      ],
+      "material": "woodedge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        -8
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          243,
+          220,
+          245,
+          231
+        ],
+        "back": [
+          247,
+          220,
+          249,
+          231
+        ],
+        "left": [
+          251,
+          220,
+          253,
+          231
+        ],
+        "right": [
+          255,
+          220,
+          257,
+          231
+        ],
+        "top": [
+          259,
+          220,
+          261,
+          222
+        ],
+        "bottom": [
+          263,
+          220,
+          265,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Mallet_Head",
+      "center": [
+        -13.6,
+        51,
+        11.6
+      ],
+      "size": [
+        8,
+        4,
+        4
+      ],
+      "material": "steel",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        -8
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          267,
+          220,
+          275,
+          224
+        ],
+        "back": [
+          277,
+          220,
+          285,
+          224
+        ],
+        "left": [
+          239,
+          149,
+          243,
+          153
+        ],
+        "right": [
+          245,
+          149,
+          249,
+          153
+        ],
+        "top": [
+          287,
+          220,
+          295,
+          224
+        ],
+        "bottom": [
+          297,
+          220,
+          305,
+          224
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Wrench_Handle",
+      "center": [
+        -3,
+        47,
+        11.4
+      ],
+      "size": [
+        2,
+        12,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          307,
+          220,
+          309,
+          232
+        ],
+        "back": [
+          311,
+          220,
+          313,
+          232
+        ],
+        "left": [
+          315,
+          220,
+          316,
+          232
+        ],
+        "right": [
+          318,
+          220,
+          319,
+          232
+        ],
+        "top": [
+          321,
+          220,
+          323,
+          221
+        ],
+        "bottom": [
+          325,
+          220,
+          327,
+          221
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Wrench_Neck",
+      "center": [
+        -3,
+        53,
+        11.4
+      ],
+      "size": [
+        5,
+        2,
+        2
+      ],
+      "material": "steel",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          329,
+          220,
+          334,
+          222
+        ],
+        "back": [
+          336,
+          220,
+          341,
+          222
+        ],
+        "left": [
+          343,
+          220,
+          345,
+          222
+        ],
+        "right": [
+          347,
+          220,
+          349,
+          222
+        ],
+        "top": [
+          351,
+          220,
+          356,
+          222
+        ],
+        "bottom": [
+          358,
+          220,
+          363,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Wrench_Jaw_-5",
+      "center": [
+        -5,
+        55,
+        11.4
+      ],
+      "size": [
+        1,
+        3,
+        2
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          365,
+          220,
+          366,
+          223
+        ],
+        "back": [
+          368,
+          220,
+          369,
+          223
+        ],
+        "left": [
+          371,
+          220,
+          373,
+          223
+        ],
+        "right": [
+          375,
+          220,
+          377,
+          223
+        ],
+        "top": [
+          379,
+          220,
+          380,
+          222
+        ],
+        "bottom": [
+          382,
+          220,
+          383,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Hanging_Wrench_Jaw_-1",
+      "center": [
+        -1,
+        55,
+        11.4
+      ],
+      "size": [
+        1,
+        3,
+        2
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          365,
+          220,
+          366,
+          223
+        ],
+        "back": [
+          368,
+          220,
+          369,
+          223
+        ],
+        "left": [
+          371,
+          220,
+          373,
+          223
+        ],
+        "right": [
+          375,
+          220,
+          377,
+          223
+        ],
+        "top": [
+          379,
+          220,
+          380,
+          222
+        ],
+        "bottom": [
+          382,
+          220,
+          383,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Driver_Grip_0",
+      "center": [
+        6,
+        45.5,
+        11.3
+      ],
+      "size": [
+        3,
+        5,
+        2
+      ],
+      "material": "red",
+      "detail": "cloth",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          385,
+          220,
+          388,
+          225
+        ],
+        "back": [
+          390,
+          220,
+          393,
+          225
+        ],
+        "left": [
+          395,
+          220,
+          397,
+          225
+        ],
+        "right": [
+          399,
+          220,
+          401,
+          225
+        ],
+        "top": [
+          403,
+          220,
+          406,
+          222
+        ],
+        "bottom": [
+          408,
+          220,
+          411,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Driver_Shaft_0",
+      "center": [
+        6,
+        50,
+        11.3
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          413,
+          220,
+          414,
+          225
+        ],
+        "back": [
+          416,
+          220,
+          417,
+          225
+        ],
+        "left": [
+          419,
+          220,
+          420,
+          225
+        ],
+        "right": [
+          422,
+          220,
+          423,
+          225
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Driver_Grip_1",
+      "center": [
+        12,
+        45.5,
+        11.3
+      ],
+      "size": [
+        3,
+        5,
+        2
+      ],
+      "material": "leather",
+      "detail": "cloth",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          425,
+          220,
+          428,
+          225
+        ],
+        "back": [
+          430,
+          220,
+          433,
+          225
+        ],
+        "left": [
+          435,
+          220,
+          437,
+          225
+        ],
+        "right": [
+          439,
+          220,
+          441,
+          225
+        ],
+        "top": [
+          443,
+          220,
+          446,
+          222
+        ],
+        "bottom": [
+          448,
+          220,
+          451,
+          222
+        ]
+      }
+    },
+    {
+      "name": "Driver_Shaft_1",
+      "center": [
+        12,
+        50,
+        11.3
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          413,
+          220,
+          414,
+          225
+        ],
+        "back": [
+          416,
+          220,
+          417,
+          225
+        ],
+        "left": [
+          419,
+          220,
+          420,
+          225
+        ],
+        "right": [
+          422,
+          220,
+          423,
+          225
+        ],
+        "top": [
+          493,
+          86,
+          494,
+          87
+        ],
+        "bottom": [
+          496,
+          86,
+          497,
+          87
+        ]
+      }
+    },
+    {
+      "name": "Small_Parts_Cubby",
+      "center": [
+        2,
+        37,
+        13
+      ],
+      "size": [
+        15,
+        4,
+        4
+      ],
+      "material": "wooddark",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          453,
+          220,
+          468,
+          224
+        ],
+        "back": [
+          470,
+          220,
+          485,
+          224
+        ],
+        "left": [
+          487,
+          220,
+          491,
+          224
+        ],
+        "right": [
+          493,
+          220,
+          497,
+          224
+        ],
+        "top": [
+          1,
+          234,
+          16,
+          238
+        ],
+        "bottom": [
+          18,
+          234,
+          33,
+          238
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Foot",
+      "center": [
+        -12,
+        34,
+        10
+      ],
+      "size": [
+        7,
+        2,
+        7
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          35,
+          234,
+          42,
+          236
+        ],
+        "back": [
+          44,
+          234,
+          51,
+          236
+        ],
+        "left": [
+          53,
+          234,
+          60,
+          236
+        ],
+        "right": [
+          62,
+          234,
+          69,
+          236
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Lower_Arm",
+      "center": [
+        -13,
+        43,
+        10
+      ],
+      "size": [
+        2,
+        17,
+        2
+      ],
+      "material": "steel",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          71,
+          234,
+          73,
+          251
+        ],
+        "back": [
+          75,
+          234,
+          77,
+          251
+        ],
+        "left": [
+          79,
+          234,
+          81,
+          251
+        ],
+        "right": [
+          83,
+          234,
+          85,
+          251
+        ],
+        "top": [
+          87,
+          234,
+          89,
+          236
+        ],
+        "bottom": [
+          91,
+          234,
+          93,
+          236
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Elbow",
+      "center": [
+        -15,
+        51,
+        10
+      ],
+      "size": [
+        4,
+        4,
+        4
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          95,
+          234,
+          99,
+          238
+        ],
+        "back": [
+          101,
+          234,
+          105,
+          238
+        ],
+        "left": [
+          107,
+          234,
+          111,
+          238
+        ],
+        "right": [
+          113,
+          234,
+          117,
+          238
+        ],
+        "top": [
+          336,
+          194,
+          340,
+          198
+        ],
+        "bottom": [
+          342,
+          194,
+          346,
+          198
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Upper_Arm",
+      "center": [
+        -10,
+        56,
+        6
+      ],
+      "size": [
+        2,
+        13,
+        2
+      ],
+      "material": "steel",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        -48
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          119,
+          234,
+          121,
+          247
+        ],
+        "back": [
+          123,
+          234,
+          125,
+          247
+        ],
+        "left": [
+          127,
+          234,
+          129,
+          247
+        ],
+        "right": [
+          131,
+          234,
+          133,
+          247
+        ],
+        "top": [
+          87,
+          234,
+          89,
+          236
+        ],
+        "bottom": [
+          91,
+          234,
+          93,
+          236
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Shade_Crown",
+      "center": [
+        -4,
+        59,
+        6
+      ],
+      "size": [
+        8,
+        2,
+        8
+      ],
+      "material": "copper",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          135,
+          234,
+          143,
+          236
+        ],
+        "back": [
+          145,
+          234,
+          153,
+          236
+        ],
+        "left": [
+          155,
+          234,
+          163,
+          236
+        ],
+        "right": [
+          165,
+          234,
+          173,
+          236
+        ],
+        "top": [
+          175,
+          234,
+          183,
+          242
+        ],
+        "bottom": [
+          185,
+          234,
+          193,
+          242
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Shade_Brim",
+      "center": [
+        -4,
+        57.5,
+        6
+      ],
+      "size": [
+        11,
+        1,
+        10
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          195,
+          234,
+          206,
+          235
+        ],
+        "back": [
+          208,
+          234,
+          219,
+          235
+        ],
+        "left": [
+          221,
+          234,
+          231,
+          235
+        ],
+        "right": [
+          233,
+          234,
+          243,
+          235
+        ],
+        "top": [
+          245,
+          234,
+          256,
+          244
+        ],
+        "bottom": [
+          258,
+          234,
+          269,
+          244
+        ]
+      }
+    },
+    {
+      "name": "Lamp_Luminous_Underside",
+      "center": [
+        -4,
+        56.8,
+        6
+      ],
+      "size": [
+        7,
+        1,
+        6
+      ],
+      "material": "amber",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          271,
+          234,
+          278,
+          235
+        ],
+        "back": [
+          280,
+          234,
+          287,
+          235
+        ],
+        "left": [
+          289,
+          234,
+          295,
+          235
+        ],
+        "right": [
+          297,
+          234,
+          303,
+          235
+        ],
+        "top": [
+          305,
+          234,
+          312,
+          240
+        ],
+        "bottom": [
+          314,
+          234,
+          321,
+          240
+        ]
+      }
+    },
+    {
+      "name": "Calipers_Bar",
+      "center": [
+        15,
+        34,
+        -9
+      ],
+      "size": [
+        10,
+        1,
+        1
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        18,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          323,
+          234,
+          333,
+          235
+        ],
+        "back": [
+          335,
+          234,
+          345,
+          235
+        ],
+        "left": [
+          487,
+          86,
+          488,
+          87
+        ],
+        "right": [
+          490,
+          86,
+          491,
+          87
+        ],
+        "top": [
+          347,
+          234,
+          357,
+          235
+        ],
+        "bottom": [
+          359,
+          234,
+          369,
+          235
+        ]
+      }
+    },
+    {
+      "name": "Calipers_Jaw_11",
+      "center": [
+        11,
+        34,
+        -10
+      ],
+      "size": [
+        1,
+        1,
+        4
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          371,
+          234,
+          375,
+          235
+        ],
+        "right": [
+          377,
+          234,
+          381,
+          235
+        ],
+        "top": [
+          383,
+          234,
+          384,
+          238
+        ],
+        "bottom": [
+          386,
+          234,
+          387,
+          238
+        ]
+      }
+    },
+    {
+      "name": "Calipers_Jaw_17",
+      "center": [
+        17,
+        34,
+        -10
+      ],
+      "size": [
+        1,
+        1,
+        4
+      ],
+      "material": "steelbright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          86,
+          482,
+          87
+        ],
+        "back": [
+          484,
+          86,
+          485,
+          87
+        ],
+        "left": [
+          371,
+          234,
+          375,
+          235
+        ],
+        "right": [
+          377,
+          234,
+          381,
+          235
+        ],
+        "top": [
+          383,
+          234,
+          384,
+          238
+        ],
+        "bottom": [
+          386,
+          234,
+          387,
+          238
+        ]
+      }
+    },
+    {
+      "name": "Oil_Bottle_Base",
+      "center": [
+        28,
+        35,
+        -10
+      ],
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "material": "iron",
+      "detail": "panel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          389,
+          234,
+          392,
+          239
+        ],
+        "back": [
+          394,
+          234,
+          397,
+          239
+        ],
+        "left": [
+          399,
+          234,
+          402,
+          239
+        ],
+        "right": [
+          404,
+          234,
+          407,
+          239
+        ],
+        "top": [
+          409,
+          234,
+          412,
+          237
+        ],
+        "bottom": [
+          414,
+          234,
+          417,
+          237
+        ]
+      }
+    },
+    {
+      "name": "Oil_Bottle_Cap",
+      "center": [
+        28,
+        38,
+        -10
+      ],
+      "size": [
+        2,
+        1,
+        2
+      ],
+      "material": "copper",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          419,
+          234,
+          421,
+          235
+        ],
+        "back": [
+          423,
+          234,
+          425,
+          235
+        ],
+        "left": [
+          427,
+          234,
+          429,
+          235
+        ],
+        "right": [
+          431,
+          234,
+          433,
+          235
+        ],
+        "top": [
+          487,
+          149,
+          489,
+          151
+        ],
+        "bottom": [
+          491,
+          149,
+          493,
+          151
+        ]
+      }
+    },
+    {
+      "name": "Oil_Bottle_Nozzle",
+      "center": [
+        27,
+        39,
+        -10
+      ],
+      "size": [
+        3,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          435,
+          234,
+          438,
+          235
+        ],
+        "back": [
+          440,
+          234,
+          443,
+          235
+        ],
+        "left": [
+          151,
+          1,
+          152,
+          2
+        ],
+        "right": [
+          154,
+          1,
+          155,
+          2
+        ],
+        "top": [
+          445,
+          234,
+          448,
+          235
+        ],
+        "bottom": [
+          450,
+          234,
+          453,
+          235
+        ]
+      }
+    }
+  ],
+  "root_translation": [
+    -16,
+    0,
+    0
+  ]
+}

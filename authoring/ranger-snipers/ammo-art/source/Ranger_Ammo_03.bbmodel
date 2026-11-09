@@ -1,0 +1,1783 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Rimeglass Match Rounds",
+  "model_identifier": "Ranger_Ammo_03",
+  "resolution": {
+    "width": 256,
+    "height": 256
+  },
+  "elements": [
+    {
+      "name": "Cobalt_Case",
+      "uuid": "06b09988-0685-5bd2-b259-c02efac7af3b",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            7,
+            16
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            25,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            27,
+            1,
+            35,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            37,
+            1,
+            43,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            45,
+            1,
+            51,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -3.0,
+        -7.5,
+        -4.0
+      ],
+      "to": [
+        3.0,
+        7.5,
+        4.0
+      ]
+    },
+    {
+      "name": "Cobalt_Case_Facets",
+      "uuid": "90546148-ccbf-572b-8aee-efac28dd87b3",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            53,
+            1,
+            61,
+            16
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            63,
+            1,
+            71,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            73,
+            1,
+            79,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            81,
+            1,
+            87,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            89,
+            1,
+            97,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            99,
+            1,
+            107,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -4.0,
+        -7.5,
+        -3.0
+      ],
+      "to": [
+        4.0,
+        7.5,
+        3.0
+      ]
+    },
+    {
+      "name": "Silver_Base",
+      "uuid": "06c6b695-0f64-5235-8b8c-a559dd0c6cd3",
+      "type": "cube",
+      "origin": [
+        0,
+        -8,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            109,
+            1,
+            119,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            121,
+            1,
+            131,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            133,
+            1,
+            141,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            143,
+            1,
+            151,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            153,
+            1,
+            163,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            165,
+            1,
+            175,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -5.0,
+        -9.0,
+        -4.0
+      ],
+      "to": [
+        5.0,
+        -7.0,
+        4.0
+      ]
+    },
+    {
+      "name": "Silver_Base_Corners",
+      "uuid": "1a18d361-5df1-5ac8-bcc0-fee154bc2083",
+      "type": "cube",
+      "origin": [
+        0,
+        -8,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            177,
+            1,
+            185,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            187,
+            1,
+            195,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            197,
+            1,
+            207,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            209,
+            1,
+            219,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            221,
+            1,
+            229,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            231,
+            1,
+            239,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -4.0,
+        -9.0,
+        -5.0
+      ],
+      "to": [
+        4.0,
+        -7.0,
+        5.0
+      ]
+    },
+    {
+      "name": "Silver_Neck",
+      "uuid": "67cd3b9f-adfb-54f4-b625-8c4c763368c8",
+      "type": "cube",
+      "origin": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            177,
+            1,
+            185,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            187,
+            1,
+            195,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            241,
+            1,
+            247,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            249,
+            1,
+            255,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            18,
+            9,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            11,
+            18,
+            19,
+            24
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        -4.0,
+        7.0,
+        -3.0
+      ],
+      "to": [
+        4.0,
+        9.0,
+        3.0
+      ]
+    },
+    {
+      "name": "Silver_Neck_Corners",
+      "uuid": "dbac69ce-b46b-50e4-8ebd-cef7b6c6092c",
+      "type": "cube",
+      "origin": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            21,
+            18,
+            27,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            29,
+            18,
+            35,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            133,
+            1,
+            141,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            143,
+            1,
+            151,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            37,
+            18,
+            43,
+            26
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            45,
+            18,
+            51,
+            26
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        -3.0,
+        7.0,
+        -4.0
+      ],
+      "to": [
+        3.0,
+        9.0,
+        4.0
+      ]
+    },
+    {
+      "name": "Frost_Pale_Tip",
+      "uuid": "f7fdda90-35d3-5622-a893-6a3a2ff9df43",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            53,
+            18,
+            57,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            59,
+            18,
+            63,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            65,
+            18,
+            71,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            73,
+            18,
+            79,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            81,
+            18,
+            85,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            87,
+            18,
+            91,
+            24
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 7,
+      "from": [
+        -2.0,
+        9.0,
+        -3.0
+      ],
+      "to": [
+        2.0,
+        15.0,
+        3.0
+      ]
+    },
+    {
+      "name": "Frost_Pale_Tip_Facets",
+      "uuid": "0e4f509a-e4b4-5ec7-b353-bebcbaede1a2",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            93,
+            18,
+            99,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            101,
+            18,
+            107,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            109,
+            18,
+            113,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            115,
+            18,
+            119,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            121,
+            18,
+            127,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            129,
+            18,
+            135,
+            22
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 0,
+      "from": [
+        -3.0,
+        9.0,
+        -2.0
+      ],
+      "to": [
+        3.0,
+        15.0,
+        2.0
+      ]
+    },
+    {
+      "name": "Pale_Point",
+      "uuid": "f97c7ffe-147b-5dbb-866d-cc4f03eb6075",
+      "type": "cube",
+      "origin": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            137,
+            18,
+            140,
+            21
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            142,
+            18,
+            145,
+            21
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            147,
+            18,
+            150,
+            21
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            152,
+            18,
+            155,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            157,
+            18,
+            160,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            162,
+            18,
+            165,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -1.5,
+        14.5,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        17.5,
+        1.5
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_0_L",
+      "uuid": "27884e0d-f7a1-5df2-ae64-c5a6d653c5c2",
+      "type": "cube",
+      "origin": [
+        0,
+        10,
+        -3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -1.0,
+        9.5,
+        -3.7
+      ],
+      "to": [
+        1.0,
+        10.5,
+        -2.7
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_0_R",
+      "uuid": "cc835914-0ebe-514f-8385-681c0b20fc7f",
+      "type": "cube",
+      "origin": [
+        0,
+        10,
+        3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -1.0,
+        9.5,
+        2.7
+      ],
+      "to": [
+        1.0,
+        10.5,
+        3.7
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_1_L",
+      "uuid": "58d35dc0-9822-5b33-bd32-70f7136093b6",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        -3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -1.0,
+        11.5,
+        -3.7
+      ],
+      "to": [
+        1.0,
+        12.5,
+        -2.7
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_1_R",
+      "uuid": "236d6454-7463-5498-bc44-c13f20e080c2",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        -1.0,
+        11.5,
+        2.7
+      ],
+      "to": [
+        1.0,
+        12.5,
+        3.7
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_2_L",
+      "uuid": "5dfd2bd6-7b3b-5706-b573-9fb47b3b0909",
+      "type": "cube",
+      "origin": [
+        0,
+        14,
+        -3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        -1.0,
+        13.5,
+        -3.7
+      ],
+      "to": [
+        1.0,
+        14.5,
+        -2.7
+      ]
+    },
+    {
+      "name": "Cobalt_Tip_Flute_2_R",
+      "uuid": "578c4d6d-a8dd-5b30-8180-ce897e27e6a7",
+      "type": "cube",
+      "origin": [
+        0,
+        14,
+        3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            167,
+            18,
+            169,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            171,
+            18,
+            173,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            18,
+            176,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            178,
+            18,
+            179,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            181,
+            18,
+            183,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            185,
+            18,
+            187,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 7,
+      "from": [
+        -1.0,
+        13.5,
+        2.7
+      ],
+      "to": [
+        1.0,
+        14.5,
+        3.7
+      ]
+    },
+    {
+      "name": "Cold_Silver_Stabilizer_L",
+      "uuid": "6cd58638-dda9-57c2-a742-f2fde19c61b1",
+      "type": "cube",
+      "origin": [
+        -4.3,
+        -3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        8
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            189,
+            18,
+            191,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            193,
+            18,
+            195,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            197,
+            18,
+            200,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            202,
+            18,
+            205,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            207,
+            18,
+            209,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            211,
+            18,
+            213,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 0,
+      "from": [
+        -5.3,
+        -8.0,
+        -1.5
+      ],
+      "to": [
+        -3.3,
+        2.0,
+        1.5
+      ]
+    },
+    {
+      "name": "Cold_Silver_Stabilizer_R",
+      "uuid": "0a622fba-82d4-58d4-9270-7e91a5140307",
+      "type": "cube",
+      "origin": [
+        4.3,
+        -3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        8
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            189,
+            18,
+            191,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            193,
+            18,
+            195,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            197,
+            18,
+            200,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            202,
+            18,
+            205,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            207,
+            18,
+            209,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            211,
+            18,
+            213,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        3.3,
+        -8.0,
+        -1.5
+      ],
+      "to": [
+        5.3,
+        2.0,
+        1.5
+      ]
+    },
+    {
+      "name": "Cobalt_ID_L",
+      "uuid": "6d0f7dd8-3219-5568-be70-fae9105e9b70",
+      "type": "cube",
+      "origin": [
+        0,
+        1,
+        -4.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            215,
+            18,
+            219,
+            23
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            221,
+            18,
+            225,
+            23
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            227,
+            18,
+            228,
+            23
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            230,
+            18,
+            231,
+            23
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            233,
+            18,
+            237,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            239,
+            18,
+            243,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -2.0,
+        -1.5,
+        -4.6
+      ],
+      "to": [
+        2.0,
+        3.5,
+        -3.5999999999999996
+      ]
+    },
+    {
+      "name": "Cobalt_ID_R",
+      "uuid": "421ca4ee-6338-579f-92df-e3a02c4235e5",
+      "type": "cube",
+      "origin": [
+        0,
+        1,
+        4.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            215,
+            18,
+            219,
+            23
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            221,
+            18,
+            225,
+            23
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            227,
+            18,
+            228,
+            23
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            230,
+            18,
+            231,
+            23
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            233,
+            18,
+            237,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            239,
+            18,
+            243,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -2.0,
+        -1.5,
+        3.5999999999999996
+      ],
+      "to": [
+        2.0,
+        3.5,
+        4.6
+      ]
+    },
+    {
+      "name": "Primer",
+      "uuid": "169e9569-9178-5379-b40f-cad4cbfba380",
+      "type": "cube",
+      "origin": [
+        0,
+        -9.6,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            245,
+            18,
+            248,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            250,
+            18,
+            253,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            30,
+            4,
+            31
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            30,
+            9,
+            31
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            11,
+            30,
+            14,
+            33
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            30,
+            19,
+            33
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -1.5,
+        -10.1,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        -9.1,
+        1.5
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Rimeglass Match Rounds",
+      "uuid": "4dc9f242-9aa2-5811-a915-8d882e425c37",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "06b09988-0685-5bd2-b259-c02efac7af3b",
+        "90546148-ccbf-572b-8aee-efac28dd87b3",
+        "06c6b695-0f64-5235-8b8c-a559dd0c6cd3",
+        "1a18d361-5df1-5ac8-bcc0-fee154bc2083",
+        "67cd3b9f-adfb-54f4-b625-8c4c763368c8",
+        "dbac69ce-b46b-50e4-8ebd-cef7b6c6092c",
+        "f7fdda90-35d3-5622-a893-6a3a2ff9df43",
+        "0e4f509a-e4b4-5ec7-b353-bebcbaede1a2",
+        "f97c7ffe-147b-5dbb-866d-cc4f03eb6075",
+        "27884e0d-f7a1-5df2-ae64-c5a6d653c5c2",
+        "cc835914-0ebe-514f-8385-681c0b20fc7f",
+        "58d35dc0-9822-5b33-bd32-70f7136093b6",
+        "236d6454-7463-5498-bc44-c13f20e080c2",
+        "5dfd2bd6-7b3b-5706-b573-9fb47b3b0909",
+        "578c4d6d-a8dd-5b30-8180-ce897e27e6a7",
+        "6cd58638-dda9-57c2-a742-f2fde19c61b1",
+        "0a622fba-82d4-58d4-9270-7e91a5140307",
+        "6d0f7dd8-3219-5568-be70-fae9105e9b70",
+        "421ca4ee-6338-579f-92df-e3a02c4235e5",
+        "169e9569-9178-5379-b40f-cad4cbfba380"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Ranger_Ammo_03.png",
+      "path": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\03\\Ranger_Ammo_03.png",
+      "id": "0",
+      "uuid": "79fb293e-6168-5b13-8cfe-a63be67b1ecc",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAANTUlEQVR4nO3dfYxU1RnH8dllIYS/GpLSf0jTpkmpsY0xRWtLKVJ5U6EgTcBY22ikxMRiq8REGu1LIKHUFJuahiYlqWlrW6kRVDTUSoFapbZOUGKjSF9sIATWZU2tobjATvOc2d9w5uxz7swuO7izfD/Jsjv3nrn3nHPvebnn3nsolQBcsDrsn2u//VAlXVEul0tHt28M6xes2eyuf/PpTWH9vLs2DVofhzv+h80h3KK1vy0Md2Tb90K4JRuecPd3aMt3wvpZK9e6698pb8ump9l0NZu+RulqlJ5m0+Wlb+vOvZXx48eH5adOnaqF6ezsLE2cOLF0+vTpUqVSKS383PQQ/ldP7Kx0dXWFZR0dHeG3vm9hbd3JkydLNyy6KoT/+dYdlTNnzoRt9fX1lfr7+8PPpEmTwv6+ct2CEO6p5/ZVbJ/2Y+snTJgQftt3LOyVl04L4f7R879suuL0LZv/2RD+wS2PNxX+gQ3fDeF/t/flitJiPxYPi5PFwyyadVkI9/BTu0M4ywPT398fwlteWHqV/l9v31k5ceJELb3KY+Wv8uPLS+aH8L//yysVC2PbGTduXAgXHxfbtuXxnMsubpgfzeZDnH6Lr6XV9mH7tmNp8btl2aKwfsfelyuWJ7bc1ivc5z95UUeXNtjd3V3LPAuYOnbsWDhxbL2FSx0+fLiWYZYJOhipo0ePhp3bj623iFqEUkeOHKlFVAcyZvE19n2PxUcnpA66DnwazvajgqC4efHRwbcD6qVL+/PW9/b21qXD4mL55O1HcVY80vgoHkZ5p+3ppI7Zcjt2Fi/lu52s9ltxSuOifSpfbL1OcrG/bb8WxtbbtiwPLH5WgNLzR5WKnV8KY9uItxnnpwqa8tXiYdtIj2N8DsQFND13dFyU1v5o23EeWzpVKSqshTMqaHEe23Ztva2zuNln5YeF9Y6JHWeVJVuvY5QrV7YtpSfNL8tHxS89L+I42nYsrM6BEE4BdKCVKSm1HDlxpJRwbzu2fWWSVyDFvq+D51UQiqslxitw+r6tTzMnZieMDqAOrFcB2gHSCeHlg21bmetVIKp9dSJ7laPRSaETyqsgr55xaT7jHMuvuXJI4dXCNzL38o83vV07Pyzf1DoZHZe0shDlU3weqHEZTn6ohR+p9MuCT18ypPBGhTCuBLxzQhWlpV0/aX6ppR9O/GpnlmosO1Bx96UWcOAkjGubmBXmuLtk27LIewnSeiXYKzAq4KoscmwbRd9Xi6DKIKUuk7q7xmrKlAq+lzdG3c6ctECrtfTSY8ttP2oZirbbLtQ6GqVbraxXwRvLb0u/1lve2DZy4dtJR0dHrayp8fTOB/Xa7EcNjNdjGq6uOLPVPfNOOO3ceOtVg6mAq9Cl4gJUtL+iy4N0O14YFR51yVUAvXQpTbZPK/xeDyDXYosKdFFFo9retp+71FI3z9Z71/ntSj1LO/Ht7/h6NHf84t6b8rWo99Ru+gaOc3zJktJld8y7dByuQTnvtdrGImGRKToAdsKqm5ujbcQFziuYyhQLn2sBdd3rFRC17MYqALUmHrX+ikuu0lF8cwVSFWC63gZsmtFsuHYUX3frHFKj4eW3jquOsR1PO4a5hqXdVCqVuh6wzveUek0aP8mNrQ1XLefVzfBaJYkjkYrHDnSQc9fu+r4lTt3ilG0rHsTzKhudQLkWV115jV94lxLK/Ljlze1T6cttR933dL1G+RvRKP9YFI+b6JjF178pDcSJLpuKeoXtqCsaq/LOYzuX1IPV76IyOuT96484EkUFPFdTqbtt29FATa4gabm+k3ZxGrWEzbSUcVe86Jpb8bGwqpCKxhSKBqzsx07c3H4uVEPt2YzlnpCoEtP4k671c+emypM1fCN5ftVVpRpk8QbB4mtor2BbDa9aPr7PmlIFodtHw2kxm2kpNcCkTM3VnKoclOZcjyLXU4lZOuwAjWQNPRbovnazdH97LOscGM8wapxydwHi83Gkz61aBaDbdhaZ3DWuaqNcF0wDPMa7XxmPpmssQDXgSFNXUZWR7lWn1OIr8y1e3jVm3IvwbgPqO5bmVqQHY0d5FI0J1Y0BqPB6BVf3InODfBrM0Sh6WnOlgx8aMLTfrRjUUQWkbr3Fy4t3/GSUyVVIGuDT3YWUtq18As61R3Q+ekJ1JVS3p7zrXJ38uhZOWWHTOj2xld3pwPW2HlltBT3eadS98uIUF3Y97upVSPHjpbkegirAsXKbCmNf3SBgrnAbLc/dr9RlgxWyXJj0gRiTG/08V7rUULr04IUnfr4h96CT7l3nbgOq4qTwo53UXQLE3eWiR3O9SiLuYlvh0226VPyShe4WtKIC0ICmHkEtepgmvrOh8Dm5QRilw9JU1PsBRl0FcK633UbToMZQ9jNS4S6E21YAAAAYK1oyQYFNWGG/dRtOE1DMH3gt8TdP7qro7UGjJwyvv3Z2Nj6N4hHv/+CJsxfx5fL+0vUzq/vdd+xEtLxcWnHNzLB87xs97va+9sXqhA+HnEGBcvlgacn0j4b1b0Xry693l+ZM+0BY/sjuv9btb/3qWwfFr1E8G8U3F89c/BrF04vvqYHvl185ULriEx8Ly46fPF1dVi6X5s34VFh2uPe/tWWL51ZfQa4MfHf/Pw+VLvnIB+uWvdHzn9KH3/++sOxP5Zdq3/36ylvCsqvW/KRiYypPr/tqdcKUO+8PE5vs/P6q8HnOXT+sPHPfN8LfC9f9srL9nhvD30t/sC1M6LHj3hvC5ytuXlOxMZoXf3Ff+PzYrhfCdhdGE6bY+Xfj4rnVCUae31eLyzdXrQjL9v/7zdqym5dWXxfe89LBMDHLZy7+UPi84YGfhs933npT+PzQ8wfqjtPGVdX4bH6mfHb5i+XSprtXhuVrH3y8cu9NXwh/3//Yc5U7Fs+oht/zt7BdzZ+wYlZ1YpHb1v0oTPShsalN36rmxUWzl4ft21jU6398JCybNnNpmLzFvLqnuqxuELCnp2fQW0ne/WxN1FD0eG381pZeyY0H4dLnDbzHj23CBA0m5iYEKXpduLv7LXcwTxOJeMu9yR7OxuedWn54+dLzrqWr5OaXPxHJsdotQ297Fh89KOXlsdKf6u31Xxax+Fk22qa8cUzbXvwsROrI8bedNBx2t5M6/m7xE5Rn495b93nn+moFJHs23lH3WYXfqPCbR1cvqQv355+tr/scv/qdTrASH7eUlZFU/EyIBrbTNE2ePNnNpylTptQtS+MkKvCpH99zu7v81V0PD1p+4NlH3bC1M0+PzcYv9OTesotfYPDuGiyeXW0RzmViBt2STF8KEVVUubcFcw8s5SY8iSs+b73eS8/dJrVj5z3/k6ug9Mhw0cstOia516Vz+eJVAFamLVm2Ke9BRVV83pOe1vI3M/DpLbOWP2UtfzPfbZV4ph/jPY/iVdppvqa3leM7ZbnviNeoxYX+fD1O3pXextOJpRdbBn1hYEaS+AWGVjzJF7827FHByL28k5uQJPegU/wiVG5iBuWH//qqn47c68q6PMq9fKW45vI2t85bZt39Io0Kn7r9MXX7Y+r2x9Ttj6nbH1O3/3xIK92uzLmeSo+Tuv5y9+3VrnwsbeVl6tSphfvybsW3Qlc64YfuY+fe5ovv45tGL8gMl655cu8eqMXOtfSa4SiVe98/nn0mtz1dynitQ64C0FxsHrW6uSnGNAVWbru5GZfSCk7X+jm61r9QpA1GXzRbkXjHZKgz8eQqVrvu98Tn3fl6oKyp5wDei25aPLtr7v37XOVgA2pDOiAN7/MfLF6faWHz+/Pj13x8ysOKJ/zp2zozr+GmhjoTjwb9Uhr0S2kA0Nx2dXUm41brGm0vJ0g8zbHX4qr7782uq9H0lEbRUxpFz9Foek6uhc21rLn4NYpno/g2iieq0mm7+zJvrqbG4hOeo/K1NZ68Qyt5L4aNSxoRr7Vv1Ytr76VRWQE06pFcCBNGoHVyd4caGQuzM7dFBQC0UlqQO5PPzd7iBAAAaE8DzwlfF/5zQxvk+NcLT1aXzVoWno+2wZDXdlcfLZz9pdW156Hffm13WDZ93vLassrxv3NtDrTbGMCBZ7cOfnZ4zxa3MHN9BIwdQxrWpPADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACU2t3/Ab4j8z/SZj44AAAAAElFTkSuQmCC",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

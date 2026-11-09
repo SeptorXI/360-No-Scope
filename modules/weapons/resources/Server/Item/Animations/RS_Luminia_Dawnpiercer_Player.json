@@ -1,0 +1,23 @@
+{
+  "Parent": "Rifle",
+  "Animations": {
+    "Reload": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/Reload_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/Reload_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/Reload_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "ReloadSingle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/ReloadSingle_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/ReloadSingle_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/RangerSnipers/Luminia_Dawnpiercer/ReloadSingle_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    }
+  }
+}

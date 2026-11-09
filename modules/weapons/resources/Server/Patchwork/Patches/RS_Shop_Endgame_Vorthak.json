@@ -1,0 +1,51 @@
+{
+  "Id": "RS_Shop_Endgame_Vorthak",
+  "Target": "Server/BarterShops/Endgame_Vorthak.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "RS_sale_RS_Ammo_Sirocco",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_Sirocco",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "RS_sale_RS_Ammo_Gravelight",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_Gravelight",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    }
+  ]
+}

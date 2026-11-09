@@ -1,0 +1,114 @@
+{
+  "Id": "AS_Shop_Devil_Merchant_Misc",
+  "Target": "Server/BarterShops/Devil_Merchant_Misc.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Absolver",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Absolver",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Many_Whispers",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Many_Whispers",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Last_Deposition",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Last_Deposition",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Hollow_Regiment",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Hollow_Regiment",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Grave_Tithe",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Grave_Tithe",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

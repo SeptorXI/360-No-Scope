@@ -1,0 +1,506 @@
+{
+  "version": "1.7.0",
+  "Shops": [
+    {
+      "PatchId": "RS_Shop_Tritale_Airshop",
+      "Target": "Server/BarterShops/Tritale_Airshop.json",
+      "Trades": [
+        {
+          "OperationId": "RS_sale_Weapon_Crossbow_Skybound_Farwatch",
+          "Output": {
+            "ItemId": "Weapon_Crossbow_Skybound_Farwatch",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        },
+        {
+          "OperationId": "RS_sale_RS_Ammo_Skyglass",
+          "Output": {
+            "ItemId": "RS_Ammo_Skyglass",
+            "Quantity": 24
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      ]
+    },
+    {
+      "PatchId": "RS_Shop_Devil_Merchant_Misc",
+      "Target": "Server/BarterShops/Devil_Merchant_Misc.json",
+      "Trades": [
+        {
+          "OperationId": "RS_sale_Weapon_Crossbow_Nameless_Covenant",
+          "Output": {
+            "ItemId": "Weapon_Crossbow_Nameless_Covenant",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 40
+            },
+            {
+              "ItemId": "Artifact_Skull_Silver",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        },
+        {
+          "OperationId": "RS_sale_RS_Ammo_Penance",
+          "Output": {
+            "ItemId": "RS_Ammo_Penance",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      ]
+    },
+    {
+      "PatchId": "RS_Shop_Endgame_Korvyn",
+      "Target": "Server/BarterShops/Endgame_Korvyn.json",
+      "Trades": [
+        {
+          "OperationId": "RS_sale_Weapon_Crossbow_Frostline_Sentinel",
+          "Output": {
+            "ItemId": "Weapon_Crossbow_Frostline_Sentinel",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        },
+        {
+          "OperationId": "RS_sale_RS_Ammo_Rimeglass",
+          "Output": {
+            "ItemId": "RS_Ammo_Rimeglass",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      ]
+    },
+    {
+      "PatchId": "RS_Shop_Endgame_Vorthak",
+      "Target": "Server/BarterShops/Endgame_Vorthak.json",
+      "Trades": [
+        {
+          "OperationId": "RS_sale_RS_Ammo_Sirocco",
+          "Output": {
+            "ItemId": "RS_Ammo_Sirocco",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        },
+        {
+          "OperationId": "RS_sale_RS_Ammo_Gravelight",
+          "Output": {
+            "ItemId": "RS_Ammo_Gravelight",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      ]
+    },
+    {
+      "PatchId": "RS_Shop_Endgame_Luminia_Merchant",
+      "Target": "Server/BarterShops/Endgame_Luminia_Merchant.json",
+      "Trades": [
+        {
+          "OperationId": "RS_sale_RS_Ammo_Firstlight",
+          "Output": {
+            "ItemId": "RS_Ammo_Firstlight",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        },
+        {
+          "OperationId": "RS_sale_RS_Ammo_SiegeSlug",
+          "Output": {
+            "ItemId": "RS_Ammo_SiegeSlug",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      ]
+    }
+  ],
+  "AdditionalRecipes": [
+    {
+      "Id": "RS_Nameless_Covenant_Barter",
+      "OutputId": "Weapon_Crossbow_Nameless_Covenant",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Rifles"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "formerBench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      }
+    },
+    {
+      "Id": "RS_Ammo_Penance_Nameless",
+      "OutputId": "RS_Ammo_Penance",
+      "OutputQuantity": 16,
+      "ingredients": {
+        "Dark_Coin_I": 4
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "purpose": "regional_ammo_refill",
+      "formerBench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Ammo_Penance_Anvil",
+      "OutputId": "RS_Ammo_Penance",
+      "OutputQuantity": 16,
+      "ingredients": {
+        "Ingredient_Bar_Silver": 2,
+        "Ingredient_Crystal_Purple": 2,
+        "Ingredient_Void_Essence": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "purpose": "regional_ammo_refill",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Wayfinder",
+      "OutputId": "RS_Ammo_Wayfinder",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_Cartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Sirocco",
+      "OutputId": "RS_Ammo_Sirocco",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_Cartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Rimeglass",
+      "OutputId": "RS_Ammo_Rimeglass",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_Cartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Skyglass",
+      "OutputId": "RS_Ammo_Skyglass",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_Cartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Gravelight",
+      "OutputId": "RS_Ammo_Gravelight",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_ChargedCartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Penance",
+      "OutputId": "RS_Ammo_Penance",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_ChargedCartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Threadline",
+      "OutputId": "RS_Ammo_Threadline",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_ChargedCartridge": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_SiegeSlug",
+      "OutputId": "RS_Ammo_SiegeSlug",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_EnergyCell": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    },
+    {
+      "Id": "RS_Repack_Firstlight",
+      "OutputId": "RS_Ammo_Firstlight",
+      "OutputQuantity": 1,
+      "ingredients": {
+        "RS_Ammo_EnergyCell": 1
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Repacking"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "purpose": "legacy_repack",
+      "formerBench": {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    }
+  ],
+  "MerchantNames": {
+    "Tritale_Airshop": "Tritale Airshop",
+    "Devil_Merchant_Misc": "Devil Merchant — Misc",
+    "Endgame_Korvyn": "Korvyn",
+    "Endgame_Vorthak": "Vorthak",
+    "Endgame_Luminia_Merchant": "Aurelian"
+  },
+  "notAdded": [
+    "Dawnpiercer direct vendor sale: would bypass the Endgame-calibrated Gunsmith tier 5 gate.",
+    "Mournhollow rifle from unrelated Swamp or Witchmoon merchants.",
+    "Generic rifles from fishing or husbandry benches.",
+    "New high-tier Armory diagram routes without verified progression equivalence."
+  ],
+  "BenchNotes": {
+    "RS_Gunsmith": "All 360 No Scope rifle/ammo crafting is here. Upgrade using calibration kits made at Weapon Bench tiers 2/3 and Endgame Bench tiers 4/5. Skybound rifle retains memory level 2 and Silent Princess. Vendor sales retain their original materials, stock and refresh."
+  },
+  "AmmoPolicy": "Exclusive named rifle cartridges; legacy generic ammunition has no new producer and can only be repacked from finite existing stock."
+}

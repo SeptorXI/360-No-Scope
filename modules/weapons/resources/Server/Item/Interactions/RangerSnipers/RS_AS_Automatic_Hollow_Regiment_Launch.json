@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Automatic_Hollow_Regiment_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.6,
+  "BodyDamage": 7.25,
+  "HeadDamage": 11.0,
+  "Range": 100,
+  "Lifetime": 0.5556,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Automatic_Hollow_Regiment_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Automatic_Hollow_Regiment_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Automatic_Hollow_Regiment_Fire_World"
+  }
+}

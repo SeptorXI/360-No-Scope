@@ -1,0 +1,207 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Gunsmith_Bench.name",
+    "Description": "server.items.RS_Gunsmith_Bench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/RS_Gunsmith_Bench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "MaxStack": 1,
+  "ItemLevel": 2,
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 12
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 6
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/RangerSnipers/RS_Gunsmith_Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/RangerSnipers/RS_Gunsmith_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "RS_Gunsmith",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {
+          "TierLevel": 1
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "Id": "RS_Gunsmith",
+      "Categories": [
+        {
+          "Id": "RS_Gunsmith_Rifles",
+          "Icon": "Icons/CraftingCategories/RangerSnipers/Rifles.png",
+          "Name": "server.benchCategories.RS_Gunsmith_Rifles"
+        },
+        {
+          "Id": "RS_Gunsmith_Ammunition",
+          "Icon": "Icons/CraftingCategories/RangerSnipers/Ammunition.png",
+          "Name": "server.benchCategories.RS_Gunsmith_Ammunition"
+        },
+        {
+          "Id": "RS_Gunsmith_Repacking",
+          "Icon": "Icons/CraftingCategories/RangerSnipers/Repacking.png",
+          "Name": "server.benchCategories.RS_Gunsmith_Repacking"
+        },
+        {
+          "Id": "AS_Gunsmith_handgun",
+          "Icon": "Icons/CraftingCategories/AS_Gunsmith_handgun.png",
+          "Name": "server.benchCategories.AS_Gunsmith_handgun"
+        },
+        {
+          "Id": "AS_Gunsmith_smg",
+          "Icon": "Icons/CraftingCategories/AS_Gunsmith_smg.png",
+          "Name": "server.benchCategories.AS_Gunsmith_smg"
+        },
+        {
+          "Id": "AS_Gunsmith_semiauto",
+          "Icon": "Icons/CraftingCategories/AS_Gunsmith_semiauto.png",
+          "Name": "server.benchCategories.AS_Gunsmith_semiauto"
+        },
+        {
+          "Id": "AS_Gunsmith_automatic",
+          "Icon": "Icons/CraftingCategories/AS_Gunsmith_automatic.png",
+          "Name": "server.benchCategories.AS_Gunsmith_automatic"
+        },
+        {
+          "Id": "AS_Gunsmith_shotgun",
+          "Icon": "Icons/CraftingCategories/AS_Gunsmith_shotgun.png",
+          "Name": "server.benchCategories.AS_Gunsmith_shotgun"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Weapon_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Weapon_Bench_Close",
+      "CompletedSoundEventId": "SFX_Weapon_Bench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "RS_Gunsmith_Calibration_Tier2",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 3
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.15,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "RS_Gunsmith_Calibration_Tier3",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 3
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "RS_Gunsmith_Calibration_Tier4",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 3
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "RS_Gunsmith_Calibration_Tier5",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 3
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3
+        }
+      ]
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#655342",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Translation": [
+      18.7,
+      -15
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  }
+}

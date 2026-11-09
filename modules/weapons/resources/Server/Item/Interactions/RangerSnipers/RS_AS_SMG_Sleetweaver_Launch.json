@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Sleetweaver_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.4,
+  "BodyDamage": 4.5,
+  "HeadDamage": 6.5,
+  "Range": 48,
+  "Lifetime": 0.4286,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Sleetweaver_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SMG_Sleetweaver_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SMG_Sleetweaver_Fire_World"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Many_Whispers_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.6,
+  "BodyDamage": 5.75,
+  "HeadDamage": 8.5,
+  "Range": 52,
+  "Lifetime": 0.3467,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Many_Whispers_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SMG_Many_Whispers_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SMG_Many_Whispers_Fire_World"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "Id": "AS_Shop_Tritale_Airshop",
+  "Target": "Server/BarterShops/Tritale_Airshop.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_SMG_Kestrel",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_SMG_Kestrel",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 150
+            },
+            {
+              "ItemId": "Tritale_Bag_Essence",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Windward_Promise",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Windward_Promise",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Kestrel",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Kestrel",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Highroad",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Highroad",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Gale_Banner",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Gale_Banner",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Cloudburst",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Cloudburst",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Tritale_Rupee_Green",
+              "Quantity": 8
+            }
+          ],
+          "Stock": 10
+        }
+      }
+    }
+  ]
+}

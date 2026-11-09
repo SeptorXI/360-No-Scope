@@ -1,0 +1,968 @@
+{
+  "theme": {
+    "index": 1,
+    "name": "Wayfinder Cartridges",
+    "rifle": "Wildwood Surveyor",
+    "rifle_id": "Weapon_Crossbow_Wildwood_Surveyor",
+    "region": "Emerald Wilds",
+    "colors": {
+      "body": "#9a7044",
+      "light": "#d6a95a",
+      "dark": "#3c3c39",
+      "trim": "#be7950",
+      "tip": "#737e82",
+      "glow": "#bd8747",
+      "inlay": "#526b41",
+      "pale": "#d6c1a0"
+    },
+    "ammo_id": "RS_Ammo_Wayfinder"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\01\\Ranger_Ammo_01.png",
+  "parts": [
+    {
+      "name": "Brass_Case",
+      "center": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        5,
+        16,
+        7
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "grain",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          17
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          17
+        ],
+        "left": [
+          15,
+          1,
+          22,
+          17
+        ],
+        "right": [
+          24,
+          1,
+          31,
+          17
+        ],
+        "top": [
+          33,
+          1,
+          38,
+          8
+        ],
+        "bottom": [
+          40,
+          1,
+          45,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Brass_Case_Facets",
+      "center": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        7,
+        16,
+        5
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "grain",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          47,
+          1,
+          54,
+          17
+        ],
+        "back": [
+          56,
+          1,
+          63,
+          17
+        ],
+        "left": [
+          65,
+          1,
+          70,
+          17
+        ],
+        "right": [
+          72,
+          1,
+          77,
+          17
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          6
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Copper_Rim",
+      "center": [
+        0,
+        -9,
+        0
+      ],
+      "size": [
+        9,
+        2,
+        7
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          97,
+          1,
+          106,
+          3
+        ],
+        "back": [
+          108,
+          1,
+          117,
+          3
+        ],
+        "left": [
+          119,
+          1,
+          126,
+          3
+        ],
+        "right": [
+          128,
+          1,
+          135,
+          3
+        ],
+        "top": [
+          137,
+          1,
+          146,
+          8
+        ],
+        "bottom": [
+          148,
+          1,
+          157,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Copper_Rim_Corners",
+      "center": [
+        0,
+        -9,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        9
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          159,
+          1,
+          166,
+          3
+        ],
+        "back": [
+          168,
+          1,
+          175,
+          3
+        ],
+        "left": [
+          177,
+          1,
+          186,
+          3
+        ],
+        "right": [
+          188,
+          1,
+          197,
+          3
+        ],
+        "top": [
+          199,
+          1,
+          206,
+          10
+        ],
+        "bottom": [
+          208,
+          1,
+          215,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Copper_Shoulder",
+      "center": [
+        0,
+        7,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        5
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          159,
+          1,
+          166,
+          3
+        ],
+        "back": [
+          168,
+          1,
+          175,
+          3
+        ],
+        "left": [
+          217,
+          1,
+          222,
+          3
+        ],
+        "right": [
+          224,
+          1,
+          229,
+          3
+        ],
+        "top": [
+          231,
+          1,
+          238,
+          6
+        ],
+        "bottom": [
+          240,
+          1,
+          247,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Copper_Shoulder_Corners",
+      "center": [
+        0,
+        7,
+        0
+      ],
+      "size": [
+        5,
+        2,
+        7
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          249,
+          1,
+          254,
+          3
+        ],
+        "back": [
+          1,
+          19,
+          6,
+          21
+        ],
+        "left": [
+          119,
+          1,
+          126,
+          3
+        ],
+        "right": [
+          128,
+          1,
+          135,
+          3
+        ],
+        "top": [
+          8,
+          19,
+          13,
+          26
+        ],
+        "bottom": [
+          15,
+          19,
+          20,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Narrow_Neck",
+      "center": [
+        0,
+        9,
+        0
+      ],
+      "size": [
+        3,
+        4,
+        5
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          22,
+          19,
+          25,
+          23
+        ],
+        "back": [
+          27,
+          19,
+          30,
+          23
+        ],
+        "left": [
+          32,
+          19,
+          37,
+          23
+        ],
+        "right": [
+          39,
+          19,
+          44,
+          23
+        ],
+        "top": [
+          46,
+          19,
+          49,
+          24
+        ],
+        "bottom": [
+          51,
+          19,
+          54,
+          24
+        ]
+      }
+    },
+    {
+      "name": "Narrow_Neck_Facets",
+      "center": [
+        0,
+        9,
+        0
+      ],
+      "size": [
+        5,
+        4,
+        3
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          56,
+          19,
+          61,
+          23
+        ],
+        "back": [
+          63,
+          19,
+          68,
+          23
+        ],
+        "left": [
+          70,
+          19,
+          73,
+          23
+        ],
+        "right": [
+          75,
+          19,
+          78,
+          23
+        ],
+        "top": [
+          80,
+          19,
+          85,
+          22
+        ],
+        "bottom": [
+          87,
+          19,
+          92,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Ballistic_Tip",
+      "center": [
+        0,
+        13,
+        0
+      ],
+      "size": [
+        2,
+        5,
+        4
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          94,
+          19,
+          96,
+          24
+        ],
+        "back": [
+          98,
+          19,
+          100,
+          24
+        ],
+        "left": [
+          102,
+          19,
+          106,
+          24
+        ],
+        "right": [
+          108,
+          19,
+          112,
+          24
+        ],
+        "top": [
+          114,
+          19,
+          116,
+          23
+        ],
+        "bottom": [
+          118,
+          19,
+          120,
+          23
+        ]
+      }
+    },
+    {
+      "name": "Ballistic_Tip_Facets",
+      "center": [
+        0,
+        13,
+        0
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          122,
+          19,
+          126,
+          24
+        ],
+        "back": [
+          128,
+          19,
+          132,
+          24
+        ],
+        "left": [
+          134,
+          19,
+          136,
+          24
+        ],
+        "right": [
+          138,
+          19,
+          140,
+          24
+        ],
+        "top": [
+          142,
+          19,
+          146,
+          21
+        ],
+        "bottom": [
+          148,
+          19,
+          152,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Tip_Point",
+      "center": [
+        0,
+        16,
+        0
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          154,
+          19,
+          156,
+          21
+        ],
+        "back": [
+          158,
+          19,
+          160,
+          21
+        ],
+        "left": [
+          162,
+          19,
+          164,
+          21
+        ],
+        "right": [
+          166,
+          19,
+          168,
+          21
+        ],
+        "top": [
+          170,
+          19,
+          172,
+          21
+        ],
+        "bottom": [
+          174,
+          19,
+          176,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Primer",
+      "center": [
+        0,
+        -10.6,
+        0
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "primer",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          178,
+          19,
+          181,
+          20
+        ],
+        "back": [
+          183,
+          19,
+          186,
+          20
+        ],
+        "left": [
+          188,
+          19,
+          191,
+          20
+        ],
+        "right": [
+          193,
+          19,
+          196,
+          20
+        ],
+        "top": [
+          198,
+          19,
+          201,
+          22
+        ],
+        "bottom": [
+          203,
+          19,
+          206,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Field_Stamp_L",
+      "center": [
+        0,
+        -2,
+        -3.6
+      ],
+      "size": [
+        4,
+        5,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "stamp",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          208,
+          19,
+          212,
+          24
+        ],
+        "back": [
+          214,
+          19,
+          218,
+          24
+        ],
+        "left": [
+          220,
+          19,
+          221,
+          24
+        ],
+        "right": [
+          223,
+          19,
+          224,
+          24
+        ],
+        "top": [
+          226,
+          19,
+          230,
+          20
+        ],
+        "bottom": [
+          232,
+          19,
+          236,
+          20
+        ]
+      }
+    },
+    {
+      "name": "Field_Stamp_R",
+      "center": [
+        0,
+        -2,
+        3.6
+      ],
+      "size": [
+        4,
+        5,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "stamp",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          208,
+          19,
+          212,
+          24
+        ],
+        "back": [
+          214,
+          19,
+          218,
+          24
+        ],
+        "left": [
+          220,
+          19,
+          221,
+          24
+        ],
+        "right": [
+          223,
+          19,
+          224,
+          24
+        ],
+        "top": [
+          226,
+          19,
+          230,
+          20
+        ],
+        "bottom": [
+          232,
+          19,
+          236,
+          20
+        ]
+      }
+    },
+    {
+      "name": "Case_Cannelure",
+      "center": [
+        0,
+        -5,
+        0
+      ],
+      "size": [
+        7,
+        1,
+        5
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          238,
+          19,
+          245,
+          20
+        ],
+        "back": [
+          247,
+          19,
+          254,
+          20
+        ],
+        "left": [
+          1,
+          28,
+          6,
+          29
+        ],
+        "right": [
+          8,
+          28,
+          13,
+          29
+        ],
+        "top": [
+          15,
+          28,
+          22,
+          33
+        ],
+        "bottom": [
+          24,
+          28,
+          31,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Case_Cannelure_Corners",
+      "center": [
+        0,
+        -5,
+        0
+      ],
+      "size": [
+        5,
+        1,
+        7
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          33,
+          28,
+          38,
+          29
+        ],
+        "back": [
+          40,
+          28,
+          45,
+          29
+        ],
+        "left": [
+          47,
+          28,
+          54,
+          29
+        ],
+        "right": [
+          56,
+          28,
+          63,
+          29
+        ],
+        "top": [
+          65,
+          28,
+          70,
+          35
+        ],
+        "bottom": [
+          72,
+          28,
+          77,
+          35
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

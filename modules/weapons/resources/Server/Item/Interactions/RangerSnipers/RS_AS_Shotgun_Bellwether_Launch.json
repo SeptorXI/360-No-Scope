@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Shotgun_Bellwether_Projectile",
+  "Pellets": 6,
+  "SpreadDegrees": 6.5,
+  "BodyDamage": 7.5,
+  "HeadDamage": 9.0,
+  "Range": 44,
+  "Lifetime": 0.2933,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Shotgun_Bellwether_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Shotgun_Bellwether_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Shotgun_Bellwether_Fire_World"
+  }
+}

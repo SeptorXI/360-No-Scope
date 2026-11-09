@@ -1,0 +1,31 @@
+{
+  "Input": [
+    {
+      "ItemId": "RS_Ammo_EnergyCell",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "RS_Ammo_Firstlight",
+    "Quantity": 1
+  },
+  "OutputQuantity": 1,
+  "Output": [
+    {
+      "ItemId": "RS_Ammo_Firstlight",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Id": "RS_Gunsmith",
+      "Type": "Crafting",
+      "Categories": [
+        "RS_Gunsmith_Repacking"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "KnowledgeRequired": false,
+  "TimeSeconds": 1
+}

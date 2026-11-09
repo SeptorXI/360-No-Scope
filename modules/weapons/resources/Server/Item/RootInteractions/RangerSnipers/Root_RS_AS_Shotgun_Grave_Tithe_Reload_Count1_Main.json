@@ -1,0 +1,57 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Pick"
+    ],
+    "Blocking": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick"
+    ],
+    "Interrupting": [
+      "Secondary"
+    ],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 3.2,
+      "HorizontalSpeedMultiplier": 0.6,
+      "Effects": {
+        "ItemAnimationId": "Reload1",
+        "ClearAnimationOnFinish": true,
+        "MovementEffects": {
+          "DisableSprint": true
+        }
+      },
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "CommitReload",
+        "WeaponId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+        "Failed": "RS_AS_Shotgun_Grave_Tithe_Empty",
+        "Next": {
+          "Type": "Simple",
+          "RunTime": 0,
+          "Effects": {
+            "LocalSoundEventId": "RS_Audio_Nameless_Covenant_Ready_Local",
+            "WorldSoundEventId": "RS_Audio_Nameless_Covenant_Ready_World"
+          }
+        }
+      }
+    }
+  ]
+}

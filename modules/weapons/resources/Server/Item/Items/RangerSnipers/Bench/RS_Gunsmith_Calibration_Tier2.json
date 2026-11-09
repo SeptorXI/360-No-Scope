@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Gunsmith_Calibration_Tier2.name",
+    "Description": "server.items.RS_Gunsmith_Calibration_Tier2.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "Quality": "Uncommon",
+  "Categories": [
+    "Items.Materials"
+  ],
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Wood_Oak_Trunk",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Tooling"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots"
+}

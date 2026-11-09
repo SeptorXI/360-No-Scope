@@ -1,0 +1,41 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageAttribute": "RS_DistanceDamage",
+  "DamageCalculator": {
+    "Type": "Absolute",
+    "BaseDamage": {
+      "Projectile": 58
+    },
+    "RandomPercentageModifier": 0
+  },
+  "DamageEffects": {
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Sword_Basic",
+        "Scale": 0.6
+      }
+    ]
+  },
+  "TargetedDamage": {
+    "Head": {
+      "DamageCalculator": {
+        "Type": "Absolute",
+        "BaseDamage": {
+          "Projectile": 87
+        },
+        "RandomPercentageModifier": 0
+      },
+      "DamageEffects": {
+        "WorldParticles": [
+          {
+            "SystemId": "Impact_Critical",
+            "Scale": 0.8
+          }
+        ]
+      }
+    }
+  },
+  "Next": "RS_Despawn",
+  "Failed": "RS_Despawn",
+  "Blocked": "RS_Despawn"
+}

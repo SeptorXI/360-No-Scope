@@ -1,0 +1,219 @@
+{
+  "Id": "AS_Shop_Endgame_Vorthak",
+  "Target": "Server/BarterShops/Endgame_Vorthak.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Sandbound_Oath",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Sandbound_Oath",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Dust_Choir",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Dust_Choir",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Dune_Canticle",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Dune_Canticle",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Scorchwind",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Scorchwind",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Sandbreaker",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Sandbreaker",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Adamantite",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Last_Confession",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Last_Confession",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Funeral_Procession",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Funeral_Procession",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Tollkeeper",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Tollkeeper",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Dirge_Engine",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Dirge_Engine",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Bellwether",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Bellwether",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Bar_Mithril",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 4
+        }
+      }
+    }
+  ]
+}

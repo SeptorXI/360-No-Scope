@@ -1,0 +1,6 @@
+# Preserve accepted game resources and source hashes exactly on every platform.
+* -text
+* whitespace=cr-at-eol
+*.png binary
+*.ogg binary
+*.blend binary

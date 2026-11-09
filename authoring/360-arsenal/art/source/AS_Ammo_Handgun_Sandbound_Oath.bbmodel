@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Sirocco Pistol Cartridges",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "elements": [
+    {
+      "name": "Case",
+      "uuid": "5580038f-57ed-5f28-8f8c-3eba76e198cb",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            6,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            1,
+            13,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            1,
+            20,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            1,
+            27,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            29,
+            1,
+            34,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            36,
+            1,
+            41,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -2.5,
+        -5.0,
+        -2.5
+      ],
+      "to": [
+        2.5,
+        5.0,
+        2.5
+      ]
+    },
+    {
+      "name": "Extractor_Rim",
+      "uuid": "a5d20788-8710-5433-bd7a-090c69dc66aa",
+      "type": "cube",
+      "origin": [
+        0,
+        -5.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            43,
+            1,
+            50,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            52,
+            1,
+            59,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            61,
+            1,
+            68,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            70,
+            1,
+            77,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            79,
+            1,
+            86,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            1,
+            95,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -3.5,
+        -6.0,
+        -3.5
+      ],
+      "to": [
+        3.5,
+        -4.0,
+        3.5
+      ]
+    },
+    {
+      "name": "Primer",
+      "uuid": "a2ce7d1b-bf80-58f6-a83b-afedca551eaa",
+      "type": "cube",
+      "origin": [
+        0,
+        -6.3,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            97,
+            1,
+            100,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            102,
+            1,
+            105,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            107,
+            1,
+            110,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            112,
+            1,
+            115,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            117,
+            1,
+            120,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            122,
+            1,
+            125,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -6.8,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        -5.8,
+        1.5
+      ]
+    },
+    {
+      "name": "Shoulder",
+      "uuid": "ba2bbd90-bcce-59fc-b912-45ba222f0f79",
+      "type": "cube",
+      "origin": [
+        0,
+        5.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            127,
+            1,
+            132,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            134,
+            1,
+            139,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            141,
+            1,
+            146,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            148,
+            1,
+            153,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            155,
+            1,
+            160,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            162,
+            1,
+            167,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -2.5,
+        4.0,
+        -2.5
+      ],
+      "to": [
+        2.5,
+        6.0,
+        2.5
+      ]
+    },
+    {
+      "name": "Projectile",
+      "uuid": "3b829600-e6a3-5b93-bdd3-1dc64ee8a412",
+      "type": "cube",
+      "origin": [
+        0,
+        8.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            169,
+            1,
+            172,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            174,
+            1,
+            177,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            179,
+            1,
+            182,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            184,
+            1,
+            187,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            189,
+            1,
+            192,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            194,
+            1,
+            197,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        6.0,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        10.0,
+        1.5
+      ]
+    },
+    {
+      "name": "Nose",
+      "uuid": "7bddbfbe-5b8f-5dfd-9659-3a0256e14936",
+      "type": "cube",
+      "origin": [
+        0,
+        10.5,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            199,
+            1,
+            201,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            203,
+            1,
+            205,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            207,
+            1,
+            209,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            211,
+            1,
+            213,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            217,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            219,
+            1,
+            221,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.0,
+        9.5,
+        -1.0
+      ],
+      "to": [
+        1.0,
+        11.5,
+        1.0
+      ]
+    },
+    {
+      "name": "Regional_Seal_L",
+      "uuid": "38b16677-0645-5273-955e-d7afb3d81e74",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        -2.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            223,
+            1,
+            226,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            228,
+            1,
+            231,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            1,
+            234,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            1,
+            237,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            1,
+            242,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            1,
+            247,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -2.0,
+        -3.1
+      ],
+      "to": [
+        1.5,
+        2.0,
+        -2.1
+      ]
+    },
+    {
+      "name": "Regional_Seal_R",
+      "uuid": "25a7dbcf-b34d-5e97-a9bc-c2ade82b3150",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        2.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            223,
+            1,
+            226,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            228,
+            1,
+            231,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            1,
+            234,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            1,
+            237,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            1,
+            242,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            1,
+            247,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -2.0,
+        2.1
+      ],
+      "to": [
+        1.5,
+        2.0,
+        3.1
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Sirocco Pistol Cartridges",
+      "uuid": "34a60124-b464-579d-a5b9-606d3dbb9dab",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "5580038f-57ed-5f28-8f8c-3eba76e198cb",
+        "a5d20788-8710-5433-bd7a-090c69dc66aa",
+        "a2ce7d1b-bf80-58f6-a83b-afedca551eaa",
+        "ba2bbd90-bcce-59fc-b912-45ba222f0f79",
+        "3b829600-e6a3-5b93-bdd3-1dc64ee8a412",
+        "7bddbfbe-5b8f-5dfd-9659-3a0256e14936",
+        "38b16677-0645-5273-955e-d7afb3d81e74",
+        "25a7dbcf-b34d-5e97-a9bc-c2ade82b3150"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "AS_Ammo_Handgun_Sandbound_Oath.png",
+      "id": "0",
+      "uuid": "fe7f4141-c11a-5274-9638-dc3448c40025",
+      "source": "data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgdPv4P2jMGewC9SJMAAAAASUVORK5CYII=",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

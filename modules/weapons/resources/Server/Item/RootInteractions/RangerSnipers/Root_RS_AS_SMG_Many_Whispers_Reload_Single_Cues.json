@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.483333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.45
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.716666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.066666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.35
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.3
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ReloadClose_World"
+      }
+    }
+  ]
+}

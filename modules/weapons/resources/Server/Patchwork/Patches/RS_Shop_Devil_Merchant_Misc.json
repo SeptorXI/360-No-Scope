@@ -1,0 +1,30 @@
+{
+  "Id": "RS_Shop_Devil_Merchant_Misc",
+  "Target": "Server/BarterShops/Devil_Merchant_Misc.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "RS_sale_RS_Ammo_Penance",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_Penance",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Dark_Coin_I",
+              "Quantity": 4
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

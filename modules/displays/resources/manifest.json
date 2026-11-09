@@ -1,0 +1,18 @@
+{
+  "Group": "Steven",
+  "Name": "Armor Displays",
+  "Version": "0.1.0",
+  "Main": "steven.armordisplays.ArmorDisplaysPlugin",
+  "Description": "Armor stands and wall weapon displays in timber/iron and steel styles. Native persistent item containers with equipment visuals.",
+  "Authors": [
+    {
+      "Name": "Steven"
+    }
+  ],
+  "ServerVersion": ">=0.7.5 <0.8.0",
+  "Dependencies": {
+    "Hytale:ItemModule": "*",
+    "Hytale:InteractionModule": "*"
+  },
+  "IncludesAssetPack": true
+}

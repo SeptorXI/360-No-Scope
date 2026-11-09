@@ -1,0 +1,21 @@
+{
+  "Type": "Charging",
+  "AllowIndefiniteHold": false,
+  "CancelOnOtherClick": true,
+  "HorizontalSpeedMultiplier": 0.25,
+  "Effects": {
+    "ItemAnimationId": "ShootFlintlockCharging",
+    "ClearAnimationOnFinish": true,
+    "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_SpecialCharge_Local",
+    "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_SpecialCharge_World",
+    "ClearSoundEventOnFinish": true,
+    "MovementEffects": {
+      "DisableSprint": true
+    }
+  },
+  "Next": {
+    "0": "RS_Deepworks_Railspike_Ability_Abort",
+    "1": "RS_Deepworks_Railspike_Ability_Commit"
+  },
+  "Failed": "RS_Deepworks_Railspike_Ability_Abort"
+}

@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 5,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Shotgun_Bellwether_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Shotgun_Bellwether_Primary",
+    "Secondary": "Root_RS_AS_Shotgun_Bellwether_ADS",
+    "SwapTo": "Root_RS_AS_Shotgun_Bellwether_ChamberHUD",
+    "Use": "Root_RS_AS_Shotgun_Bellwether_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Shotgun_Bellwether.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Shotgun_Bellwether.description"
+  },
+  "Model": "Items/Arsenal/AS_Shotgun_Bellwether/AS_Shotgun_Bellwether.blockymodel",
+  "Texture": "Items/Arsenal/AS_Shotgun_Bellwether/AS_Shotgun_Bellwether.png",
+  "Icon": "Icons/ItemsGenerated/AS_Shotgun_Bellwether.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "EL_MH_Reliquary_Key",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_shotgun"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

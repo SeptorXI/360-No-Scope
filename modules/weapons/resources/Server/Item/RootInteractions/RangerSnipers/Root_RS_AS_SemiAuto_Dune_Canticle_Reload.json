@@ -1,0 +1,51 @@
+{
+  "RequireNewClick": true,
+  "HudInputBindingEntry": "server.hud.inputBinding.reload",
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Pick"
+    ],
+    "Blocking": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick"
+    ],
+    "Interrupting": [
+      "Secondary"
+    ],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "UseBlock",
+      "Failed": {
+        "Type": "UseEntity",
+        "Failed": {
+          "Type": "RSChamber",
+          "Operation": "BeginReload",
+          "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+          "Failed": "RS_AS_SemiAuto_Dune_Canticle_Empty",
+          "Next": {
+            "Type": "Parallel",
+            "Interactions": [
+              "Root_RS_AS_SemiAuto_Dune_Canticle_Reload_Single_Main",
+              "Root_RS_AS_SemiAuto_Dune_Canticle_Reload_Single_Cues"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

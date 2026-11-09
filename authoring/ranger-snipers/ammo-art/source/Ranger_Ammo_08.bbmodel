@@ -1,0 +1,1261 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Threadline Sabots",
+  "model_identifier": "Ranger_Ammo_08",
+  "resolution": {
+    "width": 256,
+    "height": 256
+  },
+  "elements": [
+    {
+      "name": "Black_Sabot_Base",
+      "uuid": "0c2f667a-319e-5568-a38f-6d4241c91847",
+      "type": "cube",
+      "origin": [
+        0,
+        -5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            9,
+            13
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            11,
+            1,
+            19,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            1,
+            31,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            43,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            45,
+            1,
+            53,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            55,
+            1,
+            63,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -4.0,
+        -11.0,
+        -5.0
+      ],
+      "to": [
+        4.0,
+        1.0,
+        5.0
+      ]
+    },
+    {
+      "name": "Black_Sabot_Base_Facets",
+      "uuid": "d37836f2-8713-5cd8-853b-6e0dff1ac254",
+      "type": "cube",
+      "origin": [
+        0,
+        -5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            65,
+            1,
+            75,
+            13
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            77,
+            1,
+            87,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            89,
+            1,
+            97,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            99,
+            1,
+            107,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            109,
+            1,
+            119,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            121,
+            1,
+            131,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -5.0,
+        -11.0,
+        -4.0
+      ],
+      "to": [
+        5.0,
+        1.0,
+        4.0
+      ]
+    },
+    {
+      "name": "Chrome_Extractor",
+      "uuid": "580bd390-588c-50c7-a3da-e6fe65edc49d",
+      "type": "cube",
+      "origin": [
+        0,
+        -12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            133,
+            1,
+            146,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            148,
+            1,
+            161,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            163,
+            1,
+            174,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            176,
+            1,
+            187,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            189,
+            1,
+            202,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            204,
+            1,
+            217,
+            12
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -6.5,
+        -13.5,
+        -5.5
+      ],
+      "to": [
+        6.5,
+        -10.5,
+        5.5
+      ]
+    },
+    {
+      "name": "Chrome_Extractor_Corners",
+      "uuid": "d9f40e18-1620-5d5f-8fbc-d84574283445",
+      "type": "cube",
+      "origin": [
+        0,
+        -12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            219,
+            1,
+            230,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            232,
+            1,
+            243,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            15,
+            14,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            15,
+            29,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            31,
+            15,
+            42,
+            28
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            44,
+            15,
+            55,
+            28
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -5.5,
+        -13.5,
+        -6.5
+      ],
+      "to": [
+        5.5,
+        -10.5,
+        6.5
+      ]
+    },
+    {
+      "name": "Angular_Sabot_Petals_L",
+      "uuid": "90f603e7-002c-5f92-b2a9-d0232570ea23",
+      "type": "cube",
+      "origin": [
+        -5.2,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            57,
+            15,
+            60,
+            30
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            62,
+            15,
+            65,
+            30
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            67,
+            15,
+            73,
+            30
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            75,
+            15,
+            81,
+            30
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            83,
+            15,
+            86,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            15,
+            91,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        -6.7,
+        -4.5,
+        -3.0
+      ],
+      "to": [
+        -3.7,
+        10.5,
+        3.0
+      ]
+    },
+    {
+      "name": "Angular_Sabot_Petals_R",
+      "uuid": "f2068627-d1de-5dd9-9856-69c0e12b9e8c",
+      "type": "cube",
+      "origin": [
+        5.2,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            57,
+            15,
+            60,
+            30
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            62,
+            15,
+            65,
+            30
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            67,
+            15,
+            73,
+            30
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            75,
+            15,
+            81,
+            30
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            83,
+            15,
+            86,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            15,
+            91,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        3.7,
+        -4.5,
+        -3.0
+      ],
+      "to": [
+        6.7,
+        10.5,
+        3.0
+      ]
+    },
+    {
+      "name": "Chrome_Petal_Edge_L",
+      "uuid": "6dfd7975-99d9-5d9d-8af9-60e39037be9d",
+      "type": "cube",
+      "origin": [
+        -6.3,
+        4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            93,
+            15,
+            94,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            96,
+            15,
+            97,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            99,
+            15,
+            106,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            108,
+            15,
+            115,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            117,
+            15,
+            118,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            120,
+            15,
+            121,
+            22
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 7,
+      "from": [
+        -6.8,
+        -2.5,
+        -3.5
+      ],
+      "to": [
+        -5.8,
+        10.5,
+        3.5
+      ]
+    },
+    {
+      "name": "Chrome_Petal_Edge_R",
+      "uuid": "1f8d13a0-71b1-5b7d-8ded-d445ceccdc76",
+      "type": "cube",
+      "origin": [
+        6.3,
+        4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            93,
+            15,
+            94,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            96,
+            15,
+            97,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            99,
+            15,
+            106,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            108,
+            15,
+            115,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            117,
+            15,
+            118,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            120,
+            15,
+            121,
+            22
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 0,
+      "from": [
+        5.8,
+        -2.5,
+        -3.5
+      ],
+      "to": [
+        6.8,
+        10.5,
+        3.5
+      ]
+    },
+    {
+      "name": "Cyan_Crystal_Penetrator",
+      "uuid": "b36e2d20-6729-5736-b732-1b2cc0e2f2a3",
+      "type": "cube",
+      "origin": [
+        0,
+        9,
+        0
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            123,
+            15,
+            128,
+            29
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            130,
+            15,
+            135,
+            29
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            137,
+            15,
+            142,
+            29
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            144,
+            15,
+            149,
+            29
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            151,
+            15,
+            156,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            158,
+            15,
+            163,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -2.5,
+        2.0,
+        -2.5
+      ],
+      "to": [
+        2.5,
+        16.0,
+        2.5
+      ]
+    },
+    {
+      "name": "Crystal_Point",
+      "uuid": "2fe38122-2f16-59a8-96a6-7a02cbdea773",
+      "type": "cube",
+      "origin": [
+        0,
+        17,
+        0
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            165,
+            15,
+            168,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            170,
+            15,
+            173,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            175,
+            15,
+            178,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            180,
+            15,
+            183,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            185,
+            15,
+            188,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            190,
+            15,
+            193,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -1.5,
+        15.5,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        18.5,
+        1.5
+      ]
+    },
+    {
+      "name": "Maze_Plate_L",
+      "uuid": "1abe616a-27b1-558c-a180-d7c08fcfe76b",
+      "type": "cube",
+      "origin": [
+        0,
+        -4,
+        -5.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            195,
+            15,
+            202,
+            22
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            204,
+            15,
+            211,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            213,
+            15,
+            214,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            216,
+            15,
+            217,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            219,
+            15,
+            226,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            228,
+            15,
+            235,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -3.5,
+        -7.5,
+        -5.7
+      ],
+      "to": [
+        3.5,
+        -0.5,
+        -4.7
+      ]
+    },
+    {
+      "name": "Maze_Plate_R",
+      "uuid": "2308740c-5e0a-50d4-b5c2-f3c6a78e14bc",
+      "type": "cube",
+      "origin": [
+        0,
+        -4,
+        5.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            195,
+            15,
+            202,
+            22
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            204,
+            15,
+            211,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            213,
+            15,
+            214,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            216,
+            15,
+            217,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            219,
+            15,
+            226,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            228,
+            15,
+            235,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -3.5,
+        -7.5,
+        4.7
+      ],
+      "to": [
+        3.5,
+        -0.5,
+        5.7
+      ]
+    },
+    {
+      "name": "Sabot_Release_Seam",
+      "uuid": "2f85f127-68cd-5b48-825a-53a365772e2f",
+      "type": "cube",
+      "origin": [
+        0,
+        -1,
+        -5.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            237,
+            15,
+            244,
+            16
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            246,
+            15,
+            253,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            32,
+            2,
+            33
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            32,
+            5,
+            33
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            32,
+            14,
+            33
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            32,
+            23,
+            33
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        -3.5,
+        -1.5,
+        -6.3
+      ],
+      "to": [
+        3.5,
+        -0.5,
+        -5.3
+      ]
+    },
+    {
+      "name": "Dark_Primer",
+      "uuid": "31db86f4-ed0f-59a0-8db2-0ead31ed6dcd",
+      "type": "cube",
+      "origin": [
+        0,
+        -14,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            25,
+            32,
+            29,
+            33
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            31,
+            32,
+            35,
+            33
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            37,
+            32,
+            41,
+            33
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            43,
+            32,
+            47,
+            33
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            49,
+            32,
+            53,
+            36
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            55,
+            32,
+            59,
+            36
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        -2.0,
+        -14.5,
+        -2.0
+      ],
+      "to": [
+        2.0,
+        -13.5,
+        2.0
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Threadline Sabots",
+      "uuid": "a8c2548d-02cf-505e-9882-04d8b39bd3b7",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "0c2f667a-319e-5568-a38f-6d4241c91847",
+        "d37836f2-8713-5cd8-853b-6e0dff1ac254",
+        "580bd390-588c-50c7-a3da-e6fe65edc49d",
+        "d9f40e18-1620-5d5f-8fbc-d84574283445",
+        "90f603e7-002c-5f92-b2a9-d0232570ea23",
+        "f2068627-d1de-5dd9-9856-69c0e12b9e8c",
+        "6dfd7975-99d9-5d9d-8af9-60e39037be9d",
+        "1f8d13a0-71b1-5b7d-8ded-d445ceccdc76",
+        "b36e2d20-6729-5736-b732-1b2cc0e2f2a3",
+        "2fe38122-2f16-59a8-96a6-7a02cbdea773",
+        "1abe616a-27b1-558c-a180-d7c08fcfe76b",
+        "2308740c-5e0a-50d4-b5c2-f3c6a78e14bc",
+        "2f85f127-68cd-5b48-825a-53a365772e2f",
+        "31db86f4-ed0f-59a0-8db2-0ead31ed6dcd"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Ranger_Ammo_08.png",
+      "path": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\08\\Ranger_Ammo_08.png",
+      "id": "0",
+      "uuid": "6381e27c-0073-529a-b294-d2434f4b0b7e",
+      "source": "data:image/png;base64,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",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

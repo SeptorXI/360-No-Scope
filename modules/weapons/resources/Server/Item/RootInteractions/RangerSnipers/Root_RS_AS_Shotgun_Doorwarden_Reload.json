@@ -1,0 +1,123 @@
+{
+  "RequireNewClick": true,
+  "HudInputBindingEntry": "server.hud.inputBinding.reload",
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Pick"
+    ],
+    "Blocking": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick"
+    ],
+    "Interrupting": [
+      "Secondary"
+    ],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "UseBlock",
+      "Failed": {
+        "Type": "UseEntity",
+        "Failed": {
+          "Type": "RSChamber",
+          "Operation": "BeginReload",
+          "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+          "Failed": "RS_AS_Shotgun_Doorwarden_Empty",
+          "Next": {
+            "Type": "RSChamber",
+            "Operation": "ReloadCountCondition",
+            "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+            "Cost": 1,
+            "Next": {
+              "Type": "Parallel",
+              "Interactions": [
+                "Root_RS_AS_Shotgun_Doorwarden_Reload_Count1_Main",
+                "Root_RS_AS_Shotgun_Doorwarden_Reload_Count1_Cues"
+              ]
+            },
+            "Failed": {
+              "Type": "RSChamber",
+              "Operation": "ReloadCountCondition",
+              "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+              "Cost": 2,
+              "Next": {
+                "Type": "Parallel",
+                "Interactions": [
+                  "Root_RS_AS_Shotgun_Doorwarden_Reload_Count2_Main",
+                  "Root_RS_AS_Shotgun_Doorwarden_Reload_Count2_Cues"
+                ]
+              },
+              "Failed": {
+                "Type": "RSChamber",
+                "Operation": "ReloadCountCondition",
+                "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+                "Cost": 3,
+                "Next": {
+                  "Type": "Parallel",
+                  "Interactions": [
+                    "Root_RS_AS_Shotgun_Doorwarden_Reload_Count3_Main",
+                    "Root_RS_AS_Shotgun_Doorwarden_Reload_Count3_Cues"
+                  ]
+                },
+                "Failed": {
+                  "Type": "RSChamber",
+                  "Operation": "ReloadCountCondition",
+                  "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+                  "Cost": 4,
+                  "Next": {
+                    "Type": "Parallel",
+                    "Interactions": [
+                      "Root_RS_AS_Shotgun_Doorwarden_Reload_Count4_Main",
+                      "Root_RS_AS_Shotgun_Doorwarden_Reload_Count4_Cues"
+                    ]
+                  },
+                  "Failed": {
+                    "Type": "RSChamber",
+                    "Operation": "ReloadCountCondition",
+                    "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+                    "Cost": 5,
+                    "Next": {
+                      "Type": "Parallel",
+                      "Interactions": [
+                        "Root_RS_AS_Shotgun_Doorwarden_Reload_Count5_Main",
+                        "Root_RS_AS_Shotgun_Doorwarden_Reload_Count5_Cues"
+                      ]
+                    },
+                    "Failed": {
+                      "Type": "RSChamber",
+                      "Operation": "ReloadCountCondition",
+                      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+                      "Cost": 6,
+                      "Next": {
+                        "Type": "Parallel",
+                        "Interactions": [
+                          "Root_RS_AS_Shotgun_Doorwarden_Reload_Count6_Main",
+                          "Root_RS_AS_Shotgun_Doorwarden_Reload_Count6_Cues"
+                        ]
+                      },
+                      "Failed": "RS_AS_Shotgun_Doorwarden_Empty"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

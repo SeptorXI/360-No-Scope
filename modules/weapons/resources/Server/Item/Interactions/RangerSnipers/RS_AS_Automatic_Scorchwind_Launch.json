@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Automatic_Scorchwind_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.8,
+  "BodyDamage": 4.25,
+  "HeadDamage": 6.5,
+  "Range": 78,
+  "Lifetime": 0.6964,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Automatic_Scorchwind_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Automatic_Scorchwind_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Automatic_Scorchwind_Fire_World"
+  }
+}

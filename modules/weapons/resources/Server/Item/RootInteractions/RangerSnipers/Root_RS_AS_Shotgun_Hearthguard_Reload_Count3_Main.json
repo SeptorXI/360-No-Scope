@@ -1,0 +1,57 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Pick"
+    ],
+    "Blocking": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick"
+    ],
+    "Interrupting": [
+      "Secondary"
+    ],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 3,
+      "HorizontalSpeedMultiplier": 0.6,
+      "Effects": {
+        "ItemAnimationId": "Reload3",
+        "ClearAnimationOnFinish": true,
+        "MovementEffects": {
+          "DisableSprint": true
+        }
+      },
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "CommitReload",
+        "WeaponId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+        "Failed": "RS_AS_Shotgun_Hearthguard_Empty",
+        "Next": {
+          "Type": "Simple",
+          "RunTime": 0,
+          "Effects": {
+            "LocalSoundEventId": "RS_Audio_Frostline_Sentinel_Ready_Local",
+            "WorldSoundEventId": "RS_Audio_Frostline_Sentinel_Ready_World"
+          }
+        }
+      }
+    }
+  ]
+}

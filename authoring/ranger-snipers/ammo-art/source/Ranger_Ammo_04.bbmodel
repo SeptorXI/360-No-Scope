@@ -1,0 +1,1348 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Gravelight Reliquary Rounds",
+  "model_identifier": "Ranger_Ammo_04",
+  "resolution": {
+    "width": 256,
+    "height": 256
+  },
+  "elements": [
+    {
+      "name": "Blackiron_Reliquary",
+      "uuid": "1e36a5f5-e421-5178-9969-818c42c415c9",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            8,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            10,
+            1,
+            17,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            1,
+            28,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            30,
+            1,
+            39,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            1,
+            48,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            50,
+            1,
+            57,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -3.5,
+        -9.0,
+        -4.5
+      ],
+      "to": [
+        3.5,
+        9.0,
+        4.5
+      ]
+    },
+    {
+      "name": "Blackiron_Reliquary_Facets",
+      "uuid": "4af5ac7b-89e2-5538-b330-4946cb409b0b",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            59,
+            1,
+            68,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            70,
+            1,
+            79,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            81,
+            1,
+            88,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            90,
+            1,
+            97,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            99,
+            1,
+            108,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            110,
+            1,
+            119,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -4.5,
+        -9.0,
+        -3.5
+      ],
+      "to": [
+        4.5,
+        9.0,
+        3.5
+      ]
+    },
+    {
+      "name": "Violet_Sealed_Core",
+      "uuid": "e123e7a8-75ed-5299-80b5-ec36f774ef32",
+      "type": "cube",
+      "origin": [
+        0,
+        1,
+        -4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            121,
+            1,
+            127,
+            11
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            129,
+            1,
+            135,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            137,
+            1,
+            138,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            140,
+            1,
+            141,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            143,
+            1,
+            149,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            151,
+            1,
+            157,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -3.0,
+        -4.0,
+        -5.3
+      ],
+      "to": [
+        3.0,
+        6.0,
+        -4.3
+      ]
+    },
+    {
+      "name": "Bone_Cage_L",
+      "uuid": "1b314db0-7c10-528e-a742-562a80cce173",
+      "type": "cube",
+      "origin": [
+        -4.2,
+        0,
+        -5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            159,
+            1,
+            161,
+            17
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            163,
+            1,
+            165,
+            17
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            167,
+            1,
+            169,
+            17
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            171,
+            1,
+            173,
+            17
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            175,
+            1,
+            177,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            179,
+            1,
+            181,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -5.2,
+        -8.0,
+        -6.5
+      ],
+      "to": [
+        -3.2,
+        8.0,
+        -4.5
+      ]
+    },
+    {
+      "name": "Bone_Cage_R",
+      "uuid": "42f4d132-2185-541f-8032-69dcaee78d63",
+      "type": "cube",
+      "origin": [
+        4.2,
+        0,
+        -5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            159,
+            1,
+            161,
+            17
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            163,
+            1,
+            165,
+            17
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            167,
+            1,
+            169,
+            17
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            171,
+            1,
+            173,
+            17
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            175,
+            1,
+            177,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            179,
+            1,
+            181,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        3.2,
+        -8.0,
+        -6.5
+      ],
+      "to": [
+        5.2,
+        8.0,
+        -4.5
+      ]
+    },
+    {
+      "name": "Bone_Upper_Seal",
+      "uuid": "efc0070f-f35c-538f-b0c5-b54071ab0912",
+      "type": "cube",
+      "origin": [
+        0,
+        8,
+        -5.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            183,
+            1,
+            193,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            195,
+            1,
+            205,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            207,
+            1,
+            209,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            211,
+            1,
+            213,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            225,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            227,
+            1,
+            237,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        -5.0,
+        6.5,
+        -6.1
+      ],
+      "to": [
+        5.0,
+        9.5,
+        -4.1
+      ]
+    },
+    {
+      "name": "Bone_Lower_Seal",
+      "uuid": "a56c4036-b870-52de-b40d-e13e5c33601a",
+      "type": "cube",
+      "origin": [
+        0,
+        -7,
+        -5.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            239,
+            1,
+            249,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            1,
+            21,
+            11,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            21,
+            15,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            21,
+            19,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            21,
+            21,
+            31,
+            23
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            21,
+            43,
+            23
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 7,
+      "from": [
+        -5.0,
+        -8.5,
+        -6.1
+      ],
+      "to": [
+        5.0,
+        -5.5,
+        -4.1
+      ]
+    },
+    {
+      "name": "Iron_Extractor",
+      "uuid": "419e6845-fdb4-513a-b200-e9476bd12aa9",
+      "type": "cube",
+      "origin": [
+        0,
+        -10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            45,
+            21,
+            56,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            58,
+            21,
+            69,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            71,
+            21,
+            80,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            82,
+            21,
+            91,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            93,
+            21,
+            104,
+            30
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            106,
+            21,
+            117,
+            30
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 0,
+      "from": [
+        -5.5,
+        -11.5,
+        -4.5
+      ],
+      "to": [
+        5.5,
+        -8.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Iron_Extractor_Corners",
+      "uuid": "bf1b6139-e8d5-5501-b3fe-f80f9bac716c",
+      "type": "cube",
+      "origin": [
+        0,
+        -10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            119,
+            21,
+            128,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            130,
+            21,
+            139,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            141,
+            21,
+            152,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            154,
+            21,
+            165,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            167,
+            21,
+            176,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            178,
+            21,
+            187,
+            32
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 1,
+      "from": [
+        -4.5,
+        -11.5,
+        -5.5
+      ],
+      "to": [
+        4.5,
+        -8.5,
+        5.5
+      ]
+    },
+    {
+      "name": "Bone_Projectile",
+      "uuid": "6e176997-3f57-56c7-ba26-96c110a0e220",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            189,
+            21,
+            193,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            195,
+            21,
+            199,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            201,
+            21,
+            207,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            209,
+            21,
+            215,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            217,
+            21,
+            221,
+            27
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            223,
+            21,
+            227,
+            27
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 2,
+      "from": [
+        -2.0,
+        8.5,
+        -3.0
+      ],
+      "to": [
+        2.0,
+        15.5,
+        3.0
+      ]
+    },
+    {
+      "name": "Bone_Projectile_Facets",
+      "uuid": "a0c5552a-f239-5717-8bb2-0dedb133d97c",
+      "type": "cube",
+      "origin": [
+        0,
+        12,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            229,
+            21,
+            235,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            237,
+            21,
+            243,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            245,
+            21,
+            249,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            251,
+            21,
+            255,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            34,
+            7,
+            38
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            34,
+            15,
+            38
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 3,
+      "from": [
+        -3.0,
+        8.5,
+        -2.0
+      ],
+      "to": [
+        3.0,
+        15.5,
+        2.0
+      ]
+    },
+    {
+      "name": "Iron_Nose",
+      "uuid": "1f265cfd-a4c5-5308-8153-e05782fcfb39",
+      "type": "cube",
+      "origin": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            17,
+            34,
+            20,
+            37
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            22,
+            34,
+            25,
+            37
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            27,
+            34,
+            30,
+            37
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32,
+            34,
+            35,
+            37
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            37,
+            34,
+            40,
+            37
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            42,
+            34,
+            45,
+            37
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 4,
+      "from": [
+        -1.5,
+        14.5,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        17.5,
+        1.5
+      ]
+    },
+    {
+      "name": "Prayer_Stud",
+      "uuid": "23fab9cb-c0b5-522a-b11a-671ab12d9874",
+      "type": "cube",
+      "origin": [
+        0,
+        8,
+        -6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            47,
+            34,
+            50,
+            37
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            52,
+            34,
+            55,
+            37
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            34,
+            58,
+            37
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            60,
+            34,
+            61,
+            37
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            63,
+            34,
+            66,
+            35
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            68,
+            34,
+            71,
+            35
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 5,
+      "from": [
+        -1.5,
+        6.5,
+        -7.0
+      ],
+      "to": [
+        1.5,
+        9.5,
+        -6.0
+      ]
+    },
+    {
+      "name": "Bone_Rear_Brace_L",
+      "uuid": "0731adce-6334-5ff9-aea9-7e2c2bbf8615",
+      "type": "cube",
+      "origin": [
+        0,
+        1,
+        -4.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            73,
+            34,
+            75,
+            46
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            77,
+            34,
+            79,
+            46
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            81,
+            34,
+            82,
+            46
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            84,
+            34,
+            85,
+            46
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            87,
+            34,
+            89,
+            35
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            91,
+            34,
+            93,
+            35
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 6,
+      "from": [
+        -1.0,
+        -5.0,
+        -5.1
+      ],
+      "to": [
+        1.0,
+        7.0,
+        -4.1
+      ]
+    },
+    {
+      "name": "Bone_Rear_Brace_R",
+      "uuid": "d194bfe3-f18d-5232-819a-ff35523fc4b6",
+      "type": "cube",
+      "origin": [
+        0,
+        1,
+        4.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            73,
+            34,
+            75,
+            46
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            77,
+            34,
+            79,
+            46
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            81,
+            34,
+            82,
+            46
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            84,
+            34,
+            85,
+            46
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            87,
+            34,
+            89,
+            35
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            91,
+            34,
+            93,
+            35
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "double_sided": false,
+      "shade": true,
+      "autouv": 0,
+      "color": 7,
+      "from": [
+        -1.0,
+        -5.0,
+        4.1
+      ],
+      "to": [
+        1.0,
+        7.0,
+        5.1
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Gravelight Reliquary Rounds",
+      "uuid": "403bbc95-28b9-5fed-952d-afd72b397412",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "1e36a5f5-e421-5178-9969-818c42c415c9",
+        "4af5ac7b-89e2-5538-b330-4946cb409b0b",
+        "e123e7a8-75ed-5299-80b5-ec36f774ef32",
+        "1b314db0-7c10-528e-a742-562a80cce173",
+        "42f4d132-2185-541f-8032-69dcaee78d63",
+        "efc0070f-f35c-538f-b0c5-b54071ab0912",
+        "a56c4036-b870-52de-b40d-e13e5c33601a",
+        "419e6845-fdb4-513a-b200-e9476bd12aa9",
+        "bf1b6139-e8d5-5501-b3fe-f80f9bac716c",
+        "6e176997-3f57-56c7-ba26-96c110a0e220",
+        "a0c5552a-f239-5717-8bb2-0dedb133d97c",
+        "1f265cfd-a4c5-5308-8153-e05782fcfb39",
+        "23fab9cb-c0b5-522a-b11a-671ab12d9874",
+        "0731adce-6334-5ff9-aea9-7e2c2bbf8615",
+        "d194bfe3-f18d-5232-819a-ff35523fc4b6"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Ranger_Ammo_04.png",
+      "path": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\04\\Ranger_Ammo_04.png",
+      "id": "0",
+      "uuid": "129b9b19-b224-523a-8764-027433d690e6",
+      "source": "data:image/png;base64,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",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

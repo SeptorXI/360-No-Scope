@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Waytrail Marksman Cartridges",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "elements": [
+    {
+      "name": "Case",
+      "uuid": "ba2dc881-1459-5234-851b-8eee0e3c4839",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            6,
+            22
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            1,
+            13,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            1,
+            20,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            1,
+            27,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            29,
+            1,
+            34,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            36,
+            1,
+            41,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -2.5,
+        -10.5,
+        -2.5
+      ],
+      "to": [
+        2.5,
+        10.5,
+        2.5
+      ]
+    },
+    {
+      "name": "Extractor_Rim",
+      "uuid": "12b2506b-624a-5963-bcc0-e909b4ee0fd7",
+      "type": "cube",
+      "origin": [
+        0,
+        -10.5,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            43,
+            1,
+            50,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            52,
+            1,
+            59,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            61,
+            1,
+            68,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            70,
+            1,
+            77,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            79,
+            1,
+            86,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            88,
+            1,
+            95,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -3.5,
+        -11.5,
+        -3.5
+      ],
+      "to": [
+        3.5,
+        -9.5,
+        3.5
+      ]
+    },
+    {
+      "name": "Primer",
+      "uuid": "cab46075-5ecc-595e-8dea-63ba7da0397a",
+      "type": "cube",
+      "origin": [
+        0,
+        -11.8,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            97,
+            1,
+            100,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            102,
+            1,
+            105,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            107,
+            1,
+            110,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            112,
+            1,
+            115,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            117,
+            1,
+            120,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            122,
+            1,
+            125,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -12.3,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        -11.3,
+        1.5
+      ]
+    },
+    {
+      "name": "Shoulder",
+      "uuid": "c236a2b9-db19-5d1d-9169-eb6531ee89d7",
+      "type": "cube",
+      "origin": [
+        0,
+        10.5,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            127,
+            1,
+            132,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            134,
+            1,
+            139,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            141,
+            1,
+            146,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            148,
+            1,
+            153,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            155,
+            1,
+            160,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            162,
+            1,
+            167,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -2.5,
+        9.5,
+        -2.5
+      ],
+      "to": [
+        2.5,
+        11.5,
+        2.5
+      ]
+    },
+    {
+      "name": "Projectile",
+      "uuid": "7c613ec4-0b0b-561e-9026-f4de2320892a",
+      "type": "cube",
+      "origin": [
+        0,
+        13.5,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            169,
+            1,
+            172,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            174,
+            1,
+            177,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            179,
+            1,
+            182,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            184,
+            1,
+            187,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            189,
+            1,
+            192,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            194,
+            1,
+            197,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        11.5,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        15.5,
+        1.5
+      ]
+    },
+    {
+      "name": "Nose",
+      "uuid": "bdc7caf2-8fc5-5b34-9299-356402cdbd83",
+      "type": "cube",
+      "origin": [
+        0,
+        16.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            199,
+            1,
+            201,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            203,
+            1,
+            205,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            207,
+            1,
+            209,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            211,
+            1,
+            213,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            217,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            219,
+            1,
+            221,
+            3
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.0,
+        15.0,
+        -1.0
+      ],
+      "to": [
+        1.0,
+        17.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Regional_Seal_L",
+      "uuid": "24ae9112-edd3-5396-b381-788cd892b97a",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        -2.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            223,
+            1,
+            226,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            228,
+            1,
+            231,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            1,
+            234,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            1,
+            237,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            1,
+            242,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            1,
+            247,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -2.0,
+        -3.1
+      ],
+      "to": [
+        1.5,
+        2.0,
+        -2.1
+      ]
+    },
+    {
+      "name": "Regional_Seal_R",
+      "uuid": "4909bfa3-2e23-5264-9ebd-4c394ebb9521",
+      "type": "cube",
+      "origin": [
+        0,
+        0,
+        2.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            223,
+            1,
+            226,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            228,
+            1,
+            231,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            233,
+            1,
+            234,
+            5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            236,
+            1,
+            237,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            239,
+            1,
+            242,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            244,
+            1,
+            247,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shading_mode": "flat",
+      "shade": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        -2.0,
+        2.1
+      ],
+      "to": [
+        1.5,
+        2.0,
+        3.1
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Waytrail Marksman Cartridges",
+      "uuid": "f8dcb5b8-f66f-591a-ba94-8f5f7e6a69a3",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "ba2dc881-1459-5234-851b-8eee0e3c4839",
+        "12b2506b-624a-5963-bcc0-e909b4ee0fd7",
+        "cab46075-5ecc-595e-8dea-63ba7da0397a",
+        "c236a2b9-db19-5d1d-9169-eb6531ee89d7",
+        "7c613ec4-0b0b-561e-9026-f4de2320892a",
+        "bdc7caf2-8fc5-5b34-9299-356402cdbd83",
+        "24ae9112-edd3-5396-b381-788cd892b97a",
+        "4909bfa3-2e23-5264-9ebd-4c394ebb9521"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "AS_Ammo_SemiAuto_Waymark.png",
+      "id": "0",
+      "uuid": "44f69471-e366-59a5-9e87-9e884ea1e5d8",
+      "source": "data:image/png;base64,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+x0gmJcDBgAGrANwod/TfqFlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwdNX7D6YFwcS6sBQ2AAAAAElFTkSuQmCC",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "newRecordings": [
+    {
+      "id": "ffsl_mosin_mid",
+      "filename": "ffsl_mosin_mid.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Mosin%20Nagant/M_26.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Mosin Nagant/M_26.wav",
+      "description": "Mosin Nagant natural mid-distance report",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mid",
+      "suggestedFamilies": [
+        "sniper"
+      ],
+      "role": "natural_outdoor_tail_donor_remove_initial_discharge",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_mosin_mid.wav",
+      "sha256": "97307b8c5250eff9708070099dd4bb872cd70906439625332909c4807af31391",
+      "bytes": 28535786,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 24.76696875,
+        "samplePeakDbFS": 0.0,
+        "fullScaleSampleCount": 209,
+        "monoPeakDbFS": -0.55484,
+        "stereoCorrelation": -0.14333349485460342,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.67116,
+        "firstRelativeMinus40DbOnsetSeconds": 2.107,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          2.122,
+          10.409,
+          20.143
+        ],
+        "metadata": {
+          "comment": "Mosin Nagant, rifle, bolt action, 7.62x54, gunshot, mid distance, front of shooter, forward, back, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_1911_near_alt",
+      "filename": "ffsl_1911_near_alt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/1911/A_41.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/1911/A_41.wav",
+      "description": "1911 alternate near-distance take",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "handgun"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_1911_near_alt.wav",
+      "sha256": "2a35d1c24f25f54d70cbd328d63b5c82ed93eef31d8265b37a83ba50d23a2ea1",
+      "bytes": 14387394,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 12.485385416666666,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 52,
+        "monoPeakDbFS": -4.5494,
+        "stereoCorrelation": -0.20664151904877986,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.95174,
+        "firstRelativeMinus40DbOnsetSeconds": 1.144,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          1.145,
+          5.056,
+          10.004
+        ],
+        "metadata": {
+          "comment": "1911, handgun, pistol, semi automatic, .45, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_ak47_near_alt",
+      "filename": "ffsl_ak47_near_alt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/AK-47/C_25.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/AK-47/C_25.wav",
+      "description": "AK-47 alternate near-distance single shots",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "automatic"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_ak47_near_alt.wav",
+      "sha256": "17cf3e4589b344c5dfa15ffd5e8ac4fc5cbd40afc191d1a70d17add384cb99f5",
+      "bytes": 23023086,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 19.9815,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 11,
+        "monoPeakDbFS": -5.68715,
+        "stereoCorrelation": -0.036736153245112334,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.17285,
+        "firstRelativeMinus40DbOnsetSeconds": 0.797,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.799,
+          4.027,
+          7.526,
+          11.24,
+          14.878
+        ],
+        "metadata": {
+          "comment": "AK-47, rifle, fully automatic, semi automatic, machine gun, assault rifle, 7.62x39, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_ar15_near_alt",
+      "filename": "ffsl_ar15_near_alt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/AR-15/D_31.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/AR-15/D_31.wav",
+      "description": "AR-15 alternate near-distance single shots",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "semiauto"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_ar15_near_alt.wav",
+      "sha256": "448000e06cee112cc726a11c74ad4a61dbcdf07ca7cba6d3934ecc03c105d3f4",
+      "bytes": 19932246,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 17.298520833333335,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 16,
+        "monoPeakDbFS": -5.34109,
+        "stereoCorrelation": -0.0024024742321095876,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.02074,
+        "firstRelativeMinus40DbOnsetSeconds": 0.499,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.501,
+          7.175,
+          12.549
+        ],
+        "metadata": {
+          "comment": "AR-15, M4, rifle, carbine, semi automatic, assault rifle, .223, 5.56x45, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_1911_rack",
+      "filename": "ffsl_1911_rack.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/1911/A_24.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/1911/A_24.wav",
+      "description": "1911 full slide rack",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "handgun"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_1911_rack.wav",
+      "sha256": "71c917c01a7c6b92eea79f5216be01773131fa5978a7d2553e49da9eba2cd78d",
+      "bytes": 900234,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 0.77796875,
+        "samplePeakDbFS": -3.0103,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -3.0103,
+        "stereoCorrelation": 0.9999999999999999,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.204,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.435
+        ],
+        "metadata": {
+          "comment": "1911, handgun, pistol, semi automatic, .45, full rack",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_ak47_cycle",
+      "filename": "ffsl_ak47_cycle.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/AK-47/C_14.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/AK-47/C_14.wav",
+      "description": "AK-47 full action cycle with empty magazine",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "automatic"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_ak47_cycle.wav",
+      "sha256": "c749e112212b1fca4ecc35ff2d632c562909ab361a92de46984cdf6e0ce4a2f2",
+      "bytes": 2242062,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 1.9425625,
+        "samplePeakDbFS": -2.66068,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -2.66068,
+        "stereoCorrelation": 1.0,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.188,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.567,
+          1.513
+        ],
+        "metadata": {
+          "comment": "AK-47, rifle, fully automatic, semi automatic, machine gun, assault rifle, 7.62x39, full cycle empty mag",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_nova_pump",
+      "filename": "ffsl_nova_pump.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Nova/O_6.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Nova/O_6.wav",
+      "description": "Benelli Nova full pump cycle with loaded magazine",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "shotgun"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_nova_pump.wav",
+      "sha256": "99f8498b877fbf15d70f9b28abd8e651c47f4088e9d0172ed2a51ab2770b573a",
+      "bytes": 3377210,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 2.928072916666667,
+        "samplePeakDbFS": -2.86449,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -2.86449,
+        "stereoCorrelation": 1.0,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 1.031,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          1.164
+        ],
+        "metadata": {
+          "comment": "Benelli, Nova, shotgun, pump action, 12 gauge,  full cycle loaded mag",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_m45_near_alt",
+      "filename": "ffsl_m45_near_alt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Carl%20Gustav%20M45_Swedish%20K/G_25.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Carl Gustav M45_Swedish K/G_25.wav",
+      "description": "Carl Gustav M45 alternate near-distance single shots",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "smg"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_m45_near_alt.wav",
+      "sha256": "85155c72ba34ad287e69cb6e4be0952da1b510e9d9468eba2208aa5c37a64803",
+      "bytes": 11231922,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 9.746072916666666,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 21,
+        "monoPeakDbFS": -5.62908,
+        "stereoCorrelation": -0.12167787908750134,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.5723,
+        "firstRelativeMinus40DbOnsetSeconds": 0.19,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.192,
+          2.98,
+          6.833
+        ],
+        "metadata": {
+          "comment": "Carl Gustav M45, Swedish K, rifle, fully automatic, machine gun, sub machine gun, 9mm, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_nova_mid_actual",
+      "filename": "ffsl_nova_mid_actual.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Nova/O_16.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Nova/O_16.wav",
+      "description": "Benelli Nova mid-distance single-shot outdoor-tail donor",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mid",
+      "suggestedFamilies": [
+        "shotgun"
+      ],
+      "role": "natural_outdoor_tail_donor_remove_initial_discharge",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_nova_mid_actual.wav",
+      "sha256": "f68d77a4233752b54c57d0db576b4047ecefda6f0b5716358e2de599335b5559",
+      "bytes": 12300814,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 10.674104166666666,
+        "samplePeakDbFS": 0.0,
+        "fullScaleSampleCount": 310,
+        "monoPeakDbFS": 0.0,
+        "stereoCorrelation": 0.5888114916135597,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -1.01473,
+        "firstRelativeMinus40DbOnsetSeconds": 1.163,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          1.164,
+          7.035
+        ],
+        "metadata": {
+          "comment": "Benelli, Nova, shotgun, pump action, 12 gauge, gunshot, mid distance, front of shooter, forward, back, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_nova_behind",
+      "filename": "ffsl_nova_behind.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Nova/O_18.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Nova/O_18.wav",
+      "description": "Benelli Nova single shots recorded behind shooter",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "behind",
+      "suggestedFamilies": [
+        "shotgun"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_nova_behind.wav",
+      "sha256": "f583a6efcabcbbe0b09229378544807f5ab39516479f20f7e7fe9955bd05f84b",
+      "bytes": 30044422,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 26.076645833333334,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 17,
+        "monoPeakDbFS": -0.0,
+        "stereoCorrelation": 0.9776647992814671,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -0.07981,
+        "firstRelativeMinus40DbOnsetSeconds": 1.478,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          1.481,
+          21.605
+        ],
+        "metadata": {
+          "comment": "Benelli, Nova, shotgun, pump action, 12 gauge, gunshot, behind shooter, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    }
+  ],
+  "freeUseThemeAccents": [
+    {
+      "id": "bluezone-transformers",
+      "title": "Bluezone Corporation Free Transformers Sound Effects",
+      "author": "Bluezone Corporation",
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "license": "Bluezone free-pack project-use terms; attribution required",
+      "licenseUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "credit": "Designed by Bluezone Corporation",
+      "downloadUrl": "https://www.bluezone-corporation.com/images/FREE_SOUNDS/Bluezone_Corporation_Free_Transformers_Sound_Effects.zip",
+      "archivePath": "sources/bluezone-transformers/Bluezone_Corporation_Free_Transformers_Sound_Effects.zip",
+      "archiveSha256": "772a37115e267dcbf1bd7ab3f38a562c98b11cc354f0d1ac02adff9d13cfc1e5",
+      "archiveBytes": 18553574,
+      "originalNoticePath": "sources/bluezone-transformers/extracted/Bluezone_Corporation_Free_Sounds_License.txt",
+      "noticeSha256": "1714fb145c38a540659c3a041f77a525c0c196cf83c578942fe644580fdf6dd0"
+    },
+    {
+      "id": "bluezone-robot",
+      "title": "Bluezone Corporation Free Robot Sound Effects",
+      "author": "Bluezone Corporation",
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "license": "Bluezone free-pack project-use terms; attribution required",
+      "licenseUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "credit": "Designed by Bluezone Corporation",
+      "downloadUrl": "https://www.bluezone-corporation.com/images/FREE_SOUNDS/Bluezone_Corporation_Free_Robot_Sound_Effects.zip",
+      "archivePath": "sources/bluezone-robot/Bluezone_Corporation_Free_Robot_Sound_Effects.zip",
+      "archiveSha256": "5e27206da31eb6d5a07596334b439348f5ec34b31093932d0c9104a1fc1ec9e6",
+      "archiveBytes": 21089039,
+      "originalNoticePath": "sources/bluezone-robot/extracted/Bluezone_Corporation_Free_Sounds_License.txt",
+      "noticeSha256": "1714fb145c38a540659c3a041f77a525c0c196cf83c578942fe644580fdf6dd0"
+    },
+    {
+      "id": "bluezone-weapon",
+      "title": "Bluezone Corporation Free Weapon Sound Effects",
+      "author": "Bluezone Corporation",
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "license": "Bluezone free-pack project-use terms; attribution required",
+      "licenseUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "credit": "Designed by Bluezone Corporation",
+      "downloadUrl": "https://www.bluezone-corporation.com/images/FREE_SOUNDS/Bluezone_Corporation_Free_Weapon_Sound_Effects.zip",
+      "archivePath": "sources/bluezone-weapon/Bluezone_Corporation_Free_Weapon_Sound_Effects.zip",
+      "archiveSha256": "354425cd7ec5800f04a9e8df6a97789104e9ed366c3d6a4a562967ad8733387e",
+      "archiveBytes": 33341106,
+      "originalNoticePath": "sources/bluezone-weapon/extracted/Bluezone_Corporation_Free_Sounds_License.txt",
+      "noticeSha256": "1714fb145c38a540659c3a041f77a525c0c196cf83c578942fe644580fdf6dd0"
+    },
+    {
+      "id": "bluezone-mechanical",
+      "title": "Bluezone Corporation Free Mechanical Sound Effects",
+      "author": "Bluezone Corporation",
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "license": "Bluezone free-pack project-use terms; attribution required",
+      "licenseUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "credit": "Designed by Bluezone Corporation",
+      "downloadUrl": "https://www.bluezone-corporation.com/images/FREE_SOUNDS/Bluezone_Corporation_Free_Mechanical_Sound_Effects.zip",
+      "archivePath": "sources/bluezone-mechanical/Bluezone_Corporation_Free_Mechanical_Sound_Effects.zip",
+      "archiveSha256": "481513e0de2ffc6c863adc914be7d9dd35f77d0190fb8e0a21fcd70dc70b8bce",
+      "archiveBytes": 14483882,
+      "originalNoticePath": "sources/bluezone-mechanical/extracted/Bluezone_Corporation_Free_Sounds_License.txt",
+      "noticeSha256": "1714fb145c38a540659c3a041f77a525c0c196cf83c578942fe644580fdf6dd0"
+    }
+  ],
+  "sourceBytesPreserved": true,
+  "noSunoSources": true
+}

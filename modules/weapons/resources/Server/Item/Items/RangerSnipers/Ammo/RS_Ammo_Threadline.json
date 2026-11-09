@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Ammo_Threadline.name",
+    "Description": "server.items.RS_Ammo_Threadline.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Epic",
+  "Model": "Items/RangerSnipers/Ammo/08/Ranger_Ammo_08.blockymodel",
+  "Texture": "Items/RangerSnipers/Ammo/08/Ranger_Ammo_08.png",
+  "Icon": "Icons/ItemsGenerated/Ranger_Ammo_08.png",
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 2,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 2
+      }
+    ],
+    "OutputQuantity": 24,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

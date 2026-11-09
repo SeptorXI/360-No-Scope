@@ -1,0 +1,23 @@
+{
+  "Parent": "Rifle",
+  "Animations": {
+    "Reload": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Reload_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Reload_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Reload_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Shoot": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Shoot_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Shoot_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Dirge_Engine/Shoot_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.05,
+      "ClipsGeometry": true
+    }
+  }
+}

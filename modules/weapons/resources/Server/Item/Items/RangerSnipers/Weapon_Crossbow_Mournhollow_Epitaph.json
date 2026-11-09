@@ -1,0 +1,102 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 1,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "RS_Mournhollow_Epitaph_Player",
+  "Interactions": {
+    "Primary": "Root_RS_Mournhollow_Epitaph_Primary",
+    "Secondary": "Root_RS_Mournhollow_Epitaph_ADS",
+    "SwapTo": "Root_RS_Mournhollow_Epitaph_ChamberHUD",
+    "Use": "Root_RS_Mournhollow_Epitaph_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_Mournhollow_Epitaph.name",
+    "Description": "server.items.Weapon_Crossbow_Mournhollow_Epitaph.description"
+  },
+  "Model": "Items/RangerSnipers/Tier04/Ranger_Sniper_Tier04.blockymodel",
+  "Texture": "Items/RangerSnipers/Tier04/Ranger_Sniper_Tier04.png",
+  "Icon": "Icons/ItemsGenerated/Ranger_Sniper_Tier04.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Translation": [
+      -3.6,
+      -20.4
+    ],
+    "Rotation": [
+      315,
+      90,
+      0
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 7,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "EL_MH_Reliquary_Key",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Rifles"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -3,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 4,
+  "MaxDistance": 128,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/Fire_01.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/Fire_02.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/Fire_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.0,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    },
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireMechanism_01.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireMechanism_02.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireMechanism_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.045,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    },
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireTail_01.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireTail_02.ogg",
+        "Sounds/Arsenal/AS_Automatic_Winter_Standard/FireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.07,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

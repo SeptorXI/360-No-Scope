@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 5,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Shotgun_Hearthguard_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Shotgun_Hearthguard_Primary",
+    "Secondary": "Root_RS_AS_Shotgun_Hearthguard_ADS",
+    "SwapTo": "Root_RS_AS_Shotgun_Hearthguard_ChamberHUD",
+    "Use": "Root_RS_AS_Shotgun_Hearthguard_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Shotgun_Hearthguard.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Shotgun_Hearthguard.description"
+  },
+  "Model": "Items/Arsenal/AS_Shotgun_Hearthguard/AS_Shotgun_Hearthguard.blockymodel",
+  "Texture": "Items/Arsenal/AS_Shotgun_Hearthguard/AS_Shotgun_Hearthguard.png",
+  "Icon": "Icons/ItemsGenerated/AS_Shotgun_Hearthguard.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 19
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_shotgun"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

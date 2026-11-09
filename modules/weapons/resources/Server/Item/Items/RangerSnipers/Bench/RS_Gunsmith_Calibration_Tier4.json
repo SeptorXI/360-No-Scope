@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Gunsmith_Calibration_Tier4.name",
+    "Description": "server.items.RS_Gunsmith_Calibration_Tier4.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "Quality": "Epic",
+  "Categories": [
+    "Items.Materials"
+  ],
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Gadget_Assembly",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Scraps",
+        "Quantity": 16
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Armor_Onyxium"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ],
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Tooling"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots"
+}

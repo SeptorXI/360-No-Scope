@@ -1,0 +1,39 @@
+{
+  "Model": "RS_Frostline_Sentinel_ProjectileModel",
+  "UseModelScale": true,
+  "LaunchForce": 150,
+  "SpawnOffset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 0,
+    "Yaw": 0,
+    "Roll": 0
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 3,
+    "TerminalVelocityAir": 150,
+    "TerminalVelocityWater": 30,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0,
+    "SticksVertically": false
+  },
+  "LaunchLocalSoundEventId": "RS_Audio_Frostline_Sentinel_Fire_Local",
+  "LaunchWorldSoundEventId": "RS_Audio_Frostline_Sentinel_Fire_World",
+  "Interactions": {
+    "ProjectileSpawn": "Root_RS_Frostline_Sentinel_FlightOrigin",
+    "ProjectileHit": {
+      "Interactions": [
+        "RS_Frostline_Sentinel_Falloff"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "RS_Despawn"
+      ]
+    }
+  }
+}

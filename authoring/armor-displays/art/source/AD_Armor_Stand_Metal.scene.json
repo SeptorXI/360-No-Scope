@@ -1,0 +1,2081 @@
+{
+  "name": "Metal Armor Stand",
+  "stem": "AD_Armor_Stand_Metal",
+  "style": "Metal",
+  "kind": "stand",
+  "texture": "armor-displays\\art\\Common\\Blocks\\ArmorDisplays\\AD_Armor_Stand_Metal.png",
+  "atlas_size": 512,
+  "parts": [
+    {
+      "name": "Weighted_Octagonal_Base",
+      "center": [
+        0,
+        1.5,
+        0
+      ],
+      "size": [
+        24,
+        3,
+        24
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          25,
+          4
+        ],
+        "back": [
+          27,
+          1,
+          51,
+          4
+        ],
+        "left": [
+          53,
+          1,
+          77,
+          4
+        ],
+        "right": [
+          79,
+          1,
+          103,
+          4
+        ],
+        "top": [
+          105,
+          1,
+          129,
+          25
+        ],
+        "bottom": [
+          131,
+          1,
+          155,
+          25
+        ]
+      }
+    },
+    {
+      "name": "Base_Top_Slab",
+      "center": [
+        0,
+        3.5,
+        0
+      ],
+      "size": [
+        22,
+        1,
+        22
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          157,
+          1,
+          179,
+          2
+        ],
+        "back": [
+          181,
+          1,
+          203,
+          2
+        ],
+        "left": [
+          205,
+          1,
+          227,
+          2
+        ],
+        "right": [
+          229,
+          1,
+          251,
+          2
+        ],
+        "top": [
+          253,
+          1,
+          275,
+          23
+        ],
+        "bottom": [
+          277,
+          1,
+          299,
+          23
+        ]
+      }
+    },
+    {
+      "name": "Rubber_Foot_-10_-10",
+      "center": [
+        -10,
+        0.5,
+        -10
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          301,
+          1,
+          305,
+          2
+        ],
+        "back": [
+          307,
+          1,
+          311,
+          2
+        ],
+        "left": [
+          313,
+          1,
+          317,
+          2
+        ],
+        "right": [
+          319,
+          1,
+          323,
+          2
+        ],
+        "top": [
+          325,
+          1,
+          329,
+          5
+        ],
+        "bottom": [
+          331,
+          1,
+          335,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Base_Captive_Bolt_-10_-10",
+      "center": [
+        -10,
+        4.2,
+        -10
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Rubber_Foot_-10_10",
+      "center": [
+        -10,
+        0.5,
+        10
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          301,
+          1,
+          305,
+          2
+        ],
+        "back": [
+          307,
+          1,
+          311,
+          2
+        ],
+        "left": [
+          313,
+          1,
+          317,
+          2
+        ],
+        "right": [
+          319,
+          1,
+          323,
+          2
+        ],
+        "top": [
+          325,
+          1,
+          329,
+          5
+        ],
+        "bottom": [
+          331,
+          1,
+          335,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Base_Captive_Bolt_-10_10",
+      "center": [
+        -10,
+        4.2,
+        10
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Rubber_Foot_10_-10",
+      "center": [
+        10,
+        0.5,
+        -10
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          301,
+          1,
+          305,
+          2
+        ],
+        "back": [
+          307,
+          1,
+          311,
+          2
+        ],
+        "left": [
+          313,
+          1,
+          317,
+          2
+        ],
+        "right": [
+          319,
+          1,
+          323,
+          2
+        ],
+        "top": [
+          325,
+          1,
+          329,
+          5
+        ],
+        "bottom": [
+          331,
+          1,
+          335,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Base_Captive_Bolt_10_-10",
+      "center": [
+        10,
+        4.2,
+        -10
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Rubber_Foot_10_10",
+      "center": [
+        10,
+        0.5,
+        10
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          301,
+          1,
+          305,
+          2
+        ],
+        "back": [
+          307,
+          1,
+          311,
+          2
+        ],
+        "left": [
+          313,
+          1,
+          317,
+          2
+        ],
+        "right": [
+          319,
+          1,
+          323,
+          2
+        ],
+        "top": [
+          325,
+          1,
+          329,
+          5
+        ],
+        "bottom": [
+          331,
+          1,
+          335,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Base_Captive_Bolt_10_10",
+      "center": [
+        10,
+        4.2,
+        10
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Telescoping_Socket",
+      "center": [
+        0,
+        8,
+        3
+      ],
+      "size": [
+        8,
+        8,
+        8
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          355,
+          1,
+          363,
+          9
+        ],
+        "back": [
+          365,
+          1,
+          373,
+          9
+        ],
+        "left": [
+          375,
+          1,
+          383,
+          9
+        ],
+        "right": [
+          385,
+          1,
+          393,
+          9
+        ],
+        "top": [
+          395,
+          1,
+          403,
+          9
+        ],
+        "bottom": [
+          405,
+          1,
+          413,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Socket_Dark_Face",
+      "center": [
+        0,
+        8,
+        -1.1
+      ],
+      "size": [
+        5,
+        5,
+        1
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          415,
+          1,
+          420,
+          6
+        ],
+        "back": [
+          422,
+          1,
+          427,
+          6
+        ],
+        "left": [
+          429,
+          1,
+          430,
+          6
+        ],
+        "right": [
+          432,
+          1,
+          433,
+          6
+        ],
+        "top": [
+          435,
+          1,
+          440,
+          2
+        ],
+        "bottom": [
+          442,
+          1,
+          447,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Socket_Adjust_Knob",
+      "center": [
+        3.9,
+        9,
+        3
+      ],
+      "size": [
+        3,
+        3,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          449,
+          1,
+          452,
+          4
+        ],
+        "back": [
+          454,
+          1,
+          457,
+          4
+        ],
+        "left": [
+          459,
+          1,
+          463,
+          4
+        ],
+        "right": [
+          465,
+          1,
+          469,
+          4
+        ],
+        "top": [
+          471,
+          1,
+          474,
+          5
+        ],
+        "bottom": [
+          476,
+          1,
+          479,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Lower_Telescopic_Post",
+      "center": [
+        0,
+        24,
+        3
+      ],
+      "size": [
+        4,
+        28,
+        4
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          481,
+          1,
+          485,
+          29
+        ],
+        "back": [
+          487,
+          1,
+          491,
+          29
+        ],
+        "left": [
+          493,
+          1,
+          497,
+          29
+        ],
+        "right": [
+          499,
+          1,
+          503,
+          29
+        ],
+        "top": [
+          505,
+          1,
+          509,
+          5
+        ],
+        "bottom": [
+          1,
+          31,
+          5,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Upper_Telescopic_Post",
+      "center": [
+        0,
+        43,
+        3
+      ],
+      "size": [
+        3,
+        20,
+        3
+      ],
+      "material": "bright",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          7,
+          31,
+          10,
+          51
+        ],
+        "back": [
+          12,
+          31,
+          15,
+          51
+        ],
+        "left": [
+          17,
+          31,
+          20,
+          51
+        ],
+        "right": [
+          22,
+          31,
+          25,
+          51
+        ],
+        "top": [
+          27,
+          31,
+          30,
+          34
+        ],
+        "bottom": [
+          32,
+          31,
+          35,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Post_Lock_Collar",
+      "center": [
+        0,
+        35,
+        3
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          37,
+          31,
+          43,
+          34
+        ],
+        "back": [
+          45,
+          31,
+          51,
+          34
+        ],
+        "left": [
+          53,
+          31,
+          59,
+          34
+        ],
+        "right": [
+          61,
+          31,
+          67,
+          34
+        ],
+        "top": [
+          69,
+          31,
+          75,
+          37
+        ],
+        "bottom": [
+          77,
+          31,
+          83,
+          37
+        ]
+      }
+    },
+    {
+      "name": "Post_Collar_Latch",
+      "center": [
+        0,
+        35,
+        -0.8
+      ],
+      "size": [
+        4,
+        2,
+        2
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          85,
+          31,
+          89,
+          33
+        ],
+        "back": [
+          91,
+          31,
+          95,
+          33
+        ],
+        "left": [
+          97,
+          31,
+          99,
+          33
+        ],
+        "right": [
+          101,
+          31,
+          103,
+          33
+        ],
+        "top": [
+          105,
+          31,
+          109,
+          33
+        ],
+        "bottom": [
+          111,
+          31,
+          115,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Hip_Clamp",
+      "center": [
+        0,
+        28,
+        2
+      ],
+      "size": [
+        20,
+        3,
+        4
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          117,
+          31,
+          137,
+          34
+        ],
+        "back": [
+          139,
+          31,
+          159,
+          34
+        ],
+        "left": [
+          161,
+          31,
+          165,
+          34
+        ],
+        "right": [
+          167,
+          31,
+          171,
+          34
+        ],
+        "top": [
+          173,
+          31,
+          193,
+          35
+        ],
+        "bottom": [
+          195,
+          31,
+          215,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Hip_Pad_-1",
+      "center": [
+        -7,
+        30,
+        2
+      ],
+      "size": [
+        6,
+        1,
+        5
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          217,
+          31,
+          223,
+          32
+        ],
+        "back": [
+          225,
+          31,
+          231,
+          32
+        ],
+        "left": [
+          233,
+          31,
+          238,
+          32
+        ],
+        "right": [
+          240,
+          31,
+          245,
+          32
+        ],
+        "top": [
+          247,
+          31,
+          253,
+          36
+        ],
+        "bottom": [
+          255,
+          31,
+          261,
+          36
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Arm_-1",
+      "center": [
+        -7,
+        47,
+        2
+      ],
+      "size": [
+        14,
+        3,
+        4
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          263,
+          31,
+          277,
+          34
+        ],
+        "back": [
+          279,
+          31,
+          293,
+          34
+        ],
+        "left": [
+          295,
+          31,
+          299,
+          34
+        ],
+        "right": [
+          301,
+          31,
+          305,
+          34
+        ],
+        "top": [
+          307,
+          31,
+          321,
+          35
+        ],
+        "bottom": [
+          323,
+          31,
+          337,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_End_-1",
+      "center": [
+        -13,
+        45.5,
+        2
+      ],
+      "size": [
+        3,
+        6,
+        5
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          339,
+          31,
+          342,
+          37
+        ],
+        "back": [
+          344,
+          31,
+          347,
+          37
+        ],
+        "left": [
+          349,
+          31,
+          354,
+          37
+        ],
+        "right": [
+          356,
+          31,
+          361,
+          37
+        ],
+        "top": [
+          363,
+          31,
+          366,
+          36
+        ],
+        "bottom": [
+          368,
+          31,
+          371,
+          36
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Rubber_-1",
+      "center": [
+        -9,
+        49,
+        2
+      ],
+      "size": [
+        10,
+        1,
+        6
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          373,
+          31,
+          383,
+          32
+        ],
+        "back": [
+          385,
+          31,
+          395,
+          32
+        ],
+        "left": [
+          397,
+          31,
+          403,
+          32
+        ],
+        "right": [
+          405,
+          31,
+          411,
+          32
+        ],
+        "top": [
+          413,
+          31,
+          423,
+          37
+        ],
+        "bottom": [
+          425,
+          31,
+          435,
+          37
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Captive_Bolt_-1",
+      "center": [
+        -10,
+        47,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Trouser_Rail_-1",
+      "center": [
+        -7,
+        22,
+        2
+      ],
+      "size": [
+        2,
+        11,
+        3
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          437,
+          31,
+          439,
+          42
+        ],
+        "back": [
+          441,
+          31,
+          443,
+          42
+        ],
+        "left": [
+          445,
+          31,
+          448,
+          42
+        ],
+        "right": [
+          450,
+          31,
+          453,
+          42
+        ],
+        "top": [
+          455,
+          31,
+          457,
+          34
+        ],
+        "bottom": [
+          459,
+          31,
+          461,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Hip_Pad_1",
+      "center": [
+        7,
+        30,
+        2
+      ],
+      "size": [
+        6,
+        1,
+        5
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          217,
+          31,
+          223,
+          32
+        ],
+        "back": [
+          225,
+          31,
+          231,
+          32
+        ],
+        "left": [
+          233,
+          31,
+          238,
+          32
+        ],
+        "right": [
+          240,
+          31,
+          245,
+          32
+        ],
+        "top": [
+          247,
+          31,
+          253,
+          36
+        ],
+        "bottom": [
+          255,
+          31,
+          261,
+          36
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Arm_1",
+      "center": [
+        7,
+        47,
+        2
+      ],
+      "size": [
+        14,
+        3,
+        4
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        -9
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          263,
+          31,
+          277,
+          34
+        ],
+        "back": [
+          279,
+          31,
+          293,
+          34
+        ],
+        "left": [
+          295,
+          31,
+          299,
+          34
+        ],
+        "right": [
+          301,
+          31,
+          305,
+          34
+        ],
+        "top": [
+          307,
+          31,
+          321,
+          35
+        ],
+        "bottom": [
+          323,
+          31,
+          337,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_End_1",
+      "center": [
+        13,
+        45.5,
+        2
+      ],
+      "size": [
+        3,
+        6,
+        5
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          339,
+          31,
+          342,
+          37
+        ],
+        "back": [
+          344,
+          31,
+          347,
+          37
+        ],
+        "left": [
+          349,
+          31,
+          354,
+          37
+        ],
+        "right": [
+          356,
+          31,
+          361,
+          37
+        ],
+        "top": [
+          363,
+          31,
+          366,
+          36
+        ],
+        "bottom": [
+          368,
+          31,
+          371,
+          36
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Rubber_1",
+      "center": [
+        9,
+        49,
+        2
+      ],
+      "size": [
+        10,
+        1,
+        6
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        -9
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          373,
+          31,
+          383,
+          32
+        ],
+        "back": [
+          385,
+          31,
+          395,
+          32
+        ],
+        "left": [
+          397,
+          31,
+          403,
+          32
+        ],
+        "right": [
+          405,
+          31,
+          411,
+          32
+        ],
+        "top": [
+          413,
+          31,
+          423,
+          37
+        ],
+        "bottom": [
+          425,
+          31,
+          435,
+          37
+        ]
+      }
+    },
+    {
+      "name": "Shoulder_Captive_Bolt_1",
+      "center": [
+        10,
+        47,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "bright",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          337,
+          1,
+          338,
+          2
+        ],
+        "back": [
+          340,
+          1,
+          341,
+          2
+        ],
+        "left": [
+          343,
+          1,
+          344,
+          2
+        ],
+        "right": [
+          346,
+          1,
+          347,
+          2
+        ],
+        "top": [
+          349,
+          1,
+          350,
+          2
+        ],
+        "bottom": [
+          352,
+          1,
+          353,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Trouser_Rail_1",
+      "center": [
+        7,
+        22,
+        2
+      ],
+      "size": [
+        2,
+        11,
+        3
+      ],
+      "material": "steel",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          437,
+          31,
+          439,
+          42
+        ],
+        "back": [
+          441,
+          31,
+          443,
+          42
+        ],
+        "left": [
+          445,
+          31,
+          448,
+          42
+        ],
+        "right": [
+          450,
+          31,
+          453,
+          42
+        ],
+        "top": [
+          455,
+          31,
+          457,
+          34
+        ],
+        "bottom": [
+          459,
+          31,
+          461,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Helmet_Neck",
+      "center": [
+        0,
+        55,
+        2
+      ],
+      "size": [
+        3,
+        10,
+        3
+      ],
+      "material": "bright",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          463,
+          31,
+          466,
+          41
+        ],
+        "back": [
+          468,
+          31,
+          471,
+          41
+        ],
+        "left": [
+          473,
+          31,
+          476,
+          41
+        ],
+        "right": [
+          478,
+          31,
+          481,
+          41
+        ],
+        "top": [
+          27,
+          31,
+          30,
+          34
+        ],
+        "bottom": [
+          32,
+          31,
+          35,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Helmet_Pad_Tray",
+      "center": [
+        0,
+        60,
+        2
+      ],
+      "size": [
+        9,
+        2,
+        8
+      ],
+      "material": "gunmetal",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          483,
+          31,
+          492,
+          33
+        ],
+        "back": [
+          494,
+          31,
+          503,
+          33
+        ],
+        "left": [
+          1,
+          53,
+          9,
+          55
+        ],
+        "right": [
+          11,
+          53,
+          19,
+          55
+        ],
+        "top": [
+          21,
+          53,
+          30,
+          61
+        ],
+        "bottom": [
+          32,
+          53,
+          41,
+          61
+        ]
+      }
+    },
+    {
+      "name": "Helmet_Rubber_Pad",
+      "center": [
+        0,
+        62,
+        2
+      ],
+      "size": [
+        7,
+        2,
+        6
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          43,
+          53,
+          50,
+          55
+        ],
+        "back": [
+          52,
+          53,
+          59,
+          55
+        ],
+        "left": [
+          61,
+          53,
+          67,
+          55
+        ],
+        "right": [
+          69,
+          53,
+          75,
+          55
+        ],
+        "top": [
+          77,
+          53,
+          84,
+          59
+        ],
+        "bottom": [
+          86,
+          53,
+          93,
+          59
+        ]
+      }
+    },
+    {
+      "name": "Base_Status_Inset",
+      "center": [
+        0,
+        4.2,
+        -7
+      ],
+      "size": [
+        8,
+        1,
+        4
+      ],
+      "material": "rubber",
+      "detail": "rubber",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          95,
+          53,
+          103,
+          54
+        ],
+        "back": [
+          105,
+          53,
+          113,
+          54
+        ],
+        "left": [
+          313,
+          1,
+          317,
+          2
+        ],
+        "right": [
+          319,
+          1,
+          323,
+          2
+        ],
+        "top": [
+          115,
+          53,
+          123,
+          57
+        ],
+        "bottom": [
+          125,
+          53,
+          133,
+          57
+        ]
+      }
+    },
+    {
+      "name": "Base_Blue_Accent",
+      "center": [
+        0,
+        4.8,
+        -7
+      ],
+      "size": [
+        6,
+        1,
+        1
+      ],
+      "material": "blue",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          135,
+          53,
+          141,
+          54
+        ],
+        "back": [
+          143,
+          53,
+          149,
+          54
+        ],
+        "left": [
+          151,
+          53,
+          152,
+          54
+        ],
+        "right": [
+          154,
+          53,
+          155,
+          54
+        ],
+        "top": [
+          157,
+          53,
+          163,
+          54
+        ],
+        "bottom": [
+          165,
+          53,
+          171,
+          54
+        ]
+      }
+    }
+  ],
+  "root_translation": [
+    -16,
+    0,
+    0
+  ],
+  "native_units_per_block": 32
+}

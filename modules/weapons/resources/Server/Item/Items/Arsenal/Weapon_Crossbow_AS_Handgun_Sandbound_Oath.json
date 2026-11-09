@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Handgun_Sandbound_Oath_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Handgun_Sandbound_Oath_Primary",
+    "Secondary": "Root_RS_AS_Handgun_Sandbound_Oath_ADS",
+    "SwapTo": "Root_RS_AS_Handgun_Sandbound_Oath_ChamberHUD",
+    "Use": "Root_RS_AS_Handgun_Sandbound_Oath_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Handgun_Sandbound_Oath.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Handgun_Sandbound_Oath.description"
+  },
+  "Model": "Items/Arsenal/AS_Handgun_Sandbound_Oath/AS_Handgun_Sandbound_Oath.blockymodel",
+  "Texture": "Items/Arsenal/AS_Handgun_Sandbound_Oath/AS_Handgun_Sandbound_Oath.png",
+  "Icon": "Icons/ItemsGenerated/AS_Handgun_Sandbound_Oath.png",
+  "Quality": "Uncommon",
+  "ItemLevel": 20,
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 7
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 3
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

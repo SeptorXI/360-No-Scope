@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Ammo_Rimeglass.name",
+    "Description": "server.items.RS_Ammo_Rimeglass.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Rare",
+  "Model": "Items/RangerSnipers/Ammo/03/Ranger_Ammo_03.blockymodel",
+  "Texture": "Items/RangerSnipers/Ammo/03/Ranger_Ammo_03.png",
+  "Icon": "Icons/ItemsGenerated/Ranger_Ammo_03.png",
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 2,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 2
+      }
+    ],
+    "OutputQuantity": 32,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  }
+}

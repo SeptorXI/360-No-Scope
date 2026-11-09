@@ -1,0 +1,120 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 24,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_SMG_Starling_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_SMG_Starling_Primary",
+    "Secondary": "Root_RS_AS_SMG_Starling_ADS",
+    "SwapTo": "Root_RS_AS_SMG_Starling_ChamberHUD",
+    "Ability1": "Root_RS_AS_SMG_Starling_Ability1",
+    "Use": "Root_RS_AS_SMG_Starling_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "Particles": [
+    {
+      "SystemId": "RS_Luminia_Dawnpiercer_Idle",
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Energy_Core",
+      "Scale": 1
+    }
+  ],
+  "FirstPersonParticles": [
+    {
+      "SystemId": "RS_Luminia_Dawnpiercer_Idle",
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Energy_Core",
+      "Scale": 1
+    }
+  ],
+  "Light": {
+    "Color": "#def",
+    "Radius": 1
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_SMG_Starling.name",
+    "Description": "server.items.Weapon_Crossbow_AS_SMG_Starling.description"
+  },
+  "Model": "Items/Arsenal/AS_SMG_Starling/AS_SMG_Starling.blockymodel",
+  "Texture": "Items/Arsenal/AS_SMG_Starling/AS_SMG_Starling.png",
+  "Icon": "Icons/ItemsGenerated/AS_SMG_Starling.png",
+  "Quality": "Legendary",
+  "ItemLevel": 65,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 13
+      },
+      {
+        "ItemId": "Ingredient_Leather_Prismic",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_smg"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AS_Ammo_Handgun_Absolver.name",
+    "Description": "server.items.AS_Ammo_Handgun_Absolver.description"
+  },
+  "Icon": "Icons/ItemsGenerated/AS_Ammo_Handgun_Absolver.png",
+  "Model": "Items/Arsenal/AS_Ammo_Handgun_Absolver/AS_Ammo_Handgun_Absolver.blockymodel",
+  "Texture": "Items/Arsenal/AS_Ammo_Handgun_Absolver/AS_Ammo_Handgun_Absolver.png",
+  "Quality": "Epic",
+  "MaxStack": 100,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_DarkSilver",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_DarkMoon_Sand",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 48,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  },
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Weapons_Arrows"
+}

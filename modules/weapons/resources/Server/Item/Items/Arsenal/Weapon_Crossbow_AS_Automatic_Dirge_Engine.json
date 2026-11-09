@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 24,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Automatic_Dirge_Engine_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Automatic_Dirge_Engine_Primary",
+    "Secondary": "Root_RS_AS_Automatic_Dirge_Engine_ADS",
+    "SwapTo": "Root_RS_AS_Automatic_Dirge_Engine_ChamberHUD",
+    "Use": "Root_RS_AS_Automatic_Dirge_Engine_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Automatic_Dirge_Engine.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Automatic_Dirge_Engine.description"
+  },
+  "Model": "Items/Arsenal/AS_Automatic_Dirge_Engine/AS_Automatic_Dirge_Engine.blockymodel",
+  "Texture": "Items/Arsenal/AS_Automatic_Dirge_Engine/AS_Automatic_Dirge_Engine.png",
+  "Icon": "Icons/ItemsGenerated/AS_Automatic_Dirge_Engine.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 11
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "EL_MH_Reliquary_Key",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_automatic"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

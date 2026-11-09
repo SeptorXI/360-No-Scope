@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Shotgun_Gatecrasher_Projectile",
+  "Pellets": 6,
+  "SpreadDegrees": 8,
+  "BodyDamage": 10.0,
+  "HeadDamage": 11.5,
+  "Range": 40,
+  "Lifetime": 0.2051,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Shotgun_Gatecrasher_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_World"
+  }
+}

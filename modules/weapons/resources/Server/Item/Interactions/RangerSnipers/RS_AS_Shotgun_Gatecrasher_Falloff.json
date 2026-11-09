@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatterHit",
+  "Operation": "Record",
+  "WeaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.1,
+    "Next": {
+      "Type": "ASScatterHit",
+      "Operation": "Commit",
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "Next": "RS_AS_Shotgun_Gatecrasher_Impact",
+      "Failed": "RS_Despawn"
+    }
+  },
+  "Failed": "RS_Despawn"
+}

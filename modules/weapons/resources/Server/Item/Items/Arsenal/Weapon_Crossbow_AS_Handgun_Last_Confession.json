@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Handgun_Last_Confession_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Handgun_Last_Confession_Primary",
+    "Secondary": "Root_RS_AS_Handgun_Last_Confession_ADS",
+    "SwapTo": "Root_RS_AS_Handgun_Last_Confession_ChamberHUD",
+    "Use": "Root_RS_AS_Handgun_Last_Confession_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Handgun_Last_Confession.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Handgun_Last_Confession.description"
+  },
+  "Model": "Items/Arsenal/AS_Handgun_Last_Confession/AS_Handgun_Last_Confession.blockymodel",
+  "Texture": "Items/Arsenal/AS_Handgun_Last_Confession/AS_Handgun_Last_Confession.png",
+  "Icon": "Icons/ItemsGenerated/AS_Handgun_Last_Confession.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 7
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "EL_MH_Reliquary_Key",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

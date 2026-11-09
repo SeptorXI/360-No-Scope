@@ -1,0 +1,864 @@
+{
+  "sources": [
+    {
+      "id": "ffsl_mosin_near",
+      "filename": "ffsl_mosin_near.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Mosin%20Nagant/M_21.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Mosin Nagant/M_21.wav",
+      "description": "Mosin Nagant 7.62x54 rifle",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "sniper"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_mosin_near.wav",
+      "sha256": "4c793971e03ce2e149df8cb135e19c7f0f43550f5d549fd80709b2979da9bd90",
+      "bytes": 41198982,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 35.75933333333333,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 25,
+        "monoPeakDbFS": -6.02043,
+        "stereoCorrelation": -0.2046633699922209,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -4.00474,
+        "firstRelativeMinus40DbOnsetSeconds": 1.033,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          1.034,
+          8.108,
+          16.027,
+          31.51
+        ],
+        "metadata": {
+          "comment": "Mosin Nagant, rifle, bolt action, 7.62x54, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "sardin_aluminum_workshop",
+      "filename": "sardin_aluminum_workshop.wav",
+      "downloadUrl": "https://bigsoundbank.com/UPLOAD/bwf-en/0503.wav",
+      "sourceUrl": "https://bigsoundbank.com/atelier-industrie-s0503.html",
+      "description": "Aluminum powder-coating workshop handling and impacts",
+      "creator": [
+        "Joseph SARDIN"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://bigsoundbank.com/licenses.html",
+      "licenseEvidence": [
+        "evidence/bigsoundbank-503.html",
+        "evidence/bigsoundbank-license.html"
+      ],
+      "suggestedFamilies": [
+        "handgun",
+        "smg",
+        "semiauto",
+        "automatic",
+        "shotgun",
+        "sniper"
+      ],
+      "role": "physical_mechanism_layer_only_extract_isolated_hits_not_continuous_machine_bed",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\sardin_aluminum_workshop.wav",
+      "sha256": "1a72bf2baac8f141ed0d4e8a44f3256f6ce33bd7d528d6c50d9482276580039b",
+      "bytes": 23037124,
+      "technical": {
+        "codec": "pcm_s16le",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "durationSeconds": 119.97864583333333,
+        "samplePeakDbFS": -0.85299,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -1.29124,
+        "stereoCorrelation": 0.764138087075984,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -0.56312,
+        "firstRelativeMinus40DbOnsetSeconds": 0.003,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          5.048,
+          26.481,
+          28.101,
+          34.066,
+          35.647,
+          72.109,
+          102.348,
+          103.584,
+          105.093,
+          112.155
+        ],
+        "metadata": {
+          "comment": "Industry workshop",
+          "encoded_by": "BigSoundBank.com",
+          "originator_reference": "0503",
+          "date": "2012-05-24",
+          "time_reference": "0",
+          "coding_history": "A=PCM,F=48000,W=16,M=stereo",
+          "copyright": "CC0 / WTFPL / Public domain",
+          "IKEY": "aluminium,ambiance,atelier,bruyant,industrie,industriel,industrielle,laquage,local,machine,societe,technique,thermolaquage,atmosphere,soundscape,vacarme,usine,travail,workshop,machinary,marchinerie"
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0288_combat_drone_weapon_scifi_shot_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0288_combat_drone_weapon_scifi_shot_001.wav",
+      "sha256": "3cb4202c713d157d561267c1f90246d5e9d99ab8c171bf0e74cd288c032e9c18",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "ffsl_mosin_bolt",
+      "filename": "ffsl_mosin_bolt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Mosin%20Nagant/M_14.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Mosin Nagant/M_14.wav",
+      "description": "Mosin Nagant full bolt cycle with loaded magazine",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "sniper"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_mosin_bolt.wav",
+      "sha256": "8c400580a1f65fe263bf7d5e3b4b959354f836939d4ac8b5cb1839c1f9688f7a",
+      "bytes": 5501990,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 4.7725,
+        "samplePeakDbFS": -3.00583,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -3.00583,
+        "stereoCorrelation": 1.0,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.554,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.664,
+          0.983,
+          1.284,
+          3.246,
+          3.553,
+          4.087
+        ],
+        "metadata": {
+          "comment": "Mosin Nagant, rifle, bolt action, 7.62x54, full cycle loaded mag",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_mosin_mid",
+      "filename": "ffsl_mosin_mid.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Mosin%20Nagant/M_26.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Mosin Nagant/M_26.wav",
+      "description": "Mosin Nagant natural mid-distance report",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mid",
+      "suggestedFamilies": [
+        "sniper"
+      ],
+      "role": "natural_outdoor_tail_donor_remove_initial_discharge",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_mosin_mid.wav",
+      "sha256": "97307b8c5250eff9708070099dd4bb872cd70906439625332909c4807af31391",
+      "bytes": 28535786,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 24.76696875,
+        "samplePeakDbFS": 0.0,
+        "fullScaleSampleCount": 209,
+        "monoPeakDbFS": -0.55484,
+        "stereoCorrelation": -0.14333349485460342,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.67116,
+        "firstRelativeMinus40DbOnsetSeconds": 2.107,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          2.122,
+          10.409,
+          20.143
+        ],
+        "metadata": {
+          "comment": "Mosin Nagant, rifle, bolt action, 7.62x54, gunshot, mid distance, front of shooter, forward, back, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0287_annihilation_mech_weapon_scifi_shot_002.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0287_annihilation_mech_weapon_scifi_shot_002.wav",
+      "sha256": "79d2c43482cd744ed48c3a77b00ebb54b13379c43ffd5dd6dd940d403670a6af",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0287_annihilation_mech_weapon_gun_002_02.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0287_annihilation_mech_weapon_gun_002_02.wav",
+      "sha256": "4f7d24827e3866b3daf0e8f2db3ea422f4c5e3bb309979c272bf0b64dd9e6a34",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0282_steampunk_mechanical_gear_chain_element_start_stop_014.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0282_steampunk_mechanical_gear_chain_element_start_stop_014.wav",
+      "sha256": "9ed51db98503c393c5ffa052a4588beed463feed49b12510ca74a3e131a72204",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "ffsl_1911_mag_seat",
+      "filename": "ffsl_1911_mag_seat.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/1911/A_4.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/1911/A_4.wav",
+      "description": "1911 loaded magazine insertion",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "handgun"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_1911_mag_seat.wav",
+      "sha256": "ca37fc9d4d3287f04c54d78494e91b6152a7f699905a8ad258c6041f6d86e805",
+      "bytes": 4829646,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 4.1888958333333335,
+        "samplePeakDbFS": -2.05765,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -2.05765,
+        "stereoCorrelation": 1.0,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.809,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.934,
+          2.995
+        ],
+        "metadata": {
+          "comment": "1911, handgun, pistol, semi automatic, .45, insert loaded mag",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0282_steampunk_mechanical_mechanism_metal_031.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0282_steampunk_mechanical_mechanism_metal_031.wav",
+      "sha256": "59e895464b4368e2171dbcd32e4790a8f11ff9dea2a0bd0a379a78e4d4aaac69",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "ffsl_ak47_cycle",
+      "filename": "ffsl_ak47_cycle.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/AK-47/C_14.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/AK-47/C_14.wav",
+      "description": "AK-47 full action cycle with empty magazine",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "automatic"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_ak47_cycle.wav",
+      "sha256": "c749e112212b1fca4ecc35ff2d632c562909ab361a92de46984cdf6e0ce4a2f2",
+      "bytes": 2242062,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 1.9425625,
+        "samplePeakDbFS": -2.66068,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -2.66068,
+        "stereoCorrelation": 1.0,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.188,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.567,
+          1.513
+        ],
+        "metadata": {
+          "comment": "AK-47, rifle, fully automatic, semi automatic, machine gun, assault rifle, 7.62x39, full cycle empty mag",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0282_steampunk_mechanical_metal_element_heavy_011.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0282_steampunk_mechanical_metal_element_heavy_011.wav",
+      "sha256": "c08987bb95058ceeec23c97e7acaddfdf4f67321b39d8376ae3ae83ff0427391",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "ffsl_1911_rack",
+      "filename": "ffsl_1911_rack.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/1911/A_24.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/1911/A_24.wav",
+      "description": "1911 full slide rack",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "mechanism",
+      "suggestedFamilies": [
+        "handgun"
+      ],
+      "role": "authentic_gun_handling_select_one_action",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_1911_rack.wav",
+      "sha256": "71c917c01a7c6b92eea79f5216be01773131fa5978a7d2553e49da9eba2cd78d",
+      "bytes": 900234,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 0.77796875,
+        "samplePeakDbFS": -3.0103,
+        "fullScaleSampleCount": 0,
+        "monoPeakDbFS": -3.0103,
+        "stereoCorrelation": 0.9999999999999999,
+        "monoRmsLossAgainstMeanChannelEnergyDb": 0.0,
+        "firstRelativeMinus40DbOnsetSeconds": 0.204,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.435
+        ],
+        "metadata": {
+          "comment": "1911, handgun, pistol, semi automatic, .45, full rack",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "ffsl_nova_mid",
+      "filename": "ffsl_nova_mid.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/Nova/O_17.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/Nova/O_17.wav",
+      "description": "Benelli Nova far-distance report (historical bank id says mid; original Master Sheet identifies far)",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "far",
+      "suggestedFamilies": [
+        "shotgun"
+      ],
+      "role": "natural_outdoor_tail_donor_remove_initial_discharge",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_nova_mid.wav",
+      "sha256": "05cb5374600dae880f2731599a34af08f01f7442bb58a29a56c345abd2ce647e",
+      "bytes": 11121166,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 9.650104166666667,
+        "samplePeakDbFS": 0.0,
+        "fullScaleSampleCount": 286,
+        "monoPeakDbFS": -0.0,
+        "stereoCorrelation": 0.41554243811160135,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -1.52082,
+        "firstRelativeMinus40DbOnsetSeconds": 0.898,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.899,
+          6.77
+        ],
+        "metadata": {
+          "comment": "Benelli, Nova, shotgun, pump action, 12 gauge, gunshot, far distance, front of shooter, forward, back, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0286_invader_weapon_scifi_shot_007.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0286_invader_weapon_scifi_shot_007.wav",
+      "sha256": "a78c4d227da6153c51f68e96796e5d44be4f77db28a05f456b7e43623f84f303",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0282_steampunk_mechanical_mechanism_metal_013.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0282_steampunk_mechanical_mechanism_metal_013.wav",
+      "sha256": "2ee74510e2421422ad6d830ab639405c83d75d3336ee95e63315d529ae9c711d",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "ffsl_ar15_near_alt",
+      "filename": "ffsl_ar15_near_alt.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/buddingmonkey/FreeFirearmsSFXLibrary/beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b/Master%20Tracks/AR-15/D_31.wav",
+      "sourceUrl": "https://www.kickstarter.com/projects/bjjaszcz/the-firearm-sound-library/faqs",
+      "mirrorUrl": "https://github.com/buddingmonkey/FreeFirearmsSFXLibrary",
+      "mirrorCommit": "beb2f4041f3d6740fa0aeaf0e71159bd65a78c1b",
+      "originalPath": "Master Tracks/AR-15/D_31.wav",
+      "description": "AR-15 alternate near-distance single shots",
+      "creator": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": [
+        "evidence/firearm-CC0-LICENSE.txt",
+        "evidence/primary-license-verification.json"
+      ],
+      "perspective": "near",
+      "suggestedFamilies": [
+        "semiauto"
+      ],
+      "role": "authentic_single_discharge_and_tail_donor",
+      "path": "360-arsenal\\audio\\open-source-bank\\masters\\ffsl_ar15_near_alt.wav",
+      "sha256": "448000e06cee112cc726a11c74ad4a61dbcdf07ca7cba6d3934ecc03c105d3f4",
+      "bytes": 19932246,
+      "technical": {
+        "codec": "pcm_s24le",
+        "sampleRate": 192000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "durationSeconds": 17.298520833333335,
+        "samplePeakDbFS": -0.0,
+        "fullScaleSampleCount": 16,
+        "monoPeakDbFS": -5.34109,
+        "stereoCorrelation": -0.0024024742321095876,
+        "monoRmsLossAgainstMeanChannelEnergyDb": -3.02074,
+        "firstRelativeMinus40DbOnsetSeconds": 0.499,
+        "strongestSeparated300msRms1msPeaksSeconds": [
+          0.501,
+          7.175,
+          12.549
+        ],
+        "metadata": {
+          "comment": "AR-15, M4, rifle, carbine, semi automatic, assault rifle, .223, 5.56x45, gunshot, near distance, front of shooter, left, right, stereo",
+          "time_reference": "0",
+          "coding_history": ""
+        },
+        "measurementCaveat": "Peak groups are editing candidates, not semantic gunshot counts; listening and individual-shot selection remain required."
+      }
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0286_invader_weapon_scifi_shot_003_02.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0286_invader_weapon_scifi_shot_003_02.wav",
+      "sha256": "6d146f8a590e9fc13bd0f188be179cb1d6b90c5a33e70be70db9a35979a1b4d2",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-transformers:Bluezone_BC0284_soundwave_weapon_scifi_shot_004_02.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-transformers\\extracted\\Bluezone_BC0284_soundwave_weapon_scifi_shot_004_02.wav",
+      "sha256": "92cd5c76fbef88ee3509cc9246db01833bb4c634fe5d2dff07e145177fdd0c2b",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-transformers\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0284_soundwave_robot_metal_texture_017.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0284_soundwave_robot_metal_texture_017.wav",
+      "sha256": "b44ffa0f4247942f14000647191b00ba9741cbd66b4a6f27e82db00a2918dda9",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0287_annihilation_mech_mechanical_texture_007_01.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0287_annihilation_mech_mechanical_texture_007_01.wav",
+      "sha256": "a715f31419530b40b9900393596ad20c1e42b54c9655892961914a71589b6236",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0284_soundwave_weapon_scifi_shot_low_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0284_soundwave_weapon_scifi_shot_low_001.wav",
+      "sha256": "6430ba811c5cc8d13e4eeffe83dd044423dfa0ecbb3366b1d51d3baa3036b97a",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0284_soundwave_weapon_scifi_shot_low_003.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0284_soundwave_weapon_scifi_shot_low_003.wav",
+      "sha256": "bbd8647981bb0d9d6244f2b0eb4915b6fad9c6078269a67f0f2452072c3d4f71",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0284_soundwave_weapon_scifi_explosion_debris_002.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0284_soundwave_weapon_scifi_explosion_debris_002.wav",
+      "sha256": "94b3cebae666f135a0ad5f9e7c88604a0fa3ba0966776fc5c809cf00475b5803",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-transformers:Bluezone_BC0284_soundwave_robot_transformation_texture_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-transformers\\extracted\\Bluezone_BC0284_soundwave_robot_transformation_texture_001.wav",
+      "sha256": "fc4cd7db1c13d489f939d4aef434056fb96272e829f962036f317750982dbdba",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-transformers\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0287_annihilation_mech_mechanical_texture_002.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0287_annihilation_mech_mechanical_texture_002.wav",
+      "sha256": "9b8d154e96c20e110194ce5e2e54f6b48aa0e77fdffc4d034f453a398e0e65d1",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-mechanical:Bluezone_BC0287_annihilation_mech_mechanical_texture_010.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\extracted\\Bluezone_BC0287_annihilation_mech_mechanical_texture_010.wav",
+      "sha256": "ebc37802a8cea2430b420618dd39cf9a4fd5092710e0e4f0288a1c7c148a1c49",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-mechanical\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0271_tank_artillery_cannon_shot_close_003.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0271_tank_artillery_cannon_shot_close_003.wav",
+      "sha256": "8b948d025228d5200724c945fa76417af600ce41ce246dc08f44537978828b07",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0277_weapon_grenade_launcher_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0277_weapon_grenade_launcher_001.wav",
+      "sha256": "f8fee8be601b7f0f4c13e2e2e61216a361e3643837ff81a107a355f6fb65b645",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0287_annihilation_mech_mechanical_texture_024.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0287_annihilation_mech_mechanical_texture_024.wav",
+      "sha256": "b93ecaf390f65083349bd2b276966dda88c4eb3050a923582d737f1e7eb0fefb",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0288_combat_drone_weapon_scifi_particle_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0288_combat_drone_weapon_scifi_particle_001.wav",
+      "sha256": "9aca97ddbf02fff694cb505cc10d705a709089d4df20ba8fa9613fd72972f8b9",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0284_soundwave_robot_transformation_texture_022.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0284_soundwave_robot_transformation_texture_022.wav",
+      "sha256": "ff686a1adf22c1cff3bb4b34bf729e751c44d1d8e10d12e577f215bc67f6b7e3",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-transformers:Bluezone_BC0284_soundwave_robot_metal_texture_006.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-transformers\\extracted\\Bluezone_BC0284_soundwave_robot_metal_texture_006.wav",
+      "sha256": "83d111d1ee7e2224dbf868a28b8f13619035ac53afc656122a6c54e90d0c6db4",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-transformers\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0286_invader_weapon_scifi_shot_006_03.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0286_invader_weapon_scifi_shot_006_03.wav",
+      "sha256": "059647a9b38177d766a95390e8016863a99b8f88c4730c137c0b09dcfe4befc7",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-weapon:Bluezone_BC0286_invader_weapon_scifi_explosion_debris_particle_001.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-weapon\\extracted\\Bluezone_BC0286_invader_weapon_scifi_explosion_debris_particle_001.wav",
+      "sha256": "293a94763b853376930f593be49e56ef2dca59fbd5ecf8292df797ffc610b342",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-weapon\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-transformers:Bluezone_BC0284_soundwave_robot_transformation_texture_017.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-transformers\\extracted\\Bluezone_BC0284_soundwave_robot_transformation_texture_017.wav",
+      "sha256": "75bcc1c87a7c7158e0bae6ceb628ae7a5c815c94ab325ecc1aaf6cd635ba81bd",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-transformers\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-transformers:Bluezone_BC0284_soundwave_robot_metal_texture_004.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-transformers\\extracted\\Bluezone_BC0284_soundwave_robot_metal_texture_004.wav",
+      "sha256": "87f443491ae0c07f7b058d70ba67ae07efaa417612d7cf3d1d575cfefdc9344e",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-transformers\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0284_soundwave_weapon_scifi_shot_007_02.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0284_soundwave_weapon_scifi_shot_007_02.wav",
+      "sha256": "8a3524262038d3b7a107bf688774d3009602f43b07e1590f2220ad97ccfe94fe",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    },
+    {
+      "id": "bluezone-robot:Bluezone_BC0287_annihilation_mech_mechanical_texture_sequence_011.wav",
+      "path": "ranger-snipers\\audio\\sources\\bluezone-robot\\extracted\\Bluezone_BC0287_annihilation_mech_mechanical_texture_sequence_011.wav",
+      "sha256": "6f50ca662caa1b80ab685bc6a337970901ae32bb5c768b92634d1a1ef6094006",
+      "license": "Bluezone free-pack game-use license; not Creative Commons",
+      "creator": [
+        "Bluezone Corporation"
+      ],
+      "sourceUrl": "https://www.bluezone-corporation.com/free-sound-effects",
+      "licenseEvidence": "ranger-snipers\\audio\\sources\\bluezone-robot\\OFFICIAL_FREE_PACK_TERMS.txt",
+      "role": "designed mechanical/energy accent; not film audio"
+    }
+  ],
+  "licenseSummary": {
+    "CC0": "physical reports, all primary handling, and all field decays",
+    "Bluezone": "free-game-use original designed accents; not CC0/open source; preserve existing Designed by Bluezone Corporation credits"
+  },
+  "SunoSourcesUsed": false
+}

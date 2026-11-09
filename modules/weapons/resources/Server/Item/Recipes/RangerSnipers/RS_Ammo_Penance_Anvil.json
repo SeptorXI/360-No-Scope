@@ -1,0 +1,39 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Silver",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Crystal_Purple",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Void_Essence",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "RS_Ammo_Penance",
+    "Quantity": 1
+  },
+  "OutputQuantity": 16,
+  "Output": [
+    {
+      "ItemId": "RS_Ammo_Penance",
+      "Quantity": 16
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Id": "RS_Gunsmith",
+      "Type": "Crafting",
+      "Categories": [
+        "RS_Gunsmith_Ammunition"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "KnowledgeRequired": false,
+  "TimeSeconds": 2
+}

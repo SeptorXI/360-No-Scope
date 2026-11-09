@@ -1,0 +1,51 @@
+{
+  "Id": "RS_Shop_Endgame_Korvyn",
+  "Target": "Server/BarterShops/Endgame_Korvyn.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "RS_sale_Weapon_Crossbow_Frostline_Sentinel",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_Frostline_Sentinel",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "RS_sale_RS_Ammo_Rimeglass",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_Rimeglass",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

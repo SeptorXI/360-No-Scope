@@ -1,0 +1,31 @@
+{
+  "Input": [
+    {
+      "ItemId": "Dark_Coin_I",
+      "Quantity": 4
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "RS_Ammo_Penance",
+    "Quantity": 1
+  },
+  "OutputQuantity": 16,
+  "Output": [
+    {
+      "ItemId": "RS_Ammo_Penance",
+      "Quantity": 16
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Id": "RS_Gunsmith",
+      "Type": "Crafting",
+      "Categories": [
+        "RS_Gunsmith_Ammunition"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "KnowledgeRequired": false,
+  "TimeSeconds": 2
+}

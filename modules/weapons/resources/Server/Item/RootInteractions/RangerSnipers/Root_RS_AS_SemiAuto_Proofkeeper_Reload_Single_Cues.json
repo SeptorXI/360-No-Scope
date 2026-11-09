@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.483333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.466666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.716666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.083333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.35
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.3
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Labyrinth_Threadkeeper_ReloadClose_World"
+      }
+    }
+  ]
+}

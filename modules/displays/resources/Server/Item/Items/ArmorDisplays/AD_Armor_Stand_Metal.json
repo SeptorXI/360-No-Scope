@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AD_Armor_Stand_Metal.name",
+    "Description": "server.items.AD_Armor_Stand_Metal.description"
+  },
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Icon": "Icons/ItemsGenerated/AD_Armor_Stand_Metal.png",
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArmorDisplays"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArmorDisplays/AD_Armor_Stand_Metal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArmorDisplays/AD_Armor_Stand_Metal.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "AD_Armor_Stand_Metal",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Metals"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 6
+        },
+        "ADDisplay": {
+          "Kind": "Stand",
+          "Style": "Metal"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": "Open_Container"
+    },
+    "InteractionHint": "server.interactionHints.ADOpen",
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#495966"
+  },
+  "IconProperties": {
+    "Scale": 0.6,
+    "Translation": [
+      16,
+      -12
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ]
+  }
+}

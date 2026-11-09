@@ -1,0 +1,51 @@
+{
+  "Id": "RS_Shop_Endgame_Luminia_Merchant",
+  "Target": "Server/BarterShops/Endgame_Luminia_Merchant.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "RS_sale_RS_Ammo_Firstlight",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_Firstlight",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "RS_sale_RS_Ammo_SiegeSlug",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "RS_Ammo_SiegeSlug",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

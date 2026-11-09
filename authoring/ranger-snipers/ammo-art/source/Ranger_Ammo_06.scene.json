@@ -1,0 +1,1145 @@
+{
+  "theme": {
+    "index": 6,
+    "name": "Firstlight Prism Cartridges",
+    "rifle": "Dawnpiercer, Last Light of Luminia",
+    "rifle_id": "Weapon_Crossbow_Luminia_Dawnpiercer",
+    "region": "Luminia",
+    "colors": {
+      "body": "#d2dce3",
+      "light": "#f3efd4",
+      "dark": "#39445b",
+      "trim": "#c6a358",
+      "tip": "#e2edf3",
+      "glow": "#8fe9f4",
+      "inlay": "#b48aef",
+      "pale": "#f1ead8"
+    },
+    "ammo_id": "RS_Ammo_Firstlight"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\06\\Ranger_Ammo_06.png",
+  "parts": [
+    {
+      "name": "Prisma_Optical_Cartridge",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        6,
+        20,
+        8
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          7,
+          21
+        ],
+        "back": [
+          9,
+          1,
+          15,
+          21
+        ],
+        "left": [
+          17,
+          1,
+          25,
+          21
+        ],
+        "right": [
+          27,
+          1,
+          35,
+          21
+        ],
+        "top": [
+          37,
+          1,
+          43,
+          9
+        ],
+        "bottom": [
+          45,
+          1,
+          51,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Prisma_Optical_Cartridge_Facets",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        20,
+        6
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          53,
+          1,
+          61,
+          21
+        ],
+        "back": [
+          63,
+          1,
+          71,
+          21
+        ],
+        "left": [
+          73,
+          1,
+          79,
+          21
+        ],
+        "right": [
+          81,
+          1,
+          87,
+          21
+        ],
+        "top": [
+          89,
+          1,
+          97,
+          7
+        ],
+        "bottom": [
+          99,
+          1,
+          107,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Ivory_Casing_Rails_L",
+      "center": [
+        -4.6,
+        1,
+        0
+      ],
+      "size": [
+        3,
+        21,
+        5
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          109,
+          1,
+          112,
+          22
+        ],
+        "back": [
+          114,
+          1,
+          117,
+          22
+        ],
+        "left": [
+          119,
+          1,
+          124,
+          22
+        ],
+        "right": [
+          126,
+          1,
+          131,
+          22
+        ],
+        "top": [
+          133,
+          1,
+          136,
+          6
+        ],
+        "bottom": [
+          138,
+          1,
+          141,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Ivory_Casing_Rails_R",
+      "center": [
+        4.6,
+        1,
+        0
+      ],
+      "size": [
+        3,
+        21,
+        5
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          109,
+          1,
+          112,
+          22
+        ],
+        "back": [
+          114,
+          1,
+          117,
+          22
+        ],
+        "left": [
+          119,
+          1,
+          124,
+          22
+        ],
+        "right": [
+          126,
+          1,
+          131,
+          22
+        ],
+        "top": [
+          133,
+          1,
+          136,
+          6
+        ],
+        "bottom": [
+          138,
+          1,
+          141,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Gold_Edge_Rails_L",
+      "center": [
+        -6.2,
+        1,
+        0
+      ],
+      "size": [
+        1,
+        18,
+        6
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          143,
+          1,
+          144,
+          19
+        ],
+        "back": [
+          146,
+          1,
+          147,
+          19
+        ],
+        "left": [
+          149,
+          1,
+          155,
+          19
+        ],
+        "right": [
+          157,
+          1,
+          163,
+          19
+        ],
+        "top": [
+          165,
+          1,
+          166,
+          7
+        ],
+        "bottom": [
+          168,
+          1,
+          169,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Gold_Edge_Rails_R",
+      "center": [
+        6.2,
+        1,
+        0
+      ],
+      "size": [
+        1,
+        18,
+        6
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          143,
+          1,
+          144,
+          19
+        ],
+        "back": [
+          146,
+          1,
+          147,
+          19
+        ],
+        "left": [
+          149,
+          1,
+          155,
+          19
+        ],
+        "right": [
+          157,
+          1,
+          163,
+          19
+        ],
+        "top": [
+          165,
+          1,
+          166,
+          7
+        ],
+        "bottom": [
+          168,
+          1,
+          169,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Gold_Base",
+      "center": [
+        0,
+        -11,
+        0
+      ],
+      "size": [
+        12,
+        3,
+        10
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          171,
+          1,
+          183,
+          4
+        ],
+        "back": [
+          185,
+          1,
+          197,
+          4
+        ],
+        "left": [
+          199,
+          1,
+          209,
+          4
+        ],
+        "right": [
+          211,
+          1,
+          221,
+          4
+        ],
+        "top": [
+          223,
+          1,
+          235,
+          11
+        ],
+        "bottom": [
+          237,
+          1,
+          249,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Gold_Base_Corners",
+      "center": [
+        0,
+        -11,
+        0
+      ],
+      "size": [
+        10,
+        3,
+        12
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          24,
+          11,
+          27
+        ],
+        "back": [
+          13,
+          24,
+          23,
+          27
+        ],
+        "left": [
+          25,
+          24,
+          37,
+          27
+        ],
+        "right": [
+          39,
+          24,
+          51,
+          27
+        ],
+        "top": [
+          53,
+          24,
+          63,
+          36
+        ],
+        "bottom": [
+          65,
+          24,
+          75,
+          36
+        ]
+      }
+    },
+    {
+      "name": "Gold_Lens_Collar",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        11,
+        3,
+        9
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          77,
+          24,
+          88,
+          27
+        ],
+        "back": [
+          90,
+          24,
+          101,
+          27
+        ],
+        "left": [
+          103,
+          24,
+          112,
+          27
+        ],
+        "right": [
+          114,
+          24,
+          123,
+          27
+        ],
+        "top": [
+          125,
+          24,
+          136,
+          33
+        ],
+        "bottom": [
+          138,
+          24,
+          149,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Gold_Lens_Collar_Corners",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        9,
+        3,
+        11
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          151,
+          24,
+          160,
+          27
+        ],
+        "back": [
+          162,
+          24,
+          171,
+          27
+        ],
+        "left": [
+          173,
+          24,
+          184,
+          27
+        ],
+        "right": [
+          186,
+          24,
+          197,
+          27
+        ],
+        "top": [
+          199,
+          24,
+          208,
+          35
+        ],
+        "bottom": [
+          210,
+          24,
+          219,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Violet_Prism_Core",
+      "center": [
+        0,
+        0,
+        -4.6
+      ],
+      "size": [
+        5,
+        12,
+        2
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "crystal",
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          221,
+          24,
+          226,
+          36
+        ],
+        "back": [
+          228,
+          24,
+          233,
+          36
+        ],
+        "left": [
+          235,
+          24,
+          237,
+          36
+        ],
+        "right": [
+          239,
+          24,
+          241,
+          36
+        ],
+        "top": [
+          243,
+          24,
+          248,
+          26
+        ],
+        "bottom": [
+          250,
+          24,
+          255,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Cyan_Channel_L",
+      "center": [
+        0,
+        0,
+        -4.1
+      ],
+      "size": [
+        2,
+        16,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "energy",
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          1,
+          38,
+          3,
+          54
+        ],
+        "back": [
+          5,
+          38,
+          7,
+          54
+        ],
+        "left": [
+          9,
+          38,
+          10,
+          54
+        ],
+        "right": [
+          12,
+          38,
+          13,
+          54
+        ],
+        "top": [
+          15,
+          38,
+          17,
+          39
+        ],
+        "bottom": [
+          19,
+          38,
+          21,
+          39
+        ]
+      }
+    },
+    {
+      "name": "Cyan_Channel_R",
+      "center": [
+        0,
+        0,
+        4.1
+      ],
+      "size": [
+        2,
+        16,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "energy",
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          1,
+          38,
+          3,
+          54
+        ],
+        "back": [
+          5,
+          38,
+          7,
+          54
+        ],
+        "left": [
+          9,
+          38,
+          10,
+          54
+        ],
+        "right": [
+          12,
+          38,
+          13,
+          54
+        ],
+        "top": [
+          15,
+          38,
+          17,
+          39
+        ],
+        "bottom": [
+          19,
+          38,
+          21,
+          39
+        ]
+      }
+    },
+    {
+      "name": "Focusing_Lens_Housing",
+      "center": [
+        0,
+        15,
+        0
+      ],
+      "size": [
+        6,
+        3,
+        8
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          23,
+          38,
+          29,
+          41
+        ],
+        "back": [
+          31,
+          38,
+          37,
+          41
+        ],
+        "left": [
+          39,
+          38,
+          47,
+          41
+        ],
+        "right": [
+          49,
+          38,
+          57,
+          41
+        ],
+        "top": [
+          59,
+          38,
+          65,
+          46
+        ],
+        "bottom": [
+          67,
+          38,
+          73,
+          46
+        ]
+      }
+    },
+    {
+      "name": "Focusing_Lens_Housing_Facets",
+      "center": [
+        0,
+        15,
+        0
+      ],
+      "size": [
+        8,
+        3,
+        6
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          75,
+          38,
+          83,
+          41
+        ],
+        "back": [
+          85,
+          38,
+          93,
+          41
+        ],
+        "left": [
+          95,
+          38,
+          101,
+          41
+        ],
+        "right": [
+          103,
+          38,
+          109,
+          41
+        ],
+        "top": [
+          111,
+          38,
+          119,
+          44
+        ],
+        "bottom": [
+          121,
+          38,
+          129,
+          44
+        ]
+      }
+    },
+    {
+      "name": "Cyan_Optical_Lens",
+      "center": [
+        0,
+        17,
+        0
+      ],
+      "size": [
+        6,
+        1,
+        6
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "lens",
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          131,
+          38,
+          137,
+          39
+        ],
+        "back": [
+          139,
+          38,
+          145,
+          39
+        ],
+        "left": [
+          147,
+          38,
+          153,
+          39
+        ],
+        "right": [
+          155,
+          38,
+          161,
+          39
+        ],
+        "top": [
+          163,
+          38,
+          169,
+          44
+        ],
+        "bottom": [
+          171,
+          38,
+          177,
+          44
+        ]
+      }
+    },
+    {
+      "name": "Lens_Tabs_L",
+      "center": [
+        -4.7,
+        15,
+        0
+      ],
+      "size": [
+        2,
+        5,
+        3
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          179,
+          38,
+          181,
+          43
+        ],
+        "back": [
+          183,
+          38,
+          185,
+          43
+        ],
+        "left": [
+          187,
+          38,
+          190,
+          43
+        ],
+        "right": [
+          192,
+          38,
+          195,
+          43
+        ],
+        "top": [
+          197,
+          38,
+          199,
+          41
+        ],
+        "bottom": [
+          201,
+          38,
+          203,
+          41
+        ]
+      }
+    },
+    {
+      "name": "Lens_Tabs_R",
+      "center": [
+        4.7,
+        15,
+        0
+      ],
+      "size": [
+        2,
+        5,
+        3
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          179,
+          38,
+          181,
+          43
+        ],
+        "back": [
+          183,
+          38,
+          185,
+          43
+        ],
+        "left": [
+          187,
+          38,
+          190,
+          43
+        ],
+        "right": [
+          192,
+          38,
+          195,
+          43
+        ],
+        "top": [
+          197,
+          38,
+          199,
+          41
+        ],
+        "bottom": [
+          201,
+          38,
+          203,
+          41
+        ]
+      }
+    },
+    {
+      "name": "Violet_Base_Contact",
+      "center": [
+        0,
+        -13,
+        0
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "fullbright",
+      "uv": {
+        "front": [
+          205,
+          38,
+          209,
+          39
+        ],
+        "back": [
+          211,
+          38,
+          215,
+          39
+        ],
+        "left": [
+          217,
+          38,
+          221,
+          39
+        ],
+        "right": [
+          223,
+          38,
+          227,
+          39
+        ],
+        "top": [
+          229,
+          38,
+          233,
+          42
+        ],
+        "bottom": [
+          235,
+          38,
+          239,
+          42
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

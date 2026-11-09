@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AD_Wall_Rack_Wood.name",
+    "Description": "server.items.AD_Wall_Rack_Wood.description"
+  },
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Icon": "Icons/ItemsGenerated/AD_Wall_Rack_Wood.png",
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArmorDisplays"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArmorDisplays/AD_Wall_Rack_Wood.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArmorDisplays/AD_Wall_Rack_Wood.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "AD_Wall_Rack_Wood",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Support": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 3
+        },
+        "ADDisplay": {
+          "Kind": "Rack",
+          "Style": "Wood"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": "Open_Container"
+    },
+    "InteractionHint": "server.interactionHints.ADOpen",
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "ParticleColor": "#755238"
+  },
+  "IconProperties": {
+    "Scale": 0.6,
+    "Translation": [
+      16,
+      -12
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ]
+  }
+}

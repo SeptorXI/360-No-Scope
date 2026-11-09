@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.633333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.6
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.933333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.1
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.466666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.383333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Deepworks_Railspike_ReloadClose_World"
+      }
+    }
+  ]
+}

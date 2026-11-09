@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 4,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Shotgun_Hollowbark_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Shotgun_Hollowbark_Primary",
+    "Secondary": "Root_RS_AS_Shotgun_Hollowbark_ADS",
+    "SwapTo": "Root_RS_AS_Shotgun_Hollowbark_ChamberHUD",
+    "Use": "Root_RS_AS_Shotgun_Hollowbark_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Shotgun_Hollowbark.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Shotgun_Hollowbark.description"
+  },
+  "Model": "Items/Arsenal/AS_Shotgun_Hollowbark/AS_Shotgun_Hollowbark.blockymodel",
+  "Texture": "Items/Arsenal/AS_Shotgun_Hollowbark/AS_Shotgun_Hollowbark.png",
+  "Icon": "Icons/ItemsGenerated/AS_Shotgun_Hollowbark.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Wood_Oak_Trunk",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 2
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_shotgun"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

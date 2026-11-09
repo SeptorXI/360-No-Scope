@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Tollkeeper_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.6,
+  "BodyDamage": 25.0,
+  "HeadDamage": 40.0,
+  "Range": 130,
+  "Lifetime": 0.7222,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Tollkeeper_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SemiAuto_Tollkeeper_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SemiAuto_Tollkeeper_Fire_World"
+  }
+}

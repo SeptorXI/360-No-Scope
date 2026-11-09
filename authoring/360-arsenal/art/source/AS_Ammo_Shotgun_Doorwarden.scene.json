@@ -1,0 +1,617 @@
+{
+  "theme": {
+    "id": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+    "name": "Labyrinth Doorwarden",
+    "zone": "Fullmetal variant",
+    "family": "Crystal marksman",
+    "seed": 4808,
+    "variant": true,
+    "colors": {
+      "steel": "#505963",
+      "edge": "#b4c0c8",
+      "dark": "#1e2832",
+      "wood": "#37424d",
+      "woodlight": "#72869a",
+      "trim": "#8596a6",
+      "cloth": "#3d4750",
+      "pale": "#d8e4e7",
+      "glass": "#77e1fa",
+      "glow": "#39cde9",
+      "rubber": "#29323a",
+      "warning": "#8de8f5"
+    }
+  },
+  "texture": "360-arsenal\\art\\Common\\Items\\Arsenal\\AS_Ammo_Shotgun_Doorwarden\\AS_Ammo_Shotgun_Doorwarden.png",
+  "parts": [
+    {
+      "name": "Case",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        7,
+        14,
+        7
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "panel",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          8,
+          15
+        ],
+        "back": [
+          10,
+          1,
+          17,
+          15
+        ],
+        "left": [
+          19,
+          1,
+          26,
+          15
+        ],
+        "right": [
+          28,
+          1,
+          35,
+          15
+        ],
+        "top": [
+          37,
+          1,
+          44,
+          8
+        ],
+        "bottom": [
+          46,
+          1,
+          53,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Extractor_Rim",
+      "center": [
+        0,
+        -7.0,
+        0
+      ],
+      "size": [
+        9,
+        2,
+        9
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          55,
+          1,
+          64,
+          3
+        ],
+        "back": [
+          66,
+          1,
+          75,
+          3
+        ],
+        "left": [
+          77,
+          1,
+          86,
+          3
+        ],
+        "right": [
+          88,
+          1,
+          97,
+          3
+        ],
+        "top": [
+          99,
+          1,
+          108,
+          10
+        ],
+        "bottom": [
+          110,
+          1,
+          119,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Primer",
+      "center": [
+        0,
+        -8.3,
+        0
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          121,
+          1,
+          124,
+          2
+        ],
+        "back": [
+          126,
+          1,
+          129,
+          2
+        ],
+        "left": [
+          131,
+          1,
+          134,
+          2
+        ],
+        "right": [
+          136,
+          1,
+          139,
+          2
+        ],
+        "top": [
+          141,
+          1,
+          144,
+          4
+        ],
+        "bottom": [
+          146,
+          1,
+          149,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Crimp",
+      "center": [
+        0,
+        7.0,
+        0
+      ],
+      "size": [
+        8,
+        2,
+        8
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          151,
+          1,
+          159,
+          3
+        ],
+        "back": [
+          161,
+          1,
+          169,
+          3
+        ],
+        "left": [
+          171,
+          1,
+          179,
+          3
+        ],
+        "right": [
+          181,
+          1,
+          189,
+          3
+        ],
+        "top": [
+          191,
+          1,
+          199,
+          9
+        ],
+        "bottom": [
+          201,
+          1,
+          209,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Shell_Gauge_Mark_L",
+      "center": [
+        0,
+        0,
+        -3.6
+      ],
+      "size": [
+        3,
+        5,
+        1
+      ],
+      "material": "warning",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "inlay",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          211,
+          1,
+          214,
+          6
+        ],
+        "back": [
+          216,
+          1,
+          219,
+          6
+        ],
+        "left": [
+          221,
+          1,
+          222,
+          6
+        ],
+        "right": [
+          224,
+          1,
+          225,
+          6
+        ],
+        "top": [
+          227,
+          1,
+          230,
+          2
+        ],
+        "bottom": [
+          232,
+          1,
+          235,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Shell_Gauge_Mark_R",
+      "center": [
+        0,
+        0,
+        3.6
+      ],
+      "size": [
+        3,
+        5,
+        1
+      ],
+      "material": "warning",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "inlay",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          211,
+          1,
+          214,
+          6
+        ],
+        "back": [
+          216,
+          1,
+          219,
+          6
+        ],
+        "left": [
+          221,
+          1,
+          222,
+          6
+        ],
+        "right": [
+          224,
+          1,
+          225,
+          6
+        ],
+        "top": [
+          227,
+          1,
+          230,
+          2
+        ],
+        "bottom": [
+          232,
+          1,
+          235,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Shell_Pellet_Emboss_-2",
+      "center": [
+        -2,
+        1,
+        -3.7
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          237,
+          1,
+          238,
+          2
+        ],
+        "back": [
+          240,
+          1,
+          241,
+          2
+        ],
+        "left": [
+          243,
+          1,
+          244,
+          2
+        ],
+        "right": [
+          246,
+          1,
+          247,
+          2
+        ],
+        "top": [
+          249,
+          1,
+          250,
+          2
+        ],
+        "bottom": [
+          252,
+          1,
+          253,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Shell_Pellet_Emboss_2",
+      "center": [
+        2,
+        1,
+        -3.7
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          237,
+          1,
+          238,
+          2
+        ],
+        "back": [
+          240,
+          1,
+          241,
+          2
+        ],
+        "left": [
+          243,
+          1,
+          244,
+          2
+        ],
+        "right": [
+          246,
+          1,
+          247,
+          2
+        ],
+        "top": [
+          249,
+          1,
+          250,
+          2
+        ],
+        "bottom": [
+          252,
+          1,
+          253,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Regional_Seal_L",
+      "center": [
+        0,
+        0,
+        -3.6
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "maze",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          255,
+          1,
+          258,
+          5
+        ],
+        "back": [
+          260,
+          1,
+          263,
+          5
+        ],
+        "left": [
+          265,
+          1,
+          266,
+          5
+        ],
+        "right": [
+          268,
+          1,
+          269,
+          5
+        ],
+        "top": [
+          271,
+          1,
+          274,
+          2
+        ],
+        "bottom": [
+          276,
+          1,
+          279,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Regional_Seal_R",
+      "center": [
+        0,
+        0,
+        3.6
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "maze",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          255,
+          1,
+          258,
+          5
+        ],
+        "back": [
+          260,
+          1,
+          263,
+          5
+        ],
+        "left": [
+          265,
+          1,
+          266,
+          5
+        ],
+        "right": [
+          268,
+          1,
+          269,
+          5
+        ],
+        "top": [
+          271,
+          1,
+          274,
+          2
+        ],
+        "bottom": [
+          276,
+          1,
+          279,
+          2
+        ]
+      }
+    }
+  ]
+}

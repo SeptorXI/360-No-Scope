@@ -1,0 +1,51 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "RangerSniperCycle",
+    "Cooldown": 3.1,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "DurabilityCondition",
+        "Threshold": 0,
+        "Operator": "GreaterThan",
+        "Next": {
+          "Type": "RSChamber",
+          "Operation": "Consume",
+          "WeaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+          "Cost": 1,
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 3.1
+            },
+            "Next": "RS_Mournhollow_Epitaph_Launch"
+          },
+          "Failed": "RS_Mournhollow_Epitaph_Empty"
+        }
+      }
+    }
+  ]
+}

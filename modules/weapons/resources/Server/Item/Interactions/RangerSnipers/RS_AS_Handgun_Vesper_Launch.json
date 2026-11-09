@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Vesper_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.8,
+  "BodyDamage": 18.0,
+  "HeadDamage": 45.0,
+  "Range": 90,
+  "Lifetime": 0.4,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Vesper_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Handgun_Vesper_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Handgun_Vesper_Fire_World"
+  }
+}

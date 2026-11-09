@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AS_Ammo_SemiAuto_White_Vigil.name",
+    "Description": "server.items.AS_Ammo_SemiAuto_White_Vigil.description"
+  },
+  "Icon": "Icons/ItemsGenerated/AS_Ammo_SemiAuto_White_Vigil.png",
+  "Model": "Items/Arsenal/AS_Ammo_SemiAuto_White_Vigil/AS_Ammo_SemiAuto_White_Vigil.blockymodel",
+  "Texture": "Items/Arsenal/AS_Ammo_SemiAuto_White_Vigil/AS_Ammo_SemiAuto_White_Vigil.png",
+  "Quality": "Rare",
+  "MaxStack": 100,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 2
+      }
+    ],
+    "OutputQuantity": 32,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  },
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Weapons_Arrows"
+}

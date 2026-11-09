@@ -1,0 +1,6672 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Wood and Iron Three-Weapon Wall Rack",
+  "model_identifier": "AD_Wall_Rack_Wood",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "elements": [
+    {
+      "name": "Walnut_Backboard_Slat_0",
+      "uuid": "79d40d0f-a06e-5503-ac58-defaa1c385b6",
+      "type": "cube",
+      "origin": [
+        -16,
+        5,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        0.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        9.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Slat_Edge_Trim_0",
+      "uuid": "0453dd26-6298-5774-9e35-7fb9ca28827a",
+      "type": "cube",
+      "origin": [
+        -16,
+        5,
+        11.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            253,
+            1,
+            308,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            310,
+            1,
+            365,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            367,
+            1,
+            368,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            1,
+            371,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            373,
+            1,
+            428,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            430,
+            1,
+            485,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -43.5,
+        4.0,
+        11.1
+      ],
+      "to": [
+        11.5,
+        6.0,
+        12.1
+      ]
+    },
+    {
+      "name": "Walnut_Backboard_Slat_1",
+      "uuid": "40f3ce53-f18a-5be7-b1f4-0999a78586a9",
+      "type": "cube",
+      "origin": [
+        -16,
+        15,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        10.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        19.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Walnut_Backboard_Slat_2",
+      "uuid": "22c6875b-74b9-5fd5-a63d-e0dfc53db1a9",
+      "type": "cube",
+      "origin": [
+        -16,
+        25,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        20.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        29.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Walnut_Backboard_Slat_3",
+      "uuid": "5f7814ed-ef98-513b-adf2-333f15d7da1d",
+      "type": "cube",
+      "origin": [
+        -16,
+        35,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        30.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        39.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Walnut_Backboard_Slat_4",
+      "uuid": "0c7d74b4-e085-50cc-ae39-94f01d0a010e",
+      "type": "cube",
+      "origin": [
+        -16,
+        45,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        40.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        49.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Walnut_Backboard_Slat_5",
+      "uuid": "fb9495d1-8e1d-50b4-9453-6fcd2199254c",
+      "type": "cube",
+      "origin": [
+        -16,
+        55,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            59,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            61,
+            1,
+            119,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            121,
+            1,
+            125,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            127,
+            1,
+            131,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            133,
+            1,
+            191,
+            5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            193,
+            1,
+            251,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        50.5,
+        12.0
+      ],
+      "to": [
+        13.0,
+        59.5,
+        16.0
+      ]
+    },
+    {
+      "name": "Slat_Edge_Trim_5",
+      "uuid": "45f3287f-e76c-5539-8536-e30ea658ba08",
+      "type": "cube",
+      "origin": [
+        -16,
+        55,
+        11.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            253,
+            1,
+            308,
+            3
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            310,
+            1,
+            365,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            367,
+            1,
+            368,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            1,
+            371,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            373,
+            1,
+            428,
+            2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            430,
+            1,
+            485,
+            2
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -43.5,
+        54.0,
+        11.1
+      ],
+      "to": [
+        11.5,
+        56.0,
+        12.1
+      ]
+    },
+    {
+      "name": "Forged_Upright_-29",
+      "uuid": "60144977-dedd-5e8e-a74d-f5cc11ae84e6",
+      "type": "cube",
+      "origin": [
+        -45,
+        30,
+        13.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            487,
+            1,
+            491,
+            61
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            493,
+            1,
+            497,
+            61
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            499,
+            1,
+            504,
+            61
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            506,
+            1,
+            511,
+            61
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            63,
+            5,
+            68
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            7,
+            63,
+            11,
+            68
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -47.0,
+        0.0,
+        11.0
+      ],
+      "to": [
+        -43.0,
+        60.0,
+        16.0
+      ]
+    },
+    {
+      "name": "Upright_Bolt_-29_5",
+      "uuid": "f8e7495a-f201-5fcb-ab17-e9456e13d17d",
+      "type": "cube",
+      "origin": [
+        -45,
+        5,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.5,
+        4.5,
+        10.1
+      ],
+      "to": [
+        -44.5,
+        5.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_-29_22",
+      "uuid": "5d972573-e613-5d4b-b0bd-c060bb7b79e0",
+      "type": "cube",
+      "origin": [
+        -45,
+        22,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.5,
+        21.5,
+        10.1
+      ],
+      "to": [
+        -44.5,
+        22.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_-29_39",
+      "uuid": "b0b20f54-9693-5fee-a4fa-86f6aace13e7",
+      "type": "cube",
+      "origin": [
+        -45,
+        39,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.5,
+        38.5,
+        10.1
+      ],
+      "to": [
+        -44.5,
+        39.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_-29_55",
+      "uuid": "3fb96242-290c-5c0a-a779-868a85b57140",
+      "type": "cube",
+      "origin": [
+        -45,
+        55,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.5,
+        54.5,
+        10.1
+      ],
+      "to": [
+        -44.5,
+        55.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Forged_Upright_29",
+      "uuid": "05c4c7a2-30cd-51cd-81d6-ff3a30d4f6d6",
+      "type": "cube",
+      "origin": [
+        13,
+        30,
+        13.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            487,
+            1,
+            491,
+            61
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            493,
+            1,
+            497,
+            61
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            499,
+            1,
+            504,
+            61
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            506,
+            1,
+            511,
+            61
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            63,
+            5,
+            68
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            7,
+            63,
+            11,
+            68
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        11.0,
+        0.0,
+        11.0
+      ],
+      "to": [
+        15.0,
+        60.0,
+        16.0
+      ]
+    },
+    {
+      "name": "Upright_Bolt_29_5",
+      "uuid": "ab6f926f-37f9-538d-b578-fbce6ad7035d",
+      "type": "cube",
+      "origin": [
+        13,
+        5,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        12.5,
+        4.5,
+        10.1
+      ],
+      "to": [
+        13.5,
+        5.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_29_22",
+      "uuid": "c70fb4c0-b5bb-521f-8d14-8e296a62bba1",
+      "type": "cube",
+      "origin": [
+        13,
+        22,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        12.5,
+        21.5,
+        10.1
+      ],
+      "to": [
+        13.5,
+        22.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_29_39",
+      "uuid": "4dd7a87e-a0fc-58f5-ac32-abc8eb79bf67",
+      "type": "cube",
+      "origin": [
+        13,
+        39,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        12.5,
+        38.5,
+        10.1
+      ],
+      "to": [
+        13.5,
+        39.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Upright_Bolt_29_55",
+      "uuid": "e6d4f04d-8b9b-5728-a98c-ab0930409a87",
+      "type": "cube",
+      "origin": [
+        13,
+        55,
+        10.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        12.5,
+        54.5,
+        10.1
+      ],
+      "to": [
+        13.5,
+        55.5,
+        11.1
+      ]
+    },
+    {
+      "name": "Rack_Rim_1",
+      "uuid": "67937d77-df34-5e71-bbd6-34585fb39cee",
+      "type": "cube",
+      "origin": [
+        -16,
+        1,
+        13
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            31,
+            63,
+            89,
+            65
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            91,
+            63,
+            149,
+            65
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            151,
+            63,
+            157,
+            65
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            159,
+            63,
+            165,
+            65
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            167,
+            63,
+            225,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            227,
+            63,
+            285,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        0.0,
+        10.0
+      ],
+      "to": [
+        13.0,
+        2.0,
+        16.0
+      ]
+    },
+    {
+      "name": "Rack_Rim_59",
+      "uuid": "38a1216e-4523-5eff-b011-1b82955316a6",
+      "type": "cube",
+      "origin": [
+        -16,
+        59,
+        13
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            31,
+            63,
+            89,
+            65
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            91,
+            63,
+            149,
+            65
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            151,
+            63,
+            157,
+            65
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            159,
+            63,
+            165,
+            65
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            167,
+            63,
+            225,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            227,
+            63,
+            285,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -45.0,
+        58.0,
+        10.0
+      ],
+      "to": [
+        13.0,
+        60.0,
+        16.0
+      ]
+    },
+    {
+      "name": "Makers_Plaque",
+      "uuid": "29bdd359-26a4-512f-b85f-02d19852b085",
+      "type": "cube",
+      "origin": [
+        -16,
+        56,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            287,
+            63,
+            300,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            302,
+            63,
+            315,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            317,
+            63,
+            318,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            320,
+            63,
+            321,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            323,
+            63,
+            336,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            338,
+            63,
+            351,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -22.5,
+        54.5,
+        10.5
+      ],
+      "to": [
+        -9.5,
+        57.5,
+        11.5
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_-18",
+      "uuid": "41e162ec-8abc-5292-baca-9c9147f0ea94",
+      "type": "cube",
+      "origin": [
+        -34,
+        11,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        7.5,
+        9.5
+      ],
+      "to": [
+        -32.0,
+        14.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_0_-18",
+      "uuid": "5941640f-948d-5388-8161-537b99e6ab5e",
+      "type": "cube",
+      "origin": [
+        -34,
+        9,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        7.5,
+        3.0
+      ],
+      "to": [
+        -32.0,
+        10.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_0_-18",
+      "uuid": "d46c70d6-bbcb-5901-a309-f965c2a5c604",
+      "type": "cube",
+      "origin": [
+        -34,
+        10.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.5,
+        10.3,
+        4.5
+      ],
+      "to": [
+        -31.5,
+        11.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_-18",
+      "uuid": "e3b6a3a5-9778-5e8b-9341-15a5cb48ffc5",
+      "type": "cube",
+      "origin": [
+        -34,
+        11,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        8.5,
+        2.5
+      ],
+      "to": [
+        -32.0,
+        13.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_0_-18",
+      "uuid": "5fa69374-7c9f-514b-862c-922abf3b6a5e",
+      "type": "cube",
+      "origin": [
+        -34,
+        11,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        9.5,
+        4.3
+      ],
+      "to": [
+        -32.0,
+        12.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_0_-18",
+      "uuid": "c12e9c18-98cd-57f4-b243-ffbb6a7bc88f",
+      "type": "cube",
+      "origin": [
+        -34,
+        13,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -34.5,
+        12.5,
+        8.6
+      ],
+      "to": [
+        -33.5,
+        13.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_0",
+      "uuid": "6387e974-352b-5a7c-adad-002b8c0d8d28",
+      "type": "cube",
+      "origin": [
+        -16,
+        11,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        7.5,
+        9.5
+      ],
+      "to": [
+        -14.0,
+        14.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_0_0",
+      "uuid": "adfffb79-8fb0-597e-9d22-3dba44f41aec",
+      "type": "cube",
+      "origin": [
+        -16,
+        9,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        7.5,
+        3.0
+      ],
+      "to": [
+        -14.0,
+        10.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_0_0",
+      "uuid": "df3b99d5-7f95-56e6-ab2f-bce41f9022e9",
+      "type": "cube",
+      "origin": [
+        -16,
+        10.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.5,
+        10.3,
+        4.5
+      ],
+      "to": [
+        -13.5,
+        11.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_0",
+      "uuid": "66c0b0b1-2a27-5969-8515-4b5e6d4cd03b",
+      "type": "cube",
+      "origin": [
+        -16,
+        11,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        8.5,
+        2.5
+      ],
+      "to": [
+        -14.0,
+        13.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_0_0",
+      "uuid": "f02b1699-b353-5bd8-ac28-fd6ca4ed2460",
+      "type": "cube",
+      "origin": [
+        -16,
+        11,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        9.5,
+        4.3
+      ],
+      "to": [
+        -14.0,
+        12.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_0_0",
+      "uuid": "a7de53cc-a0d6-55a1-920c-d091146904bb",
+      "type": "cube",
+      "origin": [
+        -16,
+        13,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -16.5,
+        12.5,
+        8.6
+      ],
+      "to": [
+        -15.5,
+        13.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_18",
+      "uuid": "efef80f7-0897-537e-8ef5-31fa3cc2f589",
+      "type": "cube",
+      "origin": [
+        2,
+        11,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        7.5,
+        9.5
+      ],
+      "to": [
+        4.0,
+        14.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_0_18",
+      "uuid": "9d775df2-627e-5dec-98d3-b724b3a23281",
+      "type": "cube",
+      "origin": [
+        2,
+        9,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        7.5,
+        3.0
+      ],
+      "to": [
+        4.0,
+        10.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_0_18",
+      "uuid": "108ff8be-8c15-5b18-b14a-d06765b40a95",
+      "type": "cube",
+      "origin": [
+        2,
+        10.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -0.5,
+        10.3,
+        4.5
+      ],
+      "to": [
+        4.5,
+        11.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_18",
+      "uuid": "5be48917-667e-59b9-87a2-eb70b255e3bb",
+      "type": "cube",
+      "origin": [
+        2,
+        11,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        8.5,
+        2.5
+      ],
+      "to": [
+        4.0,
+        13.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_0_18",
+      "uuid": "e5509f7a-665b-5f6b-94b4-545e64e59b6f",
+      "type": "cube",
+      "origin": [
+        2,
+        11,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        9.5,
+        4.3
+      ],
+      "to": [
+        4.0,
+        12.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_0_18",
+      "uuid": "4665e532-f0d2-576c-a5e0-904569104cce",
+      "type": "cube",
+      "origin": [
+        2,
+        13,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        1.5,
+        12.5,
+        8.6
+      ],
+      "to": [
+        2.5,
+        13.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Slot_Label_0",
+      "uuid": "0837244a-d11e-5e59-8419-8f626efd22da",
+      "type": "cube",
+      "origin": [
+        -41,
+        11,
+        11.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            31,
+            74,
+            34,
+            78
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            36,
+            74,
+            39,
+            78
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            74,
+            42,
+            78
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            44,
+            74,
+            45,
+            78
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            47,
+            74,
+            50,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            52,
+            74,
+            55,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -42.5,
+        9.0,
+        10.9
+      ],
+      "to": [
+        -39.5,
+        13.0,
+        11.9
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_-18",
+      "uuid": "6b80e55d-7803-5b03-b475-15c8f7b1d364",
+      "type": "cube",
+      "origin": [
+        -34,
+        29,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        25.5,
+        9.5
+      ],
+      "to": [
+        -32.0,
+        32.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_1_-18",
+      "uuid": "bf67e419-5206-5ca4-a2df-378a48f9f941",
+      "type": "cube",
+      "origin": [
+        -34,
+        27,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        25.5,
+        3.0
+      ],
+      "to": [
+        -32.0,
+        28.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_1_-18",
+      "uuid": "6cfd58b6-64f2-5702-9b4d-c17bf21b6b20",
+      "type": "cube",
+      "origin": [
+        -34,
+        28.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.5,
+        28.3,
+        4.5
+      ],
+      "to": [
+        -31.5,
+        29.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_-18",
+      "uuid": "bb9cd9c5-a624-5d2c-8aeb-0cab145cb3f2",
+      "type": "cube",
+      "origin": [
+        -34,
+        29,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        26.5,
+        2.5
+      ],
+      "to": [
+        -32.0,
+        31.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_1_-18",
+      "uuid": "c6166724-39d3-5f30-b7ac-ccd5e4d6624a",
+      "type": "cube",
+      "origin": [
+        -34,
+        29,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        27.5,
+        4.3
+      ],
+      "to": [
+        -32.0,
+        30.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_1_-18",
+      "uuid": "1dcd9576-b827-5435-83cc-f53591c342c4",
+      "type": "cube",
+      "origin": [
+        -34,
+        31,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -34.5,
+        30.5,
+        8.6
+      ],
+      "to": [
+        -33.5,
+        31.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_0",
+      "uuid": "329915c6-3f47-50c0-8360-e97f7879f8f3",
+      "type": "cube",
+      "origin": [
+        -16,
+        29,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        25.5,
+        9.5
+      ],
+      "to": [
+        -14.0,
+        32.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_1_0",
+      "uuid": "d7e762f1-bdca-597a-937f-f56bf21dd116",
+      "type": "cube",
+      "origin": [
+        -16,
+        27,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        25.5,
+        3.0
+      ],
+      "to": [
+        -14.0,
+        28.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_1_0",
+      "uuid": "ec1a36d1-58f1-5110-a813-4db83839ace9",
+      "type": "cube",
+      "origin": [
+        -16,
+        28.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.5,
+        28.3,
+        4.5
+      ],
+      "to": [
+        -13.5,
+        29.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_0",
+      "uuid": "8c7ac702-5f68-50b3-acf5-d6dc2dda5ae7",
+      "type": "cube",
+      "origin": [
+        -16,
+        29,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        26.5,
+        2.5
+      ],
+      "to": [
+        -14.0,
+        31.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_1_0",
+      "uuid": "115fcb85-b527-544b-bb9d-d5ff89815caf",
+      "type": "cube",
+      "origin": [
+        -16,
+        29,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        27.5,
+        4.3
+      ],
+      "to": [
+        -14.0,
+        30.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_1_0",
+      "uuid": "50073169-60cd-5d93-b750-27fdc1f6c915",
+      "type": "cube",
+      "origin": [
+        -16,
+        31,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -16.5,
+        30.5,
+        8.6
+      ],
+      "to": [
+        -15.5,
+        31.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_18",
+      "uuid": "eddddd8b-3f1a-5629-a5c4-074da9f0505d",
+      "type": "cube",
+      "origin": [
+        2,
+        29,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        25.5,
+        9.5
+      ],
+      "to": [
+        4.0,
+        32.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_1_18",
+      "uuid": "702ec8b7-1afc-5901-bbdd-030f86235789",
+      "type": "cube",
+      "origin": [
+        2,
+        27,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        25.5,
+        3.0
+      ],
+      "to": [
+        4.0,
+        28.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_1_18",
+      "uuid": "cde1624a-e7cc-5a0e-8dd6-7871b55d854a",
+      "type": "cube",
+      "origin": [
+        2,
+        28.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -0.5,
+        28.3,
+        4.5
+      ],
+      "to": [
+        4.5,
+        29.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_18",
+      "uuid": "950b9d63-cfd4-5308-854c-d3d5403a3af1",
+      "type": "cube",
+      "origin": [
+        2,
+        29,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        26.5,
+        2.5
+      ],
+      "to": [
+        4.0,
+        31.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_1_18",
+      "uuid": "c85213b4-87e4-5b1a-86e0-bdcb416cd1ff",
+      "type": "cube",
+      "origin": [
+        2,
+        29,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        27.5,
+        4.3
+      ],
+      "to": [
+        4.0,
+        30.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_1_18",
+      "uuid": "9e71315c-b390-5602-b4aa-d81a5379e49a",
+      "type": "cube",
+      "origin": [
+        2,
+        31,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        1.5,
+        30.5,
+        8.6
+      ],
+      "to": [
+        2.5,
+        31.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Slot_Label_1",
+      "uuid": "a495e029-6158-5daa-a3f2-30173d0f7ed1",
+      "type": "cube",
+      "origin": [
+        -41,
+        29,
+        11.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            31,
+            74,
+            34,
+            78
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            36,
+            74,
+            39,
+            78
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            74,
+            42,
+            78
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            44,
+            74,
+            45,
+            78
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            47,
+            74,
+            50,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            52,
+            74,
+            55,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -42.5,
+        27.0,
+        10.9
+      ],
+      "to": [
+        -39.5,
+        31.0,
+        11.9
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_-18",
+      "uuid": "4ada9d70-bea3-5a4c-b57e-c90c1ce3f297",
+      "type": "cube",
+      "origin": [
+        -34,
+        47,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        43.5,
+        9.5
+      ],
+      "to": [
+        -32.0,
+        50.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_2_-18",
+      "uuid": "885d6beb-9b2b-5700-b0b9-f992ff117e6a",
+      "type": "cube",
+      "origin": [
+        -34,
+        45,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        43.5,
+        3.0
+      ],
+      "to": [
+        -32.0,
+        46.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_2_-18",
+      "uuid": "cb7eb85c-1a4f-5fed-90eb-5d6cc0780681",
+      "type": "cube",
+      "origin": [
+        -34,
+        46.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.5,
+        46.3,
+        4.5
+      ],
+      "to": [
+        -31.5,
+        47.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_-18",
+      "uuid": "f833f465-eb61-56a8-8e8b-d82a67808f02",
+      "type": "cube",
+      "origin": [
+        -34,
+        47,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        44.5,
+        2.5
+      ],
+      "to": [
+        -32.0,
+        49.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_2_-18",
+      "uuid": "585c2c85-aee6-5fa0-a2b7-a9654399b1b9",
+      "type": "cube",
+      "origin": [
+        -34,
+        47,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -36.0,
+        45.5,
+        4.3
+      ],
+      "to": [
+        -32.0,
+        48.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_2_-18",
+      "uuid": "e87810a5-9e92-5968-ae01-4c9df134d088",
+      "type": "cube",
+      "origin": [
+        -34,
+        49,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -34.5,
+        48.5,
+        8.6
+      ],
+      "to": [
+        -33.5,
+        49.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_0",
+      "uuid": "b46d8c9d-bffe-53c3-8ba6-0edb819d59af",
+      "type": "cube",
+      "origin": [
+        -16,
+        47,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        43.5,
+        9.5
+      ],
+      "to": [
+        -14.0,
+        50.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_2_0",
+      "uuid": "fd5b0722-d7b8-5a14-afc4-16393181dd84",
+      "type": "cube",
+      "origin": [
+        -16,
+        45,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        43.5,
+        3.0
+      ],
+      "to": [
+        -14.0,
+        46.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_2_0",
+      "uuid": "aa151c23-9f6c-56e0-af9a-2fb9d144f1ff",
+      "type": "cube",
+      "origin": [
+        -16,
+        46.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.5,
+        46.3,
+        4.5
+      ],
+      "to": [
+        -13.5,
+        47.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_0",
+      "uuid": "a4f0ea8e-e473-5f22-9f18-9de87d068f15",
+      "type": "cube",
+      "origin": [
+        -16,
+        47,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        44.5,
+        2.5
+      ],
+      "to": [
+        -14.0,
+        49.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_2_0",
+      "uuid": "67ca054a-8b23-566a-acd7-b82a40d21be7",
+      "type": "cube",
+      "origin": [
+        -16,
+        47,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -18.0,
+        45.5,
+        4.3
+      ],
+      "to": [
+        -14.0,
+        48.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_2_0",
+      "uuid": "a56a050a-886f-5e25-820d-cb8221f89ef6",
+      "type": "cube",
+      "origin": [
+        -16,
+        49,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -16.5,
+        48.5,
+        8.6
+      ],
+      "to": [
+        -15.5,
+        49.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_18",
+      "uuid": "7b46a089-ffe5-5ad1-8442-d017ecacca08",
+      "type": "cube",
+      "origin": [
+        2,
+        47,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            353,
+            63,
+            357,
+            70
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            359,
+            63,
+            363,
+            70
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            365,
+            63,
+            368,
+            70
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            370,
+            63,
+            373,
+            70
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            375,
+            63,
+            379,
+            66
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            381,
+            63,
+            385,
+            66
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        43.5,
+        9.5
+      ],
+      "to": [
+        4.0,
+        50.5,
+        12.5
+      ]
+    },
+    {
+      "name": "Hook_Seat_2_18",
+      "uuid": "fc958087-e29f-5c69-8a96-8635e35cd2bf",
+      "type": "cube",
+      "origin": [
+        2,
+        45,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            387,
+            63,
+            391,
+            66
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            393,
+            63,
+            397,
+            66
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            399,
+            63,
+            408,
+            66
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            63,
+            419,
+            66
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            421,
+            63,
+            425,
+            72
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            63,
+            431,
+            72
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        43.5,
+        3.0
+      ],
+      "to": [
+        4.0,
+        46.5,
+        12.0
+      ]
+    },
+    {
+      "name": "Hook_Padded_Seat_2_18",
+      "uuid": "f3c5accc-f2ed-59cd-a550-d63920d59f3f",
+      "type": "cube",
+      "origin": [
+        2,
+        46.8,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            433,
+            63,
+            438,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            440,
+            63,
+            445,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            447,
+            63,
+            453,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            455,
+            63,
+            461,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            463,
+            63,
+            468,
+            69
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            470,
+            63,
+            475,
+            69
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -0.5,
+        46.3,
+        4.5
+      ],
+      "to": [
+        4.5,
+        47.3,
+        10.5
+      ]
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_18",
+      "uuid": "9b52488f-d914-5389-aa37-03b0d3c68b0a",
+      "type": "cube",
+      "origin": [
+        2,
+        47,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            477,
+            63,
+            481,
+            68
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            483,
+            63,
+            487,
+            68
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            489,
+            63,
+            491,
+            68
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            493,
+            63,
+            495,
+            68
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            497,
+            63,
+            501,
+            65
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            503,
+            63,
+            507,
+            65
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        44.5,
+        2.5
+      ],
+      "to": [
+        4.0,
+        49.5,
+        4.5
+      ]
+    },
+    {
+      "name": "Hook_Lip_Pad_2_18",
+      "uuid": "3c1eaf46-91d9-5c22-9f46-d645c80d4520",
+      "type": "cube",
+      "origin": [
+        2,
+        47,
+        4.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            74,
+            5,
+            77
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7,
+            74,
+            11,
+            77
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            13,
+            74,
+            14,
+            77
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            74,
+            17,
+            77
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            74,
+            23,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            74,
+            29,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        0.0,
+        45.5,
+        4.3
+      ],
+      "to": [
+        4.0,
+        48.5,
+        5.3
+      ]
+    },
+    {
+      "name": "Hook_Bolt_2_18",
+      "uuid": "2eaa7efa-01bc-562f-b670-d71feed68bba",
+      "type": "cube",
+      "origin": [
+        2,
+        49,
+        9.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            63,
+            14,
+            64
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            63,
+            17,
+            64
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            63,
+            20,
+            64
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            63,
+            23,
+            64
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            63,
+            26,
+            64
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            63,
+            29,
+            64
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        1.5,
+        48.5,
+        8.6
+      ],
+      "to": [
+        2.5,
+        49.5,
+        9.6
+      ]
+    },
+    {
+      "name": "Slot_Label_2",
+      "uuid": "cb49027d-3b07-5dd3-bd76-025ace0d8cb6",
+      "type": "cube",
+      "origin": [
+        -41,
+        47,
+        11.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            31,
+            74,
+            34,
+            78
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            36,
+            74,
+            39,
+            78
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            74,
+            42,
+            78
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            44,
+            74,
+            45,
+            78
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            47,
+            74,
+            50,
+            75
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            52,
+            74,
+            55,
+            75
+          ],
+          "texture": 0
+        }
+      },
+      "shade": true,
+      "double_sided": false,
+      "from": [
+        -42.5,
+        45.0,
+        10.9
+      ],
+      "to": [
+        -39.5,
+        49.0,
+        11.9
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "R-Attachment",
+      "origin": [
+        -16,
+        0,
+        0
+      ],
+      "uuid": "3e67f922-8384-5e0c-ab88-985608299fb0",
+      "children": [
+        "79d40d0f-a06e-5503-ac58-defaa1c385b6",
+        "0453dd26-6298-5774-9e35-7fb9ca28827a",
+        "40f3ce53-f18a-5be7-b1f4-0999a78586a9",
+        "22c6875b-74b9-5fd5-a63d-e0dfc53db1a9",
+        "5f7814ed-ef98-513b-adf2-333f15d7da1d",
+        "0c7d74b4-e085-50cc-ae39-94f01d0a010e",
+        "fb9495d1-8e1d-50b4-9453-6fcd2199254c",
+        "45f3287f-e76c-5539-8536-e30ea658ba08",
+        "60144977-dedd-5e8e-a74d-f5cc11ae84e6",
+        "f8e7495a-f201-5fcb-ab17-e9456e13d17d",
+        "5d972573-e613-5d4b-b0bd-c060bb7b79e0",
+        "b0b20f54-9693-5fee-a4fa-86f6aace13e7",
+        "3fb96242-290c-5c0a-a779-868a85b57140",
+        "05c4c7a2-30cd-51cd-81d6-ff3a30d4f6d6",
+        "ab6f926f-37f9-538d-b578-fbce6ad7035d",
+        "c70fb4c0-b5bb-521f-8d14-8e296a62bba1",
+        "4dd7a87e-a0fc-58f5-ac32-abc8eb79bf67",
+        "e6d4f04d-8b9b-5728-a98c-ab0930409a87",
+        "67937d77-df34-5e71-bbd6-34585fb39cee",
+        "38a1216e-4523-5eff-b011-1b82955316a6",
+        "29bdd359-26a4-512f-b85f-02d19852b085",
+        "41e162ec-8abc-5292-baca-9c9147f0ea94",
+        "5941640f-948d-5388-8161-537b99e6ab5e",
+        "d46c70d6-bbcb-5901-a309-f965c2a5c604",
+        "e3b6a3a5-9778-5e8b-9341-15a5cb48ffc5",
+        "5fa69374-7c9f-514b-862c-922abf3b6a5e",
+        "c12e9c18-98cd-57f4-b243-ffbb6a7bc88f",
+        "6387e974-352b-5a7c-adad-002b8c0d8d28",
+        "adfffb79-8fb0-597e-9d22-3dba44f41aec",
+        "df3b99d5-7f95-56e6-ab2f-bce41f9022e9",
+        "66c0b0b1-2a27-5969-8515-4b5e6d4cd03b",
+        "f02b1699-b353-5bd8-ac28-fd6ca4ed2460",
+        "a7de53cc-a0d6-55a1-920c-d091146904bb",
+        "efef80f7-0897-537e-8ef5-31fa3cc2f589",
+        "9d775df2-627e-5dec-98d3-b724b3a23281",
+        "108ff8be-8c15-5b18-b14a-d06765b40a95",
+        "5be48917-667e-59b9-87a2-eb70b255e3bb",
+        "e5509f7a-665b-5f6b-94b4-545e64e59b6f",
+        "4665e532-f0d2-576c-a5e0-904569104cce",
+        "0837244a-d11e-5e59-8419-8f626efd22da",
+        "6b80e55d-7803-5b03-b475-15c8f7b1d364",
+        "bf67e419-5206-5ca4-a2df-378a48f9f941",
+        "6cfd58b6-64f2-5702-9b4d-c17bf21b6b20",
+        "bb9cd9c5-a624-5d2c-8aeb-0cab145cb3f2",
+        "c6166724-39d3-5f30-b7ac-ccd5e4d6624a",
+        "1dcd9576-b827-5435-83cc-f53591c342c4",
+        "329915c6-3f47-50c0-8360-e97f7879f8f3",
+        "d7e762f1-bdca-597a-937f-f56bf21dd116",
+        "ec1a36d1-58f1-5110-a813-4db83839ace9",
+        "8c7ac702-5f68-50b3-acf5-d6dc2dda5ae7",
+        "115fcb85-b527-544b-bb9d-d5ff89815caf",
+        "50073169-60cd-5d93-b750-27fdc1f6c915",
+        "eddddd8b-3f1a-5629-a5c4-074da9f0505d",
+        "702ec8b7-1afc-5901-bbdd-030f86235789",
+        "cde1624a-e7cc-5a0e-8dd6-7871b55d854a",
+        "950b9d63-cfd4-5308-854c-d3d5403a3af1",
+        "c85213b4-87e4-5b1a-86e0-bdcb416cd1ff",
+        "9e71315c-b390-5602-b4aa-d81a5379e49a",
+        "a495e029-6158-5daa-a3f2-30173d0f7ed1",
+        "4ada9d70-bea3-5a4c-b57e-c90c1ce3f297",
+        "885d6beb-9b2b-5700-b0b9-f992ff117e6a",
+        "cb7eb85c-1a4f-5fed-90eb-5d6cc0780681",
+        "f833f465-eb61-56a8-8e8b-d82a67808f02",
+        "585c2c85-aee6-5fa0-a2b7-a9654399b1b9",
+        "e87810a5-9e92-5968-ae01-4c9df134d088",
+        "b46d8c9d-bffe-53c3-8ba6-0edb819d59af",
+        "fd5b0722-d7b8-5a14-afc4-16393181dd84",
+        "aa151c23-9f6c-56e0-af9a-2fb9d144f1ff",
+        "a4f0ea8e-e473-5f22-9f18-9de87d068f15",
+        "67ca054a-8b23-566a-acd7-b82a40d21be7",
+        "a56a050a-886f-5e25-820d-cb8221f89ef6",
+        "7b46a089-ffe5-5ad1-8442-d017ecacca08",
+        "fc958087-e29f-5c69-8a96-8635e35cd2bf",
+        "f3c5accc-f2ed-59cd-a550-d63920d59f3f",
+        "9b52488f-d914-5389-aa37-03b0d3c68b0a",
+        "3c1eaf46-91d9-5c22-9f46-d645c80d4520",
+        "2eaa7efa-01bc-562f-b670-d71feed68bba",
+        "cb49027d-3b07-5dd3-bd76-025ace0d8cb6"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "AD_Wall_Rack_Wood.png",
+      "id": "0",
+      "internal": true,
+      "saved": true,
+      "uuid": "06155d2a-3195-5d22-8e55-a380bf62b550",
+      "source": "data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrd8H/AznPsUTFy0osAAAAAElFTkSuQmCC",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512
+    }
+  ]
+}

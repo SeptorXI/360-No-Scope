@@ -1,0 +1,51 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "RangerSniperCycle",
+    "Cooldown": 3.2,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "DurabilityCondition",
+        "Threshold": 0,
+        "Operator": "GreaterThan",
+        "Next": {
+          "Type": "RSChamber",
+          "Operation": "Consume",
+          "WeaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+          "Cost": 1,
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 3.2
+            },
+            "Next": "RS_Labyrinth_Threadkeeper_Launch"
+          },
+          "Failed": "RS_Labyrinth_Threadkeeper_Empty"
+        }
+      }
+    }
+  ]
+}

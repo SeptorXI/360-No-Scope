@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.383333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.983333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.5
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Wildwood_Surveyor_ReloadClose_World"
+      }
+    }
+  ]
+}

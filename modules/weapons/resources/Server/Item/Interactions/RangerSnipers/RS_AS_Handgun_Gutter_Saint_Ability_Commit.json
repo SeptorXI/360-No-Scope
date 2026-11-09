@@ -1,0 +1,35 @@
+{
+  "Type": "CooldownCondition",
+  "Id": "RangerSniperCycle",
+  "Next": {
+    "Type": "CooldownCondition",
+    "Id": "RS_LegendaryAbility",
+    "Next": {
+      "Type": "DurabilityCondition",
+      "Threshold": 0,
+      "Operator": "GreaterThan",
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "Consume",
+        "WeaponId": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+        "Cost": 2,
+        "Next": {
+          "Type": "TriggerCooldown",
+          "Cooldown": {
+            "Id": "RS_LegendaryAbility",
+            "Cooldown": 12
+          },
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 2.52
+            },
+            "Next": "RS_AS_Handgun_Gutter_Saint_Ability_Launch"
+          }
+        },
+        "Failed": "RS_AS_Handgun_Gutter_Saint_Empty"
+      }
+    }
+  }
+}

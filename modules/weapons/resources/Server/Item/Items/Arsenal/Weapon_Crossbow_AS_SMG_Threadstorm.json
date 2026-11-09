@@ -1,0 +1,87 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 26,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_SMG_Threadstorm_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_SMG_Threadstorm_Primary",
+    "Secondary": "Root_RS_AS_SMG_Threadstorm_ADS",
+    "SwapTo": "Root_RS_AS_SMG_Threadstorm_ChamberHUD",
+    "Use": "Root_RS_AS_SMG_Threadstorm_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_SMG_Threadstorm.name",
+    "Description": "server.items.Weapon_Crossbow_AS_SMG_Threadstorm.description"
+  },
+  "Model": "Items/Arsenal/AS_SMG_Threadstorm/AS_SMG_Threadstorm.blockymodel",
+  "Texture": "Items/Arsenal/AS_SMG_Threadstorm/AS_SMG_Threadstorm.png",
+  "Icon": "Icons/ItemsGenerated/AS_SMG_Threadstorm.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 36
+      },
+      {
+        "ItemId": "Rock_Gem_Zephyr",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_smg"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

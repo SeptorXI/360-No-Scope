@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Quiet_Equation_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1,
+  "BodyDamage": 21.0,
+  "HeadDamage": 32.0,
+  "Range": 78,
+  "Lifetime": 0.4727,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Quiet_Equation_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Handgun_Quiet_Equation_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Handgun_Quiet_Equation_Fire_World"
+  }
+}

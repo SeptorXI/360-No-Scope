@@ -1,0 +1,33 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 0,
+  "SpatialBlend": 0,
+  "StartAttenuationDistance": 0,
+  "MaxDistance": 140,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/Fire_01.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/Fire_02.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/Fire_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.0,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    },
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/FireMechanism_01.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/FireMechanism_02.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_White_Vigil/FireMechanism_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.065,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

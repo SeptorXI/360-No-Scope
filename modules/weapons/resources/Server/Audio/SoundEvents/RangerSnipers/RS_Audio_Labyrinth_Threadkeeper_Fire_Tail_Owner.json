@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -1.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 64,
+  "MaxInstance": 16,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Labyrinth_Threadkeeper/FireTail_01.ogg",
+        "Sounds/RangerSnipers/Labyrinth_Threadkeeper/FireTail_02.ogg",
+        "Sounds/RangerSnipers/Labyrinth_Threadkeeper/FireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.07,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.1,
+        "MaxPitch": 0.1,
+        "MinVolume": -0.25,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Threadstorm_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.3,
+  "BodyDamage": 6.5,
+  "HeadDamage": 9.5,
+  "Range": 60,
+  "Lifetime": 0.3636,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Threadstorm_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SMG_Threadstorm_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SMG_Threadstorm_Fire_World"
+  }
+}

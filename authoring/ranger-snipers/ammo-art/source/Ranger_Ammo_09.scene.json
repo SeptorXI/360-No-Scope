@@ -1,0 +1,1204 @@
+{
+  "theme": {
+    "index": 9,
+    "name": "Skyglass Scout Cartridges",
+    "rifle": "Skybound Farwatch",
+    "rifle_id": "Weapon_Crossbow_Skybound_Farwatch",
+    "region": "Tritale",
+    "colors": {
+      "body": "#644b35",
+      "light": "#987046",
+      "dark": "#354753",
+      "trim": "#5b89a5",
+      "tip": "#a3c9d9",
+      "glow": "#8acb7a",
+      "inlay": "#ac4a3b",
+      "pale": "#d8cfac"
+    },
+    "ammo_id": "RS_Ammo_Skyglass"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\09\\Ranger_Ammo_09.png",
+  "parts": [
+    {
+      "name": "Darkwood_Cartridge",
+      "center": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        6,
+        16,
+        8
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "wood",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          7,
+          17
+        ],
+        "back": [
+          9,
+          1,
+          15,
+          17
+        ],
+        "left": [
+          17,
+          1,
+          25,
+          17
+        ],
+        "right": [
+          27,
+          1,
+          35,
+          17
+        ],
+        "top": [
+          37,
+          1,
+          43,
+          9
+        ],
+        "bottom": [
+          45,
+          1,
+          51,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Darkwood_Cartridge_Facets",
+      "center": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        8,
+        16,
+        6
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "wood",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          53,
+          1,
+          61,
+          17
+        ],
+        "back": [
+          63,
+          1,
+          71,
+          17
+        ],
+        "left": [
+          73,
+          1,
+          79,
+          17
+        ],
+        "right": [
+          81,
+          1,
+          87,
+          17
+        ],
+        "top": [
+          89,
+          1,
+          97,
+          7
+        ],
+        "bottom": [
+          99,
+          1,
+          107,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Blue_Metal_Base",
+      "center": [
+        0,
+        -10,
+        0
+      ],
+      "size": [
+        11,
+        3,
+        9
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          109,
+          1,
+          120,
+          4
+        ],
+        "back": [
+          122,
+          1,
+          133,
+          4
+        ],
+        "left": [
+          135,
+          1,
+          144,
+          4
+        ],
+        "right": [
+          146,
+          1,
+          155,
+          4
+        ],
+        "top": [
+          157,
+          1,
+          168,
+          10
+        ],
+        "bottom": [
+          170,
+          1,
+          181,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Blue_Metal_Base_Corners",
+      "center": [
+        0,
+        -10,
+        0
+      ],
+      "size": [
+        9,
+        3,
+        11
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          183,
+          1,
+          192,
+          4
+        ],
+        "back": [
+          194,
+          1,
+          203,
+          4
+        ],
+        "left": [
+          205,
+          1,
+          216,
+          4
+        ],
+        "right": [
+          218,
+          1,
+          229,
+          4
+        ],
+        "top": [
+          231,
+          1,
+          240,
+          12
+        ],
+        "bottom": [
+          242,
+          1,
+          251,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_0",
+      "center": [
+        0,
+        -6,
+        0
+      ],
+      "size": [
+        9,
+        2,
+        7
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          19,
+          10,
+          21
+        ],
+        "back": [
+          12,
+          19,
+          21,
+          21
+        ],
+        "left": [
+          23,
+          19,
+          30,
+          21
+        ],
+        "right": [
+          32,
+          19,
+          39,
+          21
+        ],
+        "top": [
+          41,
+          19,
+          50,
+          26
+        ],
+        "bottom": [
+          52,
+          19,
+          61,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_0_Corners",
+      "center": [
+        0,
+        -6,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        9
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          63,
+          19,
+          70,
+          21
+        ],
+        "back": [
+          72,
+          19,
+          79,
+          21
+        ],
+        "left": [
+          81,
+          19,
+          90,
+          21
+        ],
+        "right": [
+          92,
+          19,
+          101,
+          21
+        ],
+        "top": [
+          103,
+          19,
+          110,
+          28
+        ],
+        "bottom": [
+          112,
+          19,
+          119,
+          28
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_1",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        2,
+        7
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          19,
+          10,
+          21
+        ],
+        "back": [
+          12,
+          19,
+          21,
+          21
+        ],
+        "left": [
+          23,
+          19,
+          30,
+          21
+        ],
+        "right": [
+          32,
+          19,
+          39,
+          21
+        ],
+        "top": [
+          41,
+          19,
+          50,
+          26
+        ],
+        "bottom": [
+          52,
+          19,
+          61,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_1_Corners",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        9
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          63,
+          19,
+          70,
+          21
+        ],
+        "back": [
+          72,
+          19,
+          79,
+          21
+        ],
+        "left": [
+          81,
+          19,
+          90,
+          21
+        ],
+        "right": [
+          92,
+          19,
+          101,
+          21
+        ],
+        "top": [
+          103,
+          19,
+          110,
+          28
+        ],
+        "bottom": [
+          112,
+          19,
+          119,
+          28
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_2",
+      "center": [
+        0,
+        6,
+        0
+      ],
+      "size": [
+        9,
+        2,
+        7
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          19,
+          10,
+          21
+        ],
+        "back": [
+          12,
+          19,
+          21,
+          21
+        ],
+        "left": [
+          23,
+          19,
+          30,
+          21
+        ],
+        "right": [
+          32,
+          19,
+          39,
+          21
+        ],
+        "top": [
+          41,
+          19,
+          50,
+          26
+        ],
+        "bottom": [
+          52,
+          19,
+          61,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Red_Binding_2_Corners",
+      "center": [
+        0,
+        6,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        9
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          63,
+          19,
+          70,
+          21
+        ],
+        "back": [
+          72,
+          19,
+          79,
+          21
+        ],
+        "left": [
+          81,
+          19,
+          90,
+          21
+        ],
+        "right": [
+          92,
+          19,
+          101,
+          21
+        ],
+        "top": [
+          103,
+          19,
+          110,
+          28
+        ],
+        "bottom": [
+          112,
+          19,
+          119,
+          28
+        ]
+      }
+    },
+    {
+      "name": "Blue_Metal_Shoulder",
+      "center": [
+        0,
+        9,
+        0
+      ],
+      "size": [
+        5,
+        4,
+        7
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          121,
+          19,
+          126,
+          23
+        ],
+        "back": [
+          128,
+          19,
+          133,
+          23
+        ],
+        "left": [
+          135,
+          19,
+          142,
+          23
+        ],
+        "right": [
+          144,
+          19,
+          151,
+          23
+        ],
+        "top": [
+          153,
+          19,
+          158,
+          26
+        ],
+        "bottom": [
+          160,
+          19,
+          165,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Blue_Metal_Shoulder_Facets",
+      "center": [
+        0,
+        9,
+        0
+      ],
+      "size": [
+        7,
+        4,
+        5
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          19,
+          174,
+          23
+        ],
+        "back": [
+          176,
+          19,
+          183,
+          23
+        ],
+        "left": [
+          185,
+          19,
+          190,
+          23
+        ],
+        "right": [
+          192,
+          19,
+          197,
+          23
+        ],
+        "top": [
+          199,
+          19,
+          206,
+          24
+        ],
+        "bottom": [
+          208,
+          19,
+          215,
+          24
+        ]
+      }
+    },
+    {
+      "name": "Blue_Tipped_Projectile",
+      "center": [
+        0,
+        14,
+        0
+      ],
+      "size": [
+        3,
+        6,
+        5
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          217,
+          19,
+          220,
+          25
+        ],
+        "back": [
+          222,
+          19,
+          225,
+          25
+        ],
+        "left": [
+          227,
+          19,
+          232,
+          25
+        ],
+        "right": [
+          234,
+          19,
+          239,
+          25
+        ],
+        "top": [
+          241,
+          19,
+          244,
+          24
+        ],
+        "bottom": [
+          246,
+          19,
+          249,
+          24
+        ]
+      }
+    },
+    {
+      "name": "Blue_Tipped_Projectile_Facets",
+      "center": [
+        0,
+        14,
+        0
+      ],
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          30,
+          6,
+          36
+        ],
+        "back": [
+          8,
+          30,
+          13,
+          36
+        ],
+        "left": [
+          15,
+          30,
+          18,
+          36
+        ],
+        "right": [
+          20,
+          30,
+          23,
+          36
+        ],
+        "top": [
+          25,
+          30,
+          30,
+          33
+        ],
+        "bottom": [
+          32,
+          30,
+          37,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Point",
+      "center": [
+        0,
+        18,
+        0
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          39,
+          30,
+          41,
+          33
+        ],
+        "back": [
+          43,
+          30,
+          45,
+          33
+        ],
+        "left": [
+          47,
+          30,
+          49,
+          33
+        ],
+        "right": [
+          51,
+          30,
+          53,
+          33
+        ],
+        "top": [
+          55,
+          30,
+          57,
+          32
+        ],
+        "bottom": [
+          59,
+          30,
+          61,
+          32
+        ]
+      }
+    },
+    {
+      "name": "Ivory_Relic_Frame",
+      "center": [
+        0,
+        2,
+        -4.8
+      ],
+      "size": [
+        7,
+        9,
+        2
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "carved",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          63,
+          30,
+          70,
+          39
+        ],
+        "back": [
+          72,
+          30,
+          79,
+          39
+        ],
+        "left": [
+          81,
+          30,
+          83,
+          39
+        ],
+        "right": [
+          85,
+          30,
+          87,
+          39
+        ],
+        "top": [
+          89,
+          30,
+          96,
+          32
+        ],
+        "bottom": [
+          98,
+          30,
+          105,
+          32
+        ]
+      }
+    },
+    {
+      "name": "Green_Relic_Heart",
+      "center": [
+        0,
+        3,
+        -6.1
+      ],
+      "size": [
+        4,
+        4,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "detail": "crystal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          107,
+          30,
+          111,
+          34
+        ],
+        "back": [
+          113,
+          30,
+          117,
+          34
+        ],
+        "left": [
+          119,
+          30,
+          120,
+          34
+        ],
+        "right": [
+          122,
+          30,
+          123,
+          34
+        ],
+        "top": [
+          125,
+          30,
+          129,
+          31
+        ],
+        "bottom": [
+          131,
+          30,
+          135,
+          31
+        ]
+      }
+    },
+    {
+      "name": "Blue_Shoulder_Sweeps_L",
+      "center": [
+        -4.5,
+        9,
+        0
+      ],
+      "size": [
+        2,
+        7,
+        3
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        18
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          137,
+          30,
+          139,
+          37
+        ],
+        "back": [
+          141,
+          30,
+          143,
+          37
+        ],
+        "left": [
+          145,
+          30,
+          148,
+          37
+        ],
+        "right": [
+          150,
+          30,
+          153,
+          37
+        ],
+        "top": [
+          155,
+          30,
+          157,
+          33
+        ],
+        "bottom": [
+          159,
+          30,
+          161,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Blue_Shoulder_Sweeps_R",
+      "center": [
+        4.5,
+        9,
+        0
+      ],
+      "size": [
+        2,
+        7,
+        3
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        18
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          137,
+          30,
+          139,
+          37
+        ],
+        "back": [
+          141,
+          30,
+          143,
+          37
+        ],
+        "left": [
+          145,
+          30,
+          148,
+          37
+        ],
+        "right": [
+          150,
+          30,
+          153,
+          37
+        ],
+        "top": [
+          155,
+          30,
+          157,
+          33
+        ],
+        "bottom": [
+          159,
+          30,
+          161,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Dark_Primer",
+      "center": [
+        0,
+        -12,
+        0
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "primer",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          163,
+          30,
+          167,
+          31
+        ],
+        "back": [
+          169,
+          30,
+          173,
+          31
+        ],
+        "left": [
+          175,
+          30,
+          179,
+          31
+        ],
+        "right": [
+          181,
+          30,
+          185,
+          31
+        ],
+        "top": [
+          187,
+          30,
+          191,
+          34
+        ],
+        "bottom": [
+          193,
+          30,
+          197,
+          34
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

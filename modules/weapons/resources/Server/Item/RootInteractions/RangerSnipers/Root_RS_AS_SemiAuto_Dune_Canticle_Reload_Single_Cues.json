@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.4
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.033333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.516666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Dunewatch_Longshot_ReloadClose_World"
+      }
+    }
+  ]
+}

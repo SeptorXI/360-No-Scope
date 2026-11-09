@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "seller": {
+    "name": "The Nameless God's Barter",
+    "itemId": "Bench_DarkCoinShop",
+    "benchId": "DarkCoinShop",
+    "categoryIds": [
+      "DarkCoinShop_Weapons"
+    ],
+    "requiredTierLevel": 2
+  },
+  "weapons": [
+    {
+      "id": "Weapon_Crossbow_Nameless_Covenant",
+      "name": "Malediction, the Unblinking Eye",
+      "family": "sniper",
+      "recipeId": "RS_Nameless_Covenant_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Covenant"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "name": "Black Sacrament",
+      "family": "handgun",
+      "recipeId": "AS_Nameless_Handgun_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Absolver"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "name": "Choir of the Damned",
+      "family": "smg",
+      "recipeId": "AS_Nameless_SMG_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Many Whispers"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "name": "The Heretic's Verdict",
+      "family": "semiauto",
+      "recipeId": "AS_Nameless_SemiAuto_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Last Deposition"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "name": "Legion of Ruin",
+      "family": "automatic",
+      "recipeId": "AS_Nameless_Automatic_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Hollow Regiment"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "name": "Hellmaw, Devourer of Souls",
+      "family": "shotgun",
+      "recipeId": "AS_Nameless_Shotgun_Barter",
+      "ingredients": {
+        "Dark_Coin_I": 40,
+        "Artifact_Skull_Silver": 1
+      },
+      "bench": {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Weapons"
+        ],
+        "RequiredTierLevel": 2
+      },
+      "outputQuantity": 1,
+      "previousNames": [
+        "Nameless Grave Tithe"
+      ]
+    }
+  ],
+  "evidence": {
+    "sourceJar": "MajorDungeons-0.4.15.jar",
+    "sourceAssetPaths": [
+      "Server/Item/Items/Bench/Bench_DarkCoinShop.json",
+      "Server/Languages/en-US/MajorDungeons.lang",
+      "Server/Item/Items/Weapon/Mogruith_Crossbow/Weapon_Crossbow_Mogruith_Silver.json",
+      "Server/NPC/Roles/Devil_Merchant/Devil_Merchant.json",
+      "Server/BarterShopsTabbed/Devil_Merchant.json"
+    ],
+    "route": "Native Crafting barter station named The Nameless God's Barter; DarkCoinShop_Weapons Tier2. It is distinct from the Devil Merchant NPC and its tabbed BarterShops.",
+    "stock": "Native crafting/barter recipes have no stock or restock limit. Players can place copies of the same Nameless God station.",
+    "exclusivityScope": "Only these six gun outputs are restricted. Their matching ammunition remains craftable at the Gunsmith and eligible existing sellers."
+  }
+}

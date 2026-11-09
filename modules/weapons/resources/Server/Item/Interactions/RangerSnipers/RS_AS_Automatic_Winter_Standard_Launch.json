@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Automatic_Winter_Standard_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.5,
+  "BodyDamage": 5.5,
+  "HeadDamage": 8.5,
+  "Range": 90,
+  "Lifetime": 0.6667,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Automatic_Winter_Standard_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Automatic_Winter_Standard_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Automatic_Winter_Standard_Fire_World"
+  }
+}

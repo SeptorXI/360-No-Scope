@@ -1,0 +1,57 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Pick"
+    ],
+    "Blocking": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick"
+    ],
+    "Interrupting": [
+      "Secondary"
+    ],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 1.95,
+      "HorizontalSpeedMultiplier": 0.6,
+      "Effects": {
+        "ItemAnimationId": "Reload",
+        "ClearAnimationOnFinish": true,
+        "MovementEffects": {
+          "DisableSprint": true
+        }
+      },
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "CommitReload",
+        "WeaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+        "Failed": "RS_AS_Handgun_Last_Confession_Empty",
+        "Next": {
+          "Type": "Simple",
+          "RunTime": 0,
+          "Effects": {
+            "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_Ready_Local",
+            "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_Ready_World"
+          }
+        }
+      }
+    }
+  ]
+}

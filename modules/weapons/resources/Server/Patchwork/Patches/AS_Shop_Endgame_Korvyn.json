@@ -1,0 +1,219 @@
+{
+  "Id": "AS_Shop_Endgame_Korvyn",
+  "Target": "Server/BarterShops/Endgame_Korvyn.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 45
+            }
+          ],
+          "Stock": 1
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Pale_Marshal",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Pale_Marshal",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Sleetweaver",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Sleetweaver",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_White_Vigil",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_White_Vigil",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Winter_Standard",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Winter_Standard",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Hearthguard",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Hearthguard",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Endgame_Flocon_Currency",
+              "Quantity": 1
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

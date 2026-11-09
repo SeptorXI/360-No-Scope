@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Gunsmith_Calibration_Tier3.name",
+    "Description": "server.items.RS_Gunsmith_Calibration_Tier3.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "Quality": "Rare",
+  "Categories": [
+    "Items.Materials"
+  ],
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Weapon_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Tooling"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots"
+}

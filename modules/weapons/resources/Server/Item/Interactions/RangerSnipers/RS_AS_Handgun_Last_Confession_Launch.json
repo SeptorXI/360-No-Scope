@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Last_Confession_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.25,
+  "BodyDamage": 20.0,
+  "HeadDamage": 30.0,
+  "Range": 70,
+  "Lifetime": 0.4667,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Last_Confession_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Handgun_Last_Confession_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Handgun_Last_Confession_Fire_World"
+  }
+}

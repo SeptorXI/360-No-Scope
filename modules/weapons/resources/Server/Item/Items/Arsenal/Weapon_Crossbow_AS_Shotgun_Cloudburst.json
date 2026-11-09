@@ -1,0 +1,83 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 5,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Shotgun_Cloudburst_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Shotgun_Cloudburst_Primary",
+    "Secondary": "Root_RS_AS_Shotgun_Cloudburst_ADS",
+    "SwapTo": "Root_RS_AS_Shotgun_Cloudburst_ChamberHUD",
+    "Use": "Root_RS_AS_Shotgun_Cloudburst_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Shotgun_Cloudburst.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Shotgun_Cloudburst.description"
+  },
+  "Model": "Items/Arsenal/AS_Shotgun_Cloudburst/AS_Shotgun_Cloudburst.blockymodel",
+  "Texture": "Items/Arsenal/AS_Shotgun_Cloudburst/AS_Shotgun_Cloudburst.png",
+  "Icon": "Icons/ItemsGenerated/AS_Shotgun_Cloudburst.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Tritale_Rupee_Green",
+        "Quantity": 150
+      },
+      {
+        "ItemId": "Tritale_Bag_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tritale_Plant_Silent_Princess",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_shotgun"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

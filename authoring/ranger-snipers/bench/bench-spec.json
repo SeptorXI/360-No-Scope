@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "version": "1.6.0",
+  "name": "Gunsmith's Bench",
+  "description": "A dedicated station for precision rifles, matching ammunition and repacking old cartridges. Upgrade its tooling to work with more advanced designs.",
+  "itemId": "RS_Gunsmith_Bench",
+  "benchId": "RS_Gunsmith",
+  "benchType": "Crafting",
+  "tierCount": 5,
+  "initialTier": 1,
+  "artContract": "bench-art/art-contract.json",
+  "artCommonRoot": "bench-art/Common",
+  "categories": [
+    {
+      "id": "RS_Gunsmith_Rifles",
+      "name": "Rifles",
+      "icon": "Icons/CraftingCategories/RangerSnipers/Rifles.png",
+      "sourceIcon": "Icons/ItemsGenerated/Ranger_Sniper_Tier01.png"
+    },
+    {
+      "id": "RS_Gunsmith_Ammunition",
+      "name": "Ammunition",
+      "icon": "Icons/CraftingCategories/RangerSnipers/Ammunition.png",
+      "sourceIcon": "Icons/ItemsGenerated/Ranger_Ammo_01.png"
+    },
+    {
+      "id": "RS_Gunsmith_Repacking",
+      "name": "Repacking",
+      "icon": "Icons/CraftingCategories/RangerSnipers/Repacking.png",
+      "sourceIcon": "Icons/ItemsGenerated/RS_Ammo_Cartridge.png"
+    }
+  ],
+  "baseRecipe": {
+    "bench": {
+      "Id": "Workbench",
+      "Type": "Crafting",
+      "Categories": ["Workbench_Crafting"],
+      "RequiredTierLevel": 1
+    },
+    "input": [
+      {"ItemId": "Ingredient_Bar_Copper", "Quantity": 4},
+      {"ItemId": "Ingredient_Bar_Iron", "Quantity": 2},
+      {"ResourceTypeId": "Wood_Trunk", "Quantity": 12},
+      {"ResourceTypeId": "Rock", "Quantity": 6}
+    ],
+    "timeSeconds": 3,
+    "requiredMemoriesLevel": 1,
+    "output": 1
+  },
+  "tiers": [
+    {"level": 1, "name": "Field Tooling", "craftingTimeReductionModifier": 0.0, "upgradeKit": "RS_Gunsmith_Calibration_Tier2", "upgradeSeconds": 3},
+    {"level": 2, "name": "Precision Tooling", "craftingTimeReductionModifier": 0.15, "upgradeKit": "RS_Gunsmith_Calibration_Tier3", "upgradeSeconds": 3},
+    {"level": 3, "name": "Master Tooling", "craftingTimeReductionModifier": 0.3, "upgradeKit": "RS_Gunsmith_Calibration_Tier4", "upgradeSeconds": 3},
+    {"level": 4, "name": "Onyxium Calibration", "craftingTimeReductionModifier": 0.3, "upgradeKit": "RS_Gunsmith_Calibration_Tier5", "upgradeSeconds": 3},
+    {"level": 5, "name": "Prismatic Calibration", "craftingTimeReductionModifier": 0.3}
+  ],
+  "calibrations": [
+    {
+      "id": "RS_Gunsmith_Calibration_Tier2",
+      "name": "Precision Tooling Kit",
+      "description": "Iron gauges and copper fixtures for upgrading a Gunsmith's Bench to Tier II. Calibrate the kit at a Tier II Blacksmith's Anvil.",
+      "quality": "Uncommon",
+      "unlocksTier": 2,
+      "bench": {"Id": "Weapon_Bench", "Type": "Crafting", "Categories": ["Weapon_Bow"], "RequiredTierLevel": 2},
+      "ingredients": {"Ingredient_Bar_Iron": 6, "Ingredient_Bar_Copper": 4, "Wood_Oak_Trunk": 4},
+      "timeSeconds": 3,
+      "requiredMemoriesLevel": 1,
+      "output": 1
+    },
+    {
+      "id": "RS_Gunsmith_Calibration_Tier3",
+      "name": "Master Tooling Kit",
+      "description": "Cobalt and thorium instruments for upgrading a Gunsmith's Bench to Tier III. Calibrate the kit at a Tier III Blacksmith's Anvil.",
+      "quality": "Rare",
+      "unlocksTier": 3,
+      "bench": {"Id": "Weapon_Bench", "Type": "Crafting", "Categories": ["Weapon_Bow"], "RequiredTierLevel": 3},
+      "ingredients": {"Ingredient_Bar_Cobalt": 6, "Ingredient_Bar_Thorium": 6, "Ingredient_Crystal_Cyan": 4, "Ingredient_Charcoal": 8},
+      "timeSeconds": 3,
+      "requiredMemoriesLevel": 1,
+      "output": 1
+    },
+    {
+      "id": "RS_Gunsmith_Calibration_Tier4",
+      "name": "Onyxium Calibration Kit",
+      "description": "Geared gauges for upgrading a Gunsmith's Bench to Tier IV. Calibrate the kit at a Tier IV Endgame Workbench.",
+      "quality": "Epic",
+      "unlocksTier": 4,
+      "bench": {"Id": "Endgame_Bench", "Type": "Crafting", "Categories": ["Endgame_Armor_Onyxium"], "RequiredTierLevel": 4},
+      "ingredients": {"Ingredient_Bar_Onyxium": 2, "Ingredient_Bar_Mithril": 2, "Ingredient_Gadget_Assembly": 2, "Ingredient_Scraps": 16},
+      "timeSeconds": 3,
+      "requiredMemoriesLevel": 1,
+      "output": 1
+    },
+    {
+      "id": "RS_Gunsmith_Calibration_Tier5",
+      "name": "Prismatic Calibration Kit",
+      "description": "A prismatic lens and gold contacts for upgrading a Gunsmith's Bench to Tier V. Calibrate the kit at a Tier V Endgame Workbench.",
+      "quality": "Legendary",
+      "unlocksTier": 5,
+      "bench": {"Id": "Endgame_Bench", "Type": "Crafting", "Categories": ["Endgame_Armor_Prisma"], "RequiredTierLevel": 5},
+      "ingredients": {"Ingredient_Bar_Prisma": 2, "Ingredient_Bar_Gold": 2, "Ingredient_Crystal_White": 8, "Ingredient_Void_Essence": 4},
+      "timeSeconds": 3,
+      "requiredMemoriesLevel": 1,
+      "output": 1
+    }
+  ],
+  "kitVisual": {
+    "icon": "Icons/ItemsGenerated/Recipe_Page.png",
+    "model": "Items/Consumables/Recipes/Recipe.blockymodel",
+    "texture": "Items/Consumables/Recipes/Recipe_Texture.png"
+  },
+  "recipeMigration": {
+    "scope": "360 No Scope only; existing NPC vendor sales stay unchanged",
+    "beforeGunAmmoRecipes": 31,
+    "afterGunAmmoRecipes": 30,
+    "addedBenchAndCalibrationRecipes": 5,
+    "afterTotalRecipes": 35,
+    "removeAdditionalRecipeIds": ["RS_Ammo_Skyglass_Anvil"],
+    "mergeSkyglassAmmo": {"primaryItemId": "RS_Ammo_Skyglass", "benchTier": 1, "requiredMemoriesLevel": 1, "output": 32, "keepExistingInputs": true},
+    "preserveOtherIngredientsOutputsAndMemoryGates": true,
+    "mapOriginalRequiredTierDirectly": true,
+    "repackTier": 1,
+    "rifleCategory": "RS_Gunsmith_Rifles",
+    "ammunitionCategory": "RS_Gunsmith_Ammunition",
+    "repackingCategory": "RS_Gunsmith_Repacking"
+  }
+}

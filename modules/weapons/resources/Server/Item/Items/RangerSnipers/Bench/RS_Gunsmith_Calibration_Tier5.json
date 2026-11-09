@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RS_Gunsmith_Calibration_Tier5.name",
+    "Description": "server.items.RS_Gunsmith_Calibration_Tier5.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "Quality": "Legendary",
+  "Categories": [
+    "Items.Materials"
+  ],
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Item",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Armor_Prisma"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Tooling"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots"
+}

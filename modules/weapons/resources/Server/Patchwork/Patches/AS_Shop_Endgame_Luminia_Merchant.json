@@ -1,0 +1,219 @@
+{
+  "Id": "AS_Shop_Endgame_Luminia_Merchant",
+  "Target": "Server/BarterShops/Endgame_Luminia_Merchant.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Vesper",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Vesper",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Starling",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Starling",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Auroras_Witness",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Auroras_Witness",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Helios_Refrain",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Helios_Refrain",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Solstice",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Solstice",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Handgun_Gutter_Saint",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Handgun_Gutter_Saint",
+            "Quantity": 48
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SMG_Grindhymn",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SMG_Grindhymn",
+            "Quantity": 96
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_SemiAuto_Iron_Testament",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_SemiAuto_Iron_Testament",
+            "Quantity": 32
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Automatic_Crown_Of_Rivets",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Automatic_Crown_Of_Rivets",
+            "Quantity": 64
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    },
+    {
+      "Id": "AS_sale_AS_Ammo_Shotgun_Gatecrasher",
+      "Op": "Add",
+      "Path": "/TradeSlots/-",
+      "Value": {
+        "Type": "Fixed",
+        "Trade": {
+          "Output": {
+            "ItemId": "AS_Ammo_Shotgun_Gatecrasher",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Ingredient_Void_Essence",
+              "Quantity": 12
+            }
+          ],
+          "Stock": 8
+        }
+      }
+    }
+  ]
+}

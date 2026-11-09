@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.AS_Ammo_SMG_Brushfire.name",
+    "Description": "server.items.AS_Ammo_SMG_Brushfire.description"
+  },
+  "Icon": "Icons/ItemsGenerated/AS_Ammo_SMG_Brushfire.png",
+  "Model": "Items/Arsenal/AS_Ammo_SMG_Brushfire/AS_Ammo_SMG_Brushfire.blockymodel",
+  "Texture": "Items/Arsenal/AS_Ammo_SMG_Brushfire/AS_Ammo_SMG_Brushfire.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "Ammo"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 2
+      }
+    ],
+    "OutputQuantity": 96,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Ammunition"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  },
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Weapons_Arrows"
+}

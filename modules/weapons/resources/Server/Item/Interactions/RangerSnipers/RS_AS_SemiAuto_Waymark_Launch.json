@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Waymark_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.7,
+  "BodyDamage": 10.0,
+  "HeadDamage": 16.0,
+  "Range": 80,
+  "Lifetime": 0.8889,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Waymark_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SemiAuto_Waymark_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SemiAuto_Waymark_Fire_World"
+  }
+}

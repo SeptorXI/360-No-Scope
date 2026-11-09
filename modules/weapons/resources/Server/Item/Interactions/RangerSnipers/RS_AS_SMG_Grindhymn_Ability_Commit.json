@@ -1,0 +1,35 @@
+{
+  "Type": "CooldownCondition",
+  "Id": "RangerSniperCycle",
+  "Next": {
+    "Type": "CooldownCondition",
+    "Id": "RS_LegendaryAbility",
+    "Next": {
+      "Type": "DurabilityCondition",
+      "Threshold": 0,
+      "Operator": "GreaterThan",
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "Consume",
+        "WeaponId": "Weapon_Crossbow_AS_SMG_Grindhymn",
+        "Cost": 2,
+        "Next": {
+          "Type": "TriggerCooldown",
+          "Cooldown": {
+            "Id": "RS_LegendaryAbility",
+            "Cooldown": 12
+          },
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 1.6
+            },
+            "Next": "RS_AS_SMG_Grindhymn_Ability_Launch"
+          }
+        },
+        "Failed": "RS_AS_SMG_Grindhymn_Empty"
+      }
+    }
+  }
+}

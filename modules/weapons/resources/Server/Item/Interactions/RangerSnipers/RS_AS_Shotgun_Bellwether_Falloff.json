@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatterHit",
+  "Operation": "Record",
+  "WeaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.1,
+    "Next": {
+      "Type": "ASScatterHit",
+      "Operation": "Commit",
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "Next": "RS_AS_Shotgun_Bellwether_Impact",
+      "Failed": "RS_Despawn"
+    }
+  },
+  "Failed": "RS_Despawn"
+}

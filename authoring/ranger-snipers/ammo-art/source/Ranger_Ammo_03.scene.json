@@ -1,0 +1,1204 @@
+{
+  "theme": {
+    "index": 3,
+    "name": "Rimeglass Match Rounds",
+    "rifle": "Frostline Sentinel",
+    "rifle_id": "Weapon_Crossbow_Frostline_Sentinel",
+    "region": "Whisperfrost",
+    "colors": {
+      "body": "#34688e",
+      "light": "#8eafc2",
+      "dark": "#263e54",
+      "trim": "#b4c2cc",
+      "tip": "#c4dfed",
+      "glow": "#76b7d6",
+      "inlay": "#467c9b",
+      "pale": "#e4eff4"
+    },
+    "ammo_id": "RS_Ammo_Rimeglass"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\03\\Ranger_Ammo_03.png",
+  "parts": [
+    {
+      "name": "Cobalt_Case",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        6,
+        15,
+        8
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          7,
+          16
+        ],
+        "back": [
+          9,
+          1,
+          15,
+          16
+        ],
+        "left": [
+          17,
+          1,
+          25,
+          16
+        ],
+        "right": [
+          27,
+          1,
+          35,
+          16
+        ],
+        "top": [
+          37,
+          1,
+          43,
+          9
+        ],
+        "bottom": [
+          45,
+          1,
+          51,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Case_Facets",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        15,
+        6
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          53,
+          1,
+          61,
+          16
+        ],
+        "back": [
+          63,
+          1,
+          71,
+          16
+        ],
+        "left": [
+          73,
+          1,
+          79,
+          16
+        ],
+        "right": [
+          81,
+          1,
+          87,
+          16
+        ],
+        "top": [
+          89,
+          1,
+          97,
+          7
+        ],
+        "bottom": [
+          99,
+          1,
+          107,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Silver_Base",
+      "center": [
+        0,
+        -8,
+        0
+      ],
+      "size": [
+        10,
+        2,
+        8
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          109,
+          1,
+          119,
+          3
+        ],
+        "back": [
+          121,
+          1,
+          131,
+          3
+        ],
+        "left": [
+          133,
+          1,
+          141,
+          3
+        ],
+        "right": [
+          143,
+          1,
+          151,
+          3
+        ],
+        "top": [
+          153,
+          1,
+          163,
+          9
+        ],
+        "bottom": [
+          165,
+          1,
+          175,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Silver_Base_Corners",
+      "center": [
+        0,
+        -8,
+        0
+      ],
+      "size": [
+        8,
+        2,
+        10
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          177,
+          1,
+          185,
+          3
+        ],
+        "back": [
+          187,
+          1,
+          195,
+          3
+        ],
+        "left": [
+          197,
+          1,
+          207,
+          3
+        ],
+        "right": [
+          209,
+          1,
+          219,
+          3
+        ],
+        "top": [
+          221,
+          1,
+          229,
+          11
+        ],
+        "bottom": [
+          231,
+          1,
+          239,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Silver_Neck",
+      "center": [
+        0,
+        8,
+        0
+      ],
+      "size": [
+        8,
+        2,
+        6
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          177,
+          1,
+          185,
+          3
+        ],
+        "back": [
+          187,
+          1,
+          195,
+          3
+        ],
+        "left": [
+          241,
+          1,
+          247,
+          3
+        ],
+        "right": [
+          249,
+          1,
+          255,
+          3
+        ],
+        "top": [
+          1,
+          18,
+          9,
+          24
+        ],
+        "bottom": [
+          11,
+          18,
+          19,
+          24
+        ]
+      }
+    },
+    {
+      "name": "Silver_Neck_Corners",
+      "center": [
+        0,
+        8,
+        0
+      ],
+      "size": [
+        6,
+        2,
+        8
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          21,
+          18,
+          27,
+          20
+        ],
+        "back": [
+          29,
+          18,
+          35,
+          20
+        ],
+        "left": [
+          133,
+          1,
+          141,
+          3
+        ],
+        "right": [
+          143,
+          1,
+          151,
+          3
+        ],
+        "top": [
+          37,
+          18,
+          43,
+          26
+        ],
+        "bottom": [
+          45,
+          18,
+          51,
+          26
+        ]
+      }
+    },
+    {
+      "name": "Frost_Pale_Tip",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        4,
+        6,
+        6
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          53,
+          18,
+          57,
+          24
+        ],
+        "back": [
+          59,
+          18,
+          63,
+          24
+        ],
+        "left": [
+          65,
+          18,
+          71,
+          24
+        ],
+        "right": [
+          73,
+          18,
+          79,
+          24
+        ],
+        "top": [
+          81,
+          18,
+          85,
+          24
+        ],
+        "bottom": [
+          87,
+          18,
+          91,
+          24
+        ]
+      }
+    },
+    {
+      "name": "Frost_Pale_Tip_Facets",
+      "center": [
+        0,
+        12,
+        0
+      ],
+      "size": [
+        6,
+        6,
+        4
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          93,
+          18,
+          99,
+          24
+        ],
+        "back": [
+          101,
+          18,
+          107,
+          24
+        ],
+        "left": [
+          109,
+          18,
+          113,
+          24
+        ],
+        "right": [
+          115,
+          18,
+          119,
+          24
+        ],
+        "top": [
+          121,
+          18,
+          127,
+          22
+        ],
+        "bottom": [
+          129,
+          18,
+          135,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Pale_Point",
+      "center": [
+        0,
+        16,
+        0
+      ],
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "material": "pale",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          137,
+          18,
+          140,
+          21
+        ],
+        "back": [
+          142,
+          18,
+          145,
+          21
+        ],
+        "left": [
+          147,
+          18,
+          150,
+          21
+        ],
+        "right": [
+          152,
+          18,
+          155,
+          21
+        ],
+        "top": [
+          157,
+          18,
+          160,
+          21
+        ],
+        "bottom": [
+          162,
+          18,
+          165,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_0_L",
+      "center": [
+        0,
+        10,
+        -3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_0_R",
+      "center": [
+        0,
+        10,
+        3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_1_L",
+      "center": [
+        0,
+        12,
+        -3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_1_R",
+      "center": [
+        0,
+        12,
+        3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_2_L",
+      "center": [
+        0,
+        14,
+        -3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_Tip_Flute_2_R",
+      "center": [
+        0,
+        14,
+        3.2
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "material": "inlay",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          167,
+          18,
+          169,
+          19
+        ],
+        "back": [
+          171,
+          18,
+          173,
+          19
+        ],
+        "left": [
+          175,
+          18,
+          176,
+          19
+        ],
+        "right": [
+          178,
+          18,
+          179,
+          19
+        ],
+        "top": [
+          181,
+          18,
+          183,
+          19
+        ],
+        "bottom": [
+          185,
+          18,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cold_Silver_Stabilizer_L",
+      "center": [
+        -4.3,
+        -3,
+        0
+      ],
+      "size": [
+        2,
+        10,
+        3
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        8
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          189,
+          18,
+          191,
+          28
+        ],
+        "back": [
+          193,
+          18,
+          195,
+          28
+        ],
+        "left": [
+          197,
+          18,
+          200,
+          28
+        ],
+        "right": [
+          202,
+          18,
+          205,
+          28
+        ],
+        "top": [
+          207,
+          18,
+          209,
+          21
+        ],
+        "bottom": [
+          211,
+          18,
+          213,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Cold_Silver_Stabilizer_R",
+      "center": [
+        4.3,
+        -3,
+        0
+      ],
+      "size": [
+        2,
+        10,
+        3
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        8
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          189,
+          18,
+          191,
+          28
+        ],
+        "back": [
+          193,
+          18,
+          195,
+          28
+        ],
+        "left": [
+          197,
+          18,
+          200,
+          28
+        ],
+        "right": [
+          202,
+          18,
+          205,
+          28
+        ],
+        "top": [
+          207,
+          18,
+          209,
+          21
+        ],
+        "bottom": [
+          211,
+          18,
+          213,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_ID_L",
+      "center": [
+        0,
+        1,
+        -4.1
+      ],
+      "size": [
+        4,
+        5,
+        1
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "frost",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          215,
+          18,
+          219,
+          23
+        ],
+        "back": [
+          221,
+          18,
+          225,
+          23
+        ],
+        "left": [
+          227,
+          18,
+          228,
+          23
+        ],
+        "right": [
+          230,
+          18,
+          231,
+          23
+        ],
+        "top": [
+          233,
+          18,
+          237,
+          19
+        ],
+        "bottom": [
+          239,
+          18,
+          243,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Cobalt_ID_R",
+      "center": [
+        0,
+        1,
+        4.1
+      ],
+      "size": [
+        4,
+        5,
+        1
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "frost",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          215,
+          18,
+          219,
+          23
+        ],
+        "back": [
+          221,
+          18,
+          225,
+          23
+        ],
+        "left": [
+          227,
+          18,
+          228,
+          23
+        ],
+        "right": [
+          230,
+          18,
+          231,
+          23
+        ],
+        "top": [
+          233,
+          18,
+          237,
+          19
+        ],
+        "bottom": [
+          239,
+          18,
+          243,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Primer",
+      "center": [
+        0,
+        -9.6,
+        0
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "primer",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          245,
+          18,
+          248,
+          19
+        ],
+        "back": [
+          250,
+          18,
+          253,
+          19
+        ],
+        "left": [
+          1,
+          30,
+          4,
+          31
+        ],
+        "right": [
+          6,
+          30,
+          9,
+          31
+        ],
+        "top": [
+          11,
+          30,
+          14,
+          33
+        ],
+        "bottom": [
+          16,
+          30,
+          19,
+          33
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

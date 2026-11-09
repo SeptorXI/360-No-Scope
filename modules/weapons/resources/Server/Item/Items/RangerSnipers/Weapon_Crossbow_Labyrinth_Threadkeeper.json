@@ -1,0 +1,98 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 1,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "RS_Labyrinth_Threadkeeper_Player",
+  "Interactions": {
+    "Primary": "Root_RS_Labyrinth_Threadkeeper_Primary",
+    "Secondary": "Root_RS_Labyrinth_Threadkeeper_ADS",
+    "SwapTo": "Root_RS_Labyrinth_Threadkeeper_ChamberHUD",
+    "Use": "Root_RS_Labyrinth_Threadkeeper_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_Labyrinth_Threadkeeper.name",
+    "Description": "server.items.Weapon_Crossbow_Labyrinth_Threadkeeper.description"
+  },
+  "Model": "Items/RangerSnipers/Tier08/Ranger_Sniper_Tier08.blockymodel",
+  "Texture": "Items/RangerSnipers/Tier08/Ranger_Sniper_Tier08.png",
+  "Icon": "Icons/ItemsGenerated/Ranger_Sniper_Tier08.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Translation": [
+      -3.6,
+      -20.4
+    ],
+    "Rotation": [
+      315,
+      90,
+      0
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 7,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 40
+      },
+      {
+        "ItemId": "Rock_Gem_Zephyr",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Rifles"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

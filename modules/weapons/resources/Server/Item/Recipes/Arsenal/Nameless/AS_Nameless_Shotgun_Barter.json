@@ -1,0 +1,36 @@
+{
+  "Input": [
+    {
+      "ItemId": "Dark_Coin_I",
+      "Quantity": 40
+    },
+    {
+      "ItemId": "Artifact_Skull_Silver",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "Quantity": 1
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Id": "DarkCoinShop",
+      "Type": "Crafting",
+      "Categories": [
+        "DarkCoinShop_Weapons"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ],
+  "KnowledgeRequired": false,
+  "TimeSeconds": 1,
+  "RequiredMemoriesLevel": 1
+}

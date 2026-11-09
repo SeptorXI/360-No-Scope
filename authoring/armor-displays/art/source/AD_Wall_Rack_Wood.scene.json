@@ -1,0 +1,4618 @@
+{
+  "name": "Wood and Iron Three-Weapon Wall Rack",
+  "stem": "AD_Wall_Rack_Wood",
+  "style": "Wood",
+  "kind": "rack",
+  "texture": "armor-displays\\art\\Common\\Blocks\\ArmorDisplays\\AD_Wall_Rack_Wood.png",
+  "atlas_size": 512,
+  "parts": [
+    {
+      "name": "Walnut_Backboard_Slat_0",
+      "center": [
+        0,
+        5,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Slat_Edge_Trim_0",
+      "center": [
+        0,
+        5,
+        11.6
+      ],
+      "size": [
+        55,
+        2,
+        1
+      ],
+      "material": "edge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          253,
+          1,
+          308,
+          3
+        ],
+        "back": [
+          310,
+          1,
+          365,
+          3
+        ],
+        "left": [
+          367,
+          1,
+          368,
+          3
+        ],
+        "right": [
+          370,
+          1,
+          371,
+          3
+        ],
+        "top": [
+          373,
+          1,
+          428,
+          2
+        ],
+        "bottom": [
+          430,
+          1,
+          485,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Backboard_Slat_1",
+      "center": [
+        0,
+        15,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Backboard_Slat_2",
+      "center": [
+        0,
+        25,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Backboard_Slat_3",
+      "center": [
+        0,
+        35,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Backboard_Slat_4",
+      "center": [
+        0,
+        45,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Walnut_Backboard_Slat_5",
+      "center": [
+        0,
+        55,
+        14
+      ],
+      "size": [
+        58,
+        9,
+        4
+      ],
+      "material": "walnut",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          1,
+          59,
+          10
+        ],
+        "back": [
+          61,
+          1,
+          119,
+          10
+        ],
+        "left": [
+          121,
+          1,
+          125,
+          10
+        ],
+        "right": [
+          127,
+          1,
+          131,
+          10
+        ],
+        "top": [
+          133,
+          1,
+          191,
+          5
+        ],
+        "bottom": [
+          193,
+          1,
+          251,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Slat_Edge_Trim_5",
+      "center": [
+        0,
+        55,
+        11.6
+      ],
+      "size": [
+        55,
+        2,
+        1
+      ],
+      "material": "edge",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          253,
+          1,
+          308,
+          3
+        ],
+        "back": [
+          310,
+          1,
+          365,
+          3
+        ],
+        "left": [
+          367,
+          1,
+          368,
+          3
+        ],
+        "right": [
+          370,
+          1,
+          371,
+          3
+        ],
+        "top": [
+          373,
+          1,
+          428,
+          2
+        ],
+        "bottom": [
+          430,
+          1,
+          485,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Forged_Upright_-29",
+      "center": [
+        -29,
+        30,
+        13.5
+      ],
+      "size": [
+        4,
+        60,
+        5
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          487,
+          1,
+          491,
+          61
+        ],
+        "back": [
+          493,
+          1,
+          497,
+          61
+        ],
+        "left": [
+          499,
+          1,
+          504,
+          61
+        ],
+        "right": [
+          506,
+          1,
+          511,
+          61
+        ],
+        "top": [
+          1,
+          63,
+          5,
+          68
+        ],
+        "bottom": [
+          7,
+          63,
+          11,
+          68
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_-29_5",
+      "center": [
+        -29,
+        5,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_-29_22",
+      "center": [
+        -29,
+        22,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_-29_39",
+      "center": [
+        -29,
+        39,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_-29_55",
+      "center": [
+        -29,
+        55,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Forged_Upright_29",
+      "center": [
+        29,
+        30,
+        13.5
+      ],
+      "size": [
+        4,
+        60,
+        5
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          487,
+          1,
+          491,
+          61
+        ],
+        "back": [
+          493,
+          1,
+          497,
+          61
+        ],
+        "left": [
+          499,
+          1,
+          504,
+          61
+        ],
+        "right": [
+          506,
+          1,
+          511,
+          61
+        ],
+        "top": [
+          1,
+          63,
+          5,
+          68
+        ],
+        "bottom": [
+          7,
+          63,
+          11,
+          68
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_29_5",
+      "center": [
+        29,
+        5,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_29_22",
+      "center": [
+        29,
+        22,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_29_39",
+      "center": [
+        29,
+        39,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Upright_Bolt_29_55",
+      "center": [
+        29,
+        55,
+        10.6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Rack_Rim_1",
+      "center": [
+        0,
+        1,
+        13
+      ],
+      "size": [
+        58,
+        2,
+        6
+      ],
+      "material": "darkwood",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          31,
+          63,
+          89,
+          65
+        ],
+        "back": [
+          91,
+          63,
+          149,
+          65
+        ],
+        "left": [
+          151,
+          63,
+          157,
+          65
+        ],
+        "right": [
+          159,
+          63,
+          165,
+          65
+        ],
+        "top": [
+          167,
+          63,
+          225,
+          69
+        ],
+        "bottom": [
+          227,
+          63,
+          285,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Rack_Rim_59",
+      "center": [
+        0,
+        59,
+        13
+      ],
+      "size": [
+        58,
+        2,
+        6
+      ],
+      "material": "darkwood",
+      "detail": "wood",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          31,
+          63,
+          89,
+          65
+        ],
+        "back": [
+          91,
+          63,
+          149,
+          65
+        ],
+        "left": [
+          151,
+          63,
+          157,
+          65
+        ],
+        "right": [
+          159,
+          63,
+          165,
+          65
+        ],
+        "top": [
+          167,
+          63,
+          225,
+          69
+        ],
+        "bottom": [
+          227,
+          63,
+          285,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Makers_Plaque",
+      "center": [
+        0,
+        56,
+        11
+      ],
+      "size": [
+        13,
+        3,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          287,
+          63,
+          300,
+          66
+        ],
+        "back": [
+          302,
+          63,
+          315,
+          66
+        ],
+        "left": [
+          317,
+          63,
+          318,
+          66
+        ],
+        "right": [
+          320,
+          63,
+          321,
+          66
+        ],
+        "top": [
+          323,
+          63,
+          336,
+          64
+        ],
+        "bottom": [
+          338,
+          63,
+          351,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_-18",
+      "center": [
+        -18,
+        11,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_0_-18",
+      "center": [
+        -18,
+        9,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_0_-18",
+      "center": [
+        -18,
+        10.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_-18",
+      "center": [
+        -18,
+        11,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_0_-18",
+      "center": [
+        -18,
+        11,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_0_-18",
+      "center": [
+        -18,
+        13,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_0",
+      "center": [
+        0,
+        11,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_0_0",
+      "center": [
+        0,
+        9,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_0_0",
+      "center": [
+        0,
+        10.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_0",
+      "center": [
+        0,
+        11,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_0_0",
+      "center": [
+        0,
+        11,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_0_0",
+      "center": [
+        0,
+        13,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_0_18",
+      "center": [
+        18,
+        11,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_0_18",
+      "center": [
+        18,
+        9,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_0_18",
+      "center": [
+        18,
+        10.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_0_18",
+      "center": [
+        18,
+        11,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_0_18",
+      "center": [
+        18,
+        11,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_0_18",
+      "center": [
+        18,
+        13,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Slot_Label_0",
+      "center": [
+        -25,
+        11,
+        11.4
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          31,
+          74,
+          34,
+          78
+        ],
+        "back": [
+          36,
+          74,
+          39,
+          78
+        ],
+        "left": [
+          41,
+          74,
+          42,
+          78
+        ],
+        "right": [
+          44,
+          74,
+          45,
+          78
+        ],
+        "top": [
+          47,
+          74,
+          50,
+          75
+        ],
+        "bottom": [
+          52,
+          74,
+          55,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_-18",
+      "center": [
+        -18,
+        29,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_1_-18",
+      "center": [
+        -18,
+        27,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_1_-18",
+      "center": [
+        -18,
+        28.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_-18",
+      "center": [
+        -18,
+        29,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_1_-18",
+      "center": [
+        -18,
+        29,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_1_-18",
+      "center": [
+        -18,
+        31,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_0",
+      "center": [
+        0,
+        29,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_1_0",
+      "center": [
+        0,
+        27,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_1_0",
+      "center": [
+        0,
+        28.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_0",
+      "center": [
+        0,
+        29,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_1_0",
+      "center": [
+        0,
+        29,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_1_0",
+      "center": [
+        0,
+        31,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_1_18",
+      "center": [
+        18,
+        29,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_1_18",
+      "center": [
+        18,
+        27,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_1_18",
+      "center": [
+        18,
+        28.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_1_18",
+      "center": [
+        18,
+        29,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_1_18",
+      "center": [
+        18,
+        29,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_1_18",
+      "center": [
+        18,
+        31,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Slot_Label_1",
+      "center": [
+        -25,
+        29,
+        11.4
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          31,
+          74,
+          34,
+          78
+        ],
+        "back": [
+          36,
+          74,
+          39,
+          78
+        ],
+        "left": [
+          41,
+          74,
+          42,
+          78
+        ],
+        "right": [
+          44,
+          74,
+          45,
+          78
+        ],
+        "top": [
+          47,
+          74,
+          50,
+          75
+        ],
+        "bottom": [
+          52,
+          74,
+          55,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_-18",
+      "center": [
+        -18,
+        47,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_2_-18",
+      "center": [
+        -18,
+        45,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_2_-18",
+      "center": [
+        -18,
+        46.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_-18",
+      "center": [
+        -18,
+        47,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_2_-18",
+      "center": [
+        -18,
+        47,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_2_-18",
+      "center": [
+        -18,
+        49,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_0",
+      "center": [
+        0,
+        47,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_2_0",
+      "center": [
+        0,
+        45,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_2_0",
+      "center": [
+        0,
+        46.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_0",
+      "center": [
+        0,
+        47,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_2_0",
+      "center": [
+        0,
+        47,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_2_0",
+      "center": [
+        0,
+        49,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Hook_Wall_Bracket_2_18",
+      "center": [
+        18,
+        47,
+        11
+      ],
+      "size": [
+        4,
+        7,
+        3
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          353,
+          63,
+          357,
+          70
+        ],
+        "back": [
+          359,
+          63,
+          363,
+          70
+        ],
+        "left": [
+          365,
+          63,
+          368,
+          70
+        ],
+        "right": [
+          370,
+          63,
+          373,
+          70
+        ],
+        "top": [
+          375,
+          63,
+          379,
+          66
+        ],
+        "bottom": [
+          381,
+          63,
+          385,
+          66
+        ]
+      }
+    },
+    {
+      "name": "Hook_Seat_2_18",
+      "center": [
+        18,
+        45,
+        7.5
+      ],
+      "size": [
+        4,
+        3,
+        9
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          387,
+          63,
+          391,
+          66
+        ],
+        "back": [
+          393,
+          63,
+          397,
+          66
+        ],
+        "left": [
+          399,
+          63,
+          408,
+          66
+        ],
+        "right": [
+          410,
+          63,
+          419,
+          66
+        ],
+        "top": [
+          421,
+          63,
+          425,
+          72
+        ],
+        "bottom": [
+          427,
+          63,
+          431,
+          72
+        ]
+      }
+    },
+    {
+      "name": "Hook_Padded_Seat_2_18",
+      "center": [
+        18,
+        46.8,
+        7.5
+      ],
+      "size": [
+        5,
+        1,
+        6
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          433,
+          63,
+          438,
+          64
+        ],
+        "back": [
+          440,
+          63,
+          445,
+          64
+        ],
+        "left": [
+          447,
+          63,
+          453,
+          64
+        ],
+        "right": [
+          455,
+          63,
+          461,
+          64
+        ],
+        "top": [
+          463,
+          63,
+          468,
+          69
+        ],
+        "bottom": [
+          470,
+          63,
+          475,
+          69
+        ]
+      }
+    },
+    {
+      "name": "Hook_Retaining_Lip_2_18",
+      "center": [
+        18,
+        47,
+        3.5
+      ],
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "material": "iron",
+      "detail": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          477,
+          63,
+          481,
+          68
+        ],
+        "back": [
+          483,
+          63,
+          487,
+          68
+        ],
+        "left": [
+          489,
+          63,
+          491,
+          68
+        ],
+        "right": [
+          493,
+          63,
+          495,
+          68
+        ],
+        "top": [
+          497,
+          63,
+          501,
+          65
+        ],
+        "bottom": [
+          503,
+          63,
+          507,
+          65
+        ]
+      }
+    },
+    {
+      "name": "Hook_Lip_Pad_2_18",
+      "center": [
+        18,
+        47,
+        4.8
+      ],
+      "size": [
+        4,
+        3,
+        1
+      ],
+      "material": "leather",
+      "detail": "leather",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          1,
+          74,
+          5,
+          77
+        ],
+        "back": [
+          7,
+          74,
+          11,
+          77
+        ],
+        "left": [
+          13,
+          74,
+          14,
+          77
+        ],
+        "right": [
+          16,
+          74,
+          17,
+          77
+        ],
+        "top": [
+          19,
+          74,
+          23,
+          75
+        ],
+        "bottom": [
+          25,
+          74,
+          29,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Hook_Bolt_2_18",
+      "center": [
+        18,
+        49,
+        9.1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "material": "brass",
+      "detail": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          13,
+          63,
+          14,
+          64
+        ],
+        "back": [
+          16,
+          63,
+          17,
+          64
+        ],
+        "left": [
+          19,
+          63,
+          20,
+          64
+        ],
+        "right": [
+          22,
+          63,
+          23,
+          64
+        ],
+        "top": [
+          25,
+          63,
+          26,
+          64
+        ],
+        "bottom": [
+          28,
+          63,
+          29,
+          64
+        ]
+      }
+    },
+    {
+      "name": "Slot_Label_2",
+      "center": [
+        -25,
+        47,
+        11.4
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "brass",
+      "detail": "label",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "standard",
+      "uv": {
+        "front": [
+          31,
+          74,
+          34,
+          78
+        ],
+        "back": [
+          36,
+          74,
+          39,
+          78
+        ],
+        "left": [
+          41,
+          74,
+          42,
+          78
+        ],
+        "right": [
+          44,
+          74,
+          45,
+          78
+        ],
+        "top": [
+          47,
+          74,
+          50,
+          75
+        ],
+        "bottom": [
+          52,
+          74,
+          55,
+          75
+        ]
+      }
+    }
+  ],
+  "root_translation": [
+    -16,
+    0,
+    0
+  ],
+  "native_units_per_block": 32
+}

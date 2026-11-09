@@ -1,0 +1,850 @@
+{
+  "theme": {
+    "index": 8,
+    "name": "Threadline Sabots",
+    "rifle": "Labyrinth Threadkeeper",
+    "rifle_id": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+    "region": "Fullmetal Labyrinth",
+    "colors": {
+      "body": "#4b5b67",
+      "light": "#c4d1d8",
+      "dark": "#202d36",
+      "trim": "#96aab9",
+      "tip": "#7cdeef",
+      "glow": "#4dcbe3",
+      "inlay": "#527486",
+      "pale": "#e3edf0"
+    },
+    "ammo_id": "RS_Ammo_Threadline"
+  },
+  "texture": "ranger-snipers\\ammo-art\\Common\\Items\\RangerSnipers\\Ammo\\08\\Ranger_Ammo_08.png",
+  "parts": [
+    {
+      "name": "Black_Sabot_Base",
+      "center": [
+        0,
+        -5,
+        0
+      ],
+      "size": [
+        8,
+        12,
+        10
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          9,
+          13
+        ],
+        "back": [
+          11,
+          1,
+          19,
+          13
+        ],
+        "left": [
+          21,
+          1,
+          31,
+          13
+        ],
+        "right": [
+          33,
+          1,
+          43,
+          13
+        ],
+        "top": [
+          45,
+          1,
+          53,
+          11
+        ],
+        "bottom": [
+          55,
+          1,
+          63,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Black_Sabot_Base_Facets",
+      "center": [
+        0,
+        -5,
+        0
+      ],
+      "size": [
+        10,
+        12,
+        8
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "metal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          65,
+          1,
+          75,
+          13
+        ],
+        "back": [
+          77,
+          1,
+          87,
+          13
+        ],
+        "left": [
+          89,
+          1,
+          97,
+          13
+        ],
+        "right": [
+          99,
+          1,
+          107,
+          13
+        ],
+        "top": [
+          109,
+          1,
+          119,
+          9
+        ],
+        "bottom": [
+          121,
+          1,
+          131,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Chrome_Extractor",
+      "center": [
+        0,
+        -12,
+        0
+      ],
+      "size": [
+        13,
+        3,
+        11
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          133,
+          1,
+          146,
+          4
+        ],
+        "back": [
+          148,
+          1,
+          161,
+          4
+        ],
+        "left": [
+          163,
+          1,
+          174,
+          4
+        ],
+        "right": [
+          176,
+          1,
+          187,
+          4
+        ],
+        "top": [
+          189,
+          1,
+          202,
+          12
+        ],
+        "bottom": [
+          204,
+          1,
+          217,
+          12
+        ]
+      }
+    },
+    {
+      "name": "Chrome_Extractor_Corners",
+      "center": [
+        0,
+        -12,
+        0
+      ],
+      "size": [
+        11,
+        3,
+        13
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          219,
+          1,
+          230,
+          4
+        ],
+        "back": [
+          232,
+          1,
+          243,
+          4
+        ],
+        "left": [
+          1,
+          15,
+          14,
+          18
+        ],
+        "right": [
+          16,
+          15,
+          29,
+          18
+        ],
+        "top": [
+          31,
+          15,
+          42,
+          28
+        ],
+        "bottom": [
+          44,
+          15,
+          55,
+          28
+        ]
+      }
+    },
+    {
+      "name": "Angular_Sabot_Petals_L",
+      "center": [
+        -5.2,
+        3,
+        0
+      ],
+      "size": [
+        3,
+        15,
+        6
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          57,
+          15,
+          60,
+          30
+        ],
+        "back": [
+          62,
+          15,
+          65,
+          30
+        ],
+        "left": [
+          67,
+          15,
+          73,
+          30
+        ],
+        "right": [
+          75,
+          15,
+          81,
+          30
+        ],
+        "top": [
+          83,
+          15,
+          86,
+          21
+        ],
+        "bottom": [
+          88,
+          15,
+          91,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Angular_Sabot_Petals_R",
+      "center": [
+        5.2,
+        3,
+        0
+      ],
+      "size": [
+        3,
+        15,
+        6
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          57,
+          15,
+          60,
+          30
+        ],
+        "back": [
+          62,
+          15,
+          65,
+          30
+        ],
+        "left": [
+          67,
+          15,
+          73,
+          30
+        ],
+        "right": [
+          75,
+          15,
+          81,
+          30
+        ],
+        "top": [
+          83,
+          15,
+          86,
+          21
+        ],
+        "bottom": [
+          88,
+          15,
+          91,
+          21
+        ]
+      }
+    },
+    {
+      "name": "Chrome_Petal_Edge_L",
+      "center": [
+        -6.3,
+        4,
+        0
+      ],
+      "size": [
+        1,
+        13,
+        7
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          93,
+          15,
+          94,
+          28
+        ],
+        "back": [
+          96,
+          15,
+          97,
+          28
+        ],
+        "left": [
+          99,
+          15,
+          106,
+          28
+        ],
+        "right": [
+          108,
+          15,
+          115,
+          28
+        ],
+        "top": [
+          117,
+          15,
+          118,
+          22
+        ],
+        "bottom": [
+          120,
+          15,
+          121,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Chrome_Petal_Edge_R",
+      "center": [
+        6.3,
+        4,
+        0
+      ],
+      "size": [
+        1,
+        13,
+        7
+      ],
+      "material": "light",
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          93,
+          15,
+          94,
+          28
+        ],
+        "back": [
+          96,
+          15,
+          97,
+          28
+        ],
+        "left": [
+          99,
+          15,
+          106,
+          28
+        ],
+        "right": [
+          108,
+          15,
+          115,
+          28
+        ],
+        "top": [
+          117,
+          15,
+          118,
+          22
+        ],
+        "bottom": [
+          120,
+          15,
+          121,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Cyan_Crystal_Penetrator",
+      "center": [
+        0,
+        9,
+        0
+      ],
+      "size": [
+        5,
+        14,
+        5
+      ],
+      "material": "tip",
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "detail": "crystal",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          123,
+          15,
+          128,
+          29
+        ],
+        "back": [
+          130,
+          15,
+          135,
+          29
+        ],
+        "left": [
+          137,
+          15,
+          142,
+          29
+        ],
+        "right": [
+          144,
+          15,
+          149,
+          29
+        ],
+        "top": [
+          151,
+          15,
+          156,
+          20
+        ],
+        "bottom": [
+          158,
+          15,
+          163,
+          20
+        ]
+      }
+    },
+    {
+      "name": "Crystal_Point",
+      "center": [
+        0,
+        17,
+        0
+      ],
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          165,
+          15,
+          168,
+          18
+        ],
+        "back": [
+          170,
+          15,
+          173,
+          18
+        ],
+        "left": [
+          175,
+          15,
+          178,
+          18
+        ],
+        "right": [
+          180,
+          15,
+          183,
+          18
+        ],
+        "top": [
+          185,
+          15,
+          188,
+          18
+        ],
+        "bottom": [
+          190,
+          15,
+          193,
+          18
+        ]
+      }
+    },
+    {
+      "name": "Maze_Plate_L",
+      "center": [
+        0,
+        -4,
+        -5.2
+      ],
+      "size": [
+        7,
+        7,
+        1
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "maze",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          195,
+          15,
+          202,
+          22
+        ],
+        "back": [
+          204,
+          15,
+          211,
+          22
+        ],
+        "left": [
+          213,
+          15,
+          214,
+          22
+        ],
+        "right": [
+          216,
+          15,
+          217,
+          22
+        ],
+        "top": [
+          219,
+          15,
+          226,
+          16
+        ],
+        "bottom": [
+          228,
+          15,
+          235,
+          16
+        ]
+      }
+    },
+    {
+      "name": "Maze_Plate_R",
+      "center": [
+        0,
+        -4,
+        5.2
+      ],
+      "size": [
+        7,
+        7,
+        1
+      ],
+      "material": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "maze",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          195,
+          15,
+          202,
+          22
+        ],
+        "back": [
+          204,
+          15,
+          211,
+          22
+        ],
+        "left": [
+          213,
+          15,
+          214,
+          22
+        ],
+        "right": [
+          216,
+          15,
+          217,
+          22
+        ],
+        "top": [
+          219,
+          15,
+          226,
+          16
+        ],
+        "bottom": [
+          228,
+          15,
+          235,
+          16
+        ]
+      }
+    },
+    {
+      "name": "Sabot_Release_Seam",
+      "center": [
+        0,
+        -1,
+        -5.8
+      ],
+      "size": [
+        7,
+        1,
+        1
+      ],
+      "material": "glow",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          237,
+          15,
+          244,
+          16
+        ],
+        "back": [
+          246,
+          15,
+          253,
+          16
+        ],
+        "left": [
+          1,
+          32,
+          2,
+          33
+        ],
+        "right": [
+          4,
+          32,
+          5,
+          33
+        ],
+        "top": [
+          7,
+          32,
+          14,
+          33
+        ],
+        "bottom": [
+          16,
+          32,
+          23,
+          33
+        ]
+      }
+    },
+    {
+      "name": "Dark_Primer",
+      "center": [
+        0,
+        -14,
+        0
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "primer",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          25,
+          32,
+          29,
+          33
+        ],
+        "back": [
+          31,
+          32,
+          35,
+          33
+        ],
+        "left": [
+          37,
+          32,
+          41,
+          33
+        ],
+        "right": [
+          43,
+          32,
+          47,
+          33
+        ],
+        "top": [
+          49,
+          32,
+          53,
+          36
+        ],
+        "bottom": [
+          55,
+          32,
+          59,
+          36
+        ]
+      }
+    }
+  ],
+  "atlas_size": 256
+}

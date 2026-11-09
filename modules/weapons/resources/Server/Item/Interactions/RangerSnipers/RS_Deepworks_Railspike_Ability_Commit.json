@@ -1,0 +1,35 @@
+{
+  "Type": "CooldownCondition",
+  "Id": "RangerSniperCycle",
+  "Next": {
+    "Type": "CooldownCondition",
+    "Id": "RS_LegendaryAbility",
+    "Next": {
+      "Type": "DurabilityCondition",
+      "Threshold": 0,
+      "Operator": "GreaterThan",
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "Consume",
+        "WeaponId": "Weapon_Crossbow_Deepworks_Railspike",
+        "Cost": 2,
+        "Next": {
+          "Type": "TriggerCooldown",
+          "Cooldown": {
+            "Id": "RS_LegendaryAbility",
+            "Cooldown": 12
+          },
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 5.5
+            },
+            "Next": "RS_Deepworks_Railspike_Ability_Launch"
+          }
+        },
+        "Failed": "RS_Deepworks_Railspike_Empty"
+      }
+    }
+  }
+}

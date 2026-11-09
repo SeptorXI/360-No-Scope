@@ -1,0 +1,21 @@
+{
+  "Parent": "Player",
+  "Model": "NPC/ArmorDisplays/Equipment_Mannequin.blockymodel",
+  "Texture": "NPC/ArmorDisplays/Equipment_Mannequin.png",
+  "EyeHeight": 1.6,
+  "MinScale": 1,
+  "MaxScale": 1,
+  "DefaultAttachments": [],
+  "HitBox": {
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    },
+    "Max": {
+      "X": 0.3,
+      "Y": 1.8,
+      "Z": 0.3
+    }
+  }
+}

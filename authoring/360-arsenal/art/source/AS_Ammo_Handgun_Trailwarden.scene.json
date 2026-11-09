@@ -1,0 +1,498 @@
+{
+  "theme": {
+    "id": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+    "name": "Wildwood Trailwarden",
+    "zone": "Emerald Wilds",
+    "family": "Ballistic",
+    "seed": 101,
+    "colors": {
+      "steel": "#3b4950",
+      "edge": "#788a8b",
+      "dark": "#182329",
+      "wood": "#71462d",
+      "woodlight": "#b07944",
+      "trim": "#bc7543",
+      "cloth": "#52633b",
+      "pale": "#a3a77c",
+      "glass": "#73c5aa",
+      "glow": "#72d9a6",
+      "rubber": "#292824",
+      "warning": "#dcaf57"
+    }
+  },
+  "texture": "360-arsenal\\art\\Common\\Items\\Arsenal\\AS_Ammo_Handgun_Trailwarden\\AS_Ammo_Handgun_Trailwarden.png",
+  "parts": [
+    {
+      "name": "Case",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "material": "woodlight",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "panel",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          1,
+          1,
+          6,
+          11
+        ],
+        "back": [
+          8,
+          1,
+          13,
+          11
+        ],
+        "left": [
+          15,
+          1,
+          20,
+          11
+        ],
+        "right": [
+          22,
+          1,
+          27,
+          11
+        ],
+        "top": [
+          29,
+          1,
+          34,
+          6
+        ],
+        "bottom": [
+          36,
+          1,
+          41,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Extractor_Rim",
+      "center": [
+        0,
+        -5.0,
+        0
+      ],
+      "size": [
+        7,
+        2,
+        7
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          43,
+          1,
+          50,
+          3
+        ],
+        "back": [
+          52,
+          1,
+          59,
+          3
+        ],
+        "left": [
+          61,
+          1,
+          68,
+          3
+        ],
+        "right": [
+          70,
+          1,
+          77,
+          3
+        ],
+        "top": [
+          79,
+          1,
+          86,
+          8
+        ],
+        "bottom": [
+          88,
+          1,
+          95,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Primer",
+      "center": [
+        0,
+        -6.3,
+        0
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          97,
+          1,
+          100,
+          2
+        ],
+        "back": [
+          102,
+          1,
+          105,
+          2
+        ],
+        "left": [
+          107,
+          1,
+          110,
+          2
+        ],
+        "right": [
+          112,
+          1,
+          115,
+          2
+        ],
+        "top": [
+          117,
+          1,
+          120,
+          4
+        ],
+        "bottom": [
+          122,
+          1,
+          125,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Shoulder",
+      "center": [
+        0,
+        5.0,
+        0
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          127,
+          1,
+          132,
+          3
+        ],
+        "back": [
+          134,
+          1,
+          139,
+          3
+        ],
+        "left": [
+          141,
+          1,
+          146,
+          3
+        ],
+        "right": [
+          148,
+          1,
+          153,
+          3
+        ],
+        "top": [
+          155,
+          1,
+          160,
+          6
+        ],
+        "bottom": [
+          162,
+          1,
+          167,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Projectile",
+      "center": [
+        0,
+        8.0,
+        0
+      ],
+      "size": [
+        3,
+        4,
+        3
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          169,
+          1,
+          172,
+          5
+        ],
+        "back": [
+          174,
+          1,
+          177,
+          5
+        ],
+        "left": [
+          179,
+          1,
+          182,
+          5
+        ],
+        "right": [
+          184,
+          1,
+          187,
+          5
+        ],
+        "top": [
+          189,
+          1,
+          192,
+          4
+        ],
+        "bottom": [
+          194,
+          1,
+          197,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Nose",
+      "center": [
+        0,
+        10.5,
+        0
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          199,
+          1,
+          201,
+          3
+        ],
+        "back": [
+          203,
+          1,
+          205,
+          3
+        ],
+        "left": [
+          207,
+          1,
+          209,
+          3
+        ],
+        "right": [
+          211,
+          1,
+          213,
+          3
+        ],
+        "top": [
+          215,
+          1,
+          217,
+          3
+        ],
+        "bottom": [
+          219,
+          1,
+          221,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Regional_Seal_L",
+      "center": [
+        0,
+        0,
+        -2.6
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "inlay",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          223,
+          1,
+          226,
+          5
+        ],
+        "back": [
+          228,
+          1,
+          231,
+          5
+        ],
+        "left": [
+          233,
+          1,
+          234,
+          5
+        ],
+        "right": [
+          236,
+          1,
+          237,
+          5
+        ],
+        "top": [
+          239,
+          1,
+          242,
+          2
+        ],
+        "bottom": [
+          244,
+          1,
+          247,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Regional_Seal_R",
+      "center": [
+        0,
+        0,
+        2.6
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "detail": "inlay",
+      "shading_mode": "flat",
+      "uv": {
+        "front": [
+          223,
+          1,
+          226,
+          5
+        ],
+        "back": [
+          228,
+          1,
+          231,
+          5
+        ],
+        "left": [
+          233,
+          1,
+          234,
+          5
+        ],
+        "right": [
+          236,
+          1,
+          237,
+          5
+        ],
+        "top": [
+          239,
+          1,
+          242,
+          2
+        ],
+        "bottom": [
+          244,
+          1,
+          247,
+          2
+        ]
+      }
+    }
+  ]
+}

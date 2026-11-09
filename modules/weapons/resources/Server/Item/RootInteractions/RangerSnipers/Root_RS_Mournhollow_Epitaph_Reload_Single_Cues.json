@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.516666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.483333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.766666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.083333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.366666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.316666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ReloadClose_World"
+      }
+    }
+  ]
+}

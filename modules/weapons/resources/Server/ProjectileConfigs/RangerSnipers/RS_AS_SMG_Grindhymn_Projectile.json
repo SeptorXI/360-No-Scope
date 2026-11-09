@@ -1,0 +1,37 @@
+{
+  "Model": "RS_AS_SMG_Grindhymn_ProjectileModel",
+  "UseModelScale": true,
+  "LaunchForce": 195,
+  "SpawnOffset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 0,
+    "Yaw": 0,
+    "Roll": 0
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 0,
+    "TerminalVelocityAir": 195,
+    "TerminalVelocityWater": 30,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0,
+    "SticksVertically": false
+  },
+  "Interactions": {
+    "ProjectileSpawn": "Root_RS_AS_SMG_Grindhymn_FlightOrigin",
+    "ProjectileHit": {
+      "Interactions": [
+        "RS_AS_SMG_Grindhymn_Falloff"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "RS_Despawn"
+      ]
+    }
+  }
+}

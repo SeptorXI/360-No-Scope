@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Shotgun_Sandbreaker_Projectile",
+  "Pellets": 6,
+  "SpreadDegrees": 6.5,
+  "BodyDamage": 4.25,
+  "HeadDamage": 5.0,
+  "Range": 32,
+  "Lifetime": 0.3404,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Shotgun_Sandbreaker_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_Shotgun_Sandbreaker_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_Shotgun_Sandbreaker_Fire_World"
+  }
+}

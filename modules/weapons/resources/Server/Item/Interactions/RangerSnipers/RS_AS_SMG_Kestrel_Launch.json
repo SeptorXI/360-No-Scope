@@ -1,0 +1,17 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Kestrel_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.4,
+  "BodyDamage": 4.25,
+  "HeadDamage": 6.5,
+  "Range": 54,
+  "Lifetime": 0.4821,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Kestrel_Recoil",
+    "LocalSoundEventId": "AS_Audio_AS_SMG_Kestrel_Fire_Local",
+    "WorldSoundEventId": "AS_Audio_AS_SMG_Kestrel_Fire_World"
+  }
+}

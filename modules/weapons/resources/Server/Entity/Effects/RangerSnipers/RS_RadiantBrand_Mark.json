@@ -1,0 +1,26 @@
+{
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer",
+      "Inverse": true
+    }
+  ],
+  "Duration": 6,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "ApplicationEffects": {
+    "EntityTopTint": "#fff0bd",
+    "EntityBottomTint": "#8df6ff",
+    "Particles": [
+      {
+        "SystemId": "RS_Luminia_Dawnpiercer_Idle",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 0.8
+        },
+        "Scale": 0.7,
+        "ClearParticlesOnRemove": true
+      }
+    ]
+  }
+}

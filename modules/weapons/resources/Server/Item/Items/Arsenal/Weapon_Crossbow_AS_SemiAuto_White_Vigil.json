@@ -1,0 +1,91 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "DisplayEntityStatsHUD": [
+    "Ammo"
+  ],
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_SemiAuto_White_Vigil_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_SemiAuto_White_Vigil_Primary",
+    "Secondary": "Root_RS_AS_SemiAuto_White_Vigil_ADS",
+    "SwapTo": "Root_RS_AS_SemiAuto_White_Vigil_ChamberHUD",
+    "Use": "Root_RS_AS_SemiAuto_White_Vigil_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_SemiAuto_White_Vigil.name",
+    "Description": "server.items.Weapon_Crossbow_AS_SemiAuto_White_Vigil.description"
+  },
+  "Model": "Items/Arsenal/AS_SemiAuto_White_Vigil/AS_SemiAuto_White_Vigil.blockymodel",
+  "Texture": "Items/Arsenal/AS_SemiAuto_White_Vigil/AS_SemiAuto_White_Vigil.png",
+  "Icon": "Icons/ItemsGenerated/AS_SemiAuto_White_Vigil.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 19
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_semiauto"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

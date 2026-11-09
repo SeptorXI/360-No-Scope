@@ -1,0 +1,14 @@
+{
+  "RequireNewClick": false,
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.1,
+      "Next": {
+        "Type": "RSChamber",
+        "Operation": "Sync",
+        "WeaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper"
+      }
+    }
+  ]
+}
