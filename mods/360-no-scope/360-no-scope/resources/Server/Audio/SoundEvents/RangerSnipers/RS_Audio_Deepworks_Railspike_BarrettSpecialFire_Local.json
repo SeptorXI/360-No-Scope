@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 2.0411998265592484,
+  "SpatialBlend": 0,
+  "StartAttenuationDistance": 0,
+  "MaxDistance": 72,
+  "MaxInstance": 24,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Deepworks_Railspike/BarrettSpecialFire_01.ogg",
+        "Sounds/RangerSnipers/Deepworks_Railspike/BarrettSpecialFire_02.ogg",
+        "Sounds/RangerSnipers/Deepworks_Railspike/BarrettSpecialFire_03.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.2,
+        "MaxPitch": 0.2,
+        "MinVolume": -0.2,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "ABTT_Activation",
+    "Cooldown": 0.2
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "SwapFrom",
+      "SwapTo"
+    ],
+    "InterruptedBy": [
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Magic",
+      "Unarmed"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "ABTTChannel",
+      "HorizontalSpeedMultiplier": 0.65,
+      "DisplayProgress": false,
+      "AllowIndefiniteHold": true,
+      "CancelOnOtherClick": true,
+      "Effects": {
+        "ItemPlayerAnimationsId": "ABTT_Gauntlets_Player",
+        "ItemAnimationId": "Channel",
+        "ClearAnimationOnFinish": true,
+        "MovementEffects": {
+          "DisableSprint": true
+        },
+        "Particles": [
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.10213160253041503,
+              "Y": -0.3197396965719692,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.03571251604347757,
+              "Y": -0.35284448289507686,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": -0.03489476672718157,
+              "Y": -0.3372408964145366,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": -0.10240385303806245,
+              "Y": -0.3038524735222391,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.2201589053710855,
+              "Y": -0.13402894567069895,
+              "Z": 0.0
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.10213160253041503,
+              "Y": -0.3197396965719692,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.03571251604347757,
+              "Y": -0.35284448289507686,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": 0.03489476672718157,
+              "Y": -0.3372408964145366,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": 0.10240385303806245,
+              "Y": -0.3038524735222391,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.2201589053710855,
+              "Y": -0.13402894567069895,
+              "Z": 0.0
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          }
+        ],
+        "FirstPersonParticles": [
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.10213160253041503,
+              "Y": -0.3197396965719692,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.03571251604347757,
+              "Y": -0.35284448289507686,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": -0.03489476672718157,
+              "Y": -0.3372408964145366,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": -0.10240385303806245,
+              "Y": -0.3038524735222391,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "R-Hand",
+            "PositionOffset": {
+              "X": 0.2201589053710855,
+              "Y": -0.13402894567069895,
+              "Z": 0.0
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.10213160253041503,
+              "Y": -0.3197396965719692,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.03571251604347757,
+              "Y": -0.35284448289507686,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": 0.03489476672718157,
+              "Y": -0.3372408964145366,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": 0.10240385303806245,
+              "Y": -0.3038524735222391,
+              "Z": 0.003125
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          },
+          {
+            "SystemId": "ABTT_Fingertip",
+            "TargetEntityPart": "Entity",
+            "TargetNodeName": "L-Hand",
+            "PositionOffset": {
+              "X": -0.2201589053710855,
+              "Y": -0.13402894567069895,
+              "Z": 0.0
+            },
+            "Scale": 0.24,
+            "ClearParticlesOnRemove": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Parent": "SFX_Attn_Loud",
+  "AudioCategory": "AudioCat_Abilities",
+  "Layers": [
+    {
+      "Files": ["Sounds/ChargedMeteor/Impact.ogg"]
+    },
+    {
+      "Files": ["Sounds/ChargedMeteor/Vortex.ogg"],
+      "Volume": -8
+    }
+  ],
+  "Volume": 3.521825,
+  "PreventSoundInterruption": true
+}

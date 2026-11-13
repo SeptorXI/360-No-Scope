@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Dune_Canticle_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.65,
+  "BodyDamage": 14.0,
+  "HeadDamage": 22.0,
+  "Range": 95,
+  "Lifetime": 0.8482,
+  "RunTime": 0.075,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Dune_Canticle_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.75
+      }
+    ]
+  }
+}

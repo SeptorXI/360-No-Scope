@@ -1,0 +1,82 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "RangerSniperCycle",
+    "Cooldown": 0.1,
+    "SkipCooldownReset": true,
+    "Charges": [
+      0.1
+    ]
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "DurabilityCondition",
+        "Threshold": 0,
+        "Operator": "GreaterThan",
+        "Next": {
+          "Type": "Chaining",
+          "ChainId": "RS_AS_Handgun_Twinwardens_Alternation",
+          "ChainingAllowance": 2.0,
+          "Next": [
+            {
+              "Type": "RSChamber",
+              "Operation": "Consume",
+              "WeaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+              "Cost": 1,
+              "Next": {
+                "Type": "TriggerCooldown",
+                "Cooldown": {
+                  "Id": "RangerSniperCycle",
+                  "Cooldown": 0.1,
+                  "Charges": [
+                    0.1
+                  ]
+                },
+                "Next": "RS_AS_Handgun_Twinwardens_Launch_Right"
+              },
+              "Failed": "RS_AS_Handgun_Twinwardens_Empty"
+            },
+            {
+              "Type": "RSChamber",
+              "Operation": "Consume",
+              "WeaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+              "Cost": 1,
+              "Next": {
+                "Type": "TriggerCooldown",
+                "Cooldown": {
+                  "Id": "RangerSniperCycle",
+                  "Cooldown": 0.1,
+                  "Charges": [
+                    0.1
+                  ]
+                },
+                "Next": "RS_AS_Handgun_Twinwardens_Launch_Left"
+              },
+              "Failed": "RS_AS_Handgun_Twinwardens_Empty"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

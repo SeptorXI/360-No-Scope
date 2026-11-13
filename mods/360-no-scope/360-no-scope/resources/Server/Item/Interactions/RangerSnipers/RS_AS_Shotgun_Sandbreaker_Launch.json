@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Shotgun_Sandbreaker_Projectile",
+  "Pellets": 6,
+  "SpreadDegrees": 6.5,
+  "BodyDamage": 4.25,
+  "HeadDamage": 5.0,
+  "Range": 32,
+  "Lifetime": 0.3404,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Shotgun_Sandbreaker_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.3
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.9
+      }
+    ]
+  }
+}

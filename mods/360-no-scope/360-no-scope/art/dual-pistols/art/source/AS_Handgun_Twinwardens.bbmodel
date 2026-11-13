@@ -1,0 +1,3524 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Wildwood Twinwardens editable paired pistol",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "elements": [
+    {
+      "name": "Pistol_Frame_Geo",
+      "uuid": "8e67fa75-9e88-5959-8bfd-88e9741c699d",
+      "type": "cube",
+      "origin": [
+        -2.0,
+        -1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            28,
+            8
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            30,
+            1,
+            57,
+            8
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            59,
+            1,
+            66,
+            8
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            68,
+            1,
+            75,
+            8
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            77,
+            1,
+            104,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            106,
+            1,
+            133,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -15.5,
+        -5.457449058940027,
+        -2.9166666666666665
+      ],
+      "to": [
+        11.5,
+        1.4883951978927343,
+        2.9166666666666665
+      ]
+    },
+    {
+      "name": "Slide_Geo",
+      "uuid": "a3ed32df-0530-56ad-be8a-2f5659e36a31",
+      "type": "cube",
+      "origin": [
+        -6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            135,
+            1,
+            164,
+            7
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            166,
+            1,
+            195,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            197,
+            1,
+            204,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            206,
+            1,
+            213,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            244,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            246,
+            1,
+            275,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -20.5,
+        0.0,
+        -2.9166666666666665
+      ],
+      "to": [
+        8.5,
+        5.953580791570937,
+        2.9166666666666665
+      ]
+    },
+    {
+      "name": "Slide_Rear_Geo",
+      "uuid": "1f6b92e7-d3dc-527a-a983-581a8c21f61a",
+      "type": "cube",
+      "origin": [
+        6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            277,
+            1,
+            282,
+            8
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            284,
+            1,
+            289,
+            8
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            291,
+            1,
+            299,
+            8
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            301,
+            1,
+            309,
+            8
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            311,
+            1,
+            316,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            318,
+            1,
+            323,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        -0.4961317326309116,
+        -3.333333333333333
+      ],
+      "to": [
+        8.5,
+        6.449712524201849,
+        3.333333333333333
+      ]
+    },
+    {
+      "name": "Barrel_Geo",
+      "uuid": "4b4c021a-e67b-5bbe-9fad-afab261f9cfa",
+      "type": "cube",
+      "origin": [
+        -16.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            325,
+            1,
+            341,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            343,
+            1,
+            359,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            361,
+            1,
+            364,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            366,
+            1,
+            369,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            371,
+            1,
+            387,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            389,
+            1,
+            405,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -24.0,
+        0.4961317326309116,
+        -1.25
+      ],
+      "to": [
+        -8.0,
+        3.4729221284163803,
+        1.25
+      ]
+    },
+    {
+      "name": "Slide_Serration_1_L_Geo",
+      "uuid": "20ccf3db-d1b2-5e91-92ba-6748be4e036a",
+      "type": "cube",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        -3.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.5,
+        0.9922634652618227,
+        -3.4166666666666665
+      ],
+      "to": [
+        1.5,
+        4.961317326309114,
+        -2.5833333333333335
+      ]
+    },
+    {
+      "name": "Slide_Serration_1_R_Geo",
+      "uuid": "09984259-63f8-51c9-93ad-676d960b5008",
+      "type": "cube",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        3.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.5,
+        0.9922634652618227,
+        2.5833333333333335
+      ],
+      "to": [
+        1.5,
+        4.961317326309114,
+        3.4166666666666665
+      ]
+    },
+    {
+      "name": "Slide_Serration_4_L_Geo",
+      "uuid": "3eebad11-c8af-5a0d-a74d-447511c91220",
+      "type": "cube",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        -3.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        0.9922634652618227,
+        -3.4166666666666665
+      ],
+      "to": [
+        4.5,
+        4.961317326309114,
+        -2.5833333333333335
+      ]
+    },
+    {
+      "name": "Slide_Serration_4_R_Geo",
+      "uuid": "f4a73d27-7d87-5ac6-96d2-5feb29d21187",
+      "type": "cube",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        3.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        0.9922634652618227,
+        2.5833333333333335
+      ],
+      "to": [
+        4.5,
+        4.961317326309114,
+        3.4166666666666665
+      ]
+    },
+    {
+      "name": "Front_Sight_Geo",
+      "uuid": "985fe9eb-d3ae-52fb-bc3c-84f77bb34a9a",
+      "type": "cube",
+      "origin": [
+        -18.0,
+        6.9458442568327605,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            13,
+            16,
+            15,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            16,
+            23,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            16,
+            27,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            29,
+            16,
+            31,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            16,
+            35,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -19.0,
+        5.953580791570937,
+        -0.8333333333333333
+      ],
+      "to": [
+        -17.0,
+        7.938107722094584,
+        0.8333333333333333
+      ]
+    },
+    {
+      "name": "Rear_Sight_Geo",
+      "uuid": "f509e83d-542b-51cc-9950-8a0fa08d0933",
+      "type": "cube",
+      "origin": [
+        7.0,
+        7.938107722094584,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            37,
+            16,
+            40,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            42,
+            16,
+            45,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            47,
+            16,
+            52,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            54,
+            16,
+            59,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            61,
+            16,
+            64,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            66,
+            16,
+            69,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        5.5,
+        6.9458442568327605,
+        -2.083333333333333
+      ],
+      "to": [
+        8.5,
+        8.930371187356407,
+        2.083333333333333
+      ]
+    },
+    {
+      "name": "Trigger_Guard_Front_Geo",
+      "uuid": "a33368d2-9462-554d-8454-ebfc14a5a4b2",
+      "type": "cube",
+      "origin": [
+        0.0,
+        -8.930371187356407,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            71,
+            16,
+            73,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            75,
+            16,
+            77,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            79,
+            16,
+            83,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            85,
+            16,
+            89,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            91,
+            16,
+            93,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            95,
+            16,
+            97,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -1.0,
+        -12.8994250484037,
+        -1.6666666666666665
+      ],
+      "to": [
+        1.0,
+        -4.961317326309115,
+        1.6666666666666665
+      ]
+    },
+    {
+      "name": "Trigger_Guard_Bow_Geo",
+      "uuid": "6114a5af-6a17-5ced-81a5-1bd9d4cd1f34",
+      "type": "cube",
+      "origin": [
+        5.0,
+        -12.899425048403698,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            99,
+            16,
+            109,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            111,
+            16,
+            121,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            123,
+            16,
+            127,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            129,
+            16,
+            133,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            135,
+            16,
+            145,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            147,
+            16,
+            157,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.0,
+        -13.891688513665521,
+        -1.6666666666666665
+      ],
+      "to": [
+        10.0,
+        -11.907161583141875,
+        1.6666666666666665
+      ]
+    },
+    {
+      "name": "Trigger_Geo",
+      "uuid": "c9ba3d8d-2716-51fd-a3e8-2149d220cf4c",
+      "type": "cube",
+      "origin": [
+        5.0,
+        -6.9458442568327605,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            159,
+            16,
+            160,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            162,
+            16,
+            163,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            165,
+            16,
+            167,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            169,
+            16,
+            171,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            173,
+            16,
+            174,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            176,
+            16,
+            177,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        4.5,
+        -8.930371187356407,
+        -0.8333333333333333
+      ],
+      "to": [
+        5.5,
+        -4.961317326309114,
+        0.8333333333333333
+      ]
+    },
+    {
+      "name": "Muzzle_Housing_Geo",
+      "uuid": "42c22a66-87a7-53ea-90ce-8778dad387ca",
+      "type": "cube",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            179,
+            16,
+            182,
+            21
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            184,
+            16,
+            187,
+            21
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            189,
+            16,
+            196,
+            21
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            198,
+            16,
+            205,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            207,
+            16,
+            210,
+            23
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            212,
+            16,
+            215,
+            23
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -23.5,
+        -0.4961317326309116,
+        -2.9166666666666665
+      ],
+      "to": [
+        -20.5,
+        4.4651855936782034,
+        2.9166666666666665
+      ]
+    },
+    {
+      "name": "Muzzle_Housing_Crown_Geo",
+      "uuid": "451be7da-5e71-5db8-88f2-f1eeca549d78",
+      "type": "cube",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            217,
+            16,
+            220,
+            23
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            222,
+            16,
+            225,
+            23
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            227,
+            16,
+            232,
+            23
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            234,
+            16,
+            239,
+            23
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            241,
+            16,
+            244,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            246,
+            16,
+            249,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -23.5,
+        -1.4883951978927343,
+        -2.083333333333333
+      ],
+      "to": [
+        -20.5,
+        5.457449058940027,
+        2.083333333333333
+      ]
+    },
+    {
+      "name": "Muzzle_Bore_Geo",
+      "uuid": "c933fb32-143b-57eb-980f-2d1eea58a3c8",
+      "type": "cube",
+      "origin": [
+        -23.53,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            251,
+            16,
+            252,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            254,
+            16,
+            255,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            257,
+            16,
+            260,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            262,
+            16,
+            265,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            267,
+            16,
+            268,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            270,
+            16,
+            271,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -24.03,
+        0.4961317326309116,
+        -1.25
+      ],
+      "to": [
+        -23.03,
+        3.4729221284163803,
+        1.25
+      ]
+    },
+    {
+      "name": "Field_Copper_Inlay_L_Geo",
+      "uuid": "9dbcc7ab-1898-53ce-9f9f-89c54c85ef4a",
+      "type": "cube",
+      "origin": [
+        -4.0,
+        0.0,
+        -3.9166666666666665
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            273,
+            16,
+            285,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            287,
+            16,
+            299,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            301,
+            16,
+            302,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            304,
+            16,
+            305,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            307,
+            16,
+            319,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            321,
+            16,
+            333,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -10.0,
+        -0.992263465261823,
+        -4.333333333333333
+      ],
+      "to": [
+        2.0,
+        0.992263465261823,
+        -3.5
+      ]
+    },
+    {
+      "name": "Field_Copper_Inlay_R_Geo",
+      "uuid": "c54148f3-7bc0-5138-9ebc-d0724095c52b",
+      "type": "cube",
+      "origin": [
+        -4.0,
+        0.0,
+        3.9166666666666665
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            273,
+            16,
+            285,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            287,
+            16,
+            299,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            301,
+            16,
+            302,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            304,
+            16,
+            305,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            307,
+            16,
+            319,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            321,
+            16,
+            333,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -10.0,
+        -0.992263465261823,
+        3.5
+      ],
+      "to": [
+        2.0,
+        0.992263465261823,
+        4.333333333333333
+      ]
+    },
+    {
+      "name": "Field_Cloth_Binding_Geo",
+      "uuid": "3b21b0ae-503f-57df-889e-2d50d7df0903",
+      "type": "cube",
+      "origin": [
+        -11.0,
+        0.0,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            335,
+            16,
+            339,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            341,
+            16,
+            345,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            347,
+            16,
+            355,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            357,
+            16,
+            365,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            367,
+            16,
+            371,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            373,
+            16,
+            377,
+            24
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.0,
+        -3.969053861047292,
+        -3.333333333333333
+      ],
+      "to": [
+        -9.0,
+        3.969053861047292,
+        3.333333333333333
+      ]
+    },
+    {
+      "name": "Twinwarden_Barrel_Brace_L_Geo",
+      "uuid": "eedc26ca-6024-5b60-90ef-0f248ebd4560",
+      "type": "cube",
+      "origin": [
+        -19.0,
+        -0.992263465261823,
+        -3.9999999999999996
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            379,
+            16,
+            391,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            393,
+            16,
+            405,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            407,
+            16,
+            408,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            16,
+            411,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            413,
+            16,
+            425,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            16,
+            439,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -25.0,
+        -2.480658663154557,
+        -4.416666666666666
+      ],
+      "to": [
+        -13.0,
+        0.49613173263091137,
+        -3.583333333333333
+      ]
+    },
+    {
+      "name": "Twinwarden_Barrel_Brace_R_Geo",
+      "uuid": "46632e2e-aa72-5c53-95c0-53a5424690fb",
+      "type": "cube",
+      "origin": [
+        -19.0,
+        -0.992263465261823,
+        3.9999999999999996
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            379,
+            16,
+            391,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            393,
+            16,
+            405,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            407,
+            16,
+            408,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            410,
+            16,
+            411,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            413,
+            16,
+            425,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            427,
+            16,
+            439,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -25.0,
+        -2.480658663154557,
+        3.583333333333333
+      ],
+      "to": [
+        -13.0,
+        0.49613173263091137,
+        4.416666666666666
+      ]
+    },
+    {
+      "name": "Twinwarden_Field_Rail_Geo",
+      "uuid": "28f8fb81-b409-5c34-9784-c899d7b08e22",
+      "type": "cube",
+      "origin": [
+        -8.0,
+        7.441975989463672,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            441,
+            16,
+            459,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            461,
+            16,
+            479,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            47,
+            16,
+            52,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            54,
+            16,
+            59,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            481,
+            16,
+            499,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            26,
+            19,
+            31
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -17.0,
+        6.449712524201849,
+        -2.083333333333333
+      ],
+      "to": [
+        1.0,
+        8.434239454725494,
+        2.083333333333333
+      ]
+    },
+    {
+      "name": "Twinwarden_Copper_Knot_L_Geo",
+      "uuid": "b3510ed0-ac5a-5be6-8ba9-3696bfa19746",
+      "type": "cube",
+      "origin": [
+        4.0,
+        -0.992263465261823,
+        -4.083333333333333
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            21,
+            26,
+            26,
+            30
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            28,
+            26,
+            33,
+            30
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            35,
+            26,
+            36,
+            30
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            38,
+            26,
+            39,
+            30
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            26,
+            46,
+            27
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            26,
+            53,
+            27
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        1.5,
+        -2.9767903957854687,
+        -4.5
+      ],
+      "to": [
+        6.5,
+        0.992263465261823,
+        -3.6666666666666665
+      ]
+    },
+    {
+      "name": "Twinwarden_Copper_Knot_R_Geo",
+      "uuid": "14def3b7-9ca5-5354-b8a4-cdce77844bd1",
+      "type": "cube",
+      "origin": [
+        4.0,
+        -0.992263465261823,
+        4.083333333333333
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            21,
+            26,
+            26,
+            30
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            28,
+            26,
+            33,
+            30
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            35,
+            26,
+            36,
+            30
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            38,
+            26,
+            39,
+            30
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            26,
+            46,
+            27
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            26,
+            53,
+            27
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        1.5,
+        -2.9767903957854687,
+        3.6666666666666665
+      ],
+      "to": [
+        6.5,
+        0.992263465261823,
+        4.5
+      ]
+    },
+    {
+      "name": "Magazine_Geo",
+      "uuid": "974f5363-918e-502d-8d88-fc7f2b8ba6d4",
+      "type": "cube",
+      "origin": [
+        10.0,
+        -14.883951978927344,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            407,
+            1,
+            412,
+            14
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            414,
+            1,
+            419,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            421,
+            1,
+            426,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            428,
+            1,
+            433,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            435,
+            1,
+            440,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            442,
+            1,
+            447,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        7.5,
+        -21.333664503129192,
+        -2.083333333333333
+      ],
+      "to": [
+        12.5,
+        -8.434239454725496,
+        2.083333333333333
+      ]
+    },
+    {
+      "name": "Magazine_Floor_Geo",
+      "uuid": "a676dabf-ddaf-5622-b181-7a5d7ef3035a",
+      "type": "cube",
+      "origin": [
+        12.0,
+        -21.829796235760107,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            449,
+            1,
+            457,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            459,
+            1,
+            467,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            469,
+            1,
+            476,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            478,
+            1,
+            485,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            487,
+            1,
+            495,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            497,
+            1,
+            505,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        8.0,
+        -22.822059701021928,
+        -2.9166666666666665
+      ],
+      "to": [
+        16.0,
+        -20.837532770498285,
+        2.9166666666666665
+      ]
+    },
+    {
+      "name": "DP_Spare_Geometry_Magazine_Geo",
+      "uuid": "d6a386e1-8366-50d2-89dd-8be02b78deff",
+      "type": "cube",
+      "origin": [
+        10.0,
+        -14.883951978927344,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            407,
+            1,
+            412,
+            14
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            414,
+            1,
+            419,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            421,
+            1,
+            426,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            428,
+            1,
+            433,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            435,
+            1,
+            440,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            442,
+            1,
+            447,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        7.5,
+        -21.333664503129192,
+        -2.083333333333333
+      ],
+      "to": [
+        12.5,
+        -8.434239454725496,
+        2.083333333333333
+      ]
+    },
+    {
+      "name": "DP_Spare_Geometry_Magazine_Floor_Geo",
+      "uuid": "4fed7c93-fb4d-586e-8285-4dd7f427e5af",
+      "type": "cube",
+      "origin": [
+        12.0,
+        -21.829796235760107,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            449,
+            1,
+            457,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            459,
+            1,
+            467,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            469,
+            1,
+            476,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            478,
+            1,
+            485,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            487,
+            1,
+            495,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            497,
+            1,
+            505,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.0,
+        -22.822059701021928,
+        -2.9166666666666665
+      ],
+      "to": [
+        16.0,
+        -20.837532770498285,
+        2.9166666666666665
+      ]
+    },
+    {
+      "name": "Handle_Geo",
+      "uuid": "a527c8b6-ac1a-544a-b98f-5e751316b3a1",
+      "type": "cube",
+      "origin": [
+        6.239279295614413,
+        -8.370865777882079,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            55,
+            26,
+            59,
+            40
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            61,
+            26,
+            65,
+            40
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            67,
+            26,
+            73,
+            40
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            75,
+            26,
+            81,
+            40
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            83,
+            26,
+            87,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            89,
+            26,
+            93,
+            32
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        4.239279295614413,
+        -17.07086577788208,
+        -2.925
+      ],
+      "to": [
+        8.239279295614413,
+        -1.670865777882078,
+        2.925
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Pistol_Frame",
+      "uuid": "e2c86374-2ce1-5e1d-a065-7cd9f713d640",
+      "origin": [
+        -2.0,
+        -1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "8e67fa75-9e88-5959-8bfd-88e9741c699d"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide",
+      "uuid": "a5f1ccba-d9cc-5fc1-9f8c-75ee9c3bcaa6",
+      "origin": [
+        -6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "a3ed32df-0530-56ad-be8a-2f5659e36a31"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Rear",
+      "uuid": "202185f6-dc5a-5688-a171-53ea6788b56b",
+      "origin": [
+        6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "1f6b92e7-d3dc-527a-a983-581a8c21f61a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Barrel",
+      "uuid": "0f30c234-e6c7-5cc4-951e-1d896c0738b8",
+      "origin": [
+        -16.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "4b4c021a-e67b-5bbe-9fad-afab261f9cfa"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_1_L",
+      "uuid": "e0897f46-fab6-57b9-a9b4-4267c58a070a",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        -3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "20ccf3db-d1b2-5e91-92ba-6748be4e036a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_1_R",
+      "uuid": "90cb4dbf-8dd7-5223-8008-635234fbe878",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "09984259-63f8-51c9-93ad-676d960b5008"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_4_L",
+      "uuid": "d80df3b5-5288-5230-ad14-7eb060014ff7",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        -3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3eebad11-c8af-5a0d-a74d-447511c91220"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_4_R",
+      "uuid": "d88a821e-7afb-5bf2-bdad-d473074a4fd6",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "f4a73d27-7d87-5ac6-96d2-5feb29d21187"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Front_Sight",
+      "uuid": "a13a2bd9-8b80-528a-b80f-218d1c2d9476",
+      "origin": [
+        -18.0,
+        6.9458442568327605,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "985fe9eb-d3ae-52fb-bc3c-84f77bb34a9a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Rear_Sight",
+      "uuid": "904f6bab-21f2-5a24-becb-980757123b58",
+      "origin": [
+        7.0,
+        7.938107722094584,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "f509e83d-542b-51cc-9950-8a0fa08d0933"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger_Guard_Front",
+      "uuid": "b328fc62-af69-5984-81f1-743aec14a9b5",
+      "origin": [
+        0.0,
+        -8.930371187356407,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "a33368d2-9462-554d-8454-ebfc14a5a4b2"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger_Guard_Bow",
+      "uuid": "976c2cde-ec78-5e59-9b13-265600ba154f",
+      "origin": [
+        5.0,
+        -12.899425048403698,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "6114a5af-6a17-5ced-81a5-1bd9d4cd1f34"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger",
+      "uuid": "f35ccb46-1e18-59fe-bf14-496d53af2ba1",
+      "origin": [
+        5.0,
+        -6.9458442568327605,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        11.999999673734875
+      ],
+      "children": [
+        "c9ba3d8d-2716-51fd-a3e8-2149d220cf4c"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Housing",
+      "uuid": "58594e0d-88b3-5d88-91ef-08c81ff616ab",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "42c22a66-87a7-53ea-90ce-8778dad387ca"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Housing_Crown",
+      "uuid": "6fd8be22-2894-56ad-b4f0-bf997e730af6",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "451be7da-5e71-5db8-88f2-f1eeca549d78"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Bore",
+      "uuid": "6e2ab82f-06c3-54c5-9deb-0c03f3b3ca63",
+      "origin": [
+        -23.53,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "c933fb32-143b-57eb-980f-2d1eea58a3c8"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Field_Copper_Inlay_L",
+      "uuid": "5e6dc497-f16e-58d8-903e-62cea1f0cb6f",
+      "origin": [
+        -4.0,
+        0.0,
+        -3.9166666666666665
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "9dbcc7ab-1898-53ce-9f9f-89c54c85ef4a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Field_Copper_Inlay_R",
+      "uuid": "0007d070-8d40-5c94-9988-b6088c97c229",
+      "origin": [
+        -4.0,
+        0.0,
+        3.9166666666666665
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "c54148f3-7bc0-5138-9ebc-d0724095c52b"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Field_Cloth_Binding",
+      "uuid": "0626576d-542e-5509-89f5-fd2a77fe655a",
+      "origin": [
+        -11.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3b21b0ae-503f-57df-889e-2d50d7df0903"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Twinwarden_Barrel_Brace_L",
+      "uuid": "16d82ccc-d091-550b-9cb6-b36be9063eed",
+      "origin": [
+        -19.0,
+        -0.992263465261823,
+        -3.9999999999999996
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "eedc26ca-6024-5b60-90ef-0f248ebd4560"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Twinwarden_Barrel_Brace_R",
+      "uuid": "e0817f9e-be66-5ef6-a247-0386f8281912",
+      "origin": [
+        -19.0,
+        -0.992263465261823,
+        3.9999999999999996
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "46632e2e-aa72-5c53-95c0-53a5424690fb"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Twinwarden_Field_Rail",
+      "uuid": "d68fe2b9-e031-52b9-b1bd-b0c7cf33d96e",
+      "origin": [
+        -8.0,
+        7.441975989463672,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "28f8fb81-b409-5c34-9784-c899d7b08e22"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Twinwarden_Copper_Knot_L",
+      "uuid": "6d43c001-9207-5dda-9624-057193764e7c",
+      "origin": [
+        4.0,
+        -0.992263465261823,
+        -4.083333333333333
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "b3510ed0-ac5a-5be6-8ba9-3696bfa19746"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Twinwarden_Copper_Knot_R",
+      "uuid": "2ed09db9-aedc-5d2b-b6a0-18968467cdfd",
+      "origin": [
+        4.0,
+        -0.992263465261823,
+        4.083333333333333
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "14def3b7-9ca5-5354-b8a4-cdce77844bd1"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle",
+      "uuid": "9bf324c1-b96a-5eb1-98c9-fb54e28eaf0d",
+      "origin": [
+        -24.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [],
+      "is_piece": true
+    },
+    {
+      "name": "DP_Magazine",
+      "uuid": "d1024f12-cb2c-599e-9d8e-e62dc93d84f2",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Magazine",
+          "uuid": "485d1472-6332-5ea2-bbb6-4be4e1b1dc57",
+          "origin": [
+            10.0,
+            -14.883951978927344,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "974f5363-918e-502d-8d88-fc7f2b8ba6d4"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Magazine_Floor",
+          "uuid": "7f1c711c-a120-5bc7-915d-9d3cdf18f133",
+          "origin": [
+            12.0,
+            -21.829796235760107,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "a676dabf-ddaf-5622-b181-7a5d7ef3035a"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "DP_Spare_Magazine",
+      "uuid": "e801e674-b249-5f7e-9610-38d801e8d6cb",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "DP_Spare_Geometry_Magazine",
+          "uuid": "7bd16e3c-3afa-5bbd-a97f-e59f7e9a9389",
+          "origin": [
+            10.0,
+            -14.883951978927344,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "d6a386e1-8366-50d2-89dd-8be02b78deff"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "DP_Spare_Geometry_Magazine_Floor",
+          "uuid": "a33758c9-8799-52bd-a926-4100e7ed8b64",
+          "origin": [
+            12.0,
+            -21.829796235760107,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "4fed7c93-fb4d-586e-8285-4dd7f427e5af"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "Handle",
+      "uuid": "1a57c49e-06ca-5ee9-b9f3-e619d64a71d8",
+      "origin": [
+        6.239279295614413,
+        -8.370865777882079,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "children": [
+        "a527c8b6-ac1a-544a-b98f-5e751316b3a1"
+      ],
+      "is_piece": false
+    }
+  ],
+  "animations": [
+    {
+      "name": "Reload_weapon_mechanics",
+      "uuid": "6a6d6108-cdcd-5b15-813f-ee84b7c4577f",
+      "loop": "once",
+      "override": false,
+      "length": 2.5,
+      "snapping": 60,
+      "animators": {
+        "d1024f12-cb2c-599e-9d8e-e62dc93d84f2": {
+          "name": "DP_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "f97f8f97-be2f-5f3a-b1b1-ac7a7211b534"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.4666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "0eb105f9-c363-5b04-ad1f-e9ff2ce9b1eb"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -14.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.8333333333333334,
+              "interpolation": "catmullrom",
+              "uuid": "8dcfe2cd-7a0a-5001-8f84-4bf891033ef8"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -24.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.0,
+              "interpolation": "catmullrom",
+              "uuid": "23e5a4c1-31d1-5ee8-8149-7cd8b7694b21"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.6,
+              "interpolation": "catmullrom",
+              "uuid": "9b8d12fe-04db-5c70-92c3-60840783ee0a"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "catmullrom",
+              "uuid": "351cafab-9eb4-5564-8254-346076cff2dc"
+            }
+          ]
+        },
+        "485d1472-6332-5ea2-bbb6-4be4e1b1dc57": {
+          "name": "Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "1fee1ef9-fc74-50cd-b11f-feaf640e698b"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.0,
+              "interpolation": "linear",
+              "uuid": "cd9abe07-781c-5a72-afc3-5b647b25b5ff"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.65,
+              "interpolation": "linear",
+              "uuid": "cdbc9d47-06c0-5abf-b07f-0e107e60207d"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "linear",
+              "uuid": "c494e295-f847-5c58-8719-cda89434bd7d"
+            }
+          ]
+        },
+        "7f1c711c-a120-5bc7-915d-9d3cdf18f133": {
+          "name": "Magazine_Floor",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "63fbd799-2fb4-5557-aafd-e46508bd12dd"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.0,
+              "interpolation": "linear",
+              "uuid": "86cc79ab-94e5-5078-acdb-7639322a3b21"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.65,
+              "interpolation": "linear",
+              "uuid": "bebc1eea-71e2-57de-91a8-dc7278992036"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "linear",
+              "uuid": "004faa10-573b-5a79-94f8-c524534134fd"
+            }
+          ]
+        },
+        "e801e674-b249-5f7e-9610-38d801e8d6cb": {
+          "name": "DP_Spare_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "1e9dd08c-d42d-58f1-af31-990e5eb35f13"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -24.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.1333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "213b31ff-973b-5f83-8325-a828634d29e4"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -14.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.3666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "f250cb89-1655-59da-a78f-1c1c5df9e148"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.6333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "43a35d7a-a8f9-58a1-91a0-b42e032ed04a"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "catmullrom",
+              "uuid": "583436b7-ca31-5a6c-a4c5-cd79b765bb6a"
+            }
+          ]
+        },
+        "7bd16e3c-3afa-5bbd-a97f-e59f7e9a9389": {
+          "name": "DP_Spare_Geometry_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "e36c59c8-850d-5f69-b796-3525b9cffb58"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.1333333333333333,
+              "interpolation": "linear",
+              "uuid": "d5fee50a-7607-5488-a4df-6990b0b9036c"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.65,
+              "interpolation": "linear",
+              "uuid": "ab1da0d7-6c22-59b7-a535-03f88ef52ce4"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "linear",
+              "uuid": "5a5fcc78-16ce-5ac9-aae7-fddeca05ed5d"
+            }
+          ]
+        },
+        "a33758c9-8799-52bd-a926-4100e7ed8b64": {
+          "name": "DP_Spare_Geometry_Magazine_Floor",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "6dd965a1-17c1-5244-bd2f-49aa56e4c8d1"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.1333333333333333,
+              "interpolation": "linear",
+              "uuid": "d9173d50-3f80-59a2-9199-eb5ca5e15be7"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.65,
+              "interpolation": "linear",
+              "uuid": "937b956c-0a5d-55c8-ad71-26c2e728973d"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "linear",
+              "uuid": "14820f07-3551-5dcd-8d72-4070256eae9f"
+            }
+          ]
+        },
+        "a5f1ccba-d9cc-5fc1-9f8c-75ee9c3bcaa6": {
+          "name": "Slide",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "9e79426c-472f-5393-b9d7-dfd8051085e4"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 2.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.5,
+              "interpolation": "catmullrom",
+              "uuid": "d59e0959-7c51-5a7d-87a2-5ab56e40474e"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 2.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.9333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "59c9a8e9-3dba-5c01-8ada-807f957e6cfa"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.2,
+              "interpolation": "catmullrom",
+              "uuid": "e99f98a2-ab71-5153-8f50-3e09639a082e"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.5,
+              "interpolation": "catmullrom",
+              "uuid": "22264173-835e-5882-828b-c671da15237d"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "ShootRight_weapon_mechanics",
+      "uuid": "70334999-7986-52ea-99b7-3f994a7018a9",
+      "loop": "once",
+      "override": false,
+      "length": 0.36666666666666664,
+      "snapping": 60,
+      "animators": {}
+    },
+    {
+      "name": "ShootLeft_weapon_mechanics",
+      "uuid": "0dd22ba5-f5ef-5d83-879a-94d4e021d31c",
+      "loop": "once",
+      "override": false,
+      "length": 0.36666666666666664,
+      "snapping": 60,
+      "animators": {}
+    }
+  ],
+  "textures": [
+    {
+      "name": "AS_Handgun_Twinwardens.png",
+      "path": "../../../../resources/Common/Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.png",
+      "id": "0",
+      "uuid": "8e6e50d6-fca2-5f46-89c8-0d01aa7cefc2",
+      "source": "data:image/png;base64,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",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

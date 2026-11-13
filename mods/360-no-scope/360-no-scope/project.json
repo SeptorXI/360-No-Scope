@@ -1,0 +1,19 @@
+{
+  "title": "360 No Scope",
+  "version": "2.4.28",
+  "manifest_name": "Steven:360 No Scope",
+  "artifact": "360-No-Scope-2.4.28.jar",
+  "installed_sha256": "75b124f7677e4c6da61d90c5b772bdb13cf4d09e4734dd198154cdcc6d452780",
+  "server_version": ">=0.7.5 <0.8.0",
+  "compile_dependencies": [
+    "simple-enchantments"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Config:Endgame&QoL": ">=6.1.4 <7.0.0",
+    "Ziggfreed:MMOSkillTree": ">=1.7.4 <2.0.0",
+    "org.herolias:SimpleEnchantments": "=1.2.1",
+    "Alechilles:Alec's Tamework!": ">=5.9.0 <6.0.0",
+    "MAJOR76:MajorDungeons": ">=0.4.15 <0.5.0"
+  }
+}

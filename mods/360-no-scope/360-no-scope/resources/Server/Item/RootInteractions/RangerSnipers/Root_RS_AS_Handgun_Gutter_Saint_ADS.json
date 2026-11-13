@@ -1,0 +1,42 @@
+{
+  "Rules": {
+    "BlockedBy": [
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ],
+    "InterruptedBy": [
+      "Use",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "RSAim",
+      "HorizontalSpeedMultiplier": 0.64,
+      "CancelOnOtherClick": false,
+      "Effects": {
+        "MovementEffects": {
+          "DisableSprint": true
+        },
+        "HideFirstPersonHeldItem": false,
+        "Zoom": {
+          "MagnificationMultiplier": 1.5,
+          "MouseSensitivityMultiplier": 1,
+          "DepthOfField": false,
+          "ForcePerspective": "None",
+          "InLerp": 0.18,
+          "OutLerp": 0.25,
+          "OverlayFade": true,
+          "OverlayFadePerSecond": 8
+        }
+      }
+    }
+  ]
+}

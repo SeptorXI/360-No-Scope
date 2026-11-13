@@ -1,0 +1,26 @@
+{
+  "Type": "RSServerProjectile",
+  "Config": "RS_AS_Handgun_Vesper_Ability_Projectile",
+  "Lifetime": 0.4,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Vesper_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0625
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.715
+      }
+    ]
+  }
+}

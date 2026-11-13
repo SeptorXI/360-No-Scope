@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Quiet_Equation_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1,
+  "BodyDamage": 21.0,
+  "HeadDamage": 32.0,
+  "Range": 78,
+  "Lifetime": 0.4727,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Quiet_Equation_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

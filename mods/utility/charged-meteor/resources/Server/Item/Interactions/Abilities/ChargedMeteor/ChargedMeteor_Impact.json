@@ -1,0 +1,12 @@
+{
+  "Type": "TriggerAbilityFX",
+  "SystemId": "ChargedMeteor_Impact",
+  "ScaleAttribute": "AoeScale",
+  "Next": {
+    "Type": "EndgameAbilityShake",
+    "CameraEffect": "ChargedMeteor_ImpactKick",
+    "Radius": 34,
+    "Intensity": 0.36,
+    "Next": "ChargedMeteor_Select"
+  }
+}

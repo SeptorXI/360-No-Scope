@@ -1,0 +1,41 @@
+{
+  "Type": "StatsCondition",
+  "UseAbilityCost": true,
+  "Failed": "Ability_Cast_Fail",
+  "Next": {
+    "Type": "Charging",
+    "AllowIndefiniteHold": false,
+    "RunTime": 3.0,
+    "DisplayProgress": true,
+    "CancelOnOtherClick": false,
+    "Effects": {
+      "ItemPlayerAnimationsId": "Sword",
+      "ItemAnimationId": "StabDashCharging",
+      "ClearAnimationOnFinish": true,
+      "WorldSoundEventId": "SFX_ChargedMeteor_Charge",
+      "LocalSoundEventId": "SFX_ChargedMeteor_Charge_Local",
+      "ClearSoundEventOnFinish": true,
+      "Particles": [
+        {
+          "SystemId": "ChargedMeteor_HandGather",
+          "TargetEntityPart": "Entity",
+          "TargetNodeName": "R-Hand",
+          "ClearParticlesOnRemove": true
+        }
+      ],
+      "FirstPersonParticles": [
+        {
+          "SystemId": "ChargedMeteor_HandGather",
+          "TargetEntityPart": "Entity",
+          "TargetNodeName": "R-Hand",
+          "Scale": 0.7,
+          "ClearParticlesOnRemove": true
+        }
+      ]
+    },
+    "Next": {
+      "0.0": "Ability_Endgame_Meteor_Cast",
+      "3.0": "ChargedMeteor_Launch"
+    }
+  }
+}

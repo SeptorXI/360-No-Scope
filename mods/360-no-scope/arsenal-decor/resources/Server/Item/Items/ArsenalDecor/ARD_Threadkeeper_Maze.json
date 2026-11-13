@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Threadkeeper_Maze.name",
+    "Description": "server.items.ARD_Threadkeeper_Maze.description"
+  },
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Threadkeeper_Maze.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Threadkeeper_Maze.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Threadkeeper_Maze",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "BlockNormal",
+      "AllowRotationKey": false,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Threadkeeper_Maze",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.786591,
+    "Translation": [
+      1.651219,
+      -16.370553
+    ],
+    "Rotation": [
+      -6.842773,
+      189.026595,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ChargedMeteor_Rune.name",
+    "Description": "server.items.ChargedMeteor_Rune.description"
+  },
+  "Icon": "Icons/ItemsGenerated/ChargedMeteor_Rune.png",
+  "Quality": "Epic",
+  "ItemLevel": 55,
+  "Categories": [
+    "Endgame.Runes"
+  ],
+  "Model": "Items/Runes/Rune_Modifier.blockymodel",
+  "Texture": "Items/Runes/ChargedMeteor_Rune.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.75,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      5,
+      -21
+    ]
+  },
+  "MaxStack": 1,
+  "Scale": 0.8,
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "Ability": {
+    "Slot": "Support",
+    "RequiresAllAbilityKeywords": [
+      "ChargedMeteor"
+    ],
+    "AttributeModifiers": {
+      "MeteorCharge": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 1
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Rock_Gem_Ruby",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Runes"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

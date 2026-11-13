@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CG_Glass_Block.name",
+    "Description": "server.items.CG_Glass_Block.description"
+  },
+  "Quality": "Common",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/CG_Glass_Block.png",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Building"
+    ],
+    "Family": [
+      "ClearGlass"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Sands",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders",
+        "Categories": [
+          "Window"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 2,
+    "KnowledgeRequired": false
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "VariantRotation": "None",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "CG_Glass_Block"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "BlockSoundSetId": "Glass",
+    "PhysicalMaterialId": "Glass",
+    "ParticleColor": "#D5EBEF",
+    "TextureComputedColor": "#D5EBEF",
+    "HitboxType": "Full",
+    "Textures": [
+      {
+        "All": "BlockTextures/CG_ClearGlass.png",
+        "Weight": 1
+      }
+    ],
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "CG_Block_Connections",
+      "TemplateShapeBlockPatterns": {
+        "Full": "CG_Glass_Block"
+      }
+    }
+  }
+}

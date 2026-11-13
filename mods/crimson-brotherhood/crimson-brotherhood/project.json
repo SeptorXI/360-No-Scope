@@ -1,0 +1,15 @@
+{
+  "title": "Crimson Brotherhood Armor",
+  "version": "0.1.1",
+  "manifest_name": "Steven:CrimsonBrotherhood",
+  "artifact": "Crimson-Brotherhood-0.1.1.jar",
+  "installed_sha256": "8ca04df226ad10e412732ee105e87bfaf81c1414d4cff49f6fb613d9fdecde68",
+  "server_version": ">=0.7.5 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Config:Endgame&QoL": "=6.1.4"
+  }
+}

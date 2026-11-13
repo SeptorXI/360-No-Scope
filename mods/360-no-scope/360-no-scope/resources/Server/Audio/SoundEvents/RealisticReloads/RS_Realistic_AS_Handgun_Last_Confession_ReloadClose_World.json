@@ -1,0 +1,19 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -5,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 20,
+  "MaxInstance": 16,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RealisticReloads/AS_Handgun_Last_Confession/ReloadClose_01.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0,
+      "Looping": false
+    }
+  ]
+}

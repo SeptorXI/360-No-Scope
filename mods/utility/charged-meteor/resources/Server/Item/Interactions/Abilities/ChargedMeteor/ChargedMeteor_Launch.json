@@ -1,0 +1,37 @@
+{
+  "Type": "StatsCondition",
+  "UseAbilityCost": true,
+  "Failed": "Ability_Cast_Fail",
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "EndgameRuneCast"
+          },
+          {
+            "Type": "ChargedMeteorMark"
+          },
+          "ChargedMeteor_Spawn"
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "TriggerCooldown",
+            "UseAbilityCooldown": true
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "ChangeStat",
+            "UseAbilityCost": true
+          }
+        ]
+      }
+    ]
+  }
+}

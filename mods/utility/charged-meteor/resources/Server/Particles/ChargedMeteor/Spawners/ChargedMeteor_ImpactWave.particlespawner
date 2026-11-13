@@ -1,0 +1,104 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.57,
+    "Max": 0.57
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Circles/Impact_Charged_Shockwave.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.12,
+            "Max": 0.12
+          }
+        },
+        "Opacity": 0.5,
+        "Color": "#ffb266"
+      },
+      "22": {
+        "Scale": {
+          "X": {
+            "Min": 0.51,
+            "Max": 0.51
+          }
+        },
+        "Opacity": 0.82,
+        "Color": "#ff903a"
+      },
+      "53": {
+        "Scale": {
+          "X": {
+            "Min": 0.8,
+            "Max": 0.8
+          }
+        },
+        "Opacity": 0.77,
+        "Color": "#ec5b20"
+      },
+      "82": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 0.46,
+        "Color": "#d73820"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.05,
+            "Max": 1.05
+          }
+        },
+        "Opacity": 0,
+        "Color": "#9f231b"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 12.0,
+          "Max": 12.0
+        }
+      },
+      "Color": "#ff8d4a",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

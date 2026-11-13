@@ -1,0 +1,1081 @@
+{
+  "version": "2.4.0",
+  "baselineSHA256": "672b4264cd1fdd2099333ff018daa70a3107d011ecb53a66cc20dafceec67d73",
+  "weapons": [
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Briar_March",
+      "model": "Common/Items/Arsenal/AS_Automatic_Briar_March/AS_Automatic_Briar_March.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Briar_March/AS_Automatic_Briar_March.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Briar_March.png",
+      "oldNodes": 44,
+      "addedBoxes": 119,
+      "boxes": 155,
+      "paintedFaces": 182,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "model": "Common/Items/Arsenal/AS_Automatic_Crown_Of_Rivets/AS_Automatic_Crown_Of_Rivets.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Crown_Of_Rivets/AS_Automatic_Crown_Of_Rivets.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Crown_Of_Rivets.png",
+      "oldNodes": 90,
+      "addedBoxes": 189,
+      "boxes": 268,
+      "paintedFaces": 158,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "model": "Common/Items/Arsenal/AS_Automatic_Dirge_Engine/AS_Automatic_Dirge_Engine.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Dirge_Engine/AS_Automatic_Dirge_Engine.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Dirge_Engine.png",
+      "oldNodes": 48,
+      "addedBoxes": 123,
+      "boxes": 163,
+      "paintedFaces": 188,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "model": "Common/Items/Arsenal/AS_Automatic_Gale_Banner/AS_Automatic_Gale_Banner.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Gale_Banner/AS_Automatic_Gale_Banner.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Gale_Banner.png",
+      "oldNodes": 46,
+      "addedBoxes": 123,
+      "boxes": 161,
+      "paintedFaces": 194,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "model": "Common/Items/Arsenal/AS_Automatic_Goliath_50/AS_Automatic_Goliath_50.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Goliath_50/AS_Automatic_Goliath_50.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Goliath_50.png",
+      "oldNodes": 157,
+      "addedBoxes": 46,
+      "boxes": 190,
+      "paintedFaces": 254,
+      "textureSize": [
+        512,
+        512
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+      "model": "Common/Items/Arsenal/AS_Automatic_Helios_Refrain/AS_Automatic_Helios_Refrain.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Helios_Refrain/AS_Automatic_Helios_Refrain.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Helios_Refrain.png",
+      "oldNodes": 67,
+      "addedBoxes": 158,
+      "boxes": 215,
+      "paintedFaces": 148,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "model": "Common/Items/Arsenal/AS_Automatic_Hollow_Regiment/AS_Automatic_Hollow_Regiment.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Hollow_Regiment/AS_Automatic_Hollow_Regiment.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Hollow_Regiment.png",
+      "oldNodes": 48,
+      "addedBoxes": 143,
+      "boxes": 183,
+      "paintedFaces": 188,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "model": "Common/Items/Arsenal/AS_Automatic_Patternbreaker/AS_Automatic_Patternbreaker.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Patternbreaker/AS_Automatic_Patternbreaker.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Patternbreaker.png",
+      "oldNodes": 46,
+      "addedBoxes": 125,
+      "boxes": 163,
+      "paintedFaces": 188,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "model": "Common/Items/Arsenal/AS_Automatic_Rampart_SAW/AS_Automatic_Rampart_SAW.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Rampart_SAW/AS_Automatic_Rampart_SAW.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Rampart_SAW.png",
+      "oldNodes": 103,
+      "addedBoxes": 57,
+      "boxes": 148,
+      "paintedFaces": 232,
+      "textureSize": [
+        512,
+        512
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Scorchwind",
+      "model": "Common/Items/Arsenal/AS_Automatic_Scorchwind/AS_Automatic_Scorchwind.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Scorchwind/AS_Automatic_Scorchwind.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Scorchwind.png",
+      "oldNodes": 50,
+      "addedBoxes": 119,
+      "boxes": 161,
+      "paintedFaces": 182,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "model": "Common/Items/Arsenal/AS_Automatic_Winter_Standard/AS_Automatic_Winter_Standard.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Automatic_Winter_Standard/AS_Automatic_Winter_Standard.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Automatic_Winter_Standard.png",
+      "oldNodes": 50,
+      "addedBoxes": 119,
+      "boxes": 161,
+      "paintedFaces": 188,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "name": "Black Sacrament",
+      "family": "handgun",
+      "quality": "Epic",
+      "themeIndex": 7,
+      "model": "Common/Items/Arsenal/AS_Handgun_Absolver/AS_Handgun_Absolver.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Absolver/AS_Handgun_Absolver.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Absolver.png",
+      "oldNodes": 44,
+      "addedBoxes": 115,
+      "boxes": 151,
+      "paintedFaces": 154,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Absolver_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Absolver_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Absolver/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Absolver_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+      "name": "Gutter Saint, Mercy of the Deepworks",
+      "family": "handgun",
+      "quality": "Legendary",
+      "themeIndex": 5,
+      "model": "Common/Items/Arsenal/AS_Handgun_Gutter_Saint/AS_Handgun_Gutter_Saint.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Gutter_Saint/AS_Handgun_Gutter_Saint.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Gutter_Saint.png",
+      "oldNodes": 64,
+      "addedBoxes": 97,
+      "boxes": 151,
+      "paintedFaces": 142,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Gutter_Saint_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Gutter_Saint_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Gutter_Saint/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Gutter_Saint_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "name": "Mournhollow Last Confession",
+      "family": "handgun",
+      "quality": "Epic",
+      "themeIndex": 4,
+      "model": "Common/Items/Arsenal/AS_Handgun_Last_Confession/AS_Handgun_Last_Confession.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Last_Confession/AS_Handgun_Last_Confession.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Last_Confession.png",
+      "oldNodes": 44,
+      "addedBoxes": 89,
+      "boxes": 125,
+      "paintedFaces": 156,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Last_Confession_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Last_Confession_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Last_Confession/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Last_Confession_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "name": "Mournhollow Last Rites",
+      "family": "handgun",
+      "quality": "Epic",
+      "themeIndex": 4,
+      "model": "Common/Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Last_Rites.png",
+      "oldNodes": 42,
+      "addedBoxes": 89,
+      "boxes": 126,
+      "paintedFaces": 132,
+      "atlasSize": [
+        512,
+        512
+      ],
+      "paired": true,
+      "comparison": "previews/AS_Handgun_Last_Rites_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Last_Rites_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Last_Rites/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Last_Rites_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "name": "Frostline Pale Marshal",
+      "family": "handgun",
+      "quality": "Rare",
+      "themeIndex": 3,
+      "model": "Common/Items/Arsenal/AS_Handgun_Pale_Marshal/AS_Handgun_Pale_Marshal.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Pale_Marshal/AS_Handgun_Pale_Marshal.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Pale_Marshal.png",
+      "oldNodes": 46,
+      "addedBoxes": 73,
+      "boxes": 111,
+      "paintedFaces": 156,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Pale_Marshal_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Pale_Marshal_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Pale_Marshal/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Pale_Marshal_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+      "name": "Labyrinth Quiet Equation",
+      "family": "handgun",
+      "quality": "Epic",
+      "themeIndex": 8,
+      "model": "Common/Items/Arsenal/AS_Handgun_Quiet_Equation/AS_Handgun_Quiet_Equation.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Quiet_Equation/AS_Handgun_Quiet_Equation.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Quiet_Equation.png",
+      "oldNodes": 42,
+      "addedBoxes": 83,
+      "boxes": 117,
+      "paintedFaces": 156,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Quiet_Equation_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Quiet_Equation_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Quiet_Equation/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Quiet_Equation_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+      "name": "Dunewatch Sandbound Oath",
+      "family": "handgun",
+      "quality": "Uncommon",
+      "themeIndex": 2,
+      "model": "Common/Items/Arsenal/AS_Handgun_Sandbound_Oath/AS_Handgun_Sandbound_Oath.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Sandbound_Oath/AS_Handgun_Sandbound_Oath.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Sandbound_Oath.png",
+      "oldNodes": 46,
+      "addedBoxes": 79,
+      "boxes": 117,
+      "paintedFaces": 144,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Sandbound_Oath_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Sandbound_Oath_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Sandbound_Oath/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Sandbound_Oath_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "name": "Wildwood Trailwarden",
+      "family": "handgun",
+      "quality": "Common",
+      "themeIndex": 1,
+      "model": "Common/Items/Arsenal/AS_Handgun_Trailwarden/AS_Handgun_Trailwarden.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Trailwarden/AS_Handgun_Trailwarden.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Trailwarden.png",
+      "oldNodes": 40,
+      "addedBoxes": 63,
+      "boxes": 95,
+      "paintedFaces": 150,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Trailwarden_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Trailwarden_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Trailwarden/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Trailwarden_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "name": "Wildwood Twinwardens",
+      "family": "handgun",
+      "quality": "Common",
+      "themeIndex": 1,
+      "model": "Common/Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Twinwardens.png",
+      "oldNodes": 34,
+      "addedBoxes": 63,
+      "boxes": 92,
+      "paintedFaces": 124,
+      "atlasSize": [
+        512,
+        512
+      ],
+      "paired": true,
+      "comparison": "previews/AS_Handgun_Twinwardens_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Twinwardens_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Twinwardens/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Twinwardens_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "name": "Vesper, the Dawn Unspent",
+      "family": "handgun",
+      "quality": "Legendary",
+      "themeIndex": 6,
+      "model": "Common/Items/Arsenal/AS_Handgun_Vesper/AS_Handgun_Vesper.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Vesper/AS_Handgun_Vesper.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Vesper.png",
+      "oldNodes": 50,
+      "addedBoxes": 79,
+      "boxes": 119,
+      "paintedFaces": 132,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Vesper_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Vesper_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Vesper/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Vesper_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "name": "Vesper & Vigil, Keepers of Firstlight",
+      "family": "handgun",
+      "quality": "Legendary",
+      "themeIndex": 6,
+      "model": "Common/Items/Arsenal/AS_Handgun_Vesper_And_Vigil/AS_Handgun_Vesper_And_Vigil.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Vesper_And_Vigil/AS_Handgun_Vesper_And_Vigil.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Vesper_And_Vigil.png",
+      "oldNodes": 57,
+      "addedBoxes": 97,
+      "boxes": 148,
+      "paintedFaces": 116,
+      "atlasSize": [
+        512,
+        512
+      ],
+      "paired": true,
+      "comparison": "previews/AS_Handgun_Vesper_And_Vigil_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Vesper_And_Vigil_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Vesper_And_Vigil_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "name": "Skybound Windward Promise",
+      "family": "handgun",
+      "quality": "Rare",
+      "themeIndex": 9,
+      "model": "Common/Items/Arsenal/AS_Handgun_Windward_Promise/AS_Handgun_Windward_Promise.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Handgun_Windward_Promise/AS_Handgun_Windward_Promise.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Handgun_Windward_Promise.png",
+      "oldNodes": 42,
+      "addedBoxes": 83,
+      "boxes": 117,
+      "paintedFaces": 162,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_Handgun_Windward_Promise_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_Handgun_Windward_Promise_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_Handgun_Windward_Promise/editable.bbmodel",
+      "renderReceipt": "previews/AS_Handgun_Windward_Promise_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Brushfire",
+      "name": "Wildwood Brushfire",
+      "family": "smg",
+      "quality": "Common",
+      "themeIndex": 1,
+      "model": "Common/Items/Arsenal/AS_SMG_Brushfire/AS_SMG_Brushfire.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Brushfire/AS_SMG_Brushfire.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Brushfire.png",
+      "oldNodes": 44,
+      "addedBoxes": 103,
+      "boxes": 139,
+      "paintedFaces": 176,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Brushfire_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Brushfire_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Brushfire/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Brushfire_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+      "name": "Dunewatch Dust Choir",
+      "family": "smg",
+      "quality": "Uncommon",
+      "themeIndex": 2,
+      "model": "Common/Items/Arsenal/AS_SMG_Dust_Choir/AS_SMG_Dust_Choir.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Dust_Choir/AS_SMG_Dust_Choir.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Dust_Choir.png",
+      "oldNodes": 50,
+      "addedBoxes": 119,
+      "boxes": 161,
+      "paintedFaces": 176,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Dust_Choir_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Dust_Choir_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Dust_Choir/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Dust_Choir_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+      "name": "Mournhollow Funeral Procession",
+      "family": "smg",
+      "quality": "Epic",
+      "themeIndex": 4,
+      "model": "Common/Items/Arsenal/AS_SMG_Funeral_Procession/AS_SMG_Funeral_Procession.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Funeral_Procession/AS_SMG_Funeral_Procession.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Funeral_Procession.png",
+      "oldNodes": 48,
+      "addedBoxes": 129,
+      "boxes": 169,
+      "paintedFaces": 182,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Funeral_Procession_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Funeral_Procession_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Funeral_Procession/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Funeral_Procession_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Grindhymn",
+      "name": "Grindhymn, the Gobliterator's Encore",
+      "family": "smg",
+      "quality": "Legendary",
+      "themeIndex": 5,
+      "model": "Common/Items/Arsenal/AS_SMG_Grindhymn/AS_SMG_Grindhymn.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Grindhymn/AS_SMG_Grindhymn.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Grindhymn.png",
+      "oldNodes": 74,
+      "addedBoxes": 147,
+      "boxes": 211,
+      "paintedFaces": 160,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Grindhymn_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Grindhymn_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Grindhymn/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Grindhymn_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Kestrel",
+      "name": "Skybound Kestrel",
+      "family": "smg",
+      "quality": "Rare",
+      "themeIndex": 9,
+      "model": "Common/Items/Arsenal/AS_SMG_Kestrel/AS_SMG_Kestrel.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Kestrel/AS_SMG_Kestrel.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Kestrel.png",
+      "oldNodes": 46,
+      "addedBoxes": 123,
+      "boxes": 161,
+      "paintedFaces": 188,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Kestrel_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Kestrel_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Kestrel/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Kestrel_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "name": "Choir of the Damned",
+      "family": "smg",
+      "quality": "Epic",
+      "themeIndex": 7,
+      "model": "Common/Items/Arsenal/AS_SMG_Many_Whispers/AS_SMG_Many_Whispers.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Many_Whispers/AS_SMG_Many_Whispers.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Many_Whispers.png",
+      "oldNodes": 48,
+      "addedBoxes": 155,
+      "boxes": 195,
+      "paintedFaces": 182,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Many_Whispers_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Many_Whispers_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Many_Whispers/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Many_Whispers_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "name": "Frostline Sleetweaver",
+      "family": "smg",
+      "quality": "Rare",
+      "themeIndex": 3,
+      "model": "Common/Items/Arsenal/AS_SMG_Sleetweaver/AS_SMG_Sleetweaver.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Sleetweaver/AS_SMG_Sleetweaver.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Sleetweaver.png",
+      "oldNodes": 50,
+      "addedBoxes": 113,
+      "boxes": 155,
+      "paintedFaces": 182,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Sleetweaver_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Sleetweaver_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Sleetweaver/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Sleetweaver_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Starling",
+      "name": "Starling, Chorus of First Light",
+      "family": "smg",
+      "quality": "Legendary",
+      "themeIndex": 6,
+      "model": "Common/Items/Arsenal/AS_SMG_Starling/AS_SMG_Starling.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Starling/AS_SMG_Starling.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Starling.png",
+      "oldNodes": 62,
+      "addedBoxes": 105,
+      "boxes": 157,
+      "paintedFaces": 148,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Starling_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Starling_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Starling/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Starling_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Threadstorm",
+      "name": "Labyrinth Threadstorm",
+      "family": "smg",
+      "quality": "Epic",
+      "themeIndex": 8,
+      "model": "Common/Items/Arsenal/AS_SMG_Threadstorm/AS_SMG_Threadstorm.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SMG_Threadstorm/AS_SMG_Threadstorm.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SMG_Threadstorm.png",
+      "oldNodes": 46,
+      "addedBoxes": 123,
+      "boxes": 161,
+      "paintedFaces": 182,
+      "atlasSize": [
+        512,
+        1024
+      ],
+      "paired": false,
+      "comparison": "previews/AS_SMG_Threadstorm_Detail_Comparison.jpg",
+      "atlasPreview": "previews/AS_SMG_Threadstorm_Atlas.png",
+      "editableModel": "source/Weapon_Crossbow_AS_SMG_Threadstorm/editable.bbmodel",
+      "renderReceipt": "previews/AS_SMG_Threadstorm_Render_Receipt.json",
+      "group": "handguns-smgs"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Auroras_Witness/AS_SemiAuto_Auroras_Witness.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Auroras_Witness/AS_SemiAuto_Auroras_Witness.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Auroras_Witness.png",
+      "oldNodes": 52,
+      "addedBoxes": 103,
+      "boxes": 145,
+      "paintedFaces": 142,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Dune_Canticle/AS_SemiAuto_Dune_Canticle.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Dune_Canticle/AS_SemiAuto_Dune_Canticle.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Dune_Canticle.png",
+      "oldNodes": 59,
+      "addedBoxes": 126,
+      "boxes": 177,
+      "paintedFaces": 210,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Highroad/AS_SemiAuto_Highroad.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Highroad/AS_SemiAuto_Highroad.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Highroad.png",
+      "oldNodes": 55,
+      "addedBoxes": 130,
+      "boxes": 177,
+      "paintedFaces": 222,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Iron_Testament/AS_SemiAuto_Iron_Testament.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Iron_Testament/AS_SemiAuto_Iron_Testament.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Iron_Testament.png",
+      "oldNodes": 52,
+      "addedBoxes": 131,
+      "boxes": 173,
+      "paintedFaces": 160,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Last_Deposition/AS_SemiAuto_Last_Deposition.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Last_Deposition/AS_SemiAuto_Last_Deposition.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Last_Deposition.png",
+      "oldNodes": 57,
+      "addedBoxes": 150,
+      "boxes": 199,
+      "paintedFaces": 216,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Proofkeeper/AS_SemiAuto_Proofkeeper.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Proofkeeper/AS_SemiAuto_Proofkeeper.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Proofkeeper.png",
+      "oldNodes": 55,
+      "addedBoxes": 132,
+      "boxes": 179,
+      "paintedFaces": 216,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Tollkeeper/AS_SemiAuto_Tollkeeper.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Tollkeeper/AS_SemiAuto_Tollkeeper.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Tollkeeper.png",
+      "oldNodes": 57,
+      "addedBoxes": 130,
+      "boxes": 179,
+      "paintedFaces": 216,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Waymark",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Waymark/AS_SemiAuto_Waymark.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_Waymark/AS_SemiAuto_Waymark.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_Waymark.png",
+      "oldNodes": 53,
+      "addedBoxes": 126,
+      "boxes": 171,
+      "paintedFaces": 210,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_White_Vigil/AS_SemiAuto_White_Vigil.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_SemiAuto_White_Vigil/AS_SemiAuto_White_Vigil.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_SemiAuto_White_Vigil.png",
+      "oldNodes": 59,
+      "addedBoxes": 126,
+      "boxes": 177,
+      "paintedFaces": 216,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Bellwether/AS_Shotgun_Bellwether.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Bellwether/AS_Shotgun_Bellwether.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Bellwether.png",
+      "oldNodes": 49,
+      "addedBoxes": 139,
+      "boxes": 180,
+      "paintedFaces": 186,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Cloudburst/AS_Shotgun_Cloudburst.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Cloudburst/AS_Shotgun_Cloudburst.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Cloudburst.png",
+      "oldNodes": 47,
+      "addedBoxes": 139,
+      "boxes": 178,
+      "paintedFaces": 192,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Doorwarden/AS_Shotgun_Doorwarden.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Doorwarden/AS_Shotgun_Doorwarden.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Doorwarden.png",
+      "oldNodes": 47,
+      "addedBoxes": 141,
+      "boxes": 180,
+      "paintedFaces": 186,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Gatecrasher/AS_Shotgun_Gatecrasher.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Gatecrasher/AS_Shotgun_Gatecrasher.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Gatecrasher.png",
+      "oldNodes": 49,
+      "addedBoxes": 170,
+      "boxes": 209,
+      "paintedFaces": 150,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Grave_Tithe/AS_Shotgun_Grave_Tithe.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Grave_Tithe/AS_Shotgun_Grave_Tithe.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Grave_Tithe.png",
+      "oldNodes": 49,
+      "addedBoxes": 159,
+      "boxes": 200,
+      "paintedFaces": 186,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Hearthguard/AS_Shotgun_Hearthguard.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Hearthguard/AS_Shotgun_Hearthguard.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Hearthguard.png",
+      "oldNodes": 51,
+      "addedBoxes": 135,
+      "boxes": 178,
+      "paintedFaces": 186,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Hollowbark/AS_Shotgun_Hollowbark.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Hollowbark/AS_Shotgun_Hollowbark.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Hollowbark.png",
+      "oldNodes": 45,
+      "addedBoxes": 135,
+      "boxes": 172,
+      "paintedFaces": 180,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Sandbreaker/AS_Shotgun_Sandbreaker.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Sandbreaker/AS_Shotgun_Sandbreaker.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Sandbreaker.png",
+      "oldNodes": 51,
+      "addedBoxes": 135,
+      "boxes": 178,
+      "paintedFaces": 180,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Solstice",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Solstice/AS_Shotgun_Solstice.blockymodel",
+      "texture": "Common/Items/Arsenal/AS_Shotgun_Solstice/AS_Shotgun_Solstice.png",
+      "icon": "Common/Icons/ItemsGenerated/AS_Shotgun_Solstice.png",
+      "oldNodes": 66,
+      "addedBoxes": 233,
+      "boxes": 289,
+      "paintedFaces": 142,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "rifles-shotguns"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Deepworks_Railspike",
+      "model": "Common/Items/RangerSnipers/Tier05/Ranger_Sniper_Tier05.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier05/Ranger_Sniper_Tier05.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier05.png",
+      "oldNodes": 123,
+      "addedBoxes": 56,
+      "boxes": 170,
+      "paintedFaces": 310,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Dunewatch_Longshot",
+      "model": "Common/Items/RangerSnipers/Tier02/Ranger_Sniper_Tier02.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier02/Ranger_Sniper_Tier02.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier02.png",
+      "oldNodes": 76,
+      "addedBoxes": 52,
+      "boxes": 121,
+      "paintedFaces": 282,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Frostline_Sentinel",
+      "model": "Common/Items/RangerSnipers/Tier03/Ranger_Sniper_Tier03.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier03/Ranger_Sniper_Tier03.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier03.png",
+      "oldNodes": 79,
+      "addedBoxes": 46,
+      "boxes": 118,
+      "paintedFaces": 278,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+      "model": "Common/Items/RangerSnipers/Tier08/Ranger_Sniper_Tier08.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier08/Ranger_Sniper_Tier08.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier08.png",
+      "oldNodes": 80,
+      "addedBoxes": 56,
+      "boxes": 129,
+      "paintedFaces": 304,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "model": "Common/Items/RangerSnipers/Tier06/Ranger_Sniper_Tier06.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier06/Ranger_Sniper_Tier06.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier06.png",
+      "oldNodes": 103,
+      "addedBoxes": 44,
+      "boxes": 138,
+      "paintedFaces": 314,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "model": "Common/Items/RangerSnipers/Tier04/Ranger_Sniper_Tier04.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier04/Ranger_Sniper_Tier04.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier04.png",
+      "oldNodes": 83,
+      "addedBoxes": 64,
+      "boxes": 140,
+      "paintedFaces": 298,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Nameless_Covenant",
+      "model": "Common/Items/RangerSnipers/Tier07/Ranger_Sniper_Tier07.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier07/Ranger_Sniper_Tier07.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier07.png",
+      "oldNodes": 79,
+      "addedBoxes": 60,
+      "boxes": 132,
+      "paintedFaces": 302,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Skybound_Farwatch",
+      "model": "Common/Items/RangerSnipers/Tier09/Ranger_Sniper_Tier09.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier09/Ranger_Sniper_Tier09.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier09.png",
+      "oldNodes": 79,
+      "addedBoxes": 66,
+      "boxes": 138,
+      "paintedFaces": 326,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Wildwood_Surveyor",
+      "model": "Common/Items/RangerSnipers/Tier01/Ranger_Sniper_Tier01.blockymodel",
+      "texture": "Common/Items/RangerSnipers/Tier01/Ranger_Sniper_Tier01.png",
+      "icon": "Common/Icons/ItemsGenerated/Ranger_Sniper_Tier01.png",
+      "oldNodes": 62,
+      "addedBoxes": 56,
+      "boxes": 111,
+      "paintedFaces": 268,
+      "textureSize": [
+        512,
+        1024
+      ],
+      "group": "snipers-heavy"
+    }
+  ],
+  "scope": "59 model/texture/icon triples only; original model structure and all gameplay inputs conserved"
+}

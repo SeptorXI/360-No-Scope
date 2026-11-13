@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Automatic_Helios_Refrain_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.2,
+  "BodyDamage": 8.5,
+  "HeadDamage": 17.5,
+  "Range": 140,
+  "Lifetime": 0.5185,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Automatic_Helios_Refrain_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.05
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.8
+      }
+    ]
+  }
+}

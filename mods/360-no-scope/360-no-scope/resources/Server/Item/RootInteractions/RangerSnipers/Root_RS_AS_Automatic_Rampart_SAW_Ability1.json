@@ -1,0 +1,41 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "RS_LegendaryAbility",
+    "Cooldown": 12,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "CooldownCondition",
+        "Id": "RS_LegendaryAbility",
+        "Next": {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": "RS_AS_Automatic_Rampart_SAW_Ability_Commit"
+        }
+      }
+    }
+  ]
+}

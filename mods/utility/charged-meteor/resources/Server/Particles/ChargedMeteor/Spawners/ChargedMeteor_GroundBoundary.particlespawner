@@ -1,0 +1,105 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 3.31,
+    "Max": 3.31
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 0.55,
+            "Max": 0.55
+          }
+        },
+        "Opacity": 0
+      },
+      "12": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 0.8
+      },
+      "74": {
+        "Scale": {
+          "X": {
+            "Min": 0.73,
+            "Max": 0.73
+          }
+        },
+        "Opacity": 0.62,
+        "Color": "#db2b16"
+      },
+      "96": {
+        "Scale": {
+          "X": {
+            "Min": 1.22,
+            "Max": 1.22
+          }
+        },
+        "Opacity": 0.94,
+        "Color": "#ffb15f"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.14,
+            "Max": 1.14
+          }
+        },
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.55,
+          "Max": 0.7
+        }
+      },
+      "Color": "#ee3b17",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Deepworks_Heart.name",
+    "Description": "server.items.ARD_Deepworks_Heart.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Deepworks_Heart.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Scraps",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Deepworks_Heart.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Deepworks_Heart",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Deepworks_Heart",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.585868,
+    "Translation": [
+      -0.194581,
+      -15.438588
+    ],
+    "Rotation": [
+      -18.26289,
+      194.380829,
+      0.0
+    ]
+  }
+}

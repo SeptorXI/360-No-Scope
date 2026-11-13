@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "source": "E:/Games/HytaleServer/Assets.zip",
+  "serverAPI": "0.7.7",
+  "evidenceType": "Native-asset measurements; inference rather than a connected-client rendering test",
+  "formula": "R=Rx(22.5)*Ry(45)*Rz(22.5); project all exported corners; c=(projectedMin+projectedMax)/2; Translation=-solve(R[:2,:2],c[:2]); Scale independent of Translation",
+  "inference": "Pre-scale model-unit translation agrees substantially better with the sampled native furniture than multiplying the translation by IconProperties.Scale.",
+  "references": [
+    {
+      "label": "AncientStatue",
+      "itemPath": "Server/Item/Items/Furniture/Ancient/Unique/Furniture_Ancient_Statue.json",
+      "itemSHA256": "b25267caed24c34d9bf12101242c23a88f409da2b568cec83f78a4d05c2e660c",
+      "modelPath": "Common/Blocks/Decorative_Sets/Ancient/Statue.blockymodel",
+      "modelSHA256": "521dbd1db16651031897b578a6071390c5f0c7ccf93ea62e7828053863a1df23",
+      "iconPath": "Common/Icons/ItemsGenerated/Furniture_Ancient_Statue.png",
+      "iconSHA256": "3c86899243660a4add780ef05ca94697afde71cf5ff1ab7d04b5db49e9eeac00",
+      "iconProperties": {
+        "Scale": 0.264,
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Translation": [
+          0,
+          -45.07
+        ]
+      },
+      "itemScale": 0.6,
+      "minimumNormalizedCenterResidualAcrossEulerOrders": {
+        "preScaleTranslation": 0.114518,
+        "postScaleTranslation": 1.61776
+      }
+    },
+    {
+      "label": "HumanRuinsStatue",
+      "itemPath": "Server/Item/Items/Furniture/Human/Unique/Furniture_Human_Ruins_Statue.json",
+      "itemSHA256": "e1bd289a46e061a17b0320a576dd40f69d35d979042dfec59d1ff390e25ccd3f",
+      "modelPath": "Common/Blocks/Decorative_Sets/Human_Ruins/Statue.blockymodel",
+      "modelSHA256": "be3bd24ac80f6307cc3a6c11d76f476a5c74a1e1fc2303d200411f1d7790b030",
+      "iconPath": "Common/Icons/ItemsGenerated/Furniture_Human_Ruins_Statue.png",
+      "iconSHA256": "02e4692aaa0b82b14b2b8c0ae982045973b8580deda66ee46311dfe37af3afb0",
+      "iconProperties": {
+        "Scale": 0.29,
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Translation": [
+          0,
+          -43
+        ]
+      },
+      "itemScale": 0.6,
+      "minimumNormalizedCenterResidualAcrossEulerOrders": {
+        "preScaleTranslation": 0.040859,
+        "postScaleTranslation": 1.644577
+      }
+    },
+    {
+      "label": "DarkStatue",
+      "itemPath": "Server/Item/Items/Furniture/Temple_Dark/Unique/Furniture_Temple_Dark_Statue.json",
+      "itemSHA256": "1fa45f04cdb06e4093c3c5cc738448523ee8b3ba7556b176527e9877e38fe825",
+      "modelPath": "Common/Blocks/Decorative_Sets/Temple_Dark/Statue_Owl.blockymodel",
+      "modelSHA256": "f34961de2a27b4080a9180bf90dadf58175774208d7d0f6829d68d899ed2c4e4",
+      "iconPath": "Common/Icons/ItemsGenerated/Furniture_Temple_Dark_Statue.png",
+      "iconSHA256": "3088ec70464fc3728d078baaf0d5c0f5d20bbdff60351ae3de51ff38dd2f0c8e",
+      "iconProperties": {
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Scale": 0.42,
+        "Translation": [
+          0,
+          -25.7
+        ]
+      },
+      "itemScale": 1,
+      "minimumNormalizedCenterResidualAcrossEulerOrders": {
+        "preScaleTranslation": 0.025788,
+        "postScaleTranslation": 0.421771
+      }
+    },
+    {
+      "label": "MagicChair",
+      "itemPath": "Server/Item/Items/Furniture/Grand_Wizard/Furniture_Royal_Magic_Chair.json",
+      "itemSHA256": "037c6934ed2e072006f1e12f4001452ac752b1efa7667b5fbdad7690149cdd24",
+      "modelPath": "Common/Blocks/Decorative_Sets/Royal_Magic/Chair.blockymodel",
+      "modelSHA256": "6f8234286f6ee8f28443c5c65f8a7b6b4adbbf07114b05d3e732958a7e8684f9",
+      "iconPath": "Common/Icons/ItemsGenerated/Furniture_Grand_Wizard_Chair.png",
+      "iconSHA256": "5ab03275dc708299b3fda528a5995ae3fb3088cef943f28220c2b32bfe3acbd5",
+      "iconProperties": {
+        "Scale": 0.4,
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Translation": [
+          -2,
+          -29
+        ]
+      },
+      "itemScale": 1,
+      "minimumNormalizedCenterResidualAcrossEulerOrders": {
+        "preScaleTranslation": 0.05157,
+        "postScaleTranslation": 0.497169
+      }
+    },
+    {
+      "label": "VillageChair",
+      "itemPath": "Server/Item/Items/Furniture/Village/Furniture_Village_Chair.json",
+      "itemSHA256": "34f70dc6c3dde8cb37f80618a4b263cdc6d6d6c1fcfdf1d1a965d6aa69169185",
+      "modelPath": "Common/Blocks/Decorative_Sets/Village/Chair.blockymodel",
+      "modelSHA256": "ee914102101f0b37707bfae54c5f33c0af33ee0042bfb18f5ddf8ac80778cd68",
+      "iconPath": "Common/Icons/ItemsGenerated/Furniture_Village_Chair.png",
+      "iconSHA256": "2521a7ed643af965cb14e8ad37b294fdbbae7adaa157fd535bb61d837b88533e",
+      "iconProperties": {
+        "Scale": 0.495,
+        "Translation": [
+          0,
+          -18
+        ],
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ]
+      },
+      "itemScale": 1,
+      "minimumNormalizedCenterResidualAcrossEulerOrders": {
+        "preScaleTranslation": 0.042266,
+        "postScaleTranslation": 0.229594
+      }
+    }
+  ],
+  "limits": [
+    "The actual crafting-preview client transform and Euler order remain unverified.",
+    "Asset-editor protocol separates model scale and camera position; that packet alone does not establish crafting renderer ordering.",
+    "No native geometry or texture pixels are redistributed."
+  ]
+}

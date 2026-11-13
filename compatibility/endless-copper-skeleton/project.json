@@ -1,0 +1,13 @@
+{
+  "title": "Endless Leveling Copper Skeleton Fix",
+  "version": "1.0.1",
+  "manifest_name": "Steven:EndlessLevelingCopperSkeletonFix",
+  "artifact": "EndlessLeveling-CopperSkeletonFix-1.0.1.zip",
+  "installed_sha256": "c13993a00692f87909a0204eb187c481e36bfd42c66ffbce1481c0851a2c28ff",
+  "server_version": ">=0.7.0 <0.8.0",
+  "compile_dependencies": [],
+  "runtime_dependencies": {
+    "Alechilles:Alec's Tamework!": ">=5.7.0 <6.0.0",
+    "Airijko:EndlessLevelingCore": "=14.5.6"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Epitaph_Reliquary.name",
+    "Description": "server.items.ARD_Epitaph_Reliquary.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Epitaph_Reliquary.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Epitaph_Reliquary.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Epitaph_Reliquary",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Epitaph_Reliquary",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.508569,
+    "Translation": [
+      -1.609771,
+      -20.260789
+    ],
+    "Rotation": [
+      -18.26289,
+      194.380829,
+      0.0
+    ]
+  }
+}

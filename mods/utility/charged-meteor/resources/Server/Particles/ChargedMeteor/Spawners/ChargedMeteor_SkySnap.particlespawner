@@ -1,0 +1,115 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.32,
+    "Max": 0.32
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Circles/Portal_Wind_Hollow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.42,
+            "Max": 0.42
+          }
+        },
+        "Opacity": 0.18,
+        "Color": "#e32b13",
+        "Rotation": {
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        }
+      },
+      "24": {
+        "Scale": {
+          "X": {
+            "Min": 0.77,
+            "Max": 0.77
+          }
+        },
+        "Opacity": 0.86,
+        "Color": "#ff8538",
+        "Rotation": {
+          "Z": {
+            "Min": -33,
+            "Max": -33
+          }
+        }
+      },
+      "48": {
+        "Scale": {
+          "X": {
+            "Min": 1.14,
+            "Max": 1.14
+          }
+        },
+        "Opacity": 0.78,
+        "Color": "#fa3d20",
+        "Rotation": {
+          "Z": {
+            "Min": -73,
+            "Max": -73
+          }
+        }
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.38,
+            "Max": 1.38
+          }
+        },
+        "Opacity": 0,
+        "Color": "#b91a28",
+        "Rotation": {
+          "Z": {
+            "Min": -137,
+            "Max": -137
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 7.1,
+          "Max": 7.1
+        }
+      },
+      "Opacity": 1,
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

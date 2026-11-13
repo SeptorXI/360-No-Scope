@@ -1,0 +1,99 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 1,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "RS_Frostline_Sentinel_Player",
+  "Interactions": {
+    "Primary": "Root_RS_Frostline_Sentinel_Primary",
+    "Secondary": "Root_RS_Frostline_Sentinel_ADS",
+    "SwapTo": "Root_RS_Frostline_Sentinel_ChamberHUD",
+    "Use": "Root_RS_Frostline_Sentinel_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_Frostline_Sentinel.name",
+    "Description": "server.items.Weapon_Crossbow_Frostline_Sentinel.description"
+  },
+  "Model": "Items/RangerSnipers/Tier03/Ranger_Sniper_Tier03.blockymodel",
+  "Texture": "Items/RangerSnipers/Tier03/Ranger_Sniper_Tier03.png",
+  "Icon": "Icons/ItemsGenerated/Ranger_Sniper_Tier03.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Translation": [
+      -3.6,
+      -20.4
+    ],
+    "Rotation": [
+      315,
+      90,
+      0
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 6,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "RS_Gunsmith_Rifles"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.96
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.28
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.76
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.44
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.36
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Goliath_50_ReloadClose_World"
+      }
+    }
+  ]
+}

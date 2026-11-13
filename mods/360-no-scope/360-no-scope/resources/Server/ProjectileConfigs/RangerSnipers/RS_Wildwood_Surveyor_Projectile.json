@@ -1,0 +1,37 @@
+{
+  "Model": "RS_Wildwood_Surveyor_ProjectileModel",
+  "UseModelScale": true,
+  "LaunchForce": 100,
+  "SpawnOffset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 0,
+    "Yaw": 0,
+    "Roll": 0
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 6,
+    "TerminalVelocityAir": 100,
+    "TerminalVelocityWater": 30,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0,
+    "SticksVertically": false
+  },
+  "Interactions": {
+    "ProjectileSpawn": "Root_RS_Wildwood_Surveyor_FlightOrigin",
+    "ProjectileHit": {
+      "Interactions": [
+        "RS_Wildwood_Surveyor_Falloff"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "RS_Despawn"
+      ]
+    }
+  }
+}

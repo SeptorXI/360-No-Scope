@@ -1,0 +1,22 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -6,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 16,
+  "MaxDistance": 192,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Automatic_Rampart_SAW/OutdoorFireTail_01.ogg",
+        "Sounds/Arsenal/AS_Automatic_Rampart_SAW/OutdoorFireTail_02.ogg",
+        "Sounds/Arsenal/AS_Automatic_Rampart_SAW/OutdoorFireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.128,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

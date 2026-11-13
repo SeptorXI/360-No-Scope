@@ -1,0 +1,449 @@
+{
+  "formatVersion": 1,
+  "duration": 6,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "Rifle_Carriage": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 1,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": -1.3
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 3,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": -0.6
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 6,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "interpolationType": "smooth"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Bolt_Block": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 2,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": -1.6
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 4,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": -0.6
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 6,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "interpolationType": "smooth"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Feed_Gate": {
+      "position": [],
+      "orientation": [
+        {
+          "time": 0,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 2,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0.013089595571344441,
+            "w": 0.999914327574007
+          },
+          "interpolationType": "smooth"
+        },
+        {
+          "time": 6,
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "interpolationType": "smooth"
+        }
+      ],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Flash_Core": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spread_A": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spread_B": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Throat": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Surge": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spear": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Tip": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Lobe_L": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Lobe_R": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Lobe_U": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Lobe_D": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spark_I": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": false
+        },
+        {
+          "time": 1,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spark_II": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": false
+        },
+        {
+          "time": 1,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spark_III": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": false
+        },
+        {
+          "time": 1,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    },
+    "Flash_Spark_IV": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": false
+        },
+        {
+          "time": 1,
+          "delta": true
+        },
+        {
+          "time": 2,
+          "delta": false
+        },
+        {
+          "time": 6,
+          "delta": false
+        }
+      ],
+      "shapeUvOffset": []
+    }
+  }
+}

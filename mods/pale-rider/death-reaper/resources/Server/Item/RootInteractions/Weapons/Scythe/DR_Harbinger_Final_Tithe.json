@@ -1,0 +1,42 @@
+{
+  "RequireNewClick": true,
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "DurabilityCondition",
+      "Threshold": 0,
+      "Operator": "GreaterThan",
+      "Next": {
+        "Type": "StatsCondition",
+        "Costs": {
+          "SignatureEnergy": 100
+        },
+        "ValueType": "Percent",
+        "Next": {
+          "Type": "StatsCondition",
+          "Costs": {
+            "Mana": 12
+          },
+          "Next": {
+            "Type": "ChangeStat",
+            "StatModifiers": {
+              "SignatureEnergy": -100
+            },
+            "ValueType": "Percent",
+            "Next": {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Mana": -12
+              },
+              "Next": "DR_Harbinger_Spin_Heavy"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

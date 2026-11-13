@@ -1,35 +1,20 @@
-# Build output and local external inputs
-/.build/
-/dist/
-/local-inputs/
-**/__pycache__/
-*.py[cod]
+__pycache__/
+*.pyc
 *.class
-*.jar
-*.exe
-*.dll
-*.zip
-*.7z
-*.blend1
 *.log
-.env
-.env.*
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
+*.blend1
+.build/
+dist/
+releases/
+*.jar
+*.zip
+*.exe
+*.tmp
+PanelSettings/
 
-# Optional audio regeneration inputs are obtained separately under their terms.
-/authoring/360-arsenal/audio/open-source-bank/masters/
-/authoring/360-arsenal/audio/open-source-bank/curated/
-/authoring/ranger-snipers/audio/sources/*/extracted/
-/authoring/ranger-snipers/audio/tools/
-*.wav
-*.flac
-*.mp3
-
-# Historical authoring outputs are not the canonical module resources.
-/authoring/**/pack/
-/authoring/**/test-server/
-/authoring/**/release/
-/authoring/**/deployments/
+# Local Blender scenes with embedded workspace paths. Portable model sources are included.
+/mods/black-tempest/black-tempest-armor/art/BT_Set_cast.blend
+/mods/black-tempest/black-tempest-armor/art/BT_Set_hero.blend
+/mods/crimson-brotherhood/crimson-brotherhood-decor/art/CBD_Sanctuary.blend
+/mods/crimson-brotherhood/oblivions-tithe/art/Oblivions_Tithe.blend
+/mods/pale-rider/death-reaper/art/DR_Harbinger.blend

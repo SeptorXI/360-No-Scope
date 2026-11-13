@@ -1,0 +1,643 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ChargedMeteor_SkySnap",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": -0.58,
+        "Z": 0.0
+      }
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkySmoke",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 1.6,
+        "Z": 0
+      },
+      "StartDelay": 0
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyRedRing",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": -0.3,
+        "Z": 0
+      },
+      "StartDelay": 0
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyInnerRing",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": -1.35,
+        "Z": 0
+      },
+      "StartDelay": 0.035
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyThroat",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": -3.25,
+        "Z": 0
+      },
+      "StartDelay": 0.09
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyEmbers",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": -1.2,
+        "Z": 0
+      },
+      "StartDelay": 0.12
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 15.65,
+        "Y": 1.45,
+        "Z": 0.0
+      },
+      "StartDelay": 0.04,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -15.65,
+            "Y": 0,
+            "Z": -0.0
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 14.847,
+        "Y": 2.044,
+        "Z": 7.15
+      },
+      "StartDelay": 0.081,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -14.847,
+            "Y": 0,
+            "Z": -7.15
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 9.988,
+        "Y": 2.191,
+        "Z": 12.524
+      },
+      "StartDelay": 0.122,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -9.988,
+            "Y": 0,
+            "Z": -12.524
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 3.335,
+        "Y": 1.78,
+        "Z": 14.61
+      },
+      "StartDelay": 0.163,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -3.335,
+            "Y": 0,
+            "Z": -14.61
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -3.335,
+        "Y": 1.12,
+        "Z": 14.61
+      },
+      "StartDelay": 0.204,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 3.335,
+            "Y": 0,
+            "Z": -14.61
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -9.988,
+        "Y": 0.709,
+        "Z": 12.524
+      },
+      "StartDelay": 0.245,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 9.988,
+            "Y": 0,
+            "Z": -12.524
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -14.847,
+        "Y": 0.856,
+        "Z": 7.15
+      },
+      "StartDelay": 0.04,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 14.847,
+            "Y": 0,
+            "Z": -7.15
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -15.65,
+        "Y": 1.45,
+        "Z": 0.0
+      },
+      "StartDelay": 0.081,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 15.65,
+            "Y": 0,
+            "Z": -0.0
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -13.354,
+        "Y": 2.044,
+        "Z": -6.431
+      },
+      "StartDelay": 0.122,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 13.354,
+            "Y": 0,
+            "Z": 6.431
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -9.528,
+        "Y": 2.191,
+        "Z": -11.947
+      },
+      "StartDelay": 0.163,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 9.528,
+            "Y": 0,
+            "Z": 11.947
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -3.63,
+        "Y": 1.78,
+        "Z": -15.906
+      },
+      "StartDelay": 0.204,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 3.63,
+            "Y": 0,
+            "Z": 15.906
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 3.63,
+        "Y": 1.12,
+        "Z": -15.906
+      },
+      "StartDelay": 0.245,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -3.63,
+            "Y": 0,
+            "Z": 15.906
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 9.528,
+        "Y": 0.709,
+        "Z": -11.947
+      },
+      "StartDelay": 0.04,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -9.528,
+            "Y": 0,
+            "Z": 11.947
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 13.354,
+        "Y": 0.856,
+        "Z": -6.431
+      },
+      "StartDelay": 0.081,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -13.354,
+            "Y": 0,
+            "Z": 6.431
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 4.35,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 13.313,
+        "Y": 1.073,
+        "Z": 3.818
+      },
+      "StartDelay": 0.04,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -13.313,
+            "Y": 0,
+            "Z": -3.818
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 5.05,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -6.684,
+        "Y": 0.027,
+        "Z": 12.13
+      },
+      "StartDelay": 0.152,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 6.684,
+            "Y": 0,
+            "Z": -12.13
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 5.05,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -10.339,
+        "Y": 1.425,
+        "Z": -9.216
+      },
+      "StartDelay": 0.264,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 10.339,
+            "Y": 0,
+            "Z": 9.216
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 5.05,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_SkyCloudBank",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 11.285,
+        "Y": -0.048,
+        "Z": -8.029
+      },
+      "StartDelay": 0.04,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -11.285,
+            "Y": 0,
+            "Z": 8.029
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialAcceleration": -2.2,
+          "RadialTangentImpulse": 5.05,
+          "RadialTangentAcceleration": 2.4,
+          "LinearAcceleration": {
+            "X": 0,
+            "Y": 0.12,
+            "Z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "LifeSpan": 3.28,
+  "BoundingRadius": 30,
+  "CullDistance": 128,
+  "IsImportant": false
+}

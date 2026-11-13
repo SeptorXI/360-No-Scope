@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.2",
+  "setName": "Vestments of the Black Tempest",
+  "quality": "Legendary",
+  "itemLevel": 70,
+  "maxDurability": 250,
+  "durabilityLossOnHit": 0.5,
+  "inspiration": "Original dark-side-influenced Hytale storm-mage armor: charcoal hood and divided robes, blackened obsidian plates, storm-violet and blue recessed channels, restrained pale-violet cores. Designed around AB's Tickle Time without copying a licensed character's armor.",
+  "classRequirement": {
+    "primaryPath": "mage",
+    "ascensionsQualify": true,
+    "secondaryOnlyQualifies": false,
+    "equipRestrictedNewPiecesOnly": true,
+    "attributesRestricted": true,
+    "eachPieceIndependent": true,
+    "attributesMustBeDistinctAcrossPieces": true
+  },
+  "affinity": "Only a primary Mage or an ascension on that path can equip the three new pieces and receive their attributes. Secondary Mage alone does not qualify. Each piece works independently in its actual native armor slot while alive and unbroken; a full set is not required. Existing AB's Tickle Time remains usable by all builds and gains only the listed Mage affinity while this addon is loaded. Saved allocations and shared class/weapon definitions are never edited.",
+  "pieces": [
+    {
+      "id": "BT_Tyrants_Cowl",
+      "name": "Cowl of the Storm Tyrant",
+      "slot": "Head",
+      "model": "BT_Cowl",
+      "lore": "The first tyrant begged the heavens for mercy. The second learned to command them. Beneath this blackened crown, a violet gaze keeps the final lesson: a storm has no conscience, and neither should the hand that guides it.",
+      "health": 18,
+      "mana": 30,
+      "stamina": 0,
+      "physicalResistance": 0.09,
+      "lightningResistance": 0.08,
+      "affinityAttributes": {"sorcery": 8},
+      "recipe": {"Ingredient_Bar_Onyxium": 12, "Ingredient_Bar_Prisma": 4, "Ingredient_Bolt_Shadoweave": 12, "Ingredient_Lightning_Essence": 12, "Ingredient_Void_Essence": 8}
+    },
+    {
+      "id": "BT_Dominion_Mantle",
+      "name": "Mantle of Black Dominion",
+      "slot": "Chest",
+      "model": "BT_Mantle",
+      "lore": "Obsidian ribs close around a heart of captive thunder. Every channel beneath this mantle was etched with a surrendered name; every pale flash is a promise that its owner will never again kneel. The storm does not lend its strength. It collects what it is owed.",
+      "health": 36,
+      "mana": 40,
+      "stamina": 0,
+      "physicalResistance": 0.16,
+      "lightningResistance": 0.12,
+      "affinityAttributes": {"flow": 8},
+      "recipe": {"Ingredient_Bar_Onyxium": 24, "Ingredient_Bar_Prisma": 6, "Ingredient_Bolt_Shadoweave": 20, "Ingredient_Lightning_Essence": 24, "Ingredient_Void_Essence": 16}
+    },
+    {
+      "id": "BT_Stormbound_Strides",
+      "name": "Strides of the Hollow Tempest",
+      "slot": "Legs",
+      "model": "BT_Strides",
+      "lore": "These divided robes have crossed battlefields where the rain fell upward and no witness kept their shadow. Dark plates conceal the price of each measured step: another breath stolen from the world, another moment granted to its unrepentant master.",
+      "health": 26,
+      "mana": 20,
+      "stamina": 3,
+      "physicalResistance": 0.13,
+      "lightningResistance": 0.06,
+      "affinityAttributes": {"life_force": 8},
+      "recipe": {"Ingredient_Bar_Onyxium": 18, "Ingredient_Bar_Prisma": 2, "Ingredient_Bolt_Shadoweave": 14, "Ingredient_Lightning_Essence": 16, "Ingredient_Void_Essence": 12}
+    }
+  ],
+  "companionHands": {
+    "id": "Weapon_Gauntlets_AB_Tickle_Time",
+    "name": "AB's Tickle Time",
+    "slot": "Hands",
+    "sourcePlugin": "Steven:ABTickleTime",
+    "minimumVersion": "0.4.2",
+    "classEquipRestricted": false,
+    "itemDefinitionModified": false,
+    "affinityAttributes": {"haste": 6},
+    "note": "Reuse the original Legendary Hands item and its exact saved enchantments, durability, attacks, glow and appearance. This addon grants +6 native Haste only to an eligible primary Mage wearing the unbroken original in Hands. It does not grant attack-speed acceleration, unlock a full-set multiplier or impose a class gate on the existing gauntlets."
+  },
+  "bench": {"Id": "Endgame_Bench", "Type": "Crafting", "Categories": ["Endgame_Misc"], "RequiredTierLevel": 5},
+  "craftTimeSeconds": 8,
+  "balance": {
+    "newPieceHealth": 80,
+    "newPieceMana": 90,
+    "newPieceStamina": 3,
+    "withOriginalHandsHealth": 87,
+    "withOriginalHandsMana": 106,
+    "withOriginalHandsStamina": 3,
+    "withOriginalHandsPhysicalProjectileReduction": 0.42,
+    "lightningReduction": 0.26,
+    "affinityPointsAcrossFourSlots": 30,
+    "attributes": {"sorcery": 8, "flow": 8, "life_force": 8, "haste": 6},
+    "comparison": "Death-grade Legendary70 armor: same Head/Chest/Legs native physical protection and Health; original ABTT Hands supply4% protection/+7Health/+16Mana. The combination has42%Physical/Projectile and26%Lightning reduction before native other sources, with87Health/106Mana/3Stamina in equipment bonuses. It exchanges the Death set's Void protection and some Health for Mana and a Mage-specific storm role. Endgame Prisma remains much tankier and has its own prefix-only regeneration, which is not copied.",
+    "nativeRules": "Sorcery, Flow and Haste are native external percentage-point inputs; Life Force adds Health attribute points. Native class/race formulas, caps, defenses and food remain authoritative. Mage's no-critical-strikes tradeoff is preserved. No saved allocation mutation, hidden full-set multiplier, immunity bypass, automatic cast acceleration or extra flat mana regeneration is added."
+  },
+  "deployment": {"requestedState": "staged", "productionModified": false, "reason": "Steven requested preparation without stopping the live server; this new armor build follows that staging instruction."},
+  "clientPlaytestsPending": ["Equipped fit and movement/casting clipping", "First/third-person armor layering with ABTT gloves", "Class-switch and inventory synchronization", "Rendered glow/material appearance and combat feel"]
+}

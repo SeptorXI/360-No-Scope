@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CBD_Twin_Fangs_Covenant.name",
+    "Description": "server.items.CBD_Twin_Fangs_Covenant.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/CBD_Twin_Fangs_Covenant.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "CrimsonBrotherhoodDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Sac_Venom",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/BrotherhoodDecor/CBD_Twin_Fangs_Covenant.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "CBD_Twin_Fangs_Covenant",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "CBD_Twin_Fangs_Covenant",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#591f2d"
+  },
+  "IconProperties": {
+    "Scale": 0.638698,
+    "Translation": [
+      0.159628,
+      -11.814586
+    ],
+    "Rotation": [
+      26.104854,
+      -20.212497,
+      0.0
+    ]
+  }
+}

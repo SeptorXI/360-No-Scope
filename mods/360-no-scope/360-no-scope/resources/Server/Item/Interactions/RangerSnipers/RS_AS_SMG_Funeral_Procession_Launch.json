@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Funeral_Procession_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.6,
+  "BodyDamage": 6.0,
+  "HeadDamage": 8.5,
+  "Range": 55,
+  "Lifetime": 0.3667,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Funeral_Procession_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Violet",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Violet",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

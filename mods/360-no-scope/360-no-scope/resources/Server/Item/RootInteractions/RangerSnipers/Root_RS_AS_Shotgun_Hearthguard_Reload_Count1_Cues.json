@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.533333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.566666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.566666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hearthguard_ReloadClose_World"
+      }
+    }
+  ]
+}

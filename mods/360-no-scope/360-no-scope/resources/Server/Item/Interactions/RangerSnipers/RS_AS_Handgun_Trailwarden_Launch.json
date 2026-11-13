@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Trailwarden_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.6,
+  "BodyDamage": 8.0,
+  "HeadDamage": 12.0,
+  "Range": 45,
+  "Lifetime": 0.6,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Trailwarden_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

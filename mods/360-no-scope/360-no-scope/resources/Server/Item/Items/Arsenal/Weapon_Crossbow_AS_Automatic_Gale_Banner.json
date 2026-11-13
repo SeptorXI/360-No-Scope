@@ -1,0 +1,80 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 24,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Automatic_Gale_Banner_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Automatic_Gale_Banner_Primary",
+    "Secondary": "Root_RS_AS_Automatic_Gale_Banner_ADS",
+    "SwapTo": "Root_RS_AS_Automatic_Gale_Banner_ChamberHUD",
+    "Use": "Root_RS_AS_Automatic_Gale_Banner_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Automatic_Gale_Banner.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Automatic_Gale_Banner.description"
+  },
+  "Model": "Items/Arsenal/AS_Automatic_Gale_Banner/AS_Automatic_Gale_Banner.blockymodel",
+  "Texture": "Items/Arsenal/AS_Automatic_Gale_Banner/AS_Automatic_Gale_Banner.png",
+  "Icon": "Icons/ItemsGenerated/AS_Automatic_Gale_Banner.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Tritale_Rupee_Green",
+        "Quantity": 150
+      },
+      {
+        "ItemId": "Tritale_Bag_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tritale_Plant_Silent_Princess",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_automatic"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

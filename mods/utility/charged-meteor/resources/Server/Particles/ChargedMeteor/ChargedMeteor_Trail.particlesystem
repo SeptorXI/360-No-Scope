@@ -1,0 +1,40 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ChargedMeteor_FallingFlame",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "Y": 0.1
+      },
+      "StartDelay": 0.72
+    },
+    {
+      "SpawnerId": "ChargedMeteor_FallingWake",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "Y": 2.0
+      },
+      "StartDelay": 0.83
+    },
+    {
+      "SpawnerId": "ChargedMeteor_FallingSmoke",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "Y": 4.1
+      },
+      "StartDelay": 0.99
+    },
+    {
+      "SpawnerId": "ChargedMeteor_FallingEmbers",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "Y": 0.6
+      },
+      "StartDelay": 0.86
+    }
+  ],
+  "LifeSpan": 3.78,
+  "BoundingRadius": 24,
+  "CullDistance": 102,
+  "IsImportant": false
+}

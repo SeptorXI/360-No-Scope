@@ -1,0 +1,43 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "Type": "Absolute",
+    "BaseDamage": {
+      "Projectile": 14.0
+    },
+    "RandomPercentageModifier": 0
+  },
+  "DamageAttribute": "RS_DistanceDamage",
+  "DamageEffects": {
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Critical",
+        "Scale": 0.65
+      }
+    ]
+  },
+  "TargetedDamage": {
+    "Head": {
+      "DamageCalculator": {
+        "Type": "Absolute",
+        "BaseDamage": {
+          "Projectile": 27.0
+        },
+        "RandomPercentageModifier": 0
+      }
+    }
+  },
+  "Next": {
+    "Type": "ApplyEffect",
+    "EffectId": "RS_AS_Automatic_Helios_Refrain_Ability_Mark",
+    "Entity": "Target",
+    "Next": {
+      "Type": "ApplyEffect",
+      "EffectId": "RS_AS_Automatic_Helios_Refrain_Ability_Slow",
+      "Entity": "Target",
+      "Next": "RS_Despawn"
+    }
+  },
+  "Failed": "RS_Despawn",
+  "Blocked": "RS_Despawn"
+}

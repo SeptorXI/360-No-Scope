@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Twinwardens_Projectile_Left",
+  "Pellets": 1,
+  "SpreadDegrees": 2.4,
+  "BodyDamage": 7,
+  "HeadDamage": 10,
+  "Range": 34,
+  "Lifetime": 0.4533333333333333,
+  "RunTime": 0.05,
+  "Effects": {
+    "ItemAnimationId": "ShootLeft",
+    "CameraEffect": "RS_AS_Handgun_Twinwardens_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "SecondaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "SecondaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

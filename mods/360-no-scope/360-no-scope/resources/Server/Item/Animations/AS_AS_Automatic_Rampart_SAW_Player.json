@@ -1,0 +1,32 @@
+{
+  "Parent": "Rifle",
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Idle_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Idle_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Idle_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Shoot": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Shoot_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Shoot_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Shoot_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "Reload": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Reload_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Reload_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Rampart_SAW/Reload_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    }
+  }
+}

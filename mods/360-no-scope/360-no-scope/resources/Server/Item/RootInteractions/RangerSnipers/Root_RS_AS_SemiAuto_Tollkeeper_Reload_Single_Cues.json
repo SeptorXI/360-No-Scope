@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.466666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.433333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.683333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.066666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.333333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.283333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Tollkeeper_ReloadClose_World"
+      }
+    }
+  ]
+}

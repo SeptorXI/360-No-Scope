@@ -1,0 +1,15 @@
+{
+  "title": "Death Reaper",
+  "version": "0.1.11",
+  "manifest_name": "Steven:DeathReaper",
+  "artifact": "Death-Reaper-0.1.11.jar",
+  "installed_sha256": "fb8a980a5d2d0c363a7cc8d90866328010573e15a14d3f7d0d225808697cf231",
+  "server_version": ">=0.7.5 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Config:Endgame&QoL": "=6.1.4"
+  }
+}

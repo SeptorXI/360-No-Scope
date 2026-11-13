@@ -1,0 +1,12 @@
+{
+  "title": "Season HUD Left Overlay",
+  "version": "1.0.0",
+  "manifest_name": "Steven:SeasonHUDLeftOverlay",
+  "artifact": "SeasonHUD-LeftOverlay-1.0.0.zip",
+  "installed_sha256": "1c837dba5174f1c3038d7788b6d31cb02864cff29807b2dd8fe9a372a7949459",
+  "server_version": ">=0.7.0 <0.8.0",
+  "compile_dependencies": [],
+  "runtime_dependencies": {
+    "BlueOrbit:DynamicSeasons": ">=7.1.4"
+  }
+}

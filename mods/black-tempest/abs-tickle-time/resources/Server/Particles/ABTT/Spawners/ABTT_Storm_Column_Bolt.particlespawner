@@ -1,0 +1,72 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardY",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "MaxConcurrentParticles": 1,
+  "SpawnBurst": true,
+  "ParticleLifeSpan": {
+    "Min": 0.32,
+    "Max": 0.32
+  },
+  "SpawnRate": {
+    "Min": 1000,
+    "Max": 1000
+  },
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "ParticleRotateWithSpawner": false,
+  "Particle": {
+    "Texture": "Particles/ABTT/ABTT_Storm_Bolt.png",
+    "FrameSize": {
+      "Width": 256,
+      "Height": 512
+    },
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Disable",
+    "UVOption": "None",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 5.5,
+          "Max": 5.5
+        },
+        "Y": {
+          "Min": 18,
+          "Max": 18
+        }
+      },
+      "Color": "#ffffff",
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0.15
+      },
+      "6": {
+        "Opacity": 1
+      },
+      "18": {
+        "Opacity": 0.45
+      },
+      "25": {
+        "Opacity": 1
+      },
+      "45": {
+        "Opacity": 0.3
+      },
+      "60": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Opacity": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 22,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_SMG_Funeral_Procession_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_SMG_Funeral_Procession_Primary",
+    "Secondary": "Root_RS_AS_SMG_Funeral_Procession_ADS",
+    "SwapTo": "Root_RS_AS_SMG_Funeral_Procession_ChamberHUD",
+    "Use": "Root_RS_AS_SMG_Funeral_Procession_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_SMG_Funeral_Procession.name",
+    "Description": "server.items.Weapon_Crossbow_AS_SMG_Funeral_Procession.description"
+  },
+  "Model": "Items/Arsenal/AS_SMG_Funeral_Procession/AS_SMG_Funeral_Procession.blockymodel",
+  "Texture": "Items/Arsenal/AS_SMG_Funeral_Procession/AS_SMG_Funeral_Procession.png",
+  "Icon": "Icons/ItemsGenerated/AS_SMG_Funeral_Procession.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 9
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Rune_Shard",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "EL_MH_Reliquary_Key",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_smg"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

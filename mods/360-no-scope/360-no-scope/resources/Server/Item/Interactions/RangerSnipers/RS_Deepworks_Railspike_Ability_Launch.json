@@ -1,0 +1,26 @@
+{
+  "Type": "RSServerProjectile",
+  "Config": "RS_Deepworks_Railspike_Ability_Projectile",
+  "Lifetime": 0.6923076923076923,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_Deepworks_Railspike_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.5
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.88
+      }
+    ]
+  }
+}

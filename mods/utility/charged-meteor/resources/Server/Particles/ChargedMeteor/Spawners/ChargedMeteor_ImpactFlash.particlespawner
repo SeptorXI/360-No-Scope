@@ -1,0 +1,104 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.23,
+    "Max": 0.23
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.4,
+            "Max": 0.4
+          }
+        },
+        "Opacity": 0.83,
+        "Color": "#ffbf64"
+      },
+      "10": {
+        "Scale": {
+          "X": {
+            "Min": 0.91,
+            "Max": 0.91
+          }
+        },
+        "Opacity": 0.92,
+        "Color": "#ffa344"
+      },
+      "31": {
+        "Scale": {
+          "X": {
+            "Min": 1.23,
+            "Max": 1.23
+          }
+        },
+        "Opacity": 0.73,
+        "Color": "#ff7e30"
+      },
+      "62": {
+        "Scale": {
+          "X": {
+            "Min": 1.42,
+            "Max": 1.42
+          }
+        },
+        "Opacity": 0.27,
+        "Color": "#ed4d24"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.48,
+            "Max": 1.48
+          }
+        },
+        "Opacity": 0,
+        "Color": "#b51e1b"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 3.6,
+          "Max": 3.6
+        }
+      },
+      "Color": "#ffae56",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

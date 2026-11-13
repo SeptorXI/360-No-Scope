@@ -1,0 +1,150 @@
+{
+  "assetOnly": true,
+  "bench": {
+    "Id": "Furniture_Bench",
+    "Type": "Crafting",
+    "Categories": [
+      "Furniture_Storage"
+    ],
+    "RequiredTierLevel": 1
+  },
+  "items": [
+    {
+      "id": "CBD_Crimson_Oath_Effigy",
+      "wall": false,
+      "model": "Blocks/BrotherhoodDecor/CBD_Crimson_Oath_Effigy.blockymodel",
+      "modelBounds": {
+        "Min": {
+          "X": 0.0625,
+          "Y": 0.0,
+          "Z": 0.09375
+        },
+        "Max": {
+          "X": 0.9375,
+          "Y": 1.907812,
+          "Z": 0.90625
+        }
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.0625,
+              "Y": 0.0,
+              "Z": 0.09375
+            },
+            "Max": {
+              "X": 0.9375,
+              "Y": 1.9375,
+              "Z": 0.90625
+            }
+          }
+        ]
+      },
+      "nativeSupportFace": "Down"
+    },
+    {
+      "id": "CBD_Twin_Fangs_Covenant",
+      "wall": false,
+      "model": "Blocks/BrotherhoodDecor/CBD_Twin_Fangs_Covenant.blockymodel",
+      "modelBounds": {
+        "Min": {
+          "X": 0.078125,
+          "Y": 0.0,
+          "Z": 0.078125
+        },
+        "Max": {
+          "X": 0.921875,
+          "Y": 0.913403,
+          "Z": 0.921875
+        }
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.0625,
+              "Y": 0.0,
+              "Z": 0.0625
+            },
+            "Max": {
+              "X": 0.9375,
+              "Y": 0.9375,
+              "Z": 0.9375
+            }
+          }
+        ]
+      },
+      "nativeSupportFace": "Down"
+    },
+    {
+      "id": "CBD_Black_Hand_Banner",
+      "wall": true,
+      "model": "Blocks/BrotherhoodDecor/CBD_Black_Hand_Banner.blockymodel",
+      "modelBounds": {
+        "Min": {
+          "X": 0.104687,
+          "Y": 0.079011,
+          "Z": 0.898438
+        },
+        "Max": {
+          "X": 0.895312,
+          "Y": 1.695478,
+          "Z": 0.984375
+        }
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.09375,
+              "Y": 0.0625,
+              "Z": 0.875
+            },
+            "Max": {
+              "X": 0.90625,
+              "Y": 1.71875,
+              "Z": 1.0
+            }
+          }
+        ]
+      },
+      "nativeSupportFace": "South"
+    },
+    {
+      "id": "CBD_Silent_Mother_Reliquary",
+      "wall": false,
+      "model": "Blocks/BrotherhoodDecor/CBD_Silent_Mother_Reliquary.blockymodel",
+      "modelBounds": {
+        "Min": {
+          "X": 0.09375,
+          "Y": 0.0,
+          "Z": 0.1875
+        },
+        "Max": {
+          "X": 0.90625,
+          "Y": 1.774954,
+          "Z": 0.8125
+        }
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.09375,
+              "Y": 0.0,
+              "Z": 0.1875
+            },
+            "Max": {
+              "X": 0.90625,
+              "Y": 1.78125,
+              "Z": 0.8125
+            }
+          }
+        ]
+      },
+      "nativeSupportFace": "Down"
+    }
+  ],
+  "productionModified": false
+}

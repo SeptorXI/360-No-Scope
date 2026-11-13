@@ -1,0 +1,19 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 0.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 56,
+  "MaxInstance": 24,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Environments/Global/Weather/Lightning.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0,
+      "Looping": false
+    }
+  ]
+}

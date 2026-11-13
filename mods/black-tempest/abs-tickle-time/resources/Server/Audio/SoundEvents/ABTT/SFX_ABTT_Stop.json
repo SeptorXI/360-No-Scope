@@ -1,0 +1,19 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 24,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/ABTT/Stop_Discharge.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0,
+      "Looping": false
+    }
+  ]
+}

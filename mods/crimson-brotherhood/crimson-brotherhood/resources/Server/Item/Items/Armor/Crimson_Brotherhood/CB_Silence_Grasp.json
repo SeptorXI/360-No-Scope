@@ -1,0 +1,111 @@
+{
+  "Parent": "Armor_Iron_Hands",
+  "TranslationProperties": {
+    "Name": "server.items.CB_Silence_Grasp.name",
+    "Description": "server.items.CB_Silence_Grasp.description"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/Crimson_Brotherhood/CB_Grasp.blockymodel",
+  "Texture": "Items/Armors/Crimson_Brotherhood/CB_Brotherhood_Texture.png",
+  "Icon": "Icons/ItemsGenerated/CB_Silence_Grasp.png",
+  "IconProperties": {
+    "Scale": 0.543521,
+    "Rotation": [
+      21.94,
+      45.565,
+      22.5
+    ],
+    "Translation": [
+      0.231565,
+      0.078104
+    ]
+  },
+  "MaxStack": 1,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 16,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "Amount": 1,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.07,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.07,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Poison": [
+        {
+          "Amount": 0.04,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {}
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Crimson_Brotherhood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Sac_Venom",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  }
+}

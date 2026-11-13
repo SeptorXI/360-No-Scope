@@ -1,0 +1,34 @@
+{
+  "FirstPerson": {
+    "Duration": 0.04,
+    "StartTime": 0,
+    "EaseIn": {"Time": 0.012, "Type": "Linear"},
+    "EaseOut": {"Time": 0.21, "Type": "QuadInOut"},
+    "Offset": {
+      "X": [],
+      "Y": [{"Frequency": 7, "Amplitude": 0.42, "Type": "Sin"}],
+      "Z": [{"Frequency": 7, "Amplitude": 0.14, "Type": "Sin"}]
+    },
+    "Rotation": {
+      "Pitch": [{"Frequency": 7, "Amplitude": 0.85, "Type": "Sin"}],
+      "Yaw": [],
+      "Roll": [{"Frequency": 9, "Amplitude": 0.16, "Type": "Sin"}]
+    }
+  },
+  "ThirdPerson": {
+    "Duration": 0.04,
+    "StartTime": 0,
+    "EaseIn": {"Time": 0.012, "Type": "Linear"},
+    "EaseOut": {"Time": 0.21, "Type": "QuadInOut"},
+    "Offset": {
+      "X": [],
+      "Y": [{"Frequency": 7, "Amplitude": 0.22, "Type": "Sin"}],
+      "Z": [{"Frequency": 7, "Amplitude": 0.10, "Type": "Sin"}]
+    },
+    "Rotation": {
+      "Pitch": [{"Frequency": 7, "Amplitude": 0.45, "Type": "Sin"}],
+      "Yaw": [],
+      "Roll": [{"Frequency": 9, "Amplitude": 0.10, "Type": "Sin"}]
+    }
+  }
+}

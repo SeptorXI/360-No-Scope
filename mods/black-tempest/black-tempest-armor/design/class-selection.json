@@ -1,0 +1,325 @@
+{
+  "selectedPrimaryPath": "mage",
+  "ascensionsQualify": true,
+  "secondaryAloneQualifies": false,
+  "reason": "Sorcery Mastery affects eligible base Sorcery without requiring a held staff or Ability1/Q, and ABTT already resolves native caster affinity for its empty-hand Lightning.",
+  "nativeTradeoff": "No critical strikes; no Precision/Ferocity armor bonuses are granted.",
+  "masteryIsNotFinalDamageMultiplier": true,
+  "playerProfileOrClassChanged": false,
+  "classes": [
+    {
+      "id": "mage",
+      "name": "Mage",
+      "sourcePath": "E:\\Games\\HytaleServer\\Server\\mods\\Airijko_EndlessLevelingCore\\classes\\mage\\mage.json",
+      "sha256": "5c265bb561c1197c70f4e671dc931a0e186b61491bb81277e5d010a599abbcb9",
+      "passives": [
+        {
+          "type": "CRIT_RESTRICTION",
+          "name": "No Critical Strikes",
+          "value": 0
+        },
+        {
+          "type": "SORCERY_MASTERY",
+          "name": "Sorcery Mastery",
+          "value": 1.25
+        },
+        {
+          "type": "MANA_REGEN",
+          "value": 0.028
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "flow",
+          "stat_type": "basestat",
+          "value": 1.05
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "sorcery",
+          "stat_type": "basestat",
+          "value": 0.84
+        }
+      ],
+      "casterAffinity": [
+        {
+          "type": "STAFF",
+          "damage": 1.04
+        },
+        {
+          "type": "SPELLBOOK",
+          "damage": 1.04
+        },
+        {
+          "type": "WAND",
+          "damage": 1.04
+        }
+      ],
+      "ascension": {
+        "id": "class_mage_base",
+        "stage": "base",
+        "path": "mage",
+        "final_form": false,
+        "single_route_only": false,
+        "requirements": {
+          "required_prestige": 0
+        },
+        "next_paths": [
+          {
+            "id": "class_mage_elite",
+            "name": "Elite"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mage_elite",
+      "name": "Elite Mage",
+      "sourcePath": "E:\\Games\\HytaleServer\\Server\\mods\\Airijko_EndlessLevelingCore\\classes\\mage\\mage_elite.json",
+      "sha256": "2f43bdf33c63292cb07ffa72d28a01ab056e7135ea874c23fd6c633f7c50931f",
+      "passives": [
+        {
+          "type": "CRIT_RESTRICTION",
+          "name": "No Critical Strikes",
+          "value": 0
+        },
+        {
+          "type": "SORCERY_MASTERY",
+          "name": "Sorcery Mastery",
+          "value": 1.5
+        },
+        {
+          "type": "MANA_REGEN",
+          "value": 0.034
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "flow",
+          "stat_type": "basestat",
+          "value": 1.275
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "sorcery",
+          "stat_type": "basestat",
+          "value": 1.02
+        }
+      ],
+      "casterAffinity": [
+        {
+          "type": "STAFF",
+          "damage": 1.089
+        },
+        {
+          "type": "SPELLBOOK",
+          "damage": 1.089
+        },
+        {
+          "type": "WAND",
+          "damage": 1.089
+        }
+      ],
+      "ascension": {
+        "id": "class_mage_elite",
+        "stage": "elite",
+        "path": "mage",
+        "final_form": false,
+        "single_route_only": true,
+        "requirements": {
+          "required_prestige": 5
+        },
+        "next_paths": [
+          {
+            "id": "class_mage_master",
+            "name": "Master"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mage_master",
+      "name": "Master Mage",
+      "sourcePath": "E:\\Games\\HytaleServer\\Server\\mods\\Airijko_EndlessLevelingCore\\classes\\mage\\mage_master.json",
+      "sha256": "4faba23cfa28baf3f0a5bfc3c6b10d47985b9b83b0aa99dbfb056ac530047abe",
+      "passives": [
+        {
+          "type": "CRIT_RESTRICTION",
+          "name": "No Critical Strikes",
+          "value": 0
+        },
+        {
+          "type": "SORCERY_MASTERY",
+          "name": "Sorcery Mastery",
+          "value": 1.75
+        },
+        {
+          "type": "MANA_REGEN",
+          "value": 0.04
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "flow",
+          "stat_type": "basestat",
+          "value": 1.5
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "sorcery",
+          "stat_type": "basestat",
+          "value": 1.17
+        }
+      ],
+      "casterAffinity": [
+        {
+          "type": "STAFF",
+          "damage": 1.19
+        },
+        {
+          "type": "SPELLBOOK",
+          "damage": 1.19
+        },
+        {
+          "type": "WAND",
+          "damage": 1.19
+        }
+      ],
+      "ascension": {
+        "id": "class_mage_master",
+        "stage": "master",
+        "path": "mage",
+        "final_form": false,
+        "single_route_only": true,
+        "requirements": {
+          "required_prestige": 10
+        },
+        "next_paths": [
+          {
+            "id": "class_mage_legendary",
+            "name": "Legendary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mage_legendary",
+      "name": "Legendary Mage",
+      "sourcePath": "E:\\Games\\HytaleServer\\Server\\mods\\Airijko_EndlessLevelingCore\\classes\\mage\\mage_legendary.json",
+      "sha256": "2bd9aa0f27b240485878cf46243b2ff69b2925243a217d9b2e35f3916a8b4bf7",
+      "passives": [
+        {
+          "type": "CRIT_RESTRICTION",
+          "name": "No Critical Strikes",
+          "value": 0
+        },
+        {
+          "type": "SORCERY_MASTERY",
+          "name": "Sorcery Mastery",
+          "value": 2.0
+        },
+        {
+          "type": "MANA_REGEN",
+          "value": 0.046
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "flow",
+          "stat_type": "basestat",
+          "value": 1.725
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "sorcery",
+          "stat_type": "basestat",
+          "value": 1.35
+        }
+      ],
+      "casterAffinity": [
+        {
+          "type": "STAFF",
+          "damage": 1.291
+        },
+        {
+          "type": "SPELLBOOK",
+          "damage": 1.291
+        },
+        {
+          "type": "WAND",
+          "damage": 1.291
+        }
+      ],
+      "ascension": {
+        "id": "class_mage_legendary",
+        "stage": "legendary",
+        "path": "mage",
+        "final_form": false,
+        "single_route_only": true,
+        "requirements": {
+          "required_prestige": 15
+        },
+        "next_paths": [
+          {
+            "id": "class_mage_exalted",
+            "name": "Exalted"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mage_exalted",
+      "name": "Exalted Mage",
+      "sourcePath": "E:\\Games\\HytaleServer\\Server\\mods\\Airijko_EndlessLevelingCore\\classes\\mage\\mage_exalted.json",
+      "sha256": "d50866f68fe333937e9c0e0bf3d0b0884da8a0b6af0cb23660984875cae5807c",
+      "passives": [
+        {
+          "type": "CRIT_RESTRICTION",
+          "name": "No Critical Strikes",
+          "value": 0
+        },
+        {
+          "type": "SORCERY_MASTERY",
+          "name": "Sorcery Mastery",
+          "value": 3.0
+        },
+        {
+          "type": "MANA_REGEN",
+          "value": 0.052
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "flow",
+          "stat_type": "basestat",
+          "value": 1.95
+        },
+        {
+          "type": "INNATE_ATTRIBUTE_GAIN",
+          "attribute": "sorcery",
+          "stat_type": "basestat",
+          "value": 1.5
+        }
+      ],
+      "casterAffinity": [
+        {
+          "type": "STAFF",
+          "damage": 1.392
+        },
+        {
+          "type": "SPELLBOOK",
+          "damage": 1.392
+        },
+        {
+          "type": "WAND",
+          "damage": 1.392
+        }
+      ],
+      "ascension": {
+        "id": "class_mage_exalted",
+        "stage": "exalted",
+        "path": "mage",
+        "final_form": true,
+        "single_route_only": true,
+        "requirements": {
+          "required_prestige": 20
+        }
+      }
+    }
+  ]
+}

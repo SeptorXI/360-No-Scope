@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "status": "staged-validated",
+  "setName": "Vestments of the Crimson Brotherhood",
+  "quality": "Legendary",
+  "itemLevel": 70,
+  "maxDurability": 250,
+  "durabilityLossOnHit": 0.5,
+  "inspiration": "Original Hytale Brotherhood assassin armor matching The Diddlers: graphite leather, blackened angular metal, crimson cloth, talon engravings and ruby fittings. Comparable craft and progression grade to Vestments of the Pale Rider.",
+  "classRequirement": {
+    "primaryPath": "assassin",
+    "ascensionsQualify": true,
+    "secondaryOnlyQualifies": false,
+    "equipRestricted": true,
+    "attributesRestricted": true,
+    "eachPieceIndependent": true,
+    "attributesMustBeDistinctAcrossPieces": true
+  },
+  "affinity": "Only a primary Assassin or an ascension on that path can equip these pieces and receive their special attributes. Each piece must be in its correct armor slot and unbroken. A complete set is not required. On class changes, ineligible equipped pieces return to inventory; a persisted personal holding container preserves them if inventory is full until space becomes available.",
+  "pieces": [
+    {
+      "id": "CB_Crimson_Cowl",
+      "name": "Cowl of the Crimson Oath",
+      "slot": "Head",
+      "model": "CB_Cowl",
+      "lore": "A narrow crimson seam watches from beneath this midnight hood. Its angular mask bears the Brotherhood's first vow: speak no name before the work is done. Blackened fittings honor the cruel elegance of the Daedric Princes; the face behind them belongs only to the oath.",
+      "health": 18,
+      "mana": 0,
+      "stamina": 1,
+      "physicalResistance": 0.09,
+      "poisonResistance": 0.08,
+      "affinityAttributes": {
+        "precision": 4,
+        "ferocity": 4
+      },
+      "recipe": {
+        "Ingredient_Bar_Onyxium": 12,
+        "Ingredient_Bar_Prisma": 4,
+        "Ingredient_Bolt_Shadoweave": 12,
+        "Ingredient_Leather_Heavy": 8,
+        "Ingredient_Sac_Venom": 12
+      }
+    },
+    {
+      "id": "CB_Oathbound_Shroud",
+      "name": "Shroud of the Unseen Hand",
+      "slot": "Chest",
+      "model": "CB_Shroud",
+      "lore": "Graphite plates overlap a heart of crimson cloth, each talon-shaped seam bound by a different broken promise. A faceted blood-red stone seals the covenant at the breast. The Brotherhood calls it a shroud because its wearer has already surrendered the life that came before.",
+      "health": 36,
+      "mana": 0,
+      "stamina": 1,
+      "physicalResistance": 0.16,
+      "poisonResistance": 0.12,
+      "affinityAttributes": {
+        "life_force": 6
+      },
+      "recipe": {
+        "Ingredient_Bar_Onyxium": 24,
+        "Ingredient_Bar_Prisma": 8,
+        "Ingredient_Bolt_Shadoweave": 20,
+        "Ingredient_Leather_Heavy": 20,
+        "Ingredient_Sac_Venom": 24
+      }
+    },
+    {
+      "id": "CB_Silence_Grasp",
+      "name": "Grasp of the Last Whisper",
+      "slot": "Hands",
+      "model": "CB_Grasp",
+      "lore": "Recessed crimson channels trace these articulated gauntlets like the patient venom in the Brotherhood's twin daggers. Stitched leather closes beneath forged knuckle plates. Their fingers remember the final words of every oathbreaker; their keeper never repeats them.",
+      "health": 16,
+      "mana": 0,
+      "stamina": 1,
+      "physicalResistance": 0.07,
+      "poisonResistance": 0.04,
+      "affinityAttributes": {
+        "strength": 8
+      },
+      "recipe": {
+        "Ingredient_Bar_Onyxium": 10,
+        "Ingredient_Bar_Prisma": 2,
+        "Ingredient_Bolt_Shadoweave": 8,
+        "Ingredient_Leather_Heavy": 12,
+        "Ingredient_Sac_Venom": 12
+      }
+    },
+    {
+      "id": "CB_Nightstalker_Strides",
+      "name": "Strides of the Dread Stalker",
+      "slot": "Legs",
+      "model": "CB_Strides",
+      "lore": "Layered greaves carry the same hooked lines as the daggers sworn beside them. Dark leather, inset rubies and a divided crimson hem mark the Brotherhood's hunters. Beyond the gates of Oblivion, even the longest road is measured one condemned step at a time.",
+      "health": 26,
+      "mana": 0,
+      "stamina": 3,
+      "physicalResistance": 0.13,
+      "poisonResistance": 0.06,
+      "affinityAttributes": {
+        "haste": 8
+      },
+      "recipe": {
+        "Ingredient_Bar_Onyxium": 18,
+        "Ingredient_Bar_Prisma": 2,
+        "Ingredient_Bolt_Shadoweave": 14,
+        "Ingredient_Leather_Heavy": 16,
+        "Ingredient_Sac_Venom": 16
+      }
+    }
+  ],
+  "bench": {
+    "Id": "Endgame_Bench",
+    "Type": "Crafting",
+    "Categories": [
+      "Endgame_Misc"
+    ],
+    "RequiredTierLevel": 5
+  },
+  "craftTimeSeconds": 8,
+  "balance": {
+    "comparison": "Death armor progression grade: Legendary level70, durability250, native Health96 and the same per-piece Physical/Projectile resistance. Exchange its70Mana/3Stamina and Necromancer attributes for0Mana/6Stamina and30 Assassin attribute points. Poison replaces Void resistance.",
+    "baseHealth": 96,
+    "baseMana": 0,
+    "baseStamina": 6,
+    "attributePoints": 30,
+    "attributes": {
+      "precision": 4,
+      "ferocity": 4,
+      "life_force": 6,
+      "strength": 8,
+      "haste": 8
+    },
+    "notes": "Native class/race formulas, critical restrictions and caps remain authoritative. Precision adds native critical-chance points; Ferocity adds native critical-damage points. Strength and Haste use native percentage bonus channels; Haste affects movement speed. Life Force adds native Health attribute points. There is no hidden full-set multiplier, invisibility, guaranteed critical, extra venom stack, poison immunity or global dagger damage override."
+  },
+  "deployment": {
+    "requestedState": "staged",
+    "productionModified": false,
+    "reason": "Steven requested that updates stay staged; build and validate without stopping or restarting the server."
+  },
+  "clientPlaytestsPending": [
+    "Equipped fit and movement/combat clipping",
+    "Real-player equipment synchronization and class-switch feedback",
+    "Closed-client material/glow appearance"
+  ],
+  "validation": {
+    "artifact": "Crimson-Brotherhood-0.1.1.jar",
+    "sha256": "8ca04df226ad10e412732ee105e87bfaf81c1414d4cff49f6fb613d9fdecde68",
+    "nativeRun": "qa/runs/full-stack-011-ornate/result.json",
+    "nativeChecks": 1299,
+    "affinityChecks": 82,
+    "artChecks": 16347,
+    "staticChecks": 8768,
+    "artConservationChecks": 3220,
+    "rulesChecks": 131,
+    "installed": false,
+    "productionModified": false,
+    "networkedClientTested": false
+  },
+  "artRevision": {
+    "version": "0.1.1",
+    "boxes": 954,
+    "addedParts": 140,
+    "paintedRegions": 42,
+    "atlasSize": [
+      1024,
+      512
+    ],
+    "nodeCounts": {
+      "Cowl": 240,
+      "Shroud": 243,
+      "Grasp": 244,
+      "Strides": 244
+    },
+    "comparison": "art/previews/CB_Brotherhood_Before_After.jpg",
+    "report": "release/Art Revision.json"
+  }
+}

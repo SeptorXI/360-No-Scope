@@ -1,0 +1,14 @@
+{
+  "title": "Healing Aura Timing",
+  "version": "1.0.1",
+  "manifest_name": "Local:HealingAuraTiming",
+  "artifact": "HealingAuraTiming-1.0.1.jar",
+  "installed_sha256": "afc0c8ffe7b642fb1f78c93d9503f1414954cdebf759297fc237e5ba47c1c6fb",
+  "server_version": ">=0.7.0 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": "=14.5.6"
+  }
+}

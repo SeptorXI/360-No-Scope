@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.583333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.65
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.616666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Bellwether_ReloadClose_World"
+      }
+    }
+  ]
+}

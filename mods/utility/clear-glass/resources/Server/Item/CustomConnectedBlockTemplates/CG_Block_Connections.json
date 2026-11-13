@@ -1,0 +1,23 @@
+{
+  "ConnectsToOtherMaterials": true,
+  "DefaultShape": "Full",
+  "Shapes": {
+    "Full": {
+      "FaceTags": {
+        "West": [
+          "GlassPaneConnection"
+        ],
+        "East": [
+          "GlassPaneConnection"
+        ],
+        "South": [
+          "GlassPaneConnection"
+        ],
+        "North": [
+          "GlassPaneConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": []
+    }
+  }
+}

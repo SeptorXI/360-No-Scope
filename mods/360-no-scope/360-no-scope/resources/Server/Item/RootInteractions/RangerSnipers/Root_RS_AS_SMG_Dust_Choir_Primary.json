@@ -1,0 +1,51 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Id": "RangerSniperCycle",
+    "Cooldown": 0.21,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "DurabilityCondition",
+        "Threshold": 0,
+        "Operator": "GreaterThan",
+        "Next": {
+          "Type": "RSChamber",
+          "Operation": "Consume",
+          "WeaponId": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+          "Cost": 1,
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 0.21
+            },
+            "Next": "RS_AS_SMG_Dust_Choir_Launch"
+          },
+          "Failed": "RS_AS_SMG_Dust_Choir_Empty"
+        }
+      }
+    }
+  ]
+}

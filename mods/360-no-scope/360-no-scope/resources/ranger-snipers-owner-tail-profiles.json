@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "Profiles": [
+    {
+      "WeaponId": "Weapon_Crossbow_Wildwood_Surveyor",
+      "FlightMarker": "Root_RS_Wildwood_Surveyor_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Wildwood_Surveyor_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Wildwood_Surveyor_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Wildwood_Surveyor_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Dunewatch_Longshot",
+      "FlightMarker": "Root_RS_Dunewatch_Longshot_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Dunewatch_Longshot_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Dunewatch_Longshot_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Dunewatch_Longshot_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Frostline_Sentinel",
+      "FlightMarker": "Root_RS_Frostline_Sentinel_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Frostline_Sentinel_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Frostline_Sentinel_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Frostline_Sentinel_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "FlightMarker": "Root_RS_Mournhollow_Epitaph_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Mournhollow_Epitaph_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Mournhollow_Epitaph_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Mournhollow_Epitaph_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Deepworks_Railspike",
+      "FlightMarker": "Root_RS_Deepworks_Railspike_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Deepworks_Railspike_Fire_Tail_Owner",
+      "AbilityEventId": "RS_Audio_Deepworks_Railspike_SpecialFire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Deepworks_Railspike_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Deepworks_Railspike_Fire_World",
+      "AbilityLocalEventId": "RS_Audio_Deepworks_Railspike_BarrettSpecialFire_Local",
+      "AbilityWorldEventId": "RS_Audio_Deepworks_Railspike_BarrettSpecialFire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "FlightMarker": "Root_RS_Luminia_Dawnpiercer_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Luminia_Dawnpiercer_Fire_Tail_Owner",
+      "AbilityEventId": "RS_Audio_Luminia_Dawnpiercer_SpecialFire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Luminia_Dawnpiercer_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Luminia_Dawnpiercer_Fire_World",
+      "AbilityLocalEventId": "RS_Audio_Luminia_Dawnpiercer_BarrettSpecialFire_Local",
+      "AbilityWorldEventId": "RS_Audio_Luminia_Dawnpiercer_BarrettSpecialFire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Nameless_Covenant",
+      "FlightMarker": "Root_RS_Nameless_Covenant_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Nameless_Covenant_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Nameless_Covenant_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Nameless_Covenant_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+      "FlightMarker": "Root_RS_Labyrinth_Threadkeeper_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Labyrinth_Threadkeeper_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Labyrinth_Threadkeeper_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Labyrinth_Threadkeeper_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Skybound_Farwatch",
+      "FlightMarker": "Root_RS_Skybound_Farwatch_FlightOrigin",
+      "PrimaryEventId": "RS_Audio_Skybound_Farwatch_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "RS_Audio_Skybound_Farwatch_Fire_Local",
+      "PrimaryWorldEventId": "RS_Audio_Skybound_Farwatch_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "FlightMarker": "Root_RS_AS_Handgun_Trailwarden_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Trailwarden_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Trailwarden_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Trailwarden_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+      "FlightMarker": "Root_RS_AS_Handgun_Sandbound_Oath_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Sandbound_Oath_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Sandbound_Oath_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Sandbound_Oath_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "FlightMarker": "Root_RS_AS_Handgun_Pale_Marshal_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Pale_Marshal_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Pale_Marshal_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Pale_Marshal_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "FlightMarker": "Root_RS_AS_Handgun_Last_Confession_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Last_Confession_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Last_Confession_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Last_Confession_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+      "FlightMarker": "Root_RS_AS_Handgun_Gutter_Saint_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Handgun_Gutter_Saint_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "FlightMarker": "Root_RS_AS_Handgun_Vesper_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Vesper_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Handgun_Vesper_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Vesper_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Vesper_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Handgun_Vesper_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Handgun_Vesper_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "FlightMarker": "Root_RS_AS_Handgun_Absolver_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Absolver_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Absolver_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Absolver_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+      "FlightMarker": "Root_RS_AS_Handgun_Quiet_Equation_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Quiet_Equation_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Quiet_Equation_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Quiet_Equation_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "FlightMarker": "Root_RS_AS_Handgun_Windward_Promise_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Windward_Promise_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Windward_Promise_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Windward_Promise_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Brushfire",
+      "FlightMarker": "Root_RS_AS_SMG_Brushfire_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Brushfire_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Brushfire_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Brushfire_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+      "FlightMarker": "Root_RS_AS_SMG_Dust_Choir_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Dust_Choir_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Dust_Choir_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Dust_Choir_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "FlightMarker": "Root_RS_AS_SMG_Sleetweaver_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Sleetweaver_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Sleetweaver_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Sleetweaver_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+      "FlightMarker": "Root_RS_AS_SMG_Funeral_Procession_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Funeral_Procession_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Funeral_Procession_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Funeral_Procession_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Grindhymn",
+      "FlightMarker": "Root_RS_AS_SMG_Grindhymn_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_SMG_Grindhymn_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Starling",
+      "FlightMarker": "Root_RS_AS_SMG_Starling_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Starling_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_SMG_Starling_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Starling_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Starling_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_SMG_Starling_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_SMG_Starling_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "FlightMarker": "Root_RS_AS_SMG_Many_Whispers_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Many_Whispers_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Many_Whispers_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Many_Whispers_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Threadstorm",
+      "FlightMarker": "Root_RS_AS_SMG_Threadstorm_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Threadstorm_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Threadstorm_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Threadstorm_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Kestrel",
+      "FlightMarker": "Root_RS_AS_SMG_Kestrel_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SMG_Kestrel_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SMG_Kestrel_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SMG_Kestrel_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Waymark",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Waymark_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Waymark_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Waymark_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Waymark_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Dune_Canticle_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Dune_Canticle_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Dune_Canticle_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Dune_Canticle_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "FlightMarker": "Root_RS_AS_SemiAuto_White_Vigil_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_White_Vigil_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_White_Vigil_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_White_Vigil_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Tollkeeper_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Tollkeeper_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Tollkeeper_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Tollkeeper_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Iron_Testament_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_SemiAuto_Iron_Testament_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Auroras_Witness_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_SemiAuto_Auroras_Witness_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Last_Deposition_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Last_Deposition_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Last_Deposition_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Last_Deposition_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Proofkeeper_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Proofkeeper_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Proofkeeper_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Proofkeeper_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "FlightMarker": "Root_RS_AS_SemiAuto_Highroad_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_SemiAuto_Highroad_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_SemiAuto_Highroad_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_SemiAuto_Highroad_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Briar_March",
+      "FlightMarker": "Root_RS_AS_Automatic_Briar_March_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Briar_March_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Briar_March_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Briar_March_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Scorchwind",
+      "FlightMarker": "Root_RS_AS_Automatic_Scorchwind_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Scorchwind_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Scorchwind_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Scorchwind_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "FlightMarker": "Root_RS_AS_Automatic_Winter_Standard_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Winter_Standard_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Winter_Standard_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Winter_Standard_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "FlightMarker": "Root_RS_AS_Automatic_Dirge_Engine_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Dirge_Engine_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Dirge_Engine_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Dirge_Engine_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "FlightMarker": "Root_RS_AS_Automatic_Crown_Of_Rivets_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Automatic_Crown_Of_Rivets_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+      "FlightMarker": "Root_RS_AS_Automatic_Helios_Refrain_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Automatic_Helios_Refrain_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "FlightMarker": "Root_RS_AS_Automatic_Hollow_Regiment_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Hollow_Regiment_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Hollow_Regiment_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Hollow_Regiment_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "FlightMarker": "Root_RS_AS_Automatic_Patternbreaker_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Patternbreaker_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Patternbreaker_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Patternbreaker_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "FlightMarker": "Root_RS_AS_Automatic_Gale_Banner_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Gale_Banner_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Gale_Banner_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Gale_Banner_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+      "FlightMarker": "Root_RS_AS_Shotgun_Hollowbark_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Hollowbark_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Hollowbark_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Hollowbark_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+      "FlightMarker": "Root_RS_AS_Shotgun_Sandbreaker_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Sandbreaker_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Sandbreaker_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Sandbreaker_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "FlightMarker": "Root_RS_AS_Shotgun_Hearthguard_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Hearthguard_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Hearthguard_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Hearthguard_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "FlightMarker": "Root_RS_AS_Shotgun_Bellwether_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Bellwether_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Bellwether_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Bellwether_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "FlightMarker": "Root_RS_AS_Shotgun_Gatecrasher_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Shotgun_Gatecrasher_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Solstice",
+      "FlightMarker": "Root_RS_AS_Shotgun_Solstice_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Shotgun_Solstice_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "FlightMarker": "Root_RS_AS_Shotgun_Grave_Tithe_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Grave_Tithe_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Grave_Tithe_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Grave_Tithe_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+      "FlightMarker": "Root_RS_AS_Shotgun_Doorwarden_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Doorwarden_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Doorwarden_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Doorwarden_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "FlightMarker": "Root_RS_AS_Shotgun_Cloudburst_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Shotgun_Cloudburst_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Shotgun_Cloudburst_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Shotgun_Cloudburst_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "FlightMarker": "Root_RS_AS_Handgun_Twinwardens_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Twinwardens_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Twinwardens_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Twinwardens_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "FlightMarker": "Root_RS_AS_Handgun_Last_Rites_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Last_Rites_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Last_Rites_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Last_Rites_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "FlightMarker": "Root_RS_AS_Handgun_Vesper_And_Vigil_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "FlightMarker": "Root_RS_AS_Automatic_Goliath_50_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Automatic_Goliath_50_Fire_World"
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "FlightMarker": "Root_RS_AS_Automatic_Rampart_SAW_FlightOrigin",
+      "PrimaryEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Tail_Owner",
+      "AbilityEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Tail_Owner",
+      "PrimaryLocalEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Local",
+      "PrimaryWorldEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_World",
+      "AbilityLocalEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Local",
+      "AbilityWorldEventId": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_World",
+      "BurstLocalEventId": "AS_Audio_AS_Automatic_Rampart_SAW_BurstFire_Local",
+      "BurstWorldEventId": "AS_Audio_AS_Automatic_Rampart_SAW_BurstFire_World"
+    }
+  ],
+  "Scope": "Optional owner-only positional tail; native Local dry and World report routes remain responsible for the initial shot."
+}

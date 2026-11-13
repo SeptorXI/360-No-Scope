@@ -1,0 +1,116 @@
+{
+  "Parent": "Armor_Iron_Legs",
+  "TranslationProperties": {
+    "Name": "server.items.CB_Nightstalker_Strides.name",
+    "Description": "server.items.CB_Nightstalker_Strides.description"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/Crimson_Brotherhood/CB_Strides.blockymodel",
+  "Texture": "Items/Armors/Crimson_Brotherhood/CB_Brotherhood_Texture.png",
+  "Icon": "Icons/ItemsGenerated/CB_Nightstalker_Strides.png",
+  "IconProperties": {
+    "Scale": 0.261713,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -2.008036,
+      -11.691338
+    ]
+  },
+  "MaxStack": 1,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 26,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "Amount": 3,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.13,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.13,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Poison": [
+        {
+          "Amount": 0.06,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {},
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes",
+      "Overpants"
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Crimson_Brotherhood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Sac_Venom",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  }
+}

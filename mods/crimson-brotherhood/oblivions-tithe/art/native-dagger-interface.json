@@ -1,0 +1,64 @@
+{
+  "source": "Common/Items/Weapons/Dagger/Thorium.blockymodel",
+  "sourceSHA256": "a62d72ea5298da911f093c1320301f56c8b77b451c315fa3f803801d04ea9d6a",
+  "interfaceOnly": true,
+  "chain": [
+    {
+      "name": "R-Attachment",
+      "position": {
+        "x": 0,
+        "y": 12,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "name": "Origin_Projectile",
+      "position": {
+        "x": 0,
+        "y": 36,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "name": "Origin_Item",
+      "position": {
+        "x": 0,
+        "y": -20,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "name": "Handle",
+      "position": {
+        "x": 0,
+        "y": -16,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.5,
+        "y": -0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    }
+  ],
+  "note": "Root/Origin/Handle transform interface only. No native geometry/textures included."
+}

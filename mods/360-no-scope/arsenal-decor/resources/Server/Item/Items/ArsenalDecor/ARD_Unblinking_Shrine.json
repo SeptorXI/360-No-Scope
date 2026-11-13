@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Unblinking_Shrine.name",
+    "Description": "server.items.ARD_Unblinking_Shrine.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Unblinking_Shrine.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Unblinking_Shrine.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Unblinking_Shrine",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Unblinking_Shrine",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.480358,
+    "Translation": [
+      -0.116748,
+      -20.786896
+    ],
+    "Rotation": [
+      -18.26289,
+      194.380829,
+      0.0
+    ]
+  }
+}

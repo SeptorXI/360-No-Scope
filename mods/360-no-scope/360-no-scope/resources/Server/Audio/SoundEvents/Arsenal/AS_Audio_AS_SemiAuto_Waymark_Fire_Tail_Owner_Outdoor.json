@@ -1,0 +1,22 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -6.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 14,
+  "MaxDistance": 192,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_SemiAuto_Waymark/OutdoorFireTail_01.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_Waymark/OutdoorFireTail_02.ogg",
+        "Sounds/Arsenal/AS_SemiAuto_Waymark/OutdoorFireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.128,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

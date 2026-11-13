@@ -1,0 +1,117 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 2.72,
+    "Max": 2.72
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.36,
+            "Max": 0.36
+          }
+        },
+        "Opacity": 0,
+        "Color": "#a32316"
+      },
+      "17": {
+        "Scale": {
+          "X": {
+            "Min": 0.57,
+            "Max": 0.57
+          }
+        },
+        "Opacity": 0.46,
+        "Color": "#f44619"
+      },
+      "47": {
+        "Scale": {
+          "X": {
+            "Min": 0.67,
+            "Max": 0.67
+          }
+        },
+        "Opacity": 0.63,
+        "Color": "#ff6f20"
+      },
+      "72": {
+        "Scale": {
+          "X": {
+            "Min": 0.76,
+            "Max": 0.76
+          }
+        },
+        "Opacity": 0.73,
+        "Color": "#ff962a"
+      },
+      "89": {
+        "Scale": {
+          "X": {
+            "Min": 1.1,
+            "Max": 1.1
+          }
+        },
+        "Opacity": 0.86,
+        "Color": "#ffb95b"
+      },
+      "96": {
+        "Scale": {
+          "X": {
+            "Min": 1.39,
+            "Max": 1.39
+          }
+        },
+        "Opacity": 0.96,
+        "Color": "#ffe0a0"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 0.95,
+            "Max": 0.95
+          }
+        },
+        "Opacity": 0,
+        "Color": "#fff0c4"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.53,
+          "Max": 0.53
+        }
+      },
+      "Opacity": 1,
+      "Rotation": {
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

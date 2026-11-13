@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LD_Well_of_Souls.name",
+    "Description": "server.items.LD_Well_of_Souls.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/LD_Well_of_Souls.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "LoreDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 6
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/LoreDecor/LD_Well_of_Souls.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "LD_Well_of_Souls",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "LD_Well_of_Souls",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.690188,
+    "Translation": [
+      -0.212831,
+      -8.223485
+    ],
+    "Rotation": [
+      -22.782406,
+      195.950702,
+      0.0
+    ]
+  }
+}

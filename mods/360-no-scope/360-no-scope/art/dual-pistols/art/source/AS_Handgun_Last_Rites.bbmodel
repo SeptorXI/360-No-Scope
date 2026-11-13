@@ -1,0 +1,4348 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Mournhollow Last Rites editable paired pistol",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "elements": [
+    {
+      "name": "Pistol_Frame_Geo",
+      "uuid": "fb2a9923-ed29-54cf-9ab1-922ceb44035e",
+      "type": "cube",
+      "origin": [
+        -2.0,
+        -1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            28,
+            8
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            30,
+            1,
+            57,
+            8
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            59,
+            1,
+            66,
+            8
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            68,
+            1,
+            75,
+            8
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            77,
+            1,
+            104,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            106,
+            1,
+            133,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -15.5,
+        -5.457449058940027,
+        -2.4609375
+      ],
+      "to": [
+        11.5,
+        1.4883951978927343,
+        2.4609375
+      ]
+    },
+    {
+      "name": "Slide_Geo",
+      "uuid": "2761424a-5348-5557-a700-43cdde17df25",
+      "type": "cube",
+      "origin": [
+        -6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            135,
+            1,
+            164,
+            7
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            166,
+            1,
+            195,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            197,
+            1,
+            204,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            206,
+            1,
+            213,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            215,
+            1,
+            244,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            246,
+            1,
+            275,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -20.5,
+        0.0,
+        -2.4609375
+      ],
+      "to": [
+        8.5,
+        5.953580791570937,
+        2.4609375
+      ]
+    },
+    {
+      "name": "Slide_Rear_Geo",
+      "uuid": "d596ac1b-b1fe-5fa9-8071-82bf86f768cf",
+      "type": "cube",
+      "origin": [
+        6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            277,
+            1,
+            282,
+            8
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            284,
+            1,
+            289,
+            8
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            291,
+            1,
+            299,
+            8
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            301,
+            1,
+            309,
+            8
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            311,
+            1,
+            316,
+            9
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            318,
+            1,
+            323,
+            9
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        -0.4961317326309116,
+        -2.8125
+      ],
+      "to": [
+        8.5,
+        6.449712524201849,
+        2.8125
+      ]
+    },
+    {
+      "name": "Barrel_Geo",
+      "uuid": "390559e7-ecb1-5a76-86c9-529c6e68650d",
+      "type": "cube",
+      "origin": [
+        -16.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            325,
+            1,
+            341,
+            4
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            343,
+            1,
+            359,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            361,
+            1,
+            364,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            366,
+            1,
+            369,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            371,
+            1,
+            387,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            389,
+            1,
+            405,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -24.0,
+        0.4961317326309116,
+        -1.0546875
+      ],
+      "to": [
+        -8.0,
+        3.4729221284163803,
+        1.0546875
+      ]
+    },
+    {
+      "name": "Slide_Serration_1_L_Geo",
+      "uuid": "6e7cd2b0-3f44-5172-8581-b97d14b60424",
+      "type": "cube",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        -2.53125
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.5,
+        0.9922634652618227,
+        -2.8828125
+      ],
+      "to": [
+        1.5,
+        4.961317326309114,
+        -2.1796875
+      ]
+    },
+    {
+      "name": "Slide_Serration_1_R_Geo",
+      "uuid": "3c1fe37b-7d37-5c47-8968-6361e4ed418e",
+      "type": "cube",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        2.53125
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.5,
+        0.9922634652618227,
+        2.1796875
+      ],
+      "to": [
+        1.5,
+        4.961317326309114,
+        2.8828125
+      ]
+    },
+    {
+      "name": "Slide_Serration_4_L_Geo",
+      "uuid": "85c1e933-b274-5212-a608-a92c896aae48",
+      "type": "cube",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        -2.53125
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        0.9922634652618227,
+        -2.8828125
+      ],
+      "to": [
+        4.5,
+        4.961317326309114,
+        -2.1796875
+      ]
+    },
+    {
+      "name": "Slide_Serration_4_R_Geo",
+      "uuid": "5990910b-1d3c-502c-a8a3-eef39d2c5e66",
+      "type": "cube",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        2.53125
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            507,
+            1,
+            508,
+            5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            510,
+            1,
+            511,
+            5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            16,
+            2,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            16,
+            5,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            16,
+            8,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            11,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        3.5,
+        0.9922634652618227,
+        2.1796875
+      ],
+      "to": [
+        4.5,
+        4.961317326309114,
+        2.8828125
+      ]
+    },
+    {
+      "name": "Front_Sight_Geo",
+      "uuid": "96e2f010-951d-560b-bf23-f6c624c4b900",
+      "type": "cube",
+      "origin": [
+        -18.0,
+        6.9458442568327605,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            13,
+            16,
+            15,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            21,
+            16,
+            23,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            16,
+            27,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            29,
+            16,
+            31,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            16,
+            35,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -19.0,
+        5.953580791570937,
+        -0.703125
+      ],
+      "to": [
+        -17.0,
+        7.938107722094584,
+        0.703125
+      ]
+    },
+    {
+      "name": "Rear_Sight_Geo",
+      "uuid": "4204c153-a744-5dc2-a35a-6b9c126cfea1",
+      "type": "cube",
+      "origin": [
+        7.0,
+        7.938107722094584,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            37,
+            16,
+            40,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            42,
+            16,
+            45,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            47,
+            16,
+            52,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            54,
+            16,
+            59,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            61,
+            16,
+            64,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            66,
+            16,
+            69,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        5.5,
+        6.9458442568327605,
+        -1.7578125
+      ],
+      "to": [
+        8.5,
+        8.930371187356407,
+        1.7578125
+      ]
+    },
+    {
+      "name": "Trigger_Guard_Front_Geo",
+      "uuid": "8d3cf700-51a6-5a02-bbd1-52991acddc70",
+      "type": "cube",
+      "origin": [
+        0.0,
+        -8.930371187356407,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            71,
+            16,
+            73,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            75,
+            16,
+            77,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            79,
+            16,
+            83,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            85,
+            16,
+            89,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            91,
+            16,
+            93,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            95,
+            16,
+            97,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -1.0,
+        -12.8994250484037,
+        -1.40625
+      ],
+      "to": [
+        1.0,
+        -4.961317326309115,
+        1.40625
+      ]
+    },
+    {
+      "name": "Trigger_Guard_Bow_Geo",
+      "uuid": "f901c04d-2f10-540c-b598-a16bedccd388",
+      "type": "cube",
+      "origin": [
+        5.0,
+        -12.899425048403698,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            99,
+            16,
+            109,
+            18
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            111,
+            16,
+            121,
+            18
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            123,
+            16,
+            127,
+            18
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            129,
+            16,
+            133,
+            18
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            135,
+            16,
+            145,
+            20
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            147,
+            16,
+            157,
+            20
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        0.0,
+        -13.891688513665521,
+        -1.40625
+      ],
+      "to": [
+        10.0,
+        -11.907161583141875,
+        1.40625
+      ]
+    },
+    {
+      "name": "Trigger_Geo",
+      "uuid": "17e69f9a-c316-5070-8148-4a93146bb614",
+      "type": "cube",
+      "origin": [
+        5.0,
+        -6.9458442568327605,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            159,
+            16,
+            160,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            162,
+            16,
+            163,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            165,
+            16,
+            167,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            169,
+            16,
+            171,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            173,
+            16,
+            174,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            176,
+            16,
+            177,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        4.5,
+        -8.930371187356407,
+        -0.703125
+      ],
+      "to": [
+        5.5,
+        -4.961317326309114,
+        0.703125
+      ]
+    },
+    {
+      "name": "Muzzle_Housing_Geo",
+      "uuid": "3f4e0341-d6bf-5fff-83dc-98cf134135c0",
+      "type": "cube",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            179,
+            16,
+            182,
+            21
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            184,
+            16,
+            187,
+            21
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            189,
+            16,
+            196,
+            21
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            198,
+            16,
+            205,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            207,
+            16,
+            210,
+            23
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            212,
+            16,
+            215,
+            23
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -23.5,
+        -0.4961317326309116,
+        -2.4609375
+      ],
+      "to": [
+        -20.5,
+        4.4651855936782034,
+        2.4609375
+      ]
+    },
+    {
+      "name": "Muzzle_Housing_Crown_Geo",
+      "uuid": "783af526-3d4a-5f74-8036-ace581863205",
+      "type": "cube",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            217,
+            16,
+            220,
+            23
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            222,
+            16,
+            225,
+            23
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            227,
+            16,
+            232,
+            23
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            234,
+            16,
+            239,
+            23
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            241,
+            16,
+            244,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            246,
+            16,
+            249,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -23.5,
+        -1.4883951978927343,
+        -1.7578125
+      ],
+      "to": [
+        -20.5,
+        5.457449058940027,
+        1.7578125
+      ]
+    },
+    {
+      "name": "Muzzle_Bore_Geo",
+      "uuid": "66e21b40-632e-5953-aae1-cc934e1f6a5c",
+      "type": "cube",
+      "origin": [
+        -23.53,
+        1.984526930523646,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            251,
+            16,
+            252,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            254,
+            16,
+            255,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            257,
+            16,
+            260,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            262,
+            16,
+            265,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            267,
+            16,
+            268,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            270,
+            16,
+            271,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -24.03,
+        0.4961317326309116,
+        -1.0546875
+      ],
+      "to": [
+        -23.03,
+        3.4729221284163803,
+        1.0546875
+      ]
+    },
+    {
+      "name": "Reliquary_Core_L_Geo",
+      "uuid": "78654b46-eceb-543c-aedf-9ccae762caa1",
+      "type": "cube",
+      "origin": [
+        -6.0,
+        0.992263465261823,
+        -3.65625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            273,
+            16,
+            283,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            285,
+            16,
+            295,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            297,
+            16,
+            298,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            300,
+            16,
+            301,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            303,
+            16,
+            313,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            315,
+            16,
+            325,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -11.0,
+        -0.992263465261823,
+        -4.0078125
+      ],
+      "to": [
+        -1.0,
+        2.9767903957854687,
+        -3.3046875
+      ]
+    },
+    {
+      "name": "Reliquary_Core_R_Geo",
+      "uuid": "28c5606b-c7a5-5a5a-b726-f6bf880e7d8c",
+      "type": "cube",
+      "origin": [
+        -6.0,
+        0.992263465261823,
+        3.65625
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            273,
+            16,
+            283,
+            20
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            285,
+            16,
+            295,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            297,
+            16,
+            298,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            300,
+            16,
+            301,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            303,
+            16,
+            313,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            315,
+            16,
+            325,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -11.0,
+        -0.992263465261823,
+        3.3046875
+      ],
+      "to": [
+        -1.0,
+        2.9767903957854687,
+        4.0078125
+      ]
+    },
+    {
+      "name": "Reliquary_Rib_0_Geo",
+      "uuid": "40c204f6-8853-5d5a-bbf3-7fa7c11744be",
+      "type": "cube",
+      "origin": [
+        -12.0,
+        0.992263465261823,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            327,
+            16,
+            329,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            331,
+            16,
+            333,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            335,
+            16,
+            347,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            349,
+            16,
+            361,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            363,
+            16,
+            365,
+            28
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            367,
+            16,
+            369,
+            28
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -13.0,
+        -4.961317326309114,
+        -4.21875
+      ],
+      "to": [
+        -11.0,
+        6.9458442568327605,
+        4.21875
+      ]
+    },
+    {
+      "name": "Reliquary_Rib_1_Geo",
+      "uuid": "b1f84b39-8a8b-5d14-a651-38df1e34bfac",
+      "type": "cube",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            327,
+            16,
+            329,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            331,
+            16,
+            333,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            335,
+            16,
+            347,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            349,
+            16,
+            361,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            363,
+            16,
+            365,
+            28
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            367,
+            16,
+            369,
+            28
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -6.0,
+        -4.961317326309114,
+        -4.21875
+      ],
+      "to": [
+        -4.0,
+        6.9458442568327605,
+        4.21875
+      ]
+    },
+    {
+      "name": "Reliquary_Rib_2_Geo",
+      "uuid": "e8be1ef0-ea84-5572-b856-45319005f12a",
+      "type": "cube",
+      "origin": [
+        2.0,
+        0.992263465261823,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            327,
+            16,
+            329,
+            28
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            331,
+            16,
+            333,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            335,
+            16,
+            347,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            349,
+            16,
+            361,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            363,
+            16,
+            365,
+            28
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            367,
+            16,
+            369,
+            28
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        1.0,
+        -4.961317326309114,
+        -4.21875
+      ],
+      "to": [
+        3.0,
+        6.9458442568327605,
+        4.21875
+      ]
+    },
+    {
+      "name": "Bone_Sigil_L_Geo",
+      "uuid": "412b999c-54aa-53c6-839e-e084c2959f5b",
+      "type": "cube",
+      "origin": [
+        4.0,
+        0.992263465261823,
+        -4.1484375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            371,
+            16,
+            376,
+            22
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            378,
+            16,
+            383,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            385,
+            16,
+            386,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            388,
+            16,
+            389,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            391,
+            16,
+            396,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            398,
+            16,
+            403,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        1.5,
+        -1.9845269305236457,
+        -4.5
+      ],
+      "to": [
+        6.5,
+        3.969053861047292,
+        -3.796875
+      ]
+    },
+    {
+      "name": "Bone_Sigil_R_Geo",
+      "uuid": "5d0c1eec-2600-5375-b3d2-9fb891ac826c",
+      "type": "cube",
+      "origin": [
+        4.0,
+        0.992263465261823,
+        4.1484375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            371,
+            16,
+            376,
+            22
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            378,
+            16,
+            383,
+            22
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            385,
+            16,
+            386,
+            22
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            388,
+            16,
+            389,
+            22
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            391,
+            16,
+            396,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            398,
+            16,
+            403,
+            17
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        1.5,
+        -1.9845269305236457,
+        3.796875
+      ],
+      "to": [
+        6.5,
+        3.969053861047292,
+        4.5
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_0_L_Geo",
+      "uuid": "b53abb19-2580-5791-afc1-c90833c5cd63",
+      "type": "cube",
+      "origin": [
+        -16.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -17.5,
+        1.9845269305236455,
+        -4.078125
+      ],
+      "to": [
+        -14.5,
+        9.922634652618228,
+        -2.671875
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_0_R_Geo",
+      "uuid": "8d9fe795-af78-5dbf-a0de-4f735800319e",
+      "type": "cube",
+      "origin": [
+        -16.0,
+        5.953580791570937,
+        3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -17.5,
+        1.9845269305236455,
+        2.671875
+      ],
+      "to": [
+        -14.5,
+        9.922634652618228,
+        4.078125
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_1_L_Geo",
+      "uuid": "a21972c7-8ac4-55e4-b8fa-271ae100a48a",
+      "type": "cube",
+      "origin": [
+        -8.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -9.5,
+        1.9845269305236455,
+        -4.078125
+      ],
+      "to": [
+        -6.5,
+        9.922634652618228,
+        -2.671875
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_1_R_Geo",
+      "uuid": "85aa06cc-6c13-58f6-90fc-ab5a1c1d1a2a",
+      "type": "cube",
+      "origin": [
+        -8.0,
+        5.953580791570937,
+        3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -9.5,
+        1.9845269305236455,
+        2.671875
+      ],
+      "to": [
+        -6.5,
+        9.922634652618228,
+        4.078125
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_2_L_Geo",
+      "uuid": "1701735b-b3cf-557f-b0a6-812edcb3c860",
+      "type": "cube",
+      "origin": [
+        0.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        1.9845269305236455,
+        -4.078125
+      ],
+      "to": [
+        1.5,
+        9.922634652618228,
+        -2.671875
+      ]
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_2_R_Geo",
+      "uuid": "d27c68e8-5a2c-55d7-8d72-de6d945bcb67",
+      "type": "cube",
+      "origin": [
+        0.0,
+        5.953580791570937,
+        3.375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            405,
+            16,
+            408,
+            24
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            410,
+            16,
+            413,
+            24
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            415,
+            16,
+            417,
+            24
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            419,
+            16,
+            421,
+            24
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            423,
+            16,
+            426,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            428,
+            16,
+            431,
+            18
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -1.5,
+        1.9845269305236455,
+        2.671875
+      ],
+      "to": [
+        1.5,
+        9.922634652618228,
+        4.078125
+      ]
+    },
+    {
+      "name": "Last_Rites_Altar_Brace_Geo",
+      "uuid": "1387ab0f-1ac9-54df-9db6-3cf0f4c49507",
+      "type": "cube",
+      "origin": [
+        -7.0,
+        -2.9767903957854687,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            433,
+            16,
+            456,
+            19
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            458,
+            16,
+            481,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            483,
+            16,
+            492,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            494,
+            16,
+            503,
+            19
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            30,
+            24,
+            39
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            26,
+            30,
+            49,
+            39
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -18.5,
+        -4.4651855936782034,
+        -3.1640625
+      ],
+      "to": [
+        4.5,
+        -1.4883951978927343,
+        3.1640625
+      ]
+    },
+    {
+      "name": "Last_Rites_Copper_Seal_L_Geo",
+      "uuid": "6c20237f-e4da-528f-a1a6-109793fca1a5",
+      "type": "cube",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        -4.1484375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            51,
+            30,
+            55,
+            34
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            57,
+            30,
+            61,
+            34
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            63,
+            30,
+            64,
+            34
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            66,
+            30,
+            67,
+            34
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            69,
+            30,
+            73,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            75,
+            30,
+            79,
+            31
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -7.0,
+        -0.992263465261823,
+        -4.5
+      ],
+      "to": [
+        -3.0,
+        2.9767903957854687,
+        -3.796875
+      ]
+    },
+    {
+      "name": "Last_Rites_Copper_Seal_R_Geo",
+      "uuid": "423a3090-b9b0-5133-8153-6f815141c340",
+      "type": "cube",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        4.1484375
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            51,
+            30,
+            55,
+            34
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            57,
+            30,
+            61,
+            34
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            63,
+            30,
+            64,
+            34
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            66,
+            30,
+            67,
+            34
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            69,
+            30,
+            73,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            75,
+            30,
+            79,
+            31
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        -7.0,
+        -0.992263465261823,
+        3.796875
+      ],
+      "to": [
+        -3.0,
+        2.9767903957854687,
+        4.5
+      ]
+    },
+    {
+      "name": "Magazine_Geo",
+      "uuid": "c15dd127-25a6-5a2b-8548-f865406f05b7",
+      "type": "cube",
+      "origin": [
+        10.0,
+        -14.883951978927344,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            407,
+            1,
+            412,
+            14
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            414,
+            1,
+            419,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            421,
+            1,
+            426,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            428,
+            1,
+            433,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            435,
+            1,
+            440,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            442,
+            1,
+            447,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        7.5,
+        -21.333664503129192,
+        -1.7578125
+      ],
+      "to": [
+        12.5,
+        -8.434239454725496,
+        1.7578125
+      ]
+    },
+    {
+      "name": "Magazine_Floor_Geo",
+      "uuid": "6c9d2efa-334e-54fd-a596-bf4cd4a0e748",
+      "type": "cube",
+      "origin": [
+        12.0,
+        -21.829796235760107,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            449,
+            1,
+            457,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            459,
+            1,
+            467,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            469,
+            1,
+            476,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            478,
+            1,
+            485,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            487,
+            1,
+            495,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            497,
+            1,
+            505,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        8.0,
+        -22.822059701021928,
+        -2.4609375
+      ],
+      "to": [
+        16.0,
+        -20.837532770498285,
+        2.4609375
+      ]
+    },
+    {
+      "name": "DP_Spare_Geometry_Magazine_Geo",
+      "uuid": "391f7923-1865-511d-a70c-4d74f8cf6077",
+      "type": "cube",
+      "origin": [
+        10.0,
+        -14.883951978927344,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            407,
+            1,
+            412,
+            14
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            414,
+            1,
+            419,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            421,
+            1,
+            426,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            428,
+            1,
+            433,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            435,
+            1,
+            440,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            442,
+            1,
+            447,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        7.5,
+        -21.333664503129192,
+        -1.7578125
+      ],
+      "to": [
+        12.5,
+        -8.434239454725496,
+        1.7578125
+      ]
+    },
+    {
+      "name": "DP_Spare_Geometry_Magazine_Floor_Geo",
+      "uuid": "437f40c8-f63a-5af1-b792-3aca91115ad8",
+      "type": "cube",
+      "origin": [
+        12.0,
+        -21.829796235760107,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            449,
+            1,
+            457,
+            3
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            459,
+            1,
+            467,
+            3
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            469,
+            1,
+            476,
+            3
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            478,
+            1,
+            485,
+            3
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            487,
+            1,
+            495,
+            8
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            497,
+            1,
+            505,
+            8
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": false,
+      "autouv": 0,
+      "from": [
+        8.0,
+        -22.822059701021928,
+        -2.4609375
+      ],
+      "to": [
+        16.0,
+        -20.837532770498285,
+        2.4609375
+      ]
+    },
+    {
+      "name": "Handle_Geo",
+      "uuid": "81d7818f-ce14-553d-b9b9-e1cf1243104f",
+      "type": "cube",
+      "origin": [
+        6.239279295614413,
+        -8.370865777882079,
+        0.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            81,
+            30,
+            85,
+            44
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            87,
+            30,
+            91,
+            44
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            93,
+            30,
+            99,
+            44
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            101,
+            30,
+            107,
+            44
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            109,
+            30,
+            113,
+            36
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            115,
+            30,
+            119,
+            36
+          ],
+          "texture": 0
+        }
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "shading_mode": "flat",
+      "double_sided": false,
+      "visibility": true,
+      "autouv": 0,
+      "from": [
+        4.239279295614413,
+        -17.07086577788208,
+        -2.925
+      ],
+      "to": [
+        8.239279295614413,
+        -1.670865777882078,
+        2.925
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Pistol_Frame",
+      "uuid": "03fc1218-0c1d-5a89-a26b-008e5b943d53",
+      "origin": [
+        -2.0,
+        -1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "fb2a9923-ed29-54cf-9ab1-922ceb44035e"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide",
+      "uuid": "ac9f3fc7-25da-52bf-8778-d0f917616338",
+      "origin": [
+        -6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "2761424a-5348-5557-a700-43cdde17df25"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Rear",
+      "uuid": "1472ee76-39ae-535f-baa6-c08eeb29ac34",
+      "origin": [
+        6.0,
+        2.9767903957854687,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "d596ac1b-b1fe-5fa9-8071-82bf86f768cf"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Barrel",
+      "uuid": "62302dac-2835-54af-90bb-77b93ca6e21a",
+      "origin": [
+        -16.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "390559e7-ecb1-5a76-86c9-529c6e68650d"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_1_L",
+      "uuid": "ea79842d-6990-553a-bd1b-845313e133f2",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        -2.53125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "6e7cd2b0-3f44-5172-8581-b97d14b60424"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_1_R",
+      "uuid": "1fa1b21f-a77e-5b0e-9e74-2a67687cb2d2",
+      "origin": [
+        1.0,
+        2.9767903957854687,
+        2.53125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3c1fe37b-7d37-5c47-8968-6361e4ed418e"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_4_L",
+      "uuid": "7f803043-6274-5340-9662-6f8fca1eb81e",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        -2.53125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "85c1e933-b274-5212-a608-a92c896aae48"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Slide_Serration_4_R",
+      "uuid": "231a4c48-a090-5f87-9451-4025a1d8180b",
+      "origin": [
+        4.0,
+        2.9767903957854687,
+        2.53125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "5990910b-1d3c-502c-a8a3-eef39d2c5e66"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Front_Sight",
+      "uuid": "f3091259-9643-5e29-a7f0-d022e112017f",
+      "origin": [
+        -18.0,
+        6.9458442568327605,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "96e2f010-951d-560b-bf23-f6c624c4b900"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Rear_Sight",
+      "uuid": "700fbb92-09cc-5068-88b9-97a9b4760478",
+      "origin": [
+        7.0,
+        7.938107722094584,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "4204c153-a744-5dc2-a35a-6b9c126cfea1"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger_Guard_Front",
+      "uuid": "c21be57a-f464-5ccc-a574-fa495e943c79",
+      "origin": [
+        0.0,
+        -8.930371187356407,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "8d3cf700-51a6-5a02-bbd1-52991acddc70"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger_Guard_Bow",
+      "uuid": "80eb948e-e868-5876-be73-d543262c9523",
+      "origin": [
+        5.0,
+        -12.899425048403698,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "f901c04d-2f10-540c-b598-a16bedccd388"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Trigger",
+      "uuid": "a00e5601-b315-5f48-9ad0-2c341f45fbe3",
+      "origin": [
+        5.0,
+        -6.9458442568327605,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        11.999999673734875
+      ],
+      "children": [
+        "17e69f9a-c316-5070-8148-4a93146bb614"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Housing",
+      "uuid": "c72b10bb-c53f-549a-8528-ec92c68728f9",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "3f4e0341-d6bf-5fff-83dc-98cf134135c0"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Housing_Crown",
+      "uuid": "2e07832f-a284-5ed0-b177-1e9057952416",
+      "origin": [
+        -22.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "783af526-3d4a-5f74-8036-ace581863205"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle_Bore",
+      "uuid": "7d9ced65-59fb-5f8e-858f-fa007a9c6471",
+      "origin": [
+        -23.53,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "66e21b40-632e-5953-aae1-cc934e1f6a5c"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Reliquary_Core_L",
+      "uuid": "37f363d9-aa1d-53f5-b726-5b1aa57f131a",
+      "origin": [
+        -6.0,
+        0.992263465261823,
+        -3.65625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "78654b46-eceb-543c-aedf-9ccae762caa1"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Reliquary_Core_R",
+      "uuid": "08bb06e1-1511-50c8-9017-1e65e1ce6b46",
+      "origin": [
+        -6.0,
+        0.992263465261823,
+        3.65625
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "28c5606b-c7a5-5a5a-b726-f6bf880e7d8c"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Reliquary_Rib_0",
+      "uuid": "7a893f19-4f1b-5cc5-8a0b-f6164591e50f",
+      "origin": [
+        -12.0,
+        0.992263465261823,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "40c204f6-8853-5d5a-bbf3-7fa7c11744be"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Reliquary_Rib_1",
+      "uuid": "dc65d6c6-cae0-52c1-8a15-816fcaf4fdfd",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "b1f84b39-8a8b-5d14-a651-38df1e34bfac"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Reliquary_Rib_2",
+      "uuid": "62fcfba8-35d6-5963-b1aa-6cd7c4733505",
+      "origin": [
+        2.0,
+        0.992263465261823,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "e8be1ef0-ea84-5572-b856-45319005f12a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Bone_Sigil_L",
+      "uuid": "e6fab388-2612-57f4-b6b1-ddbfe40d91ef",
+      "origin": [
+        4.0,
+        0.992263465261823,
+        -4.1484375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "412b999c-54aa-53c6-839e-e084c2959f5b"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Bone_Sigil_R",
+      "uuid": "92d3d1e8-e328-563e-a17c-c6fc8d7c4f8a",
+      "origin": [
+        4.0,
+        0.992263465261823,
+        4.1484375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "5d0c1eec-2600-5375-b3d2-9fb891ac826c"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_0_L",
+      "uuid": "550adb72-e76d-5153-94d6-25cef79c7401",
+      "origin": [
+        -16.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "b53abb19-2580-5791-afc1-c90833c5cd63"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_0_R",
+      "uuid": "c1f07a8e-43d2-53f8-8d23-199b9ab2a2d1",
+      "origin": [
+        -16.0,
+        5.953580791570937,
+        3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "8d9fe795-af78-5dbf-a0de-4f735800319e"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_1_L",
+      "uuid": "8ecdd3c5-281c-58d2-8bc8-90fff5d0a82d",
+      "origin": [
+        -8.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "a21972c7-8ac4-55e4-b8fa-271ae100a48a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_1_R",
+      "uuid": "10329eaa-f647-5f2d-a79e-d5c5f4a3230b",
+      "origin": [
+        -8.0,
+        5.953580791570937,
+        3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "85aa06cc-6c13-58f6-90fc-ab5a1c1d1a2a"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_2_L",
+      "uuid": "02ac8f86-824f-5cda-9c8e-65d28a231f30",
+      "origin": [
+        0.0,
+        5.953580791570937,
+        -3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "1701735b-b3cf-557f-b0a6-812edcb3c860"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Bone_Fang_2_R",
+      "uuid": "0e56fc4e-b8af-52c7-af0d-85215ed43c74",
+      "origin": [
+        0.0,
+        5.953580791570937,
+        3.375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -18.00000057867849
+      ],
+      "children": [
+        "d27c68e8-5a2c-55d7-8d72-de6d945bcb67"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Altar_Brace",
+      "uuid": "3c99e02a-4c5b-5dcd-9c41-81e7072b565a",
+      "origin": [
+        -7.0,
+        -2.9767903957854687,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "1387ab0f-1ac9-54df-9db6-3cf0f4c49507"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Copper_Seal_L",
+      "uuid": "f75f6282-41d8-5ad2-88c8-2b5c78e32c1e",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        -4.1484375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "6c20237f-e4da-528f-a1a6-109793fca1a5"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Last_Rites_Copper_Seal_R",
+      "uuid": "7496f09e-0032-5268-9d18-2fbd92483343",
+      "origin": [
+        -5.0,
+        0.992263465261823,
+        4.1484375
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        "423a3090-b9b0-5133-8153-6f815141c340"
+      ],
+      "is_piece": false
+    },
+    {
+      "name": "Muzzle",
+      "uuid": "0946d7b1-cb0e-5727-b9ec-64010d2a7369",
+      "origin": [
+        -24.0,
+        1.984526930523646,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [],
+      "is_piece": true
+    },
+    {
+      "name": "DP_Magazine",
+      "uuid": "87c786ce-e035-59c3-a6ff-ec0ed3c5fb1b",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Magazine",
+          "uuid": "f89ae028-3977-5044-bb08-878598f41a54",
+          "origin": [
+            10.0,
+            -14.883951978927344,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "c15dd127-25a6-5a2b-8548-f865406f05b7"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "Magazine_Floor",
+          "uuid": "5a5697c9-938b-51e4-a08b-baec229076f8",
+          "origin": [
+            12.0,
+            -21.829796235760107,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "6c9d2efa-334e-54fd-a596-bf4cd4a0e748"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "DP_Spare_Magazine",
+      "uuid": "39bac54d-1655-5098-b466-9d0bb953f398",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "DP_Spare_Geometry_Magazine",
+          "uuid": "b52ad1e0-e978-53fd-8db2-ea0589c76ee6",
+          "origin": [
+            10.0,
+            -14.883951978927344,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "391f7923-1865-511d-a70c-4d74f8cf6077"
+          ],
+          "is_piece": false
+        },
+        {
+          "name": "DP_Spare_Geometry_Magazine_Floor",
+          "uuid": "6f62d28e-6e1a-5f06-9370-6eca0dc85cf5",
+          "origin": [
+            12.0,
+            -21.829796235760107,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            18.00000057867849
+          ],
+          "children": [
+            "437f40c8-f63a-5af1-b792-3aca91115ad8"
+          ],
+          "is_piece": false
+        }
+      ],
+      "is_piece": true
+    },
+    {
+      "name": "Handle",
+      "uuid": "183175ae-11ee-52c7-b3d8-68fffc80fc91",
+      "origin": [
+        6.239279295614413,
+        -8.370865777882079,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "children": [
+        "81d7818f-ce14-553d-b9b9-e1cf1243104f"
+      ],
+      "is_piece": false
+    }
+  ],
+  "animations": [
+    {
+      "name": "Reload_weapon_mechanics",
+      "uuid": "50a21c2b-7ab3-5bb9-b063-73e4481b2157",
+      "loop": "once",
+      "override": false,
+      "length": 2.8,
+      "snapping": 60,
+      "animators": {
+        "87c786ce-e035-59c3-a6ff-ec0ed3c5fb1b": {
+          "name": "DP_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "4a9a688f-ef2e-5172-ab07-9532e65ed226"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.5333333333333333,
+              "interpolation": "catmullrom",
+              "uuid": "601b4ff2-2fde-5d3a-a9e1-d9b0a24f6747"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -14.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.9166666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "f54111ac-a125-52a0-bada-ad0443223c1c"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -24.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.1166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "5a4f803e-cb38-58e5-bd41-0fd211c41fcc"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.8,
+              "interpolation": "catmullrom",
+              "uuid": "23ab045c-98f8-5558-8cb6-d8c2413094c2"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "catmullrom",
+              "uuid": "7deddc88-a9d7-5361-afa2-133dee582f06"
+            }
+          ]
+        },
+        "f89ae028-3977-5044-bb08-878598f41a54": {
+          "name": "Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "b087f8c3-e45f-569c-a136-45d417058a07"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.1166666666666667,
+              "interpolation": "linear",
+              "uuid": "652b3e57-7c1a-54e3-aa94-a25013261cf3"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "linear",
+              "uuid": "7a28fb24-7b0b-59a5-aa67-202096133577"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "linear",
+              "uuid": "006d0388-1b13-50f4-920a-fbd960cda0a5"
+            }
+          ]
+        },
+        "5a5697c9-938b-51e4-a08b-baec229076f8": {
+          "name": "Magazine_Floor",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "b90711c1-70ba-58a0-a760-d96cd5964797"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.1166666666666667,
+              "interpolation": "linear",
+              "uuid": "4176df44-b731-5fb2-9c28-3448e0c642f8"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "linear",
+              "uuid": "bfcf98c3-2b61-5ca5-b17d-df26186ca098"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "linear",
+              "uuid": "86936478-d854-5ed9-9048-85a0d01b604b"
+            }
+          ]
+        },
+        "39bac54d-1655-5098-b466-9d0bb953f398": {
+          "name": "DP_Spare_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "354409c1-bffb-58be-934c-1d0f00b6047d"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -24.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.2666666666666666,
+              "interpolation": "catmullrom",
+              "uuid": "b1a8c909-57e2-58b2-aa7c-4fe434e6e432"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": -14.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.5333333333333334,
+              "interpolation": "catmullrom",
+              "uuid": "7a6e9d54-c96d-53e3-a30a-174908c243b3"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 1.8166666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "ef35f14b-1816-5da3-8bf5-3fd858a9f532"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "catmullrom",
+              "uuid": "14569f4c-d645-5745-89b7-ac3e2a226dc5"
+            }
+          ]
+        },
+        "b52ad1e0-e978-53fd-8db2-ea0589c76ee6": {
+          "name": "DP_Spare_Geometry_Magazine",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "d92cb01a-dade-51c0-849b-0c290e9ac0f2"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.2666666666666666,
+              "interpolation": "linear",
+              "uuid": "fef69fcc-1a45-5ecc-8b68-6efaca04ec52"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "linear",
+              "uuid": "4743fd31-f7ab-5405-8913-bdf16b1d76dc"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "linear",
+              "uuid": "5da2f82e-ca7c-5649-8ffb-2c0ea45b3ccb"
+            }
+          ]
+        },
+        "6f62d28e-6e1a-5f06-9370-6eca0dc85cf5": {
+          "name": "DP_Spare_Geometry_Magazine_Floor",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "linear",
+              "uuid": "506950f7-cbe9-5306-b36e-98374de3b47a"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": true
+                }
+              ],
+              "time": 1.2666666666666666,
+              "interpolation": "linear",
+              "uuid": "a123753d-76ba-54de-a970-414b377eb2ca"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 1.85,
+              "interpolation": "linear",
+              "uuid": "407edd56-c090-5abd-951a-c4e8d4be102a"
+            },
+            {
+              "channel": "visibility",
+              "data_points": [
+                {
+                  "visibility": false
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "linear",
+              "uuid": "2fec5088-72fe-5c0d-b7cc-fc384f67f5d3"
+            }
+          ]
+        },
+        "ac9f3fc7-25da-52bf-8778-d0f917616338": {
+          "name": "Slide",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.0,
+              "interpolation": "catmullrom",
+              "uuid": "6e1216db-ec20-5f54-a4c5-10c2a93930e2"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 2.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 0.5666666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "db878d29-9168-56b1-9341-397ec74c294c"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 2.5,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.15,
+              "interpolation": "catmullrom",
+              "uuid": "b2db4217-1a18-5816-8eeb-3da4cd1e22b6"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.466666666666667,
+              "interpolation": "catmullrom",
+              "uuid": "db677f58-0133-5eec-9b96-8b5568c00b48"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              ],
+              "time": 2.8,
+              "interpolation": "catmullrom",
+              "uuid": "9cec1a52-aaf1-5f31-bb79-80ea7c139879"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "ShootRight_weapon_mechanics",
+      "uuid": "96d3718a-f638-5b62-a0be-652e4286ea0b",
+      "loop": "once",
+      "override": false,
+      "length": 0.36666666666666664,
+      "snapping": 60,
+      "animators": {}
+    },
+    {
+      "name": "ShootLeft_weapon_mechanics",
+      "uuid": "34e6dc3f-75c9-59e1-b5cf-1e6c7097b7b2",
+      "loop": "once",
+      "override": false,
+      "length": 0.36666666666666664,
+      "snapping": 60,
+      "animators": {}
+    }
+  ],
+  "textures": [
+    {
+      "name": "AS_Handgun_Last_Rites.png",
+      "path": "../../../../resources/Common/Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.png",
+      "id": "0",
+      "uuid": "6312764d-83fb-58f7-ae5a-2de043eeec12",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAbAklEQVR4nO3dfYxmV30f8FlY28QEgl/wS0naoEJeTGxelbSmKWBsk1CQSHCwzTtUilQpUhKSpjRtVVVqq6oJpJX6T/JHGgdTSFupkUghvCWhDSQhEBIbO7FCErC9Xu96X8AYl8XGT/W7u9/xmTPnPjOzMzv22p+PtDszz3Nfzj333nPOPffe81tZAQAed/bUf698xbWL3VrhBz/8G9M6r3r5j+zaOj/68f81rfPKK14zu86P/c5vTtO86oeun53mt377fdM0r3n1W3Yt7b/5gRumdf7g5Vfv2jr/76c+suvHxSN5fDwWjpNH8njpj5vPfPZP1637RS983vTdx3/nE+u+e/kVL5m++/BHPr40za+4+uXTdDd//s+XTnfp933vNN0dd969brrv+PaLpu9+9b/esO67t7/tLdN3lz7/JdvKu5s/94lpOc+57MXbWs4tN31yWs4ll12+upxbb/rU8TS+4KWrn938J783ffbcF125rfX92Wc+Ni3nuy950baWc9utn5nNx2V5M9reZdu9me1ftk23nUjnBz/0kem7b37zmytPfOITp38PPvjgyplnnrny9a9/feXVr/rhabr3vf9/LB544IGVJzzhCdM09fsZZ5wx/Tz77LNXrnnta6bp3nPj+xaLxWJlz549q9Nm2ddde83qeZD561+5//77p+mvvuqK2eN3s8fy6Li+8Bnfuziw78+n359+0bMX99z9l3v2ZqL9+/evXHzxxSsHDx6cEnHs2LFpoyoD2o2NZNLevXtXvvGNb0yZVX8/9NBD03e1jNro+v68886blnvgwIE1CWvXWcs/66yzpkxrl1NqvfV3peVJT3rS6rLrs8roWnf9Xumon+UZz3jGcJ2HDh1a/b2WUes6cuTIunTVOisttcxKR7+cWvYFF1ywsm/fvtU05mdtS+kPlFpWqTzJAVE/sy3J78qTo0ePrtx5551r1lmfnXPOOSuHDx9eM39p86+WUetL3tR3mTZ5mfmitqW2sbarz4vs72xTLa/2Q3sC5IBv01Tf1UFd21vrrH81X6WvVHqTtvrZ74c2LcnfHI+1vuRjvq/8zWfJ+xw39XdJurNNyce77rpr3brbfVnTtcdOmze17Gxfvw21zypddZxle5Peyq+2oKj5k87kW/Zf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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKys9f8BfZzIydJ6TJwAAAAASUVORK5CYII=",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512,
+      "internal": true,
+      "saved": true
+    }
+  ]
+}

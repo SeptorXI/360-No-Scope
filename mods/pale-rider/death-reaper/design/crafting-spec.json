@@ -1,0 +1,56 @@
+{
+  "itemId": "DR_Harbinger_Scythe",
+  "recipe": {
+    "TimeSeconds": 16,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Hedera_Gem",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 40
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Void",
+        "Quantity": 12
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Endgame_Bench",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.483333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.4
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.516666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Shotgun_Hollowbark_ReloadClose_World"
+      }
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "group": "Steven",
+  "name": "DeathLoreDecor",
+  "displayName": "Death \u2014 Echoes of the Pale Rider",
+  "version": "0.1.0",
+  "artifact": "Death-Lore-Decor-0.1.0.zip",
+  "pluginId": "Steven:DeathLoreDecor",
+  "description": "Four original Hytale home decorations inspired by Death, the Well of Souls, the Tree of Death and the Book of the Dead in Darksiders II.",
+  "sourceInspiration": "Darksiders II source lore and visual themes; all Hytale geometry, textures and decorative adaptations are newly authored.",
+  "items": [
+    {
+      "id": "LD_Pale_Rider_Statue",
+      "name": "Death's Reaper Form Statue",
+      "kind": "Statue",
+      "theme": "pale-rider",
+      "description": "Death's fearsome Reaper transformation stands in miniature: a hooded skull-mask, sweeping crescent and skeletal wings rise above a funerary plinth. An original Hytale tribute to Darksiders II, recalling the Rider's true form and the still Reaper statue left by Soul Splitter.",
+      "sourceInspiration": "Darksiders II \u2014 Death's Reaper Form; the official manual also describes Soul Splitter leaving his body as a Reaper statue.",
+      "sourceLoreAnchor": "A fearsome transformation and the stationary Reaper body used by Soul Splitter.",
+      "visualBrief": "Approximately two blocks tall. Original hooded skeletal reaper, prominent curved scythe, bone wing framework and detailed plinth. Ivory bone, blackened metal, mint soul inlays and aged bronze; retain readable silhouette.",
+      "sourceUrls": [
+        "https://manuals.thqnordic.com/Darksiders2/Darksiders2_PC_MANUAL_EN.pdf"
+      ],
+      "quality": "Epic",
+      "placement": "Floor",
+      "maxStack": 20,
+      "loreRefs": [
+        "DR_Death_Veil",
+        "DR_Reaper_Mantle",
+        "DR_Harvester_Grasp",
+        "DR_Pale_Rider_Strides",
+        "DR_Harbinger_Scythe"
+      ],
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 12
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 20
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 6
+        }
+      ],
+      "model": "Blocks/LoreDecor/LD_Pale_Rider_Statue.blockymodel",
+      "texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/LD_Pale_Rider_Statue.png",
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.011676687500000005,
+              "Y": 0,
+              "Z": 0.07734374999999999
+            },
+            "Max": {
+              "X": 0.9883233124999999,
+              "Y": 1.800694875,
+              "Z": 0.890625
+            }
+          }
+        ]
+      },
+      "artNodeCount": 185
+    },
+    {
+      "id": "LD_Well_of_Souls",
+      "name": "Well of Souls Miniature",
+      "kind": "Basin",
+      "theme": "well-of-souls",
+      "description": "A small carved basin holds a still pool of spectral green beneath the suggestion of an ancient threshold. This original Hytale miniature honors the Well of Souls sought by Death in Darksiders II, whose entrance requires the keys kept by angels and demons.",
+      "sourceInspiration": "Darksiders II \u2014 the Well of Souls and the two keys required to enter it. The miniature fountain and basin are our own decorative interpretation.",
+      "sourceLoreAnchor": "The Crowfather explains that the Well is entered with two keys, one held by angels and one by demons.",
+      "visualBrief": "At most one block tall. Tiered dark-stone basin, inset mint spectral pool, bone rim fittings and two small opposing key emblems. A sculptural still-water effect; not an actual fluid simulation or portal.",
+      "sourceUrls": [
+        "https://primagames.com/eguides/darksiders-ii-eguide/walkthrough/the-city-of-the-dead/boss-battle-the-wailing-host"
+      ],
+      "quality": "Rare",
+      "placement": "Floor",
+      "maxStack": 20,
+      "loreRefs": [
+        "DR_Death_Veil",
+        "DR_Reaper_Mantle",
+        "DR_Harvester_Grasp",
+        "DR_Pale_Rider_Strides",
+        "DR_Harbinger_Scythe"
+      ],
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 6
+        }
+      ],
+      "model": "Blocks/LoreDecor/LD_Well_of_Souls.blockymodel",
+      "texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/LD_Well_of_Souls.png",
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.0625,
+              "Y": 0,
+              "Z": 0.03359374999999998
+            },
+            "Max": {
+              "X": 0.9375,
+              "Y": 0.68668875,
+              "Z": 0.9375
+            }
+          }
+        ]
+      },
+      "artNodeCount": 138
+    },
+    {
+      "id": "LD_Tree_of_Death",
+      "name": "Tree of Death Miniature",
+      "kind": "Tree",
+      "theme": "tree-of-death",
+      "description": "Bare black branches twist above pale root-bones and a small green hollow. This original Hytale keepsake recalls the Tree of Death, the shadowy reflection of the Tree of Life encountered in Darksiders II's Kingdom of the Dead. A fragment of that distant, silent landscape for a private room.",
+      "sourceInspiration": "Darksiders II \u2014 the Tree of Death in the Kingdom of the Dead, described as the shadowy reflection of the Tree of Life. Its tabletop scale, bone roots and decorative hollow are our interpretation.",
+      "sourceLoreAnchor": "The Tree of Death is the shadowy counterpart to the Tree of Life, reached in the Kingdom of the Dead.",
+      "visualBrief": "At most one block tall. Gnarled dark-bone trunk, twisting asymmetrical bare branches, ivory root accents, small mint aperture in the trunk and a shallow carved planter. It is a sculpted tree, not a growing sapling or teleport gate.",
+      "sourceUrls": [
+        "https://primagames.com/eguides/darksiders-ii-eguide/walkthrough/the-kingdom-of-the-dead/the-tree-of-death"
+      ],
+      "quality": "Rare",
+      "placement": "Floor",
+      "maxStack": 20,
+      "loreRefs": [
+        "DR_Death_Veil",
+        "DR_Reaper_Mantle",
+        "DR_Harvester_Grasp",
+        "DR_Pale_Rider_Strides",
+        "DR_Harbinger_Scythe"
+      ],
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 12
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 3
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 3
+        }
+      ],
+      "model": "Blocks/LoreDecor/LD_Tree_of_Death.blockymodel",
+      "texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/LD_Tree_of_Death.png",
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.07078131250000003,
+              "Y": 0,
+              "Z": 0.07734374999999999
+            },
+            "Max": {
+              "X": 0.931446,
+              "Y": 1.2850209375,
+              "Z": 0.890625
+            }
+          }
+        ]
+      },
+      "artNodeCount": 119
+    },
+    {
+      "id": "LD_Book_of_the_Dead",
+      "name": "Book of the Dead Lectern",
+      "kind": "Lectern",
+      "theme": "book-of-the-dead",
+      "description": "A heavy tome rests on a bone-bound lectern, its worn pages held beneath dark chains and a carved skull seal. This original Hytale tribute recalls the lost Book of the Dead pages collected for Vulgrim in Darksiders II, where completed chapters lead to the sealed Death Tombs.",
+      "sourceInspiration": "Darksiders II \u2014 Vulgrim asks Death to recover forty Book of the Dead pages; completed chapters earn keys to four Death Tombs. The bound display tome, chains and lectern are original decoration design choices.",
+      "sourceLoreAnchor": "Forty scattered pages complete four chapters; each chapter is exchanged with Vulgrim for a Death Tomb key.",
+      "visualBrief": "At most one block tall. Open thick tome on an angled carved lectern, individually layered page edges, black chains, aged bronze corner fittings and a small skull clasp. Painted original glyphs rather than copied source-game page art.",
+      "sourceUrls": [
+        "https://primagames.com/eguides/darksiders-ii-eguide/walkthrough/side-quests/vulgrims-side-quest"
+      ],
+      "quality": "Rare",
+      "placement": "Floor",
+      "maxStack": 20,
+      "loreRefs": [
+        "DR_Death_Veil",
+        "DR_Reaper_Mantle",
+        "DR_Harvester_Grasp",
+        "DR_Pale_Rider_Strides",
+        "DR_Harbinger_Scythe"
+      ],
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 3
+        },
+        {
+          "ItemId": "Ingredient_Leather_Light",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 6
+        }
+      ],
+      "model": "Blocks/LoreDecor/LD_Book_of_the_Dead.blockymodel",
+      "texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/LD_Book_of_the_Dead.png",
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.109375,
+              "Y": 0,
+              "Z": 0.10859374999999999
+            },
+            "Max": {
+              "X": 0.890625,
+              "Y": 0.646356875,
+              "Z": 0.859375
+            }
+          }
+        ]
+      },
+      "artNodeCount": 73
+    }
+  ],
+  "crafting": {
+    "bench": {
+      "Id": "Furniture_Bench",
+      "Type": "Crafting",
+      "Categories": [
+        "Furniture_Storage"
+      ],
+      "RequiredTierLevel": 1
+    },
+    "knowledgeRequired": false,
+    "timeSeconds": 4,
+    "outputQuantity": 1
+  },
+  "coverage": {
+    "equipmentIds": [
+      "DR_Death_Veil",
+      "DR_Reaper_Mantle",
+      "DR_Harvester_Grasp",
+      "DR_Pale_Rider_Strides",
+      "DR_Harbinger_Scythe"
+    ],
+    "equipmentCount": 5,
+    "weaponCount": 1,
+    "armorSetCount": 1,
+    "wornArmorPieceCount": 4,
+    "complete": true,
+    "note": "Death/Darksiders II only. Other equipment chats own their separate source-lore decoration work. The former cross-project17-piece proposal remains archived, not part of this addon."
+  },
+  "cosmetic": {
+    "combatBonuses": false,
+    "classRestrictions": false,
+    "equippedGearConsumed": false,
+    "storageInventory": false,
+    "runtimeActors": false,
+    "claim": "Original decorative homages, not assertions that these miniature furnishings exist as canonical Darksiders II items."
+  },
+  "deployment": {
+    "requestedState": "staged",
+    "productionModified": false,
+    "serverStopOrRestartScheduled": false
+  }
+}

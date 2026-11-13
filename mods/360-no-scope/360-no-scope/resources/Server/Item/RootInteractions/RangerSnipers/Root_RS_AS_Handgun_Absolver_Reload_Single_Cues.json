@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.35
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.316666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.516666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.05
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.25
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Nameless_Covenant_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Nameless_Covenant_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.2
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Absolver_ReloadClose_World"
+      }
+    }
+  ]
+}

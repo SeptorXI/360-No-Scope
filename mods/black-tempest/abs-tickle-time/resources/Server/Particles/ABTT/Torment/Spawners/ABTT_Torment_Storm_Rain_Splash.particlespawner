@@ -1,0 +1,83 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 0.3
+  },
+  "SpawnRate": {
+    "Min": 24,
+    "Max": 24
+  },
+  "SpawnBurst": false,
+  "MaxConcurrentParticles": 9,
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "None",
+    "UVOption": "None",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.06,
+          "Max": 0.06
+        },
+        "Y": {
+          "Min": 0.18,
+          "Max": 0.18
+        }
+      },
+      "Opacity": 1.0,
+      "Color": "#89122a",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    }
+  },
+  "Shape": "Sphere",
+  "EmitOffset": {
+    "X": {
+      "Min": 0.0,
+      "Max": 3.6
+    },
+    "Z": {
+      "Min": 0.0,
+      "Max": 3.6
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 1.0,
+      "Max": 2.2
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    },
+    "Pitch": {
+      "Min": 55,
+      "Max": 85
+    }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": -9.0,
+        "Z": 0
+      }
+    }
+  ]
+}

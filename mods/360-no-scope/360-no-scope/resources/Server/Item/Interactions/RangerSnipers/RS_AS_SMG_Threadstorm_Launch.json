@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SMG_Threadstorm_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 2.3,
+  "BodyDamage": 6.5,
+  "HeadDamage": 9.5,
+  "Range": 60,
+  "Lifetime": 0.3636,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SMG_Threadstorm_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "status": "staged",
+  "recordedDate": "2026-11-09",
+  "implementationStatus": "Version0.1.5 validated with602 native checks and staged at Steven's request. Q Razorstrike330 total base Physical damage before stat boosts, ten percent above Prisma Storm300. Installation deferred; current installed release remains0.1.4.",
+  "item": {
+    "proposedId": "Weapon_Daggers_Oblivions_Tithe",
+    "name": "The Diddlers",
+    "quality": "Legendary",
+    "presentation": "Matching paired reverse-grip daggers",
+    "description": "Forged in reverence to the Daedric Princes, these twin fangs carry a whisper from beyond the gates of Oblivion. Every crimson arc writes another blasphemy into living flesh; every wound deepens a patient venom. Their maker prayed for mercy. Something answered.",
+    "loreStatus": "Original homage to The Elder Scrolls; not a quotation or a claim that this item exists in Skyrim.",
+    "visualReference": "../art/concepts/Legendary_Daggers_Gameplay_Concept_v2.png",
+    "id": "Weapon_Daggers_Oblivions_Tithe"
+  },
+  "visuals": {
+    "grip": "Upside-down reverse grip in both hands; blades point down/back behind the player.",
+    "bladeLength": "Approximately 20 percent longer than the first gameplay concept; retain grip/guard dimensions.",
+    "idle": "Existing narrow crimson energy channels glow within graphite/blackened metal.",
+    "attack": "Each swinging blade leaves a bright crimson crescent slash trail following its actual animation, with brief red sparks on accepted impact.",
+    "movementTrail": "Both carried daggers also leave thin, fading crimson tip trails while moving or running, independent of attack input. Native Item.Trails binds OT_Crimson_Movement separately to PrimaryItem and SecondaryItem at OT_Blade_Tip.",
+    "movementTrailNativeLifeSpanUnits": 6,
+    "movementTrailClientDuration": "Short native point history; exact time and appearance require client confirmation.",
+    "readability": "Keep the blades, target and center view visible with restrained bloom; no permanent trails.",
+    "gameplayReach": "Visual slash arcs do not extend the melee hitbox or create a ranged attack.",
+    "movement": "Persistent thin crimson trails on both carried blades, independent of attacks, following OT_Blade_Tip while moving.",
+    "detail": "Original per-face painted surfaces: continuous forged blade fields, incised motifs, beveled rim lighting, groove shadows, faceted crimson stones, inset fittings, worn corners and stitched leather.",
+    "attackParticleSystemLifeSpanSeconds": 0.3,
+    "movementTrailNativeHistoryUnits": 6,
+    "movementTrailMaximumWidth": 0.14,
+    "movementTrailTimingNote": "Native trail history is integer-valued; exact visible client duration is not asserted in seconds.",
+    "artRevision": {
+      "version": "0.1.1",
+      "boxes": 235,
+      "atlasSize": [
+        256,
+        256
+      ],
+      "uvOrigins": 1196,
+      "comparison": "../art/previews/Oblivions_Tithe_Comparison_Neutral.jpg",
+      "report": "../release/Art Revision Comparison.json"
+    },
+    "areaLight": {
+      "Color": "#300",
+      "Radius": 1,
+      "nativeChannels": {
+        "red": 3,
+        "green": 0,
+        "blue": 0
+      },
+      "purpose": "Faint local environmental light, separate from fullbright surfaces and trails.",
+      "clientAppearance": "Exact intensity and visible reach require a client playtest."
+    }
+  },
+  "poison": {
+    "name": "Daedric Venom",
+    "damageCause": "Poison",
+    "baseDamagePerStackPerTick": 2,
+    "tickIntervalSeconds": 1,
+    "maxStacks": 10,
+    "maxBaseDamagePerSecond": 20,
+    "durationSeconds": 6,
+    "stackGain": "One stack per accepted direct damaging dagger hit on a living target.",
+    "refresh": "An accepted dagger hit refreshes the shared six-second duration, including at ten stacks.",
+    "expiry": "All stacks expire after six seconds without another accepted dagger hit.",
+    "pool": "A target has one intrinsic Daedric Venom pool, shared across the two blades and all wielders; maximum ten total stacks.",
+    "attribution": "Retain attacker attribution for contributed poison damage and eligible kill/XP credit; stacking by another wielder must not silently steal all credit.",
+    "tickScheduling": "One periodic tick schedule per target. Refreshing or adding a stack must not reset or postpone the next scheduled tick. No immediate bonus tick on hit.",
+    "excludedStackSources": [
+      "Misses",
+      "Cancelled or fully blocked/parried hits",
+      "Zero-damage contacts",
+      "Poison ticks",
+      "Other damage-over-time ticks",
+      "Slash particles",
+      "Secondary enchantment procs",
+      "Hits on dead targets"
+    ],
+    "defenses": "Native Poison resistance, immunity and damage filters remain authoritative. Do not bypass defenses with another damage cause.",
+    "scaling": "Flat base damage; no percent-max-health scaling. Verify normal build modifiers once and avoid applying the same modifier twice.",
+    "procSafety": "Poison ticks cannot recursively trigger this stacking mechanic or count as fresh melee attacks.",
+    "enchantments": "Verify applicable native enchantments separately. Avoid duplicate callbacks or treating an external Poison-enchantment tick as a dagger hit.",
+    "examples": [
+      {
+        "stacks": 1,
+        "baseDamagePerSecond": 2
+      },
+      {
+        "stacks": 5,
+        "baseDamagePerSecond": 10
+      },
+      {
+        "stacks": 10,
+        "baseDamagePerSecond": 20
+      }
+    ],
+    "maximumUnrefreshedTail": "At ten stacks, up to six scheduled ticks totaling 120 base Poison damage before defenses, assuming the target remains valid and no cleanse or cancellation occurs.",
+    "balanceRationale": "The native ability-poison effects deal 4 Poison every 2 seconds for 6 seconds. Two base DPS per stack starts at that native baseline, with a ten-hit ramp to a meaningful Legendary sustained-contact reward.",
+    "cleanseCompatibility": "Transient target component, not a native EntityEffect; generic status-cleansing items have not been verified to remove it."
+  },
+  "openWork": [
+    "Client grip/trail appearance and multiplayer combat playtest",
+    "Connected player skill XP persistence playtest"
+  ],
+  "sources": [
+    {
+      "path": "E:/Games/HytaleServer/Assets.zip",
+      "entries": [
+        "Server/Entity/Effects/Abilities/Ability_Poison_Stack_A.json",
+        "Server/Entity/Effects/Abilities/Ability_Poison_Stack_B.json",
+        "Server/Entity/Effects/Abilities/Ability_Poison_Stack_C.json"
+      ],
+      "finding": "Each: 4 Poison every 2 seconds, duration 6 seconds, overwrite."
+    },
+    {
+      "path": "E:/Games/HytaleServer/Assets.zip",
+      "entries": [
+        "Server/Entity/Effects/Status/Poison.json"
+      ],
+      "finding": "10 Poison every 5 seconds."
+    },
+    {
+      "path": "E:/Games/HytaleServer/Assets.zip",
+      "entries": [
+        "Server/Entity/Damage/Poison.json",
+        "Server/Entity/Effects/Immunity/Immunity_Poison.json"
+      ],
+      "finding": "Poison inherits Elemental. Immunity_Poison supplies full Poison resistance; visual/application rejection was not established by this configuration check."
+    },
+    {
+      "path": "E:/Games/HytaleServer/Server/mods/EndgameAndQoL6.1.4.jar",
+      "entries": [
+        "Server/Item/Items/Weapon/Daggers/Weapon_Daggers_Hedera.json",
+        "Server/Item/Items/Weapon/Daggers/Endgame_Daggers_Prisma.json"
+      ],
+      "finding": "Legendary primary combo base damage: Hedera 10/12/34/39; Prisma 11/14/36/40."
+    },
+    {
+      "path": "../../lightning-gauntlets/release/README.txt",
+      "finding": "Gauntlet base channel damage 25 DPS with simultaneous mana/stamina costs; sustained scorch 3 DPS."
+    },
+    {
+      "url": "https://bethesda.net/en-US/news/5-ways-to-expand-your-oblivion-adventures-in-the-elder-scrolls-online",
+      "finding": "Official setting reference for Daedra, Daedric Prince and realm of Oblivion; the item description is original fiction."
+    }
+  ],
+  "combat": {
+    "primaryBaseDamage": [
+      14,
+      16,
+      42,
+      47
+    ],
+    "chargedBaseDamage": [
+      94,
+      116
+    ],
+    "razorstrikeBaseDamage": [
+      88,
+      110,
+      132
+    ],
+    "controls": "Native Daggers primary, secondary guard/charge and Q Razorstrike; H class ability unchanged.",
+    "primaryBaseTotal": 119,
+    "chargedBaseTotal": 210,
+    "razorstrikeBaseTotal": 330,
+    "baseDamageNote": "Physical contact damage before stat boosts, enchantments, positional bonuses and target defenses. Poison is separate."
+  },
+  "crafting": {
+    "TimeSeconds": 16,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Sac_Venom",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Hedera_Gem",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Armor_Prisma"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ]
+  },
+  "installation": {
+    "displayName": "The Diddlers",
+    "artifact": "Oblivions-Tithe-0.1.4.jar",
+    "sha256": "b47e4c2ef03b918afd2c7aa0b567063034919525607bd3cebd117b097e06113f",
+    "receipt": "deployments/20261109-163715-3b232a/installation.json",
+    "nativeRun": "full-stack-014-damage-b",
+    "nativeChecks": 598,
+    "backupFiles": 4768,
+    "serverLeftStopped": true,
+    "verifiedOtherWeaponArchives": {
+      "360-No-Scope-2.4.2.jar": "c6d4844fcfc9886de9e9bc16a96fb149b1d3eef46a9d52674bad292e65296c27",
+      "ABs-Tickle-Time-0.3.3.jar": "8a8391d981dd3d28beb9cecc6904f25ab2c496d375cb96356c74da6b46e94f30",
+      "Armor-Displays-0.1.2.jar": "29b4111a213c56ae0b14ad20e307bbb28a92edc5ce4fe0929b50f538281d851c"
+    }
+  }
+}

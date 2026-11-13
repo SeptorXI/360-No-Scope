@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CBD_Black_Hand_Banner.name",
+    "Description": "server.items.CBD_Black_Hand_Banner.description"
+  },
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Icon": "Icons/ItemsGenerated/CBD_Black_Hand_Banner.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "CrimsonBrotherhoodDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/BrotherhoodDecor/CBD_Black_Hand_Banner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "CBD_Black_Hand_Banner",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "BlockNormal",
+      "AllowRotationKey": false,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "CBD_Black_Hand_Banner",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Wool",
+    "ParticleColor": "#591f2d"
+  },
+  "IconProperties": {
+    "Scale": 0.438454,
+    "Translation": [
+      -0.0,
+      -28.391819
+    ],
+    "Rotation": [
+      -0.0,
+      180.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Group": "Steven",
+  "Name": "OblivionsTithe",
+  "Version": "0.1.5",
+  "Main": "steven.oblivionst.OblivionsTithePlugin",
+  "Description": "The Diddlers: Legendary reverse-grip daggers, crimson slashes and ten-stack Daedric Venom.",
+  "Authors": [
+    {
+      "Name": "Steven"
+    }
+  ],
+  "ServerVersion": ">=0.7.5 <0.8.0",
+  "Dependencies": {
+    "Hytale:ItemModule": "*",
+    "Hytale:InteractionModule": "*",
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Ziggfreed:MMOSkillTree": "=1.7.4",
+    "org.herolias:SimpleEnchantments": "=1.2.1",
+    "Config:Endgame&QoL": ">=6.1.4 <7.0.0"
+  },
+  "IncludesAssetPack": true
+}

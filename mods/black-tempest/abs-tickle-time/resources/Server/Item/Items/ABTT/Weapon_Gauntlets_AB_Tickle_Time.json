@@ -1,0 +1,151 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Gauntlets_AB_Tickle_Time.name",
+    "Description": "server.items.Weapon_Gauntlets_AB_Tickle_Time.description"
+  },
+  "Categories": [
+    "Items.Armors"
+  ],
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "ABTT_Gauntlets"
+    ],
+    "MMO_Weapon_Type": [
+      "UNARMED"
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Model": "Items/Armors/ABTT/Hands.blockymodel",
+  "Texture": "Items/Armors/ABTT/Hands_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Gauntlets_AB_Tickle_Time.png",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Translation": [
+      3,
+      -29
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 65,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.5,
+  "DisplayEntityStatsHUD": [
+    "Mana",
+    "Stamina"
+  ],
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 16,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Lightning_Essence",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Hedera_Gem",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ]
+  },
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.04,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.04,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 7,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "Amount": 16,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Light": {
+    "Radius": 2,
+    "Color": "#214"
+  }
+}

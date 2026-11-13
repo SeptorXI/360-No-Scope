@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Glass center",
+      "position": {
+        "x": 0.0,
+        "y": 16,
+        "z": 0.0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false,
+          "size": {
+            "x": 2,
+            "y": 32,
+            "z": 2
+          }
+        },
+        "textureLayout": {
+          "right": {
+            "offset": {
+              "x": 15,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "back": {
+            "offset": {
+              "x": 15,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "top": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "bottom": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Glass west",
+      "position": {
+        "x": -8.5,
+        "y": 16,
+        "z": 0.0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false,
+          "size": {
+            "x": 15,
+            "y": 32,
+            "z": 2
+          }
+        },
+        "textureLayout": {
+          "left": {
+            "offset": {
+              "x": 32,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "front": {
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "back": {
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "top": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "bottom": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Glass south",
+      "position": {
+        "x": 0.0,
+        "y": 16,
+        "z": 8.5
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false,
+          "size": {
+            "x": 2,
+            "y": 32,
+            "z": 15
+          }
+        },
+        "textureLayout": {
+          "left": {
+            "offset": {
+              "x": 17,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "right": {
+            "offset": {
+              "x": 17,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "front": {
+            "offset": {
+              "x": 32,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "top": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          },
+          "bottom": {
+            "offset": {
+              "x": 32,
+              "y": 32
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0,
+            "transparent": true
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

@@ -1,0 +1,68 @@
+{
+  "Parent": "Spear_Spin_Swing_Left_Heavy",
+  "RunTime": 1.0108,
+  "Effects": {
+    "ItemAnimationId": "SpinSwingLeftHeavy",
+    "WorldSoundEventId": "SFX_DR_Harbinger_Final_Tithe_Slash"
+  },
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Selector",
+            "RunTime": 0.0777,
+            "Selector": {
+              "Id": "Horizontal",
+              "Direction": "ToLeft",
+              "TestLineOfSight": true,
+              "ExtendTop": 0.5,
+              "ExtendBottom": 0.5,
+              "StartDistance": 0.1,
+              "EndDistance": 3.5,
+              "Length": 90,
+              "RollOffset": 0,
+              "YawStartOffset": -60
+            },
+            "HitBlock": {
+              "Interactions": [
+                "Block_Break_Adventure"
+              ]
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "Var": "Spear_Spin_Swing_Left_Heavy_Damage",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Spear_Spin_Swing_Left_Heavy_Damage"
+                    ]
+                  }
+                }
+              ]
+            },
+            "Next": {
+              "Type": "Simple",
+              "RunTime": 0.3115
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Spear_Spin_Swing_Left_Heavy_Effect",
+            "DefaultValue": {
+              "Interactions": [
+                "Spear_Spin_Swing_Left_Heavy_Effect"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 7.061799739838872,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 64,
+  "MaxInstance": 24,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Mournhollow_Epitaph/Fire_01.ogg",
+        "Sounds/RangerSnipers/Mournhollow_Epitaph/Fire_02.ogg",
+        "Sounds/RangerSnipers/Mournhollow_Epitaph/Fire_03.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.2,
+        "MaxPitch": 0.2,
+        "MinVolume": -0.2,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

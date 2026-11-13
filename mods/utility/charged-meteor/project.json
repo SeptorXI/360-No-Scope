@@ -1,0 +1,16 @@
+{
+  "title": "Charged Meteor",
+  "version": "0.1.7",
+  "manifest_name": "Steven:ChargedMeteor",
+  "artifact": "Charged-Meteor-0.1.7.jar",
+  "installed_sha256": "9d7d520f0987825e947e8d720623c623c5e3d0c8bf77f3f4e6dd1cccfce5ca3e",
+  "server_version": ">=0.7.7 <0.8.0",
+  "compile_dependencies": [
+    "endgame-qol",
+    "alecs-tamework"
+  ],
+  "runtime_dependencies": {
+    "Config:Endgame&QoL": "=6.1.4",
+    "Alechilles:Alec's Tamework!": ">=5.9.0 <6.0.0"
+  }
+}

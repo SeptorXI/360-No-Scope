@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CBD_Silent_Mother_Reliquary.name",
+    "Description": "server.items.CBD_Silent_Mother_Reliquary.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/CBD_Silent_Mother_Reliquary.png",
+  "MaxStack": 20,
+  "Quality": "Epic",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "CrimsonBrotherhoodDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/BrotherhoodDecor/CBD_Silent_Mother_Reliquary.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "CBD_Silent_Mother_Reliquary",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "CBD_Silent_Mother_Reliquary",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#591f2d"
+  },
+  "IconProperties": {
+    "Scale": 0.391821,
+    "Translation": [
+      0.022432,
+      -27.750185
+    ],
+    "Rotation": [
+      6.842773,
+      -9.026595,
+      0.0
+    ]
+  }
+}

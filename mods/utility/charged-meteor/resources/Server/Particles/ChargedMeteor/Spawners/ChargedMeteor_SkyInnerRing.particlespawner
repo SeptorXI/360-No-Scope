@@ -1,0 +1,189 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 2.93,
+    "Max": 2.93
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Circles/Portal_Wind_Hollow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.49,
+            "Max": 0.49
+          }
+        },
+        "Opacity": 0.04,
+        "Color": "#95132a",
+        "Rotation": {
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        }
+      },
+      "7": {
+        "Scale": {
+          "X": {
+            "Min": 1.06,
+            "Max": 1.06
+          }
+        },
+        "Opacity": 0.78,
+        "Color": "#ee4531",
+        "Rotation": {
+          "Z": {
+            "Min": -49,
+            "Max": -49
+          }
+        }
+      },
+      "19": {
+        "Scale": {
+          "X": {
+            "Min": 1.07,
+            "Max": 1.07
+          }
+        },
+        "Opacity": 0.81,
+        "Color": "#ff633c",
+        "Rotation": {
+          "Z": {
+            "Min": -113,
+            "Max": -113
+          }
+        }
+      },
+      "28": {
+        "Scale": {
+          "X": {
+            "Min": 0.87,
+            "Max": 0.87
+          }
+        },
+        "Opacity": 0.71,
+        "Color": "#ed342c",
+        "Rotation": {
+          "Z": {
+            "Min": -192,
+            "Max": -192
+          }
+        }
+      },
+      "43": {
+        "Scale": {
+          "X": {
+            "Min": 0.64,
+            "Max": 0.64
+          }
+        },
+        "Opacity": 0.67,
+        "Color": "#c21a2a",
+        "Rotation": {
+          "Z": {
+            "Min": -329,
+            "Max": -329
+          }
+        }
+      },
+      "56": {
+        "Scale": {
+          "X": {
+            "Min": 0.68,
+            "Max": 0.68
+          }
+        },
+        "Opacity": 0.75,
+        "Color": "#f34a30",
+        "Rotation": {
+          "Z": {
+            "Min": -429,
+            "Max": -429
+          }
+        }
+      },
+      "78": {
+        "Scale": {
+          "X": {
+            "Min": 0.7,
+            "Max": 0.7
+          }
+        },
+        "Opacity": 0.57,
+        "Color": "#ac1328",
+        "Rotation": {
+          "Z": {
+            "Min": -567,
+            "Max": -567
+          }
+        }
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 0.63,
+            "Max": 0.63
+          }
+        },
+        "Opacity": 0,
+        "Color": "#87132a",
+        "Rotation": {
+          "Z": {
+            "Min": -701,
+            "Max": -701
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 6.65,
+          "Max": 6.65
+        }
+      },
+      "Color": "#95132a",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Z": {
+          "Min": 249,
+          "Max": 249
+        }
+      }
+    }
+  },
+  "UVMotion": {
+    "Texture": "Particles/Textures/UVMotion/FlowMapSwirl.png",
+    "Scale": 1.0,
+    "Strength": 0.62,
+    "SpeedX": -0.24,
+    "SpeedY": 0.22
+  }
+}

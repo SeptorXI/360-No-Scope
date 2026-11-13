@@ -1,0 +1,12 @@
+{
+  "Group": "Steven",
+  "Name": "EndlessLevelingCopperSkeletonFix",
+  "Version": "1.0.1",
+  "Description": "Defines the existing fallback melee damage interaction for the Endless Leveling Copper Skeleton summon.",
+  "ServerVersion": ">=0.7.0 <0.8.0",
+  "Dependencies": {
+    "Alechilles:Alec's Tamework!": ">=5.7.0 <6.0.0",
+    "Airijko:EndlessLevelingCore": "=14.5.6"
+  },
+  "IncludesAssetPack": true
+}

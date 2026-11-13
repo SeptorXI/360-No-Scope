@@ -1,0 +1,33 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -0.9588001734407516,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 4,
+  "MaxDistance": 112,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/Fire_01.ogg",
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/Fire_02.ogg",
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/Fire_03.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0.0,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    },
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/FireMechanism_01.ogg",
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/FireMechanism_02.ogg",
+        "Sounds/Arsenal/AS_Shotgun_Grave_Tithe/FireMechanism_03.ogg"
+      ],
+      "Volume": -2.0411998265592484,
+      "StartDelay": 0.16,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

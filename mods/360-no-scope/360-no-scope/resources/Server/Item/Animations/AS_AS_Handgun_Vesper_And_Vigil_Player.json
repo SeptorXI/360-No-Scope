@@ -1,0 +1,90 @@
+{
+  "Parent": "AS_Paired_Handgun_Base_Player",
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Idle_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Idle_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Idle_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "ShootRight": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_TPS.blockyanim",
+      "Speed": 1.5,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "ShootLeft": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootLeft_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootLeft_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootLeft_TPS.blockyanim",
+      "Speed": 1.5,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "Shoot": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Shoot_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Shoot_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Shoot_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "Reload": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Reload_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Reload_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/Reload_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "ShootFlintlockCharging": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootFlintlockCharging_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootFlintlockCharging_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootFlintlockCharging_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "ShootRightAbility": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Handgun_Vesper_And_Vigil/ShootRight_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Min": -60,
+        "Max": 60
+      },
+      "TargetNodes": [
+        "Head",
+        "RShoulder",
+        "LShoulder"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Min": -45,
+        "Max": 45
+      },
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 56,
+  "ParticleLifeSpan": {
+    "Min": 0.65,
+    "Max": 1.25
+  },
+  "LifeSpan": 0.31,
+  "SpawnRate": {
+    "Min": 95,
+    "Max": 140
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": 0,
+      "Max": 360
+    },
+    "Pitch": {
+      "Min": 14,
+      "Max": 67
+    },
+    "Speed": {
+      "Min": 6,
+      "Max": 19
+    }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": -14.5,
+        "Z": 0
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Ember.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1.5,
+            "Max": 1.5
+          }
+        },
+        "Opacity": 0.97,
+        "Color": "#ffe294"
+      },
+      "56": {
+        "Scale": {
+          "X": {
+            "Min": 0.9,
+            "Max": 0.9
+          }
+        },
+        "Opacity": 0.9,
+        "Color": "#ff6d2c"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 0.3,
+            "Max": 0.3
+          }
+        },
+        "Opacity": 0,
+        "Color": "#d32a1f"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.14,
+          "Max": 0.38
+        }
+      },
+      "Color": "#ff9c40",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

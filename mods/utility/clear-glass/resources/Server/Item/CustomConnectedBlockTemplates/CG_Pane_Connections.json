@@ -1,0 +1,303 @@
+{
+  "ConnectsToOtherMaterials": true,
+  "DefaultShape": "Straight",
+  "Shapes": {
+    "Straight": {
+      "FaceTags": {
+        "West": [
+          "GlassPaneConnection"
+        ],
+        "East": [
+          "GlassPaneConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": []
+    },
+    "Corner": {
+      "FaceTags": {
+        "West": [
+          "GlassPaneConnection"
+        ],
+        "South": [
+          "GlassPaneConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPaneConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "T_Junction": {
+      "FaceTags": {
+        "West": [
+          "GlassPaneConnection"
+        ],
+        "East": [
+          "GlassPaneConnection"
+        ],
+        "South": [
+          "GlassPaneConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPaneConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Cross_Junction": {
+      "FaceTags": {
+        "West": [
+          "GlassPaneConnection"
+        ],
+        "East": [
+          "GlassPaneConnection"
+        ],
+        "South": [
+          "GlassPaneConnection"
+        ],
+        "North": [
+          "GlassPaneConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPaneConnection"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": false
+          },
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPaneConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPaneConnection"
+                ]
+              }
+            }
+          ],
+          "TransformRulesToOrientation": true
+        }
+      ]
+    }
+  }
+}

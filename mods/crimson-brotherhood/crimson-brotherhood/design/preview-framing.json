@@ -1,0 +1,463 @@
+{
+  "reference": "Visible geometry fitted conservatively to native Adamantite frames across three X-before-Y Euler hypotheses; client preview appearance remains unobserved.",
+  "pieces": {
+    "CB_Crimson_Cowl": {
+      "Scale": 0.372297,
+      "Rotation": [
+        23.06,
+        43.315,
+        23.06
+      ],
+      "Translation": [
+        -1.683711,
+        6.526383
+      ]
+    },
+    "CB_Oathbound_Shroud": {
+      "Scale": 0.219094,
+      "Rotation": [
+        22.5,
+        45,
+        22.5
+      ],
+      "Translation": [
+        -0.234441,
+        12.487494
+      ]
+    },
+    "CB_Silence_Grasp": {
+      "Scale": 0.543521,
+      "Rotation": [
+        21.94,
+        45.565,
+        22.5
+      ],
+      "Translation": [
+        0.231565,
+        0.078104
+      ]
+    },
+    "CB_Nightstalker_Strides": {
+      "Scale": 0.261713,
+      "Rotation": [
+        22.5,
+        45,
+        22.5
+      ],
+      "Translation": [
+        -2.008036,
+        -11.691338
+      ]
+    }
+  },
+  "measurements": [
+    {
+      "item": "CB_Crimson_Cowl",
+      "slot": "Head",
+      "nativeProperties": {
+        "Rotation": [
+          23.06,
+          43.315,
+          23.06
+        ],
+        "Scale": 0.45,
+        "Translation": [
+          0,
+          -1.5
+        ]
+      },
+      "suggestedProperties": {
+        "Scale": 0.372297,
+        "Rotation": [
+          23.06,
+          43.315,
+          23.06
+        ],
+        "Translation": [
+          -1.683711,
+          6.526383
+        ]
+      },
+      "proofs": [
+        {
+          "order": "XYZ",
+          "nativeBounds": [
+            [
+              -11.100953,
+              -15.07703
+            ],
+            [
+              10.89972,
+              8.896937
+            ]
+          ],
+          "customBounds": [
+            [
+              -8.985886,
+              -12.575661
+            ],
+            [
+              8.483517,
+              6.155628
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "XZY",
+          "nativeBounds": [
+            [
+              -12.407544,
+              -15.854884
+            ],
+            [
+              9.627449,
+              8.697312
+            ]
+          ],
+          "customBounds": [
+            [
+              -9.153737,
+              -12.604828
+            ],
+            [
+              7.189571,
+              7.990241
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "ZXY",
+          "nativeBounds": [
+            [
+              -11.562094,
+              -15.791406
+            ],
+            [
+              10.236795,
+              8.698992
+            ]
+          ],
+          "customBounds": [
+            [
+              -8.919058,
+              -12.585188
+            ],
+            [
+              7.736792,
+              7.986746
+            ]
+          ],
+          "insideNativeFrame": true
+        }
+      ]
+    },
+    {
+      "item": "CB_Oathbound_Shroud",
+      "slot": "Chest",
+      "nativeProperties": {
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Scale": 0.335,
+        "Translation": [
+          0.3,
+          0.3
+        ]
+      },
+      "suggestedProperties": {
+        "Scale": 0.219094,
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Translation": [
+          -0.234441,
+          12.487494
+        ]
+      },
+      "proofs": [
+        {
+          "order": "XYZ",
+          "nativeBounds": [
+            [
+              -9.466797,
+              -7.743644
+            ],
+            [
+              7.140796,
+              16.438296
+            ]
+          ],
+          "customBounds": [
+            [
+              -6.19311,
+              -7.385679
+            ],
+            [
+              5.127603,
+              12.927151
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "XZY",
+          "nativeBounds": [
+            [
+              -7.695893,
+              -8.643392
+            ],
+            [
+              7.885605,
+              16.83591
+            ]
+          ],
+          "customBounds": [
+            [
+              -5.308821,
+              -7.439514
+            ],
+            [
+              4.97717,
+              12.942448
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "ZXY",
+          "nativeBounds": [
+            [
+              -8.627471,
+              -8.588789
+            ],
+            [
+              7.870571,
+              16.741862
+            ]
+          ],
+          "customBounds": [
+            [
+              -5.911514,
+              -7.43358
+            ],
+            [
+              5.130758,
+              12.905676
+            ]
+          ],
+          "insideNativeFrame": true
+        }
+      ]
+    },
+    {
+      "item": "CB_Silence_Grasp",
+      "slot": "Hands",
+      "nativeProperties": {
+        "Rotation": [
+          21.94,
+          45.565,
+          22.5
+        ],
+        "Scale": 0.645,
+        "Translation": [
+          0.7,
+          -2.3
+        ]
+      },
+      "suggestedProperties": {
+        "Scale": 0.543521,
+        "Rotation": [
+          21.94,
+          45.565,
+          22.5
+        ],
+        "Translation": [
+          0.231565,
+          0.078104
+        ]
+      },
+      "proofs": [
+        {
+          "order": "XYZ",
+          "nativeBounds": [
+            [
+              -12.53679,
+              -5.753341
+            ],
+            [
+              11.473501,
+              15.298162
+            ]
+          ],
+          "customBounds": [
+            [
+              -10.346416,
+              -3.774998
+            ],
+            [
+              9.452578,
+              11.782977
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "XZY",
+          "nativeBounds": [
+            [
+              -11.542011,
+              -8.09276
+            ],
+            [
+              11.426244,
+              16.566223
+            ]
+          ],
+          "customBounds": [
+            [
+              -9.594266,
+              -5.738372
+            ],
+            [
+              9.699069,
+              12.91383
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "ZXY",
+          "nativeBounds": [
+            [
+              -12.05,
+              -7.855448
+            ],
+            [
+              12.342089,
+              16.395111
+            ]
+          ],
+          "customBounds": [
+            [
+              -10.171912,
+              -5.564935
+            ],
+            [
+              10.215691,
+              12.766049
+            ]
+          ],
+          "insideNativeFrame": true
+        }
+      ]
+    },
+    {
+      "item": "CB_Nightstalker_Strides",
+      "slot": "Legs",
+      "nativeProperties": {
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Scale": 0.415,
+        "Translation": [
+          -1.2,
+          -22.2
+        ]
+      },
+      "suggestedProperties": {
+        "Scale": 0.261713,
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ],
+        "Translation": [
+          -2.008036,
+          -11.691338
+        ]
+      },
+      "proofs": [
+        {
+          "order": "XYZ",
+          "nativeBounds": [
+            [
+              -9.827381,
+              -10.228132
+            ],
+            [
+              6.408105,
+              17.409259
+            ]
+          ],
+          "customBounds": [
+            [
+              -6.432859,
+              -9.578489
+            ],
+            [
+              4.053151,
+              13.63692
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "XZY",
+          "nativeBounds": [
+            [
+              -9.371148,
+              -11.978388
+            ],
+            [
+              7.43123,
+              16.024724
+            ]
+          ],
+          "customBounds": [
+            [
+              -5.680581,
+              -9.792263
+            ],
+            [
+              4.402209,
+              12.814252
+            ]
+          ],
+          "insideNativeFrame": true
+        },
+        {
+          "order": "ZXY",
+          "nativeBounds": [
+            [
+              -9.523517,
+              -11.878382
+            ],
+            [
+              6.906362,
+              15.947862
+            ]
+          ],
+          "customBounds": [
+            [
+              -5.761228,
+              -9.858971
+            ],
+            [
+              4.334157,
+              12.761501
+            ]
+          ],
+          "insideNativeFrame": true
+        }
+      ]
+    }
+  ]
+}

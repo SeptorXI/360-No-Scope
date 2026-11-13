@@ -1,0 +1,22 @@
+{
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer",
+      "Inverse": true
+    },
+    {
+      "Id": "HasEffect",
+      "EffectId": "Immunity_Slow",
+      "Inverse": true
+    }
+  ],
+  "Duration": 1.2,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "StatusEffectIcon": "UI/StatusEffects/Icon_Slow.png",
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 0.85,
+    "EntityTopTint": "#b18cff",
+    "EntityBottomTint": "#29203b"
+  }
+}

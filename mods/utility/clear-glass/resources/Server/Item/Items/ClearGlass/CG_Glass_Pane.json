@@ -1,0 +1,101 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CG_Glass_Pane.name",
+    "Description": "server.items.CG_Glass_Pane.description"
+  },
+  "Quality": "Common",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/CG_Glass_Pane.png",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Building"
+    ],
+    "Family": [
+      "ClearGlass"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "CG_Glass_Block",
+        "Quantity": 6
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders",
+        "Categories": [
+          "Window"
+        ]
+      }
+    ],
+    "OutputQuantity": 16,
+    "TimeSeconds": 2,
+    "KnowledgeRequired": false
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "CG_Glass_Pane"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "BlockSoundSetId": "Glass",
+    "PhysicalMaterialId": "Glass",
+    "ParticleColor": "#D5EBEF",
+    "TextureComputedColor": "#D5EBEF",
+    "CustomModel": "Blocks/ClearGlass/Pane_Straight.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ClearGlass/Pane_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "CG_Pane_Straight",
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "CG_Pane_Connections",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "CG_Glass_Pane",
+        "Corner": "*CG_Glass_Pane_State_Definitions_Corner",
+        "T_Junction": "*CG_Glass_Pane_State_Definitions_T",
+        "Cross_Junction": "*CG_Glass_Pane_State_Definitions_Cross"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Corner": {
+          "CustomModel": "Blocks/ClearGlass/Pane_Corner.blockymodel",
+          "HitboxType": "CG_Pane_Corner",
+          "FlipType": "OrthogonalInverse"
+        },
+        "T": {
+          "CustomModel": "Blocks/ClearGlass/Pane_T.blockymodel",
+          "HitboxType": "CG_Pane_T",
+          "FlipType": "Symmetric"
+        },
+        "Cross": {
+          "CustomModel": "Blocks/ClearGlass/Pane_Cross.blockymodel",
+          "HitboxType": "CG_Pane_Cross"
+        }
+      }
+    }
+  }
+}

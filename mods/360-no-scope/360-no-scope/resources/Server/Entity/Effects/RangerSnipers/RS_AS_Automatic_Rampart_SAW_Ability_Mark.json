@@ -1,0 +1,26 @@
+{
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer",
+      "Inverse": true
+    }
+  ],
+  "Duration": 10,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "ApplicationEffects": {
+    "EntityTopTint": "#ffe5a2",
+    "EntityBottomTint": "#c58c40",
+    "Particles": [
+      {
+        "SystemId": "RS_Deepworks_Railspike_Idle",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 0.8
+        },
+        "Scale": 0.7,
+        "ClearParticlesOnRemove": true
+      }
+    ]
+  }
+}

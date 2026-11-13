@@ -1,0 +1,17 @@
+{
+  "title": "Vestments of the Black Tempest",
+  "version": "0.1.2",
+  "manifest_name": "Steven:BlackTempestArmor",
+  "artifact": "Black-Tempest-Armor-0.1.2.jar",
+  "installed_sha256": "f2c0f58cdb44fd0512985cbf225d99f80b4371252215af1e897fa0e73aa99379",
+  "server_version": ">=0.7.7 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling",
+    "abs-tickle-time"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Steven:ABTickleTime": ">=0.4.2 <0.5.0",
+    "Config:Endgame&QoL": "=6.1.4"
+  }
+}

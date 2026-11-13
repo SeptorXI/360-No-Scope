@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "name": "Armor Displays",
+  "version": "0.1.2",
+  "artifact": "Armor-Displays-0.1.2.jar",
+  "pluginId": "Steven:Armor Displays",
+  "main": "steven.armordisplays.ArmorDisplaysPlugin",
+  "styles": ["Wood", "Metal"],
+  "items": [
+    {
+      "id": "AD_Armor_Stand_Wood",
+      "name": "Wood-and-Iron Armor Stand",
+      "kind": "Stand",
+      "style": "Wood",
+      "capacity": 6,
+      "slots": ["Head", "Chest", "Hands", "Legs", "Main hand", "Off hand"],
+      "description": "A timber and forged-iron display for your chosen equipment. Use to open. Slots from left to right: head, chest, hands, legs, main hand, off hand. Stored equipment keeps its durability and item data.",
+      "ingredients": [{"ResourceTypeId": "Wood_Trunk", "Quantity": 8}, {"ItemId": "Ingredient_Bar_Iron", "Quantity": 2}]
+    },
+    {
+      "id": "AD_Armor_Stand_Metal",
+      "name": "Metal Armor Stand",
+      "kind": "Stand",
+      "style": "Metal",
+      "capacity": 6,
+      "slots": ["Head", "Chest", "Hands", "Legs", "Main hand", "Off hand"],
+      "description": "A steel equipment display for an armory or gun room. Use to open. Slots from left to right: head, chest, hands, legs, main hand, off hand. Stored equipment keeps its durability and item data.",
+      "ingredients": [{"ItemId": "Ingredient_Bar_Iron", "Quantity": 8}, {"ItemId": "Ingredient_Bar_Copper", "Quantity": 2}]
+    },
+    {
+      "id": "AD_Wall_Holder_Wood",
+      "name": "Wood-and-Iron Wall Weapon Holder",
+      "kind": "Holder",
+      "style": "Wood",
+      "capacity": 1,
+      "slots": ["Weapon"],
+      "description": "Mount on a solid wall and use to store and display one weapon. Accepts native weapon items, including compatible modded guns.",
+      "ingredients": [{"ResourceTypeId": "Wood_Trunk", "Quantity": 3}, {"ItemId": "Ingredient_Bar_Iron", "Quantity": 1}]
+    },
+    {
+      "id": "AD_Wall_Holder_Metal",
+      "name": "Metal Wall Weapon Holder",
+      "kind": "Holder",
+      "style": "Metal",
+      "capacity": 1,
+      "slots": ["Weapon"],
+      "description": "A steel wall mount for one weapon or compatible modded gun. Mount on a solid wall and use to open.",
+      "ingredients": [{"ItemId": "Ingredient_Bar_Iron", "Quantity": 3}, {"ItemId": "Ingredient_Bar_Copper", "Quantity": 1}]
+    },
+    {
+      "id": "AD_Wall_Rack_Wood",
+      "name": "Wood-and-Iron Wall Weapon Rack",
+      "kind": "Rack",
+      "style": "Wood",
+      "capacity": 3,
+      "slots": ["Bottom weapon", "Middle weapon", "Top weapon"],
+      "description": "A timber wall rack that displays three weapons upright at full size. Inventory slots run left to right as you face the rack.",
+      "ingredients": [{"ResourceTypeId": "Wood_Trunk", "Quantity": 8}, {"ItemId": "Ingredient_Bar_Iron", "Quantity": 3}]
+    },
+    {
+      "id": "AD_Wall_Rack_Metal",
+      "name": "Metal Wall Gun Rack",
+      "kind": "Rack",
+      "style": "Metal",
+      "capacity": 3,
+      "slots": ["Bottom weapon", "Middle weapon", "Top weapon"],
+      "description": "A steel wall rack that displays three weapons upright at full size. Inventory slots run left to right as you face the rack.",
+      "ingredients": [{"ItemId": "Ingredient_Bar_Iron", "Quantity": 8}, {"ItemId": "Ingredient_Bar_Copper", "Quantity": 2}]
+    }
+  ],
+  "crafting": {
+    "bench": {"Id": "Furniture_Bench", "Type": "Crafting", "Categories": ["Furniture_Storage"], "RequiredTierLevel": 1},
+    "knowledgeRequired": false,
+    "timeSeconds": 2,
+    "outputQuantity": 1
+  },
+  "storage": {
+    "authority": "Native ItemContainerBlock",
+    "visuals": "Transient, non-pickup entities; never a second stored item",
+    "preserve": ["ItemId", "Quantity", "Durability", "MaxDurability", "Metadata"],
+    "removal": "Native container breaking and drop handling"
+  }
+}

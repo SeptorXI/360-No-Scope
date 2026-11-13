@@ -1,0 +1,124 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardY",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.43,
+    "Max": 0.43
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.38,
+            "Max": 0.38
+          },
+          "Y": {
+            "Min": 0.51,
+            "Max": 0.51
+          }
+        },
+        "Opacity": 0.08,
+        "Color": "#ff5832"
+      },
+      "14": {
+        "Scale": {
+          "X": {
+            "Min": 0.91,
+            "Max": 0.91
+          },
+          "Y": {
+            "Min": 0.94,
+            "Max": 0.94
+          }
+        },
+        "Opacity": 0.87,
+        "Color": "#ff6742"
+      },
+      "39": {
+        "Scale": {
+          "X": {
+            "Min": 1.43,
+            "Max": 1.43
+          },
+          "Y": {
+            "Min": 0.82,
+            "Max": 0.82
+          }
+        },
+        "Opacity": 0.69,
+        "Color": "#f02c22"
+      },
+      "68": {
+        "Scale": {
+          "X": {
+            "Min": 1.65,
+            "Max": 1.65
+          },
+          "Y": {
+            "Min": 0.58,
+            "Max": 0.58
+          }
+        },
+        "Opacity": 0.3,
+        "Color": "#c61d24"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.72,
+            "Max": 1.72
+          },
+          "Y": {
+            "Min": 0.36,
+            "Max": 0.36
+          }
+        },
+        "Opacity": 0,
+        "Color": "#861925"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 3.15,
+          "Max": 3.15
+        },
+        "Y": {
+          "Min": 0.52,
+          "Max": 0.52
+        }
+      },
+      "Color": "#ff5e2a",
+      "Opacity": 1.0,
+      "Rotation": {
+        "Z": {
+          "Min": 0,
+          "Max": 0
+        }
+      }
+    }
+  }
+}

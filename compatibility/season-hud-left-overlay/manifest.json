@@ -1,0 +1,11 @@
+{
+  "Group": "Steven",
+  "Name": "SeasonHUDLeftOverlay",
+  "Version": "1.0.0",
+  "Description": "Private local compatibility overlay: moves only the Dynamic Seasons HUD to the left edge, clear of the quest tracker and PartyPro.",
+  "ServerVersion": ">=0.7.0 <0.8.0",
+  "Dependencies": {
+    "BlueOrbit:DynamicSeasons": ">=7.1.4"
+  },
+  "IncludesAssetPack": true
+}

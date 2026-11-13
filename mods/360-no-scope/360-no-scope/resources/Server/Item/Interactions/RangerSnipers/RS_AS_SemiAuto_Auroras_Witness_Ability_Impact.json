@@ -1,0 +1,43 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "Type": "Absolute",
+    "BaseDamage": {
+      "Projectile": 45.0
+    },
+    "RandomPercentageModifier": 0
+  },
+  "DamageAttribute": "RS_DistanceDamage",
+  "DamageEffects": {
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Critical",
+        "Scale": 0.65
+      }
+    ]
+  },
+  "TargetedDamage": {
+    "Head": {
+      "DamageCalculator": {
+        "Type": "Absolute",
+        "BaseDamage": {
+          "Projectile": 84.0
+        },
+        "RandomPercentageModifier": 0
+      }
+    }
+  },
+  "Next": {
+    "Type": "ApplyEffect",
+    "EffectId": "RS_AS_SemiAuto_Auroras_Witness_Ability_Mark",
+    "Entity": "Target",
+    "Next": {
+      "Type": "ApplyEffect",
+      "EffectId": "RS_AS_SemiAuto_Auroras_Witness_Ability_Slow",
+      "Entity": "Target",
+      "Next": "RS_Despawn"
+    }
+  },
+  "Failed": "RS_Despawn",
+  "Blocked": "RS_Despawn"
+}

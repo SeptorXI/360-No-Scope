@@ -1,0 +1,19 @@
+{
+  "Group": "Steven",
+  "Name": "CrimsonBrotherhood",
+  "Version": "0.1.1",
+  "Main": "steven.brotherhood.CrimsonBrotherhoodPlugin",
+  "Description": "Four Legendary Brotherhood armor pieces matching The Diddlers, with Assassin-only equipment and distinct per-piece attributes.",
+  "Authors": [
+    {
+      "Name": "Steven"
+    }
+  ],
+  "ServerVersion": ">=0.7.5 <0.8.0",
+  "Dependencies": {
+    "Hytale:ItemModule": "*",
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Config:Endgame&QoL": "=6.1.4"
+  },
+  "IncludesAssetPack": true
+}

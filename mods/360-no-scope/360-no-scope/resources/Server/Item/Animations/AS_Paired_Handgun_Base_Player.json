@@ -1,0 +1,230 @@
+{
+  "Parent": "Handgun",
+  "Animations": {
+    "Walk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Walk_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Walk_TPS.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/WalkBackward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/WalkBackward_TPS.blockyanim",
+      "Looping": true
+    },
+    "Run": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Run_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Run_TPS.blockyanim",
+      "Looping": true
+    },
+    "RunBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/RunBackward_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/RunBackward_TPS.blockyanim",
+      "Looping": true
+    },
+    "Sprint": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Sprint_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Sprint_TPS.blockyanim",
+      "Looping": true
+    },
+    "Crouch": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Crouch_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Crouch_TPS.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalk": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/CrouchWalk_TPS.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/CrouchWalk_FPS.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalkBackward": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/CrouchWalkBackward_TPS.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/CrouchWalkBackward_FPS.blockyanim",
+      "Looping": true
+    },
+    "Jump": {
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Jump_TPS.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpWalk": {
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/JumpWalk_TPS.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpRun": {
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/JumpRun_TPS.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Fall": {
+      "BlendingDuration": 0.4,
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Fall_TPS.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FallFar": {
+      "BlendingDuration": 0.4,
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FallFar_TPS.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FlyIdle": {
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyIdle_TPS.blockyanim",
+      "Looping": true,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyIdle_FPS.blockyanim"
+    },
+    "Fly": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Fly_TPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Fly_FPS.blockyanim"
+    },
+    "FlyBackward": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyBackward_TPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyBackward_FPS.blockyanim"
+    },
+    "FlyFast": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyFast_TPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FlyFast_FPS.blockyanim"
+    },
+    "SwimIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimIdle_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimIdle_TPS.blockyanim",
+      "Looping": true
+    },
+    "Swim": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Swim_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Swim_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimBackward_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimBackward_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimFast_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimFast_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimJump": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimJump_FPS.blockyanim",
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimJump_TPS.blockyanim",
+      "Looping": false
+    },
+    "SwimFloat": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimFloat_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimFloat_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimSink": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimSink_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimSink_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimDive": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDive_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDive_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDiveBackward_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDiveBackward_TPS.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDiveFast_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/SwimDiveFast_TPS.blockyanim",
+      "Looping": true
+    },
+    "FluidIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidIdle_FPS.blockyanim",
+      "Speed": 0.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidIdle_TPS.blockyanim",
+      "Looping": true
+    },
+    "FluidWalk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidWalk_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidWalk_TPS.blockyanim",
+      "Looping": true
+    },
+    "FluidWalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidWalkBackward_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidWalkBackward_TPS.blockyanim",
+      "Looping": true
+    },
+    "FluidRun": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidRun_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/FluidRun_TPS.blockyanim",
+      "Looping": true
+    },
+    "ClimbIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbIdle_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbIdle_TPS.blockyanim",
+      "Looping": true
+    },
+    "ClimbUp": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbUp_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbUp_TPS.blockyanim",
+      "Looping": true
+    },
+    "ClimbDown": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbDown_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbDown_TPS.blockyanim",
+      "Looping": true
+    },
+    "ClimbLeft": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbLeft_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbLeft_TPS.blockyanim",
+      "Looping": true
+    },
+    "ClimbRight": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbRight_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/ClimbRight_TPS.blockyanim",
+      "Looping": true
+    },
+    "Interact": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Interact_TPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/Paired_Handguns/Interact_FPS.blockyanim",
+      "Speed": 1,
+      "BlendingDuration": 0.1
+    }
+  }
+}

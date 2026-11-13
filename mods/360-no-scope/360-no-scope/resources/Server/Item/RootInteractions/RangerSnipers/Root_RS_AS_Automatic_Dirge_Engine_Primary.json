@@ -1,0 +1,51 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Id": "RangerSniperCycle",
+    "Cooldown": 0.213333333,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Primary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "Pick",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "CooldownCondition",
+      "Id": "RangerSniperCycle",
+      "Next": {
+        "Type": "DurabilityCondition",
+        "Threshold": 0,
+        "Operator": "GreaterThan",
+        "Next": {
+          "Type": "RSChamber",
+          "Operation": "Consume",
+          "WeaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+          "Cost": 1,
+          "Next": {
+            "Type": "TriggerCooldown",
+            "Cooldown": {
+              "Id": "RangerSniperCycle",
+              "Cooldown": 0.213333333
+            },
+            "Next": "RS_AS_Automatic_Dirge_Engine_Launch"
+          },
+          "Failed": "RS_AS_Automatic_Dirge_Engine_Empty"
+        }
+      }
+    }
+  ]
+}

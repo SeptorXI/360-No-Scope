@@ -1,0 +1,24 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -5.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 32,
+  "MaxInstance": 64,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/ABTT/Fingertip_Electricity_01.ogg",
+        "Sounds/ABTT/Fingertip_Electricity_02.ogg",
+        "Sounds/ABTT/Fingertip_Electricity_03.ogg",
+        "Sounds/ABTT/Fingertip_Electricity_04.ogg",
+        "Sounds/ABTT/Fingertip_Electricity_05.ogg",
+        "Sounds/ABTT/Fingertip_Electricity_06.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0,
+      "Looping": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 32,
+  "ParticleLifeSpan": {
+    "Min": 0.87,
+    "Max": 1.27
+  },
+  "LifeSpan": 2.17,
+  "SpawnRate": {
+    "Min": 16,
+    "Max": 26
+  },
+  "Shape": "Sphere",
+  "EmitOffset": {
+    "X": {
+      "Min": 0.75,
+      "Max": 6.5
+    },
+    "Y": {
+      "Min": 0.03,
+      "Max": 0.28
+    },
+    "Z": {
+      "Min": 0.75,
+      "Max": 6.5
+    }
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": 0,
+      "Max": 360
+    },
+    "Pitch": {
+      "Min": 52,
+      "Max": 87
+    },
+    "Speed": {
+      "Min": 0.8,
+      "Max": 2.4
+    }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": {
+        "X": 0.45,
+        "Y": 0.65,
+        "Z": 0.22
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Ember.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.56,
+            "Max": 0.56
+          }
+        },
+        "Opacity": 0,
+        "Color": "#e76626"
+      },
+      "13": {
+        "Scale": {
+          "X": {
+            "Min": 0.95,
+            "Max": 0.95
+          }
+        },
+        "Opacity": 0.75,
+        "Color": "#ff9b48"
+      },
+      "39": {
+        "Scale": {
+          "X": {
+            "Min": 1.02,
+            "Max": 1.02
+          }
+        },
+        "Opacity": 0.66,
+        "Color": "#d26135"
+      },
+      "73": {
+        "Scale": {
+          "X": {
+            "Min": 1.2,
+            "Max": 1.2
+          }
+        },
+        "Opacity": 0.4,
+        "Color": "#786457"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.32,
+            "Max": 1.32
+          }
+        },
+        "Opacity": 0,
+        "Color": "#53473f"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.11,
+          "Max": 0.27
+        }
+      },
+      "Opacity": 1,
+      "Rotation": {
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

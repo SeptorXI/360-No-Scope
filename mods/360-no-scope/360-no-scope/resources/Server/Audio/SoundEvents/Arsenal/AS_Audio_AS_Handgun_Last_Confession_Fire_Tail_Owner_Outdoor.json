@@ -1,0 +1,22 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -3,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 12,
+  "MaxDistance": 192,
+  "MaxInstance": 32,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Arsenal/AS_Handgun_Last_Confession/OutdoorFireTail_01.ogg",
+        "Sounds/Arsenal/AS_Handgun_Last_Confession/OutdoorFireTail_02.ogg",
+        "Sounds/Arsenal/AS_Handgun_Last_Confession/OutdoorFireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.128,
+      "Looping": false,
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

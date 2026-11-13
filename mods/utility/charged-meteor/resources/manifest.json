@@ -1,0 +1,15 @@
+{
+  "Group": "Steven",
+  "Name": "ChargedMeteor",
+  "Version": "0.1.7",
+  "Description": "A socketed Meteor upgrade with a crimson sky vortex and a charged fire impact.",
+  "ServerVersion": ">=0.7.7 <0.8.0",
+  "Dependencies": {
+    "Hytale:NPC": "*",
+    "Hytale:Abilities": "*",
+    "Config:Endgame&QoL": "=6.1.4",
+    "Alechilles:Alec's Tamework!": ">=5.9.0 <6.0.0"
+  },
+  "Main": "steven.hytale.chargedmeteor.ChargedMeteorPlugin",
+  "IncludesAssetPack": true
+}

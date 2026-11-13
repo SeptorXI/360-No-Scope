@@ -1,0 +1,45 @@
+{
+  "group": "Steven",
+  "name": "ClearGlass",
+  "version": "0.1.2",
+  "serverVersion": ">=0.7.5 <0.8.0",
+  "items": {
+    "block": {
+      "id": "CG_Glass_Block",
+      "name": "Clear Glass",
+      "description": "Craft any sand directly into clear glass at the Builder's Workbench, Windows category. Shape six glass blocks into sixteen panes at the same bench.",
+      "maxStack": 100,
+      "texture": "BlockTextures/CG_ClearGlass.png",
+      "icon": "Icons/ItemsGenerated/CG_Glass_Block.png",
+      "recipe": {
+        "Input": [{"ResourceTypeId": "Sands", "Quantity": 1}],
+        "BenchRequirement": [{"Type": "StructuralCrafting", "Id": "Builders", "Categories": ["Window"]}],
+        "OutputQuantity": 1,
+        "TimeSeconds": 2,
+        "KnowledgeRequired": false
+      }
+    },
+    "pane": {
+      "id": "CG_Glass_Pane",
+      "name": "Clear Glass Pane",
+      "description": "A thin clear pane. Connects to neighboring clear glass panes and blocks. Craft at the Builder's Workbench, Windows category.",
+      "maxStack": 100,
+      "icon": "Icons/ItemsGenerated/CG_Glass_Pane.png",
+      "recipe": {
+        "Input": [{"ItemId": "CG_Glass_Block", "Quantity": 6}],
+        "BenchRequirement": [{"Type": "StructuralCrafting", "Id": "Builders", "Categories": ["Window"]}],
+        "OutputQuantity": 16,
+        "TimeSeconds": 2,
+        "KnowledgeRequired": false
+      }
+    }
+  },
+  "preservation": {
+    "nativeItemsOverridden": [],
+    "nativeRecipesOverridden": [],
+    "bottleRecipe": "Potion_Empty remains one Sands -> one bottle at the native Furnace in ten seconds.",
+    "stationsAdded": [],
+    "glassRecipe": "One Sands -> one glass at the existing Builder's Workbench, Windows category, in two seconds. No fuel or intermediate item.",
+    "clientPlaytestRequired": true
+  }
+}

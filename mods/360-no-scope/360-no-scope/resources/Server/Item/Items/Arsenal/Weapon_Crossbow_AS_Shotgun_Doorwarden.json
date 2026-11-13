@@ -1,0 +1,84 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 6,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Shotgun_Doorwarden_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Shotgun_Doorwarden_Primary",
+    "Secondary": "Root_RS_AS_Shotgun_Doorwarden_ADS",
+    "SwapTo": "Root_RS_AS_Shotgun_Doorwarden_ChamberHUD",
+    "Use": "Root_RS_AS_Shotgun_Doorwarden_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Shotgun_Doorwarden.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Shotgun_Doorwarden.description"
+  },
+  "Model": "Items/Arsenal/AS_Shotgun_Doorwarden/AS_Shotgun_Doorwarden.blockymodel",
+  "Texture": "Items/Arsenal/AS_Shotgun_Doorwarden/AS_Shotgun_Doorwarden.png",
+  "Icon": "Icons/ItemsGenerated/AS_Shotgun_Doorwarden.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 38
+      },
+      {
+        "ItemId": "Rock_Gem_Zephyr",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_shotgun"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

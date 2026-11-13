@@ -1,0 +1,15 @@
+{
+  "Id": "ChargedMeteor_CastRoot",
+  "Target": "Server/Item/RootInteractions/Abilities/Endgame/Root_Ability_Endgame_Meteor.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "enable-optional-charge",
+      "Op": "Replace",
+      "Path": "/Interactions/0",
+      "Value": "ChargedMeteor_Route"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "360 Rifle Sentry",
+  "version": "0.2.9",
+  "manifest_name": "Steven:360 Rifle Sentry",
+  "artifact": "360-Rifle-Sentry-0.2.9.jar",
+  "installed_sha256": "d8058790eab0b21d9648ece3c0dcbc75c5560aeb880f14c50ff43b940b475340",
+  "server_version": ">=0.7.0 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling",
+    "mmo-skill-tree"
+  ],
+  "runtime_dependencies": {
+    "Ziggfreed:MMOSkillTree": "=1.7.4",
+    "Airijko:EndlessLevelingCore": "=14.5.6"
+  }
+}

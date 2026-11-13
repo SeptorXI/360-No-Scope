@@ -1,0 +1,12 @@
+{
+  "Group": "Local",
+  "Name": "EndlessMenuAcknowledgements",
+  "Version": "1.0.2",
+  "Description": "Accounts for the raw tooltip-close acknowledgement in reviewed Endless Leveling 14.5.6 on Hytale 0.7.7.",
+  "Authors": [{ "Name": "Local server maintenance" }],
+  "ServerVersion": ">=0.7.7 <0.7.8",
+  "Dependencies": { "Airijko:EndlessLevelingCore": "=14.5.6" },
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "local.endlessmenu.EndlessMenuAcknowledgements"
+}

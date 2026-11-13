@@ -1,0 +1,81 @@
+{
+  "Parent": "ABTT_Gauntlets_Base_Player",
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Idle_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Idle_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Idle_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Channel": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Start": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Start_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Start_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Start_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Stop": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Stop_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Stop_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Stop_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Shoot": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Channel_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Storm": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Storm_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/ABTT/Storm_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/ABTT/Storm_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Min": -60,
+        "Max": 60
+      },
+      "TargetNodes": [
+        "Head",
+        "RShoulder",
+        "LShoulder"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Min": -45,
+        "Max": 45
+      },
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  }
+}

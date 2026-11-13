@@ -1,0 +1,887 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ChargedMeteor_ImpactFlash",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.45,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactWave",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.24,
+        "Z": 0
+      },
+      "StartDelay": 0.02
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDust",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.39,
+        "Z": 0
+      },
+      "StartDelay": 0.082
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactSparks",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.6,
+        "Z": 0
+      },
+      "StartDelay": 0.045
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 5.705,
+        "Y": 0.5,
+        "Z": 0.721
+      },
+      "StartDelay": 0.24,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -5.705,
+            "Y": 0,
+            "Z": -0.721
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 5.378,
+        "Y": 0.5,
+        "Z": 2.531
+      },
+      "StartDelay": 0.257,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -5.378,
+            "Y": 0,
+            "Z": -2.531
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 4.003,
+        "Y": 0.5,
+        "Z": 3.759
+      },
+      "StartDelay": 0.274,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -4.003,
+            "Y": 0,
+            "Z": -3.759
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 2.843,
+        "Y": 0.5,
+        "Z": 5.171
+      },
+      "StartDelay": 0.291,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -2.843,
+            "Y": 0,
+            "Z": -5.171
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 1.088,
+        "Y": 0.5,
+        "Z": 5.705
+      },
+      "StartDelay": 0.24,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -1.088,
+            "Y": 0,
+            "Z": -5.705
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -0.692,
+        "Y": 0.5,
+        "Z": 5.479
+      },
+      "StartDelay": 0.257,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 0.692,
+            "Y": 0,
+            "Z": -5.479
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -2.553,
+        "Y": 0.5,
+        "Z": 5.425
+      },
+      "StartDelay": 0.274,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 2.553,
+            "Y": 0,
+            "Z": -5.425
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -3.868,
+        "Y": 0.5,
+        "Z": 4.119
+      },
+      "StartDelay": 0.291,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 3.868,
+            "Y": 0,
+            "Z": -4.119
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -4.94,
+        "Y": 0.5,
+        "Z": 2.716
+      },
+      "StartDelay": 0.24,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 4.94,
+            "Y": 0,
+            "Z": -2.716
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -5.894,
+        "Y": 0.5,
+        "Z": 1.124
+      },
+      "StartDelay": 0.257,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 5.894,
+            "Y": 0,
+            "Z": -1.124
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -5.486,
+        "Y": 0.5,
+        "Z": -0.693
+      },
+      "StartDelay": 0.274,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 5.486,
+            "Y": 0,
+            "Z": 0.693
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -5.242,
+        "Y": 0.5,
+        "Z": -2.467
+      },
+      "StartDelay": 0.291,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 5.242,
+            "Y": 0,
+            "Z": 2.467
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -4.31,
+        "Y": 0.5,
+        "Z": -4.047
+      },
+      "StartDelay": 0.24,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 4.31,
+            "Y": 0,
+            "Z": 4.047
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -2.645,
+        "Y": 0.5,
+        "Z": -4.811
+      },
+      "StartDelay": 0.257,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 2.645,
+            "Y": 0,
+            "Z": 4.811
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -1.112,
+        "Y": 0.5,
+        "Z": -5.829
+      },
+      "StartDelay": 0.274,
+      "Attractors": [
+        {
+          "Position": {
+            "X": 1.112,
+            "Y": 0,
+            "Z": 5.829
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0.723,
+        "Y": 0.5,
+        "Z": -5.719
+      },
+      "StartDelay": 0.291,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -0.723,
+            "Y": 0,
+            "Z": 5.719
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 2.362,
+        "Y": 0.5,
+        "Z": -5.019
+      },
+      "StartDelay": 0.24,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -2.362,
+            "Y": 0,
+            "Z": 5.019
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 4.112,
+        "Y": 0.5,
+        "Z": -4.378
+      },
+      "StartDelay": 0.257,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -4.112,
+            "Y": 0,
+            "Z": 4.378
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 4.918,
+        "Y": 0.5,
+        "Z": -2.704
+      },
+      "StartDelay": 0.274,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -4.918,
+            "Y": 0,
+            "Z": 2.704
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactDustWall",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 5.577,
+        "Y": 0.5,
+        "Z": -1.064
+      },
+      "StartDelay": 0.291,
+      "Attractors": [
+        {
+          "Position": {
+            "X": -5.577,
+            "Y": 0,
+            "Z": 1.064
+          },
+          "RadialAxis": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "RadialImpulse": 4.05
+        }
+      ]
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactCracks",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.23,
+        "Z": 0.0
+      },
+      "StartDelay": 0.17
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactAsh",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.25,
+        "Z": 0.0
+      },
+      "StartDelay": 0.64
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 12.0,
+        "Y": 0.17,
+        "Z": 0.0
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 11.769,
+        "Y": 0.17,
+        "Z": 2.341
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 11.087,
+        "Y": 0.17,
+        "Z": 4.592
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 9.978,
+        "Y": 0.17,
+        "Z": 6.667
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 8.485,
+        "Y": 0.17,
+        "Z": 8.485
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 6.667,
+        "Y": 0.17,
+        "Z": 9.978
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 4.592,
+        "Y": 0.17,
+        "Z": 11.087
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 2.341,
+        "Y": 0.17,
+        "Z": 11.769
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.17,
+        "Z": 12.0
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -2.341,
+        "Y": 0.17,
+        "Z": 11.769
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -4.592,
+        "Y": 0.17,
+        "Z": 11.087
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -6.667,
+        "Y": 0.17,
+        "Z": 9.978
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -8.485,
+        "Y": 0.17,
+        "Z": 8.485
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -9.978,
+        "Y": 0.17,
+        "Z": 6.667
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -11.087,
+        "Y": 0.17,
+        "Z": 4.592
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -11.769,
+        "Y": 0.17,
+        "Z": 2.341
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -12.0,
+        "Y": 0.17,
+        "Z": 0.0
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -11.769,
+        "Y": 0.17,
+        "Z": -2.341
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -11.087,
+        "Y": 0.17,
+        "Z": -4.592
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -9.978,
+        "Y": 0.17,
+        "Z": -6.667
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -8.485,
+        "Y": 0.17,
+        "Z": -8.485
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -6.667,
+        "Y": 0.17,
+        "Z": -9.978
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -4.592,
+        "Y": 0.17,
+        "Z": -11.087
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -2.341,
+        "Y": 0.17,
+        "Z": -11.769
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": -0.0,
+        "Y": 0.17,
+        "Z": -12.0
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 2.341,
+        "Y": 0.17,
+        "Z": -11.769
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 4.592,
+        "Y": 0.17,
+        "Z": -11.087
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 6.667,
+        "Y": 0.17,
+        "Z": -9.978
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 8.485,
+        "Y": 0.17,
+        "Z": -8.485
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 9.978,
+        "Y": 0.17,
+        "Z": -6.667
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 11.087,
+        "Y": 0.17,
+        "Z": -4.592
+      },
+      "StartDelay": 0.46
+    },
+    {
+      "SpawnerId": "ChargedMeteor_ImpactRim",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 11.769,
+        "Y": 0.17,
+        "Z": -2.341
+      },
+      "StartDelay": 0.46
+    }
+  ],
+  "LifeSpan": 4.18,
+  "BoundingRadius": 25,
+  "CullDistance": 112,
+  "IsImportant": false
+}

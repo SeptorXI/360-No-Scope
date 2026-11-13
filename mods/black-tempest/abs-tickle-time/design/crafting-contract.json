@@ -1,0 +1,28 @@
+{
+  "itemId": "Weapon_Gauntlets_AB_Tickle_Time",
+  "progression": "Legendary equipment parity with the Harbinger scythe and The Diddlers: shared rare core and three dungeon seals, with a lightning-themed material pair.",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 16,
+    "Input": [
+      {"ItemId": "Ingredient_Bar_Onyxium", "Quantity": 24},
+      {"ItemId": "Ingredient_Bar_Prisma", "Quantity": 16},
+      {"ItemId": "Ingredient_Voidheart", "Quantity": 6},
+      {"ItemId": "Ingredient_Lightning_Essence", "Quantity": 32},
+      {"ItemId": "Ingredient_Bolt_Shadoweave", "Quantity": 8},
+      {"ItemId": "Hedera_Gem", "Quantity": 2},
+      {"ItemId": "Endgame_Seal_Fragment_Catacombs", "Quantity": 1},
+      {"ItemId": "Endgame_Seal_Fragment_Sentinel", "Quantity": 1},
+      {"ItemId": "Endgame_Seal_Fragment_Spire", "Quantity": 1}
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": ["Endgame_Misc"],
+        "RequiredTierLevel": 5
+      }
+    ]
+  }
+}

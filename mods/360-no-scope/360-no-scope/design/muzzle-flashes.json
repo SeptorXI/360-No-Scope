@@ -1,0 +1,1109 @@
+{
+  "schemaVersion": 1,
+  "version": "2.3.0",
+  "weapons": [
+    {
+      "weaponId": "Weapon_Crossbow_Wildwood_Surveyor",
+      "name": "Wildwood Surveyor",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/RangerSnipers/Tier01/Ranger_Sniper_Tier01.blockymodel",
+      "primaryRoot": "Root_RS_Wildwood_Surveyor_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Wildwood_Surveyor_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Dunewatch_Longshot",
+      "name": "Dunewatch Longshot",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/RangerSnipers/Tier02/Ranger_Sniper_Tier02.blockymodel",
+      "primaryRoot": "Root_RS_Dunewatch_Longshot_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Dunewatch_Longshot_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Frostline_Sentinel",
+      "name": "Frostline Sentinel",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/RangerSnipers/Tier03/Ranger_Sniper_Tier03.blockymodel",
+      "primaryRoot": "Root_RS_Frostline_Sentinel_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Frostline_Sentinel_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "name": "Mournhollow Epitaph",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/RangerSnipers/Tier04/Ranger_Sniper_Tier04.blockymodel",
+      "primaryRoot": "Root_RS_Mournhollow_Epitaph_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Mournhollow_Epitaph_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Deepworks_Railspike",
+      "name": "Gobliterator's Requiem",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/RangerSnipers/Tier05/Ranger_Sniper_Tier05.blockymodel",
+      "primaryRoot": "Root_RS_Deepworks_Railspike_Primary",
+      "abilityRoot": "Root_RS_Deepworks_Railspike_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Deepworks_Railspike_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Deepworks_Railspike_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "name": "Dawnpiercer, Last Light of Luminia",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/RangerSnipers/Tier06/Ranger_Sniper_Tier06.blockymodel",
+      "primaryRoot": "Root_RS_Luminia_Dawnpiercer_Primary",
+      "abilityRoot": "Root_RS_Luminia_Dawnpiercer_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Luminia_Dawnpiercer_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Luminia_Dawnpiercer_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Nameless_Covenant",
+      "name": "Malediction, the Unblinking Eye",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/RangerSnipers/Tier07/Ranger_Sniper_Tier07.blockymodel",
+      "primaryRoot": "Root_RS_Nameless_Covenant_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Nameless_Covenant_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+      "name": "Labyrinth Threadkeeper",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/RangerSnipers/Tier08/Ranger_Sniper_Tier08.blockymodel",
+      "primaryRoot": "Root_RS_Labyrinth_Threadkeeper_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Labyrinth_Threadkeeper_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_Skybound_Farwatch",
+      "name": "Skybound Farwatch",
+      "family": "sniper",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/RangerSnipers/Tier09/Ranger_Sniper_Tier09.blockymodel",
+      "primaryRoot": "Root_RS_Skybound_Farwatch_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_Skybound_Farwatch_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "name": "Wildwood Trailwarden",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Trailwarden/AS_Handgun_Trailwarden.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Trailwarden_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Trailwarden_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+      "name": "Dunewatch Sandbound Oath",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Sandbound_Oath/AS_Handgun_Sandbound_Oath.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Sandbound_Oath_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Sandbound_Oath_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "name": "Frostline Pale Marshal",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Pale_Marshal/AS_Handgun_Pale_Marshal.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Pale_Marshal_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Pale_Marshal_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "name": "Mournhollow Last Confession",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Handgun_Last_Confession/AS_Handgun_Last_Confession.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Last_Confession_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Last_Confession_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+      "name": "Gutter Saint, Mercy of the Deepworks",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Gutter_Saint/AS_Handgun_Gutter_Saint.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Gutter_Saint_Primary",
+      "abilityRoot": "Root_RS_AS_Handgun_Gutter_Saint_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Gutter_Saint_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Gutter_Saint_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "name": "Vesper, the Dawn Unspent",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Vesper/AS_Handgun_Vesper.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Vesper_Primary",
+      "abilityRoot": "Root_RS_AS_Handgun_Vesper_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Vesper_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Vesper_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "name": "Black Sacrament",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Handgun_Absolver/AS_Handgun_Absolver.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Absolver_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Absolver_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+      "name": "Labyrinth Quiet Equation",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Quiet_Equation/AS_Handgun_Quiet_Equation.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Quiet_Equation_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Quiet_Equation_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "name": "Skybound Windward Promise",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Windward_Promise/AS_Handgun_Windward_Promise.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Windward_Promise_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Windward_Promise_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Brushfire",
+      "name": "Wildwood Brushfire",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SMG_Brushfire/AS_SMG_Brushfire.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Brushfire_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Brushfire_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+      "name": "Dunewatch Dust Choir",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SMG_Dust_Choir/AS_SMG_Dust_Choir.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Dust_Choir_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Dust_Choir_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "name": "Frostline Sleetweaver",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SMG_Sleetweaver/AS_SMG_Sleetweaver.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Sleetweaver_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Sleetweaver_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+      "name": "Mournhollow Funeral Procession",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_SMG_Funeral_Procession/AS_SMG_Funeral_Procession.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Funeral_Procession_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Funeral_Procession_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Grindhymn",
+      "name": "Grindhymn, the Gobliterator's Encore",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SMG_Grindhymn/AS_SMG_Grindhymn.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Grindhymn_Primary",
+      "abilityRoot": "Root_RS_AS_SMG_Grindhymn_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Grindhymn_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Grindhymn_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Starling",
+      "name": "Starling, Chorus of First Light",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_SMG_Starling/AS_SMG_Starling.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Starling_Primary",
+      "abilityRoot": "Root_RS_AS_SMG_Starling_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Starling_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Starling_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "name": "Choir of the Damned",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_SMG_Many_Whispers/AS_SMG_Many_Whispers.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Many_Whispers_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Many_Whispers_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Threadstorm",
+      "name": "Labyrinth Threadstorm",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SMG_Threadstorm/AS_SMG_Threadstorm.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Threadstorm_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Threadstorm_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SMG_Kestrel",
+      "name": "Skybound Kestrel",
+      "family": "smg",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SMG_Kestrel/AS_SMG_Kestrel.blockymodel",
+      "primaryRoot": "Root_RS_AS_SMG_Kestrel_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SMG_Kestrel_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Waymark",
+      "name": "Wildwood Waymark",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Waymark/AS_SemiAuto_Waymark.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Waymark_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Waymark_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+      "name": "Dunewatch Dune Canticle",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Dune_Canticle/AS_SemiAuto_Dune_Canticle.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Dune_Canticle_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Dune_Canticle_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "name": "Frostline White Vigil",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_White_Vigil/AS_SemiAuto_White_Vigil.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_White_Vigil_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_White_Vigil_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+      "name": "Mournhollow Tollkeeper",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Tollkeeper/AS_SemiAuto_Tollkeeper.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Tollkeeper_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Tollkeeper_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+      "name": "Iron Testament, Voice of the Deepworks",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Iron_Testament/AS_SemiAuto_Iron_Testament.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Iron_Testament_Primary",
+      "abilityRoot": "Root_RS_AS_SemiAuto_Iron_Testament_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Iron_Testament_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Iron_Testament_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+      "name": "Aurora's Witness, Oath of Luminia",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Auroras_Witness/AS_SemiAuto_Auroras_Witness.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Auroras_Witness_Primary",
+      "abilityRoot": "Root_RS_AS_SemiAuto_Auroras_Witness_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Auroras_Witness_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Auroras_Witness_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "name": "The Heretic's Verdict",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Last_Deposition/AS_SemiAuto_Last_Deposition.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Last_Deposition_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Last_Deposition_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+      "name": "Labyrinth Proofkeeper",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Proofkeeper/AS_SemiAuto_Proofkeeper.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Proofkeeper_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Proofkeeper_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "name": "Skybound Highroad",
+      "family": "semiauto",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_SemiAuto_Highroad/AS_SemiAuto_Highroad.blockymodel",
+      "primaryRoot": "Root_RS_AS_SemiAuto_Highroad_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_SemiAuto_Highroad_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Briar_March",
+      "name": "Wildwood Briar March",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Briar_March/AS_Automatic_Briar_March.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Briar_March_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Briar_March_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Scorchwind",
+      "name": "Dunewatch Scorchwind",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Scorchwind/AS_Automatic_Scorchwind.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Scorchwind_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Scorchwind_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "name": "Frostline Winter Standard",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Winter_Standard/AS_Automatic_Winter_Standard.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Winter_Standard_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Winter_Standard_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "name": "Mournhollow Dirge Engine",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Automatic_Dirge_Engine/AS_Automatic_Dirge_Engine.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Dirge_Engine_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Dirge_Engine_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "name": "Crown of Rivets, the Unbroken March",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Crown_Of_Rivets/AS_Automatic_Crown_Of_Rivets.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Crown_Of_Rivets_Primary",
+      "abilityRoot": "Root_RS_AS_Automatic_Crown_Of_Rivets_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Crown_Of_Rivets_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Crown_Of_Rivets_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+      "name": "Helios Refrain, Light Beyond the Siege",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Helios_Refrain/AS_Automatic_Helios_Refrain.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Helios_Refrain_Primary",
+      "abilityRoot": "Root_RS_AS_Automatic_Helios_Refrain_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Helios_Refrain_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Helios_Refrain_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "name": "Legion of Ruin",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Automatic_Hollow_Regiment/AS_Automatic_Hollow_Regiment.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Hollow_Regiment_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Hollow_Regiment_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "name": "Labyrinth Patternbreaker",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Patternbreaker/AS_Automatic_Patternbreaker.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Patternbreaker_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Patternbreaker_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "name": "Skybound Gale Banner",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Automatic_Gale_Banner/AS_Automatic_Gale_Banner.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Gale_Banner_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Gale_Banner_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+      "name": "Wildwood Hollowbark",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Hollowbark/AS_Shotgun_Hollowbark.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Hollowbark_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Hollowbark_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+      "name": "Dunewatch Sandbreaker",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Sandbreaker/AS_Shotgun_Sandbreaker.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Sandbreaker_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Sandbreaker_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "name": "Frostline Hearthguard",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Hearthguard/AS_Shotgun_Hearthguard.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Hearthguard_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Hearthguard_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "name": "Mournhollow Bellwether",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Bellwether/AS_Shotgun_Bellwether.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Bellwether_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Bellwether_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "name": "Gatecrasher, the Gobliterator's Wake",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Gatecrasher/AS_Shotgun_Gatecrasher.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Gatecrasher_Primary",
+      "abilityRoot": "Root_RS_AS_Shotgun_Gatecrasher_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Gatecrasher_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Gatecrasher_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Solstice",
+      "name": "Solstice, Seven Lamps of Luminia",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Solstice/AS_Shotgun_Solstice.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Solstice_Primary",
+      "abilityRoot": "Root_RS_AS_Shotgun_Solstice_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Solstice_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Solstice_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "name": "Hellmaw, Devourer of Souls",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Grave_Tithe/AS_Shotgun_Grave_Tithe.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Grave_Tithe_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Grave_Tithe_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+      "name": "Labyrinth Doorwarden",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Energy_Cyan",
+      "styleReason": "Cold or industrial cyan report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Doorwarden/AS_Shotgun_Doorwarden.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Doorwarden_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Doorwarden_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "name": "Skybound Cloudburst",
+      "family": "shotgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Shotgun_Cloudburst/AS_Shotgun_Cloudburst.blockymodel",
+      "primaryRoot": "Root_RS_AS_Shotgun_Cloudburst_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Shotgun_Cloudburst_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "name": "Wildwood Twinwardens",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Ballistic",
+      "styleReason": "Warm solid-cartridge report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Twinwardens_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Twinwardens_Launch_Left.json",
+          "mode": "normal",
+          "hand": "SecondaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Twinwardens_Launch_Right.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "name": "Mournhollow Last Rites",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Energy_Violet",
+      "styleReason": "Violet charged-round region",
+      "model": "Common/Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Last_Rites_Primary",
+      "abilityRoot": null,
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Last_Rites_Launch_Left.json",
+          "mode": "normal",
+          "hand": "SecondaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Last_Rites_Launch_Right.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "name": "Vesper & Vigil, Keepers of Firstlight",
+      "family": "handgun",
+      "systemId": "RS_Muzzle_Divine",
+      "styleReason": "Luminia white-gold report",
+      "model": "Common/Items/Arsenal/AS_Handgun_Vesper_And_Vigil/AS_Handgun_Vesper_And_Vigil.blockymodel",
+      "primaryRoot": "Root_RS_AS_Handgun_Vesper_And_Vigil_Primary",
+      "abilityRoot": "Root_RS_AS_Handgun_Vesper_And_Vigil_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Vesper_And_Vigil_Launch_Left.json",
+          "mode": "normal",
+          "hand": "SecondaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Vesper_And_Vigil_Launch_Right.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Handgun_Vesper_And_Vigil_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "name": "Deepworks Goliath .50",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Heavy_Siege",
+      "styleReason": "Oversized linked-round siege muzzle",
+      "model": "Common/Items/Arsenal/AS_Automatic_Goliath_50/AS_Automatic_Goliath_50.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Goliath_50_Primary",
+      "abilityRoot": "Root_RS_AS_Automatic_Goliath_50_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Goliath_50_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Goliath_50_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    },
+    {
+      "weaponId": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "name": "Dunewatch Rampart SAW",
+      "family": "automatic",
+      "systemId": "RS_Muzzle_Heavy_Sustained",
+      "styleReason": "Sustained linked-round support muzzle",
+      "model": "Common/Items/Arsenal/AS_Automatic_Rampart_SAW/AS_Automatic_Rampart_SAW.blockymodel",
+      "primaryRoot": "Root_RS_AS_Automatic_Rampart_SAW_Primary",
+      "abilityRoot": "Root_RS_AS_Automatic_Rampart_SAW_Ability1",
+      "launches": [
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Rampart_SAW_Launch.json",
+          "mode": "normal",
+          "hand": "PrimaryItem"
+        },
+        {
+          "path": "Server/Item/Interactions/RangerSnipers/RS_AS_Automatic_Rampart_SAW_Ability_Launch.json",
+          "mode": "Q",
+          "hand": "PrimaryItem"
+        }
+      ]
+    }
+  ],
+  "weaponCount": 59,
+  "normalLaunchCount": 62,
+  "abilityLaunchCount": 15,
+  "rules": [
+    "One barrel-attached flash per view per native discharge interaction.",
+    "Projectile hit/spawn graphs and shotgun pellet loops receive no muzzle emission.",
+    "Paired left launches use SecondaryItem; all right and Q launches use PrimaryItem.",
+    "First-person flashes use reduced scale; all systems are finite short bursts.",
+    "Only muzzle particle arrays change in existing launch graphs."
+  ]
+}

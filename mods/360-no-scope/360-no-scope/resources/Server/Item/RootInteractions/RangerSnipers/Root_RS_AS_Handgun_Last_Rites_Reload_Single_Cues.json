@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.502564103
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.478632478
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.765811965
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.071794872
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.358974359
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.311111112
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Rites_ReloadClose_World"
+      }
+    }
+  ]
+}

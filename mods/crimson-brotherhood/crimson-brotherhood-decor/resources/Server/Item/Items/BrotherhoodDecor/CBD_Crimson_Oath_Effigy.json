@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CBD_Crimson_Oath_Effigy.name",
+    "Description": "server.items.CBD_Crimson_Oath_Effigy.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/CBD_Crimson_Oath_Effigy.png",
+  "MaxStack": 20,
+  "Quality": "Epic",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "CrimsonBrotherhoodDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 6
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/BrotherhoodDecor/CBD_Crimson_Oath_Effigy.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "CBD_Crimson_Oath_Effigy",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "CBD_Crimson_Oath_Effigy",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#591f2d"
+  },
+  "IconProperties": {
+    "Scale": 0.360657,
+    "Translation": [
+      0.023366,
+      -29.893536
+    ],
+    "Rotation": [
+      6.842773,
+      -9.026595,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Auroras_Witness_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.35,
+  "BodyDamage": 30.0,
+  "HeadDamage": 59.0,
+  "Range": 175,
+  "Lifetime": 0.6481,
+  "RunTime": 0.075,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Auroras_Witness_Rapid_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.75
+      }
+    ]
+  }
+}

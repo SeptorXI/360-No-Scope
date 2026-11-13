@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Wayfinder_Compass.name",
+    "Description": "server.items.ARD_Wayfinder_Compass.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Wayfinder_Compass.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Wayfinder_Compass.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Wayfinder_Compass",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Wayfinder_Compass",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.590548,
+    "Translation": [
+      -0.600866,
+      -16.79785
+    ],
+    "Rotation": [
+      -18.26289,
+      194.380829,
+      0.0
+    ]
+  }
+}

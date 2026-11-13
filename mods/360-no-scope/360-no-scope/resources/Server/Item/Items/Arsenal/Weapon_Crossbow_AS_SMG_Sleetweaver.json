@@ -1,0 +1,88 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 24,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_SMG_Sleetweaver_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_SMG_Sleetweaver_Primary",
+    "Secondary": "Root_RS_AS_SMG_Sleetweaver_ADS",
+    "SwapTo": "Root_RS_AS_SMG_Sleetweaver_ChamberHUD",
+    "Use": "Root_RS_AS_SMG_Sleetweaver_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_SMG_Sleetweaver.name",
+    "Description": "server.items.Weapon_Crossbow_AS_SMG_Sleetweaver.description"
+  },
+  "Model": "Items/Arsenal/AS_SMG_Sleetweaver/AS_SMG_Sleetweaver.blockymodel",
+  "Texture": "Items/Arsenal/AS_SMG_Sleetweaver/AS_SMG_Sleetweaver.png",
+  "Icon": "Icons/ItemsGenerated/AS_SMG_Sleetweaver.png",
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "MaxDurability": 350,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 9
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_smg"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

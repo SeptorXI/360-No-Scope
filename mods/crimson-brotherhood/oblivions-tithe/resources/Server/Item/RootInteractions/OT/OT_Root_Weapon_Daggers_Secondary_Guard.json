@@ -1,0 +1,20 @@
+{
+  "RequireNewClick": true,
+  "Interactions": [
+    {
+      "Type": "Replace",
+      "Var": "Guard_Start",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "OT_Weapon_Daggers_Secondary_Guard"
+        ]
+      }
+    }
+  ],
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  }
+}

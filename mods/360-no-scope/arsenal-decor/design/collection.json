@@ -1,0 +1,1660 @@
+{
+  "schemaVersion": 1,
+  "group": "Steven",
+  "name": "ArsenalDecor",
+  "displayName": "Arsenal Echoes and Relics",
+  "version": "0.1.0",
+  "artifact": "Arsenal-Decor-0.1.0.zip",
+  "pluginId": "Steven:ArsenalDecor",
+  "description": "Eleven original static home decorations honoring the source lore and art inspirations of all 59 current 360 No Scope guns.",
+  "scope": {
+    "canonicalWeapons": 59,
+    "regionalLoreFamilies": 9,
+    "decorations": 11,
+    "stagedOnly": true,
+    "combatBehavior": false,
+    "weaponConsumption": false,
+    "weaponProjectEdits": false
+  },
+  "sources": [
+    "360-no-scope/modules/weapons/design/sniper-spec.json",
+    "360-no-scope/modules/weapons/design/arsenal-spec.json",
+    "360-no-scope/modules/weapons/design/dual-pistols.json",
+    "360-no-scope/modules/weapons/design/heavy-guns.json",
+    "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+    "360-no-scope/modules/weapons/resources/ranger-snipers-reload-profiles.json"
+  ],
+  "sourcePriority": "Current 360-no-scope design, generated language and active reload profile IDs are authoritative. Older ranger-snipers and 360-arsenal briefs explain the original motifs; prior lore-decor proposals are suggestions only.",
+  "nativeIngredientVerification": {
+    "archive": "E:/Games/HytaleServer/Assets.zip",
+    "manifest": {
+      "Group": "Hytale",
+      "Name": "Hytale"
+    },
+    "verifiedIngredients": [
+      {
+        "id": "Ingredient_Bar_Cobalt",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Cobalt.json",
+        "sha256": "aff28384eb3e60ba2c042a83c93a77ff7bdb6f0716d634875943ad8f557396c1"
+      },
+      {
+        "id": "Ingredient_Bar_Copper",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Copper.json",
+        "sha256": "d1dc100eb845a4f65712990613c9fc791545a52e307277c1c3e0c4f1e7879319"
+      },
+      {
+        "id": "Ingredient_Bar_Gold",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Gold.json",
+        "sha256": "a51722358fcb88bf9b9bc2df0f4682dbe80fea91b146e131e798de1b10a67249"
+      },
+      {
+        "id": "Ingredient_Bar_Iron",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Iron.json",
+        "sha256": "0b79a006a547f28535369b3c9d27ada1a0e17ee1bf49a86bf17b8fb49af169bd"
+      },
+      {
+        "id": "Ingredient_Bar_Silver",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Silver.json",
+        "sha256": "56a007b3bf15cead3e414df9a219da1c3ce8b58b67429efb7d70340e92a79f0e"
+      },
+      {
+        "id": "Ingredient_Bar_Thorium",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Thorium.json",
+        "sha256": "d783abf4780a08ec52780ddf5da2c718f7b06b28c47bfa73d90829850050b661"
+      },
+      {
+        "id": "Ingredient_Bone_Fragment",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Ingredient_Bone_Fragment.json",
+        "sha256": "f2268059989fa1c36200b6285709140aa97ab04e9890ab291b852e70d11fd853"
+      },
+      {
+        "id": "Ingredient_Crystal_Cyan",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Crystal/Ingredient_Crystal_Cyan.json",
+        "sha256": "300e1b16011bfd7b921b419cce7606eb284c94a65ceab85c9e1c82f6900639c4"
+      },
+      {
+        "id": "Ingredient_Crystal_Purple",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Crystal/Ingredient_Crystal_Purple.json",
+        "sha256": "c588f8d2e35df3eeba602bd9f65c144f3bc9c3f8af2a5322cf6f6c1b9dfd61a5"
+      },
+      {
+        "id": "Ingredient_Crystal_White",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Crystal/Ingredient_Crystal_White.json",
+        "sha256": "11ee0b221eddfbfcbcdca306ea1b7135c79f2282b830e4b55104ebdedaf5a073"
+      },
+      {
+        "id": "Ingredient_Crystal_Yellow",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Crystal/Ingredient_Crystal_Yellow.json",
+        "sha256": "02b8bc1f7e22fa13862284f6065994681fd5657872ba2d097b628c6891d4d299"
+      },
+      {
+        "id": "Ingredient_Fabric_Scrap_Linen",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Fabric_Scrap/Ingredient_Fabric_Scrap_Linen.json",
+        "sha256": "2992589f33b1f2e564d55d7bd0ea4e36f56609b16fd4c97aeffc6df5e65b9118"
+      },
+      {
+        "id": "Ingredient_Scraps",
+        "kind": "Item",
+        "path": "Server/Item/Items/Ingredient/Goblin/Ingredient_Scraps.json",
+        "sha256": "ff2cdc9de87b177e33c6b7b4f7a9ff2b28b49d318c85089189799537eed82d48"
+      },
+      {
+        "id": "Wood_Trunk",
+        "kind": "ResourceType",
+        "path": "Server/Item/ResourceTypes/Wood_Trunk.json",
+        "sha256": "353c7d5716d0c58b39136dde66b40db9b9e22ab3b2a050eebcd8749515633cd9"
+      }
+    ],
+    "addonIngredientDependencies": []
+  },
+  "items": [
+    {
+      "id": "ARD_Wayfinder_Compass",
+      "name": "Wayfinder's Hearth Compass",
+      "kind": "regional relic",
+      "theme": "Emerald Wilds",
+      "description": "Oak rings and peened copper surround a white sight-stone. The rim carries a trail notch for every traveler brought home, remembering the Emerald Wilds wardens and their quiet paths. Two answering markers honor the Twinwardens. A hearth keeps its own direction: home.",
+      "loreRefs": [
+        "Weapon_Crossbow_Wildwood_Surveyor",
+        "Weapon_Crossbow_AS_Handgun_Trailwarden",
+        "Weapon_Crossbow_AS_SMG_Brushfire",
+        "Weapon_Crossbow_AS_SemiAuto_Waymark",
+        "Weapon_Crossbow_AS_Automatic_Briar_March",
+        "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+        "Weapon_Crossbow_AS_Handgun_Twinwardens"
+      ],
+      "sourceLoreAnchor": "Wildwood Surveyor: oak/copper and the Emerald Wilds' quiet paths. Five arsenal families: peened copper trail stations and a notch for each traveler brought home. Twinwardens: two answering wardens.",
+      "visualBrief": "A floor-standing oak trail-station compass on a short pegged timber pedestal. Copper cardinal fins, a large white crystal pointer, paired opposite sight markers and clearly counted trail notches around the rim. Read as a navigation keepsake, not a gun display.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_White",
+          "Quantity": 2
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Wayfinder_Compass.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Wayfinder_Compass.png",
+      "bounds": {
+        "width": 0.909375,
+        "height": 1.163026,
+        "depth": 0.479566,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "warm oak",
+          "color": "#704426"
+        },
+        {
+          "name": "oak edge",
+          "color": "#B4834E"
+        },
+        {
+          "name": "peened copper",
+          "color": "#B96F45"
+        },
+        {
+          "name": "white sight-stone",
+          "color": "#DBE8DD"
+        },
+        {
+          "name": "deep grain",
+          "color": "#342A20"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/dual-pistols.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Wildwood Surveyor: oak/copper and the Emerald Wilds' quiet paths. Five arsenal families: peened copper trail stations and a notch for each traveler brought home. Twinwardens: two answering wardens.",
+        "originalInterpretation": "The compass, pedestal, opposing markers and ring of trail notches are a new home ornament interpreting navigation, return and the paired wardens."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Wildwood_Surveyor",
+        "Weapon_Crossbow_AS_Handgun_Trailwarden",
+        "Weapon_Crossbow_AS_SMG_Brushfire",
+        "Weapon_Crossbow_AS_SemiAuto_Waymark",
+        "Weapon_Crossbow_AS_Automatic_Briar_March",
+        "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+        "Weapon_Crossbow_AS_Handgun_Twinwardens"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.032812,
+              "Y": 0,
+              "Z": 0.247717
+            },
+            "Max": {
+              "X": 0.967187,
+              "Y": 1.175526,
+              "Z": 0.752283
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.55,
+          0.0,
+          -7.67306
+        ],
+        "max": [
+          14.55,
+          37.216834,
+          7.67306
+        ]
+      },
+      "nodeCount": 137
+    },
+    {
+      "id": "ARD_Last_Watch_Standard",
+      "name": "Last Watch Sun Standard",
+      "kind": "regional relic",
+      "theme": "Howling Sands",
+      "description": "A sand-wrapped watch standard holds a brass sun above a weathered oath-mark. Its frayed lower edge recalls the Dunewatch banners swallowed by the dunes while the watchposts kept their promise. Beneath the buried road, the oath endures.",
+      "loreRefs": [
+        "Weapon_Crossbow_Dunewatch_Longshot",
+        "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+        "Weapon_Crossbow_AS_SMG_Dust_Choir",
+        "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+        "Weapon_Crossbow_AS_Automatic_Scorchwind",
+        "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ],
+      "sourceLoreAnchor": "Dunewatch Longshot: sand-sealed watchposts of the Howling Sands. Five arsenal families: sand-colored wraps, thorium seal, and a watch whose oath outlasts banners buried by dunes. Rampart: Oath of the Last Bastion.",
+      "visualBrief": "Wall-hung sand-colored split banner with a thorium-green spine, bronze bindings and an angular yellow solar medallion. Show a frayed, dune-eroded lower edge and one broad watchpost oath-mark, using geometry and texture rather than small readable text.",
+      "placement": "Wall",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Thorium",
+          "Quantity": 2
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Yellow",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Last_Watch_Standard.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Last_Watch_Standard.png",
+      "bounds": {
+        "width": 0.90625,
+        "height": 0.90674,
+        "depth": 0.217187,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "sand cloth",
+          "color": "#C2A678"
+        },
+        {
+          "name": "dune shadow",
+          "color": "#76634B"
+        },
+        {
+          "name": "weathered thorium",
+          "color": "#518B69"
+        },
+        {
+          "name": "bronze bindings",
+          "color": "#AF7C43"
+        },
+        {
+          "name": "yellow sun",
+          "color": "#F1CC59"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/heavy-guns.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Dunewatch Longshot: sand-sealed watchposts of the Howling Sands. Five arsenal families: sand-colored wraps, thorium seal, and a watch whose oath outlasts banners buried by dunes. Rampart: Oath of the Last Bastion.",
+        "originalInterpretation": "The sun medallion, surviving banner and single oath-mark are a new commemorative standard; source lore supplies the watch, buried banners and Dunewatch materials."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Dunewatch_Longshot",
+        "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+        "Weapon_Crossbow_AS_SMG_Dust_Choir",
+        "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+        "Weapon_Crossbow_AS_Automatic_Scorchwind",
+        "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.034375,
+              "Y": 0.010937,
+              "Z": 0.754688
+            },
+            "Max": {
+              "X": 0.965625,
+              "Y": 0.942678,
+              "Z": 1
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.5,
+          0.75,
+          8.55
+        ],
+        "max": [
+          14.5,
+          29.765685,
+          15.5
+        ]
+      },
+      "nodeCount": 92
+    },
+    {
+      "id": "ARD_Whisperfrost_Lantern",
+      "name": "Whisperfrost Vigil Lantern",
+      "kind": "regional relic",
+      "theme": "Whisperfrost",
+      "description": "Silver tracery braces a pale crystal inside cold-worked cobalt. The lantern remembers the Whisperfrost patterns kept beside the hearth, ready when the white fields moved. Its still crystal keeps the shape of a winter vigil.",
+      "loreRefs": [
+        "Weapon_Crossbow_Frostline_Sentinel",
+        "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+        "Weapon_Crossbow_AS_SMG_Sleetweaver",
+        "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+        "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+        "Weapon_Crossbow_AS_Shotgun_Hearthguard"
+      ],
+      "sourceLoreAnchor": "Frostline Sentinel: silver-lined cobalt, bitter winds and a pale tracer through snowfall. Five arsenal families: cold-worked cobalt, silver tracery and a pattern kept beside the hearth when the white fields moved.",
+      "visualBrief": "A floor lantern with a cobalt cage, four silver snow-tracery corner ribs, pale-cyan crystal, tiered cap and broad weighted feet. Frost-painted blue recesses and a crisp silver silhouette recall the hearthwardens winter watch. The crystal is decorative and supplies no gameplay light.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Cobalt",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Silver",
+          "Quantity": 2
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Whisperfrost_Lantern.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Whisperfrost_Lantern.png",
+      "bounds": {
+        "width": 0.59375,
+        "height": 1.341708,
+        "depth": 0.608594,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "cobalt body",
+          "color": "#315B7A"
+        },
+        {
+          "name": "dark cold metal",
+          "color": "#1B334E"
+        },
+        {
+          "name": "silver tracery",
+          "color": "#B9CEDB"
+        },
+        {
+          "name": "pale frost crystal",
+          "color": "#B8EEEF"
+        },
+        {
+          "name": "snow edge",
+          "color": "#E7F0ED"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Frostline Sentinel: silver-lined cobalt, bitter winds and a pale tracer through snowfall. Five arsenal families: cold-worked cobalt, silver tracery and a pattern kept beside the hearth when the white fields moved.",
+        "originalInterpretation": "The lantern cage and frost tracery turn the source's hearth readiness and winter watch into a new static home relic."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Frostline_Sentinel",
+        "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+        "Weapon_Crossbow_AS_SMG_Sleetweaver",
+        "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+        "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+        "Weapon_Crossbow_AS_Shotgun_Hearthguard"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.190625,
+              "Y": 0,
+              "Z": 0.175781
+            },
+            "Max": {
+              "X": 0.809375,
+              "Y": 1.354208,
+              "Z": 0.809375
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -9.5,
+          0.0,
+          -9.975
+        ],
+        "max": [
+          9.5,
+          42.934667,
+          9.5
+        ]
+      },
+      "nodeCount": 102
+    },
+    {
+      "id": "ARD_Epitaph_Reliquary",
+      "name": "Epitaph Reliquary",
+      "kind": "regional relic",
+      "theme": "Mournhollow Catacombs",
+      "description": "A violet reliquary key hangs beneath a bone-bound epitaph. Its last line and two violet confession reliquaries remain unfinished, remembering the names below Mournhollow and the paired Last Rites. There is still room for the living to return.",
+      "loreRefs": [
+        "Weapon_Crossbow_Mournhollow_Epitaph",
+        "Weapon_Crossbow_AS_Handgun_Last_Confession",
+        "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+        "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+        "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+        "Weapon_Crossbow_AS_Shotgun_Bellwether",
+        "Weapon_Crossbow_AS_Handgun_Last_Rites"
+      ],
+      "sourceLoreAnchor": "Mournhollow Epitaph: a reliquary key reforged into a violet chamber. Five arsenal families: inscriptions of names left unfinished until the living return. Last Rites: two reliquaries bearing halves of an unfinished confession.",
+      "visualBrief": "A standing bone-braced reliquary cabinet bound in dark iron. One large violet-bowed key hangs in an open central niche with recognizable bow, shaft and teeth. A front-facing epitaph above the niche and two violet confession caskets below carry deliberately unfinished inscription strokes. Keep all three memorial panels visible.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Purple",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Epitaph_Reliquary.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Epitaph_Reliquary.png",
+      "bounds": {
+        "width": 0.8,
+        "height": 1.34378,
+        "depth": 0.485938,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "burial iron",
+          "color": "#373641"
+        },
+        {
+          "name": "worn bone",
+          "color": "#C9BCA2"
+        },
+        {
+          "name": "violet key",
+          "color": "#9351BC"
+        },
+        {
+          "name": "pale violet edge",
+          "color": "#C59DDD"
+        },
+        {
+          "name": "grave shadow",
+          "color": "#22212B"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/dual-pistols.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Mournhollow Epitaph: a reliquary key reforged into a violet chamber. Five arsenal families: inscriptions of names left unfinished until the living return. Last Rites: two reliquaries bearing halves of an unfinished confession.",
+        "originalInterpretation": "The epitaph cabinet, open key niche and paired lower confession reliquaries are new commemorative forms grounded in the source key, returning names and half-confessions."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Mournhollow_Epitaph",
+        "Weapon_Crossbow_AS_Handgun_Last_Confession",
+        "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+        "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+        "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+        "Weapon_Crossbow_AS_Shotgun_Bellwether",
+        "Weapon_Crossbow_AS_Handgun_Last_Rites"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.0875,
+              "Y": 0,
+              "Z": 0.235937
+            },
+            "Max": {
+              "X": 0.9125,
+              "Y": 1.35628,
+              "Z": 0.746875
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -12.8,
+          0.0,
+          -8.05
+        ],
+        "max": [
+          12.8,
+          43.000974,
+          7.5
+        ]
+      },
+      "nodeCount": 125
+    },
+    {
+      "id": "ARD_Deepworks_Heart",
+      "name": "Requiem Engine Reliquary",
+      "kind": "regional relic",
+      "theme": "The Deepworks",
+      "description": "Battered iron ribs and cyan rails cradle an amber engine-heart. This small reliquary remembers the Gobliterator's wreck, the smiths who listened to its stubborn rhythm and the Requiem's last hymn. Its furnace is a painted memory of machinery that refused to stop.",
+      "loreRefs": [
+        "Weapon_Crossbow_Deepworks_Railspike",
+        "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+        "Weapon_Crossbow_AS_SMG_Grindhymn",
+        "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+        "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+        "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ],
+      "sourceLoreAnchor": "Gobliterator's Requiem: recovered wreck, stolen heart, amber coils, cyan rail and last hymn. Five Deepworks arsenal families: broken heart in an amber lattice, battered iron ribs and a stubborn rhythm remembered by smiths.",
+      "visualBrief": "A compact freestanding Gobliterator engine-heart effigy: broad iron rib cage, central amber furnace lattice, twin cyan induction rails, offset piston caps, rivet seams and a scrap-built plinth. Expose the heart through an open front so this reads as a salvaged machine memorial rather than a crate.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Scraps",
+          "Quantity": 12
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Yellow",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Deepworks_Heart.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Deepworks_Heart.png",
+      "bounds": {
+        "width": 0.90625,
+        "height": 1.129423,
+        "depth": 0.798438,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "battered iron",
+          "color": "#4B4B4D"
+        },
+        {
+          "name": "oil-black recess",
+          "color": "#25282C"
+        },
+        {
+          "name": "old copper",
+          "color": "#A86A3B"
+        },
+        {
+          "name": "amber heart",
+          "color": "#E9A13B"
+        },
+        {
+          "name": "cyan rail",
+          "color": "#63D4D6"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/heavy-guns.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Gobliterator's Requiem: recovered wreck, stolen heart, amber coils, cyan rail and last hymn. Five Deepworks arsenal families: broken heart in an amber lattice, battered iron ribs and a stubborn rhythm remembered by smiths.",
+        "originalInterpretation": "This is a newly authored engine effigy honoring the Gobliterator inspiration; it is not an extracted boss model or an actual recovered gameplay core."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Deepworks_Railspike",
+        "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+        "Weapon_Crossbow_AS_SMG_Grindhymn",
+        "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+        "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+        "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.034375,
+              "Y": 0,
+              "Z": 0.079687
+            },
+            "Max": {
+              "X": 0.965625,
+              "Y": 1.141923,
+              "Z": 0.903125
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.5,
+          0.0,
+          -13.05
+        ],
+        "max": [
+          14.5,
+          36.141542,
+          12.5
+        ]
+      },
+      "nodeCount": 125
+    },
+    {
+      "id": "ARD_Firstlight_Orrery",
+      "name": "Firstlight Seal Orrery",
+      "kind": "regional relic",
+      "theme": "Luminia",
+      "description": "Three broken white-gold seals gather around a violet star above a cyan lens. Paired lower prisms remember Vesper and Vigil: one keeping the fading light, one keeping watch beneath an unfinished dawn. This orrery preserves Luminia's vigil in a circle of still light.",
+      "loreRefs": [
+        "Weapon_Crossbow_Luminia_Dawnpiercer",
+        "Weapon_Crossbow_AS_Handgun_Vesper",
+        "Weapon_Crossbow_AS_SMG_Starling",
+        "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+        "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+        "Weapon_Crossbow_AS_Shotgun_Solstice",
+        "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil"
+      ],
+      "sourceLoreAnchor": "Dawnpiercer: three shattered seals in Prisma, white-gold runes, violet star and dawn beneath stone. Five Luminia arsenal families: three fallen seal fragments, sanctum-door light and unfinished vigil. Vesper & Vigil: fading light and watch beneath one dawn.",
+      "visualBrief": "A freestanding white-gold orrery with exactly three independently broken seal rings held around a large faceted violet star; a broad cyan lens sits below. Two opposing lower prisms distinguish Vesper and Vigil. Keep open gaps in each ring, stepped pale supports and etched gold channels so the seals stay visibly shattered.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Gold",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Silver",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Purple",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_White",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Firstlight_Orrery.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Firstlight_Orrery.png",
+      "bounds": {
+        "width": 0.84375,
+        "height": 1.14093,
+        "depth": 0.798438,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "pale prism frame",
+          "color": "#E3E0DD"
+        },
+        {
+          "name": "white-gold channels",
+          "color": "#D7BB70"
+        },
+        {
+          "name": "violet star",
+          "color": "#A25FCA"
+        },
+        {
+          "name": "cyan lens",
+          "color": "#78D8E4"
+        },
+        {
+          "name": "stone footing",
+          "color": "#655D76"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/dual-pistols.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Dawnpiercer: three shattered seals in Prisma, white-gold runes, violet star and dawn beneath stone. Five Luminia arsenal families: three fallen seal fragments, sanctum-door light and unfinished vigil. Vesper & Vigil: fading light and watch beneath one dawn.",
+        "originalInterpretation": "The static orrery, three independently gapped seal rings and paired lower prisms are a new arrangement of the source seal, dawn and paired-vigil motifs."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Luminia_Dawnpiercer",
+        "Weapon_Crossbow_AS_Handgun_Vesper",
+        "Weapon_Crossbow_AS_SMG_Starling",
+        "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+        "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+        "Weapon_Crossbow_AS_Shotgun_Solstice",
+        "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.065625,
+              "Y": 0,
+              "Z": 0.079687
+            },
+            "Max": {
+              "X": 0.934375,
+              "Y": 1.15343,
+              "Z": 0.903125
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -13.5,
+          0.0,
+          -13.05
+        ],
+        "max": [
+          13.5,
+          36.509749,
+          12.5
+        ]
+      },
+      "nodeCount": 113
+    },
+    {
+      "id": "ARD_Unblinking_Shrine",
+      "name": "Unblinking Eye Shrine",
+      "kind": "regional relic",
+      "theme": "Dungeon of Fear",
+      "description": "A silver prayer-skull rests below a violet eye in an arched cage. Red oath-marks sit in dark recesses beneath the altar plates, recalling the Nameless God's covenant whose maker left no name. The eye remains, and the chamber keeps its silence.",
+      "loreRefs": [
+        "Weapon_Crossbow_Nameless_Covenant",
+        "Weapon_Crossbow_AS_Handgun_Absolver",
+        "Weapon_Crossbow_AS_SMG_Many_Whispers",
+        "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+        "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+        "Weapon_Crossbow_AS_Shotgun_Grave_Tithe"
+      ],
+      "sourceLoreAnchor": "Malediction: dark-silver covenant at the Nameless God's altar and a caged eye. Five Fear arsenal families: silver skull, hidden red oath-mark, violet plates and no surviving maker's name. Original rifle reference notes: dark arched altar and silver prayer-skull motifs.",
+      "visualBrief": "A narrow floor shrine with a pointed black-iron altar arch, one clearly readable violet eye in a ribbed dark-silver cage, and an original geometric silver prayer-skull on the low altar shelf. Recess small red oath marks beneath plate lips; use an unlettered eye seal. Do not copy installed altar or skull geometry.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Silver",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Purple",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Unblinking_Shrine.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Unblinking_Shrine.png",
+      "bounds": {
+        "width": 0.8125,
+        "height": 1.40625,
+        "depth": 0.5625,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "black altar iron",
+          "color": "#25232C"
+        },
+        {
+          "name": "dark silver",
+          "color": "#6D6F7D"
+        },
+        {
+          "name": "prayer silver",
+          "color": "#CACBD1"
+        },
+        {
+          "name": "violet eye",
+          "color": "#AA72D0"
+        },
+        {
+          "name": "hidden oath red",
+          "color": "#A1444E"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "ranger-snipers/art/reference-notes.json",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Malediction: dark-silver covenant at the Nameless God's altar and a caged eye. Five Fear arsenal families: silver skull, hidden red oath-mark, violet plates and no surviving maker's name. Original rifle reference notes: dark arched altar and silver prayer-skull motifs.",
+        "originalInterpretation": "The arch, geometric silver skull, eye cage and unlettered eye seal are new shapes interpreting the Nameless God source motifs; no installed altar pixels or nodes are reused."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Nameless_Covenant",
+        "Weapon_Crossbow_AS_Handgun_Absolver",
+        "Weapon_Crossbow_AS_SMG_Many_Whispers",
+        "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+        "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+        "Weapon_Crossbow_AS_Shotgun_Grave_Tithe"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.08125,
+              "Y": 0,
+              "Z": 0.20625
+            },
+            "Max": {
+              "X": 0.91875,
+              "Y": 1.41875,
+              "Z": 0.79375
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -13.0,
+          0.0,
+          -9.0
+        ],
+        "max": [
+          13.0,
+          45.0,
+          9.0
+        ]
+      },
+      "nodeCount": 107
+    },
+    {
+      "id": "ARD_Threadkeeper_Maze",
+      "name": "Threadkeeper's Maze",
+      "kind": "regional relic",
+      "theme": "Fullmetal Labyrinth",
+      "description": "Chrome ribs frame a black maze crossed by a single cyan thread. The line is deliberately left open at its last turn, remembering the Labyrinth artificers' invitation to find the next way through. The path belongs to whoever follows.",
+      "loreRefs": [
+        "Weapon_Crossbow_Labyrinth_Threadkeeper",
+        "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+        "Weapon_Crossbow_AS_SMG_Threadstorm",
+        "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+        "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+        "Weapon_Crossbow_AS_Shotgun_Doorwarden"
+      ],
+      "sourceLoreAnchor": "Labyrinth Threadkeeper: chrome ribs around a cyan thread through black halls. Five Labyrinth arsenal families: Fullmetal ribs, measured lattice and one thread left unclosed to invite the next way through. Reference notes: dark machined steel, chrome edges and angular cyan crystal.",
+      "visualBrief": "Square wall plaque: black machined backplate, broad chrome stepped maze ribs and one uninterrupted cyan route. Keep an obvious open exit and a final unclosed thread segment. Raised paths should read at a glance; four small Fullmetal-like corner clamps echo the source material without requiring addon metal.",
+      "placement": "Wall",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Silver",
+          "Quantity": 2
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Threadkeeper_Maze.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Threadkeeper_Maze.png",
+      "bounds": {
+        "width": 0.9,
+        "height": 0.9,
+        "depth": 0.196875,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "machined black",
+          "color": "#242B32"
+        },
+        {
+          "name": "chrome ribs",
+          "color": "#B9C6CF"
+        },
+        {
+          "name": "steel bevel",
+          "color": "#6A7D8D"
+        },
+        {
+          "name": "cyan route",
+          "color": "#68DCDD"
+        },
+        {
+          "name": "cyan pale edge",
+          "color": "#BCEDEC"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "ranger-snipers/art/reference-notes.json",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Labyrinth Threadkeeper: chrome ribs around a cyan thread through black halls. Five Labyrinth arsenal families: Fullmetal ribs, measured lattice and one thread left unclosed to invite the next way through. Reference notes: dark machined steel, chrome edges and angular cyan crystal.",
+        "originalInterpretation": "The solvable-looking relief and open exit are a newly designed maze; its cyan thread translates the source motif into an original wall ornament."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Labyrinth_Threadkeeper",
+        "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+        "Weapon_Crossbow_AS_SMG_Threadstorm",
+        "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+        "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+        "Weapon_Crossbow_AS_Shotgun_Doorwarden"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.0375,
+              "Y": 0.00625,
+              "Z": 0.775
+            },
+            "Max": {
+              "X": 0.9625,
+              "Y": 0.93125,
+              "Z": 1
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.4,
+          0.6,
+          9.2
+        ],
+        "max": [
+          14.4,
+          29.4,
+          15.5
+        ]
+      },
+      "nodeCount": 107
+    },
+    {
+      "id": "ARD_Windward_Mobile",
+      "name": "Windward Promise Sky-Chart",
+      "kind": "regional relic",
+      "theme": "Tritale Airshop",
+      "description": "Darkwood and red bindings frame a sky-chart of brass and blue steel. An old green wind-carving watches over its distant routes, remembering the wandering trader and Airshop couriers who kept one promise above the clouds. Every route leaves a little room for home.",
+      "loreRefs": [
+        "Weapon_Crossbow_Skybound_Farwatch",
+        "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+        "Weapon_Crossbow_AS_SMG_Kestrel",
+        "Weapon_Crossbow_AS_SemiAuto_Highroad",
+        "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+        "Weapon_Crossbow_AS_Shotgun_Cloudburst"
+      ],
+      "sourceLoreAnchor": "Skybound Farwatch: wandering sky trader, darkwood, red bindings, blue steel and an old green carving. Five Skybound arsenal families: windworn brass, green sight-stone and the Airshop couriers' promise above clouds. Ammo and original reference notes: wind-test green seal and ivory/green carved receiver.",
+      "visualBrief": "A wall-hung darkwood sky-chart in a windworn brass frame, secured by red wraps. A raised green wind-path relief crosses blue-steel floating islands with ivory ridge caps; a small fixed courier airship with red sail, blue keel and propeller sits along the lower edge. The original map and miniature ship translate the wandering trader and Airshop couriers into a static home ornament.",
+      "placement": "Wall",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Cobalt",
+          "Quantity": 2
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Cyan",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Windward_Mobile.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Windward_Mobile.png",
+      "bounds": {
+        "width": 0.875,
+        "height": 0.91875,
+        "depth": 0.215625,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "darkwood",
+          "color": "#4B3029"
+        },
+        {
+          "name": "red bindings",
+          "color": "#9D4A42"
+        },
+        {
+          "name": "windworn brass",
+          "color": "#B39758"
+        },
+        {
+          "name": "sky-blue steel",
+          "color": "#5185B1"
+        },
+        {
+          "name": "green carving",
+          "color": "#79AB64"
+        },
+        {
+          "name": "carved ivory",
+          "color": "#D8D1AF"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/arsenal-spec.json",
+        "360-no-scope/modules/weapons/design/sniper-spec.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "ranger-snipers/art/reference-notes.json",
+        "360-arsenal/content/generate_spec.py"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Skybound Farwatch: wandering sky trader, darkwood, red bindings, blue steel and an old green carving. Five Skybound arsenal families: windworn brass, green sight-stone and the Airshop couriers' promise above clouds. Ammo and original reference notes: wind-test green seal and ivory/green carved receiver.",
+        "originalInterpretation": "The route chart, raised green wind-path carving, floating-island relief and fixed miniature courier airship are new home decor forms informed by the original Tritale motif analysis, not copied vendor art."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_Skybound_Farwatch",
+        "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+        "Weapon_Crossbow_AS_SMG_Kestrel",
+        "Weapon_Crossbow_AS_SemiAuto_Highroad",
+        "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+        "Weapon_Crossbow_AS_Shotgun_Cloudburst"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.05,
+              "Y": 0,
+              "Z": 0.75625
+            },
+            "Max": {
+              "X": 0.95,
+              "Y": 0.940625,
+              "Z": 1
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.0,
+          0.3,
+          8.6
+        ],
+        "max": [
+          14.0,
+          29.7,
+          15.5
+        ]
+      },
+      "nodeCount": 52
+    },
+    {
+      "id": "ARD_Goliath_Trophy",
+      "name": "Iron Colossus Heart Trophy",
+      "kind": "weapon trophy",
+      "theme": "goliath",
+      "description": "Fortress shoulders rise around an amber furnace-heart, joined by a heavy piston spine. The effigy honors the Iron Colossus epithet carried by Deepworks Goliath .50 and its deliberate siege cadence. Here, the machine's strength is held in the shape of a monument.",
+      "loreRefs": [
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ],
+      "sourceLoreAnchor": "Heavy-guns design: Heart of the Iron Colossus and squared Deepworks siege receiver. Accepted legendary-heavy art brief: fortress shoulder towers, split crown muzzle, piston spine and furnace window.",
+      "visualBrief": "A small original siege-engine monument with squared fortress shoulder towers, a split crown arch, visible rear piston spine and central amber furnace window, on a broad riveted pedestal. Reinterpret the Goliath silhouette as a compact trophy; no barrel, trigger or usable gun is present.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Scraps",
+          "Quantity": 16
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Yellow",
+          "Quantity": 6
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Goliath_Trophy.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Goliath_Trophy.png",
+      "bounds": {
+        "width": 0.9375,
+        "height": 1.125,
+        "depth": 0.829688,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "siege iron",
+          "color": "#48464A"
+        },
+        {
+          "name": "black recess",
+          "color": "#25252B"
+        },
+        {
+          "name": "bronze piston",
+          "color": "#AE784D"
+        },
+        {
+          "name": "amber furnace",
+          "color": "#E9A33D"
+        },
+        {
+          "name": "pale iron edge",
+          "color": "#9DA2A7"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/heavy-guns.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-no-scope/authoring/legendary-heavy/README.md"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Heavy-guns design: Heart of the Iron Colossus and squared Deepworks siege receiver. Accepted legendary-heavy art brief: fortress shoulder towers, split crown muzzle, piston spine and furnace window.",
+        "originalInterpretation": "The compact engine monument translates the accepted Goliath art silhouette into a new decorative effigy, rather than displaying or consuming the weapon."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.01875,
+              "Y": 0,
+              "Z": 0.064062
+            },
+            "Max": {
+              "X": 0.98125,
+              "Y": 1.1375,
+              "Z": 0.91875
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -15.0,
+          0.0,
+          -13.55
+        ],
+        "max": [
+          15.0,
+          36.0,
+          13.0
+        ]
+      },
+      "nodeCount": 74
+    },
+    {
+      "id": "ARD_Rampart_Trophy",
+      "name": "Last Bastion Governor Trophy",
+      "kind": "weapon trophy",
+      "theme": "rampart",
+      "description": "A braced flywheel and swept solar vanes shelter a yellow focus above a sand-cloth oath panel. This trophy remembers the Oath of the Last Bastion carried by Dunewatch Rampart SAW: a watch maintained through dust, heat and the weight of an unbroken promise.",
+      "loreRefs": [
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ],
+      "sourceLoreAnchor": "Heavy-guns design: Oath of the Last Bastion and Dunewatch support-gun identity. Accepted legendary-heavy art brief: side flywheel regulator, swept solar cooling vanes, forked muzzle and arched stock.",
+      "visualBrief": "A compact freestanding solar feed-governor effigy: large vertical flywheel, twelve spokes, thick bracing, swept cooling vanes and yellow crystal focus. Bronze brackets, dark-metal vanes and sand-colored cloth distinguish it from the Goliath. Mount it on a low dune-colored stepped base; the sculpture has no moving parts.",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Bar_Thorium",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Yellow",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Scraps",
+          "Quantity": 12
+        }
+      ],
+      "model": "Blocks/ArsenalDecor/ARD_Rampart_Trophy.blockymodel",
+      "texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/ARD_Rampart_Trophy.png",
+      "bounds": {
+        "width": 0.90625,
+        "height": 1.148438,
+        "depth": 0.798438,
+        "units": "blocks",
+        "approximate": true,
+        "basis": "Measured bounding dimensions of the final native export; wall blocks sit against the +Z wall face."
+      },
+      "materialPalette": [
+        {
+          "name": "thorium green",
+          "color": "#4D8065"
+        },
+        {
+          "name": "sand wraps",
+          "color": "#BDA67B"
+        },
+        {
+          "name": "bronze regulator",
+          "color": "#AC8150"
+        },
+        {
+          "name": "yellow focus",
+          "color": "#F0CA4E"
+        },
+        {
+          "name": "dull steel",
+          "color": "#657077"
+        }
+      ],
+      "sourceRefs": [
+        "360-no-scope/modules/weapons/design/heavy-guns.json",
+        "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+        "360-no-scope/authoring/legendary-heavy/README.md"
+      ],
+      "inspiration": {
+        "status": "Original commemorative interpretation of source-backed lore and art motifs",
+        "sourceBacked": "Heavy-guns design: Oath of the Last Bastion and Dunewatch support-gun identity. Accepted legendary-heavy art brief: side flywheel regulator, swept solar cooling vanes, forked muzzle and arched stock.",
+        "originalInterpretation": "The stationary solar governor is an original commemorative sculpture derived from Rampart's accepted regulator and cooling-vane art, not a new canonical machine."
+      },
+      "anchorWeaponIds": [
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ],
+      "bench": {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "craftingSeconds": 3,
+      "effects": [],
+      "stats": {},
+      "artConstraints": {
+        "maximumNodesIncludingGroups": 255,
+        "preferredMaximumNodesIncludingGroups": 240,
+        "iconSize": [
+          64,
+          64
+        ],
+        "iconMode": "RGBA",
+        "editableSourceRequired": true
+      },
+      "hitbox": {
+        "Boxes": [
+          {
+            "Min": {
+              "X": 0.034375,
+              "Y": 0,
+              "Z": 0.079687
+            },
+            "Max": {
+              "X": 0.965625,
+              "Y": 1.160937,
+              "Z": 0.903125
+            }
+          }
+        ]
+      },
+      "geometryBounds": {
+        "min": [
+          -14.5,
+          0.0,
+          -13.05
+        ],
+        "max": [
+          14.5,
+          36.75,
+          12.5
+        ]
+      },
+      "nodeCount": 109
+    }
+  ]
+}

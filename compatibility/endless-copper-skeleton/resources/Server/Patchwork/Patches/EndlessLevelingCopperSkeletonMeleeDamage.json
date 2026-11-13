@@ -1,0 +1,21 @@
+{
+  "Id": "Steven_EndlessLevelingCopperSkeletonMeleeDamage",
+  "Target": "Server/NPC/Roles/EndlessLeveling/EndlessLeveling_ArmyOfTheDead_Pet_Copper.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "define-melee-damage",
+      "Op": "Merge",
+      "Path": "",
+      "Value": {
+        "InteractionVars": {
+          "Melee_Damage": {
+            "Interactions": ["NPC_Attack_Melee_Damage"]
+          }
+        }
+      }
+    }
+  ]
+}

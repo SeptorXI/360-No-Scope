@@ -1,0 +1,50 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.383333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.983333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.5
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SemiAuto_Waymark_ReloadClose_World"
+      }
+    }
+  ]
+}

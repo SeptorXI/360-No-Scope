@@ -1,0 +1,21 @@
+{
+  "Id": "ChargedMeteor_Keyword",
+  "Target": "Server/Item/Items/Rune/Endgame/Endgame_Rune_Meteor.json",
+  "When": {
+    "TargetExists": true
+  },
+  "Operations": [
+    {
+      "Id": "accept-meteor-modifier",
+      "Op": "Add",
+      "Path": "/Ability/AbilityKeywords/-",
+      "Value": "ChargedMeteor"
+    },
+    {
+      "Id": "default-to-normal-cast",
+      "Op": "Add",
+      "Path": "/Ability/Attributes/MeteorCharge",
+      "Value": 1.0
+    }
+  ]
+}

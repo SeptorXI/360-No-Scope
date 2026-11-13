@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 1.0411998265592484,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 64,
+  "MaxInstance": 24,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Frostline_Sentinel/Fire_01.ogg",
+        "Sounds/RangerSnipers/Frostline_Sentinel/Fire_02.ogg",
+        "Sounds/RangerSnipers/Frostline_Sentinel/Fire_03.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.2,
+        "MaxPitch": 0.2,
+        "MinVolume": -0.2,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

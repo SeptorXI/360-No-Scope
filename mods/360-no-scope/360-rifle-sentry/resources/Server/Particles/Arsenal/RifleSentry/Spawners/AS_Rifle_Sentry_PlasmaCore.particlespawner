@@ -1,0 +1,41 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": { "Min": 0.13, "Max": 0.13 },
+  "SpawnRate": { "Min": 120, "Max": 120 },
+  "TotalParticles": { "Min": 1, "Max": 1 },
+  "SpawnBurst": true,
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow_Star.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "UVOption": "None",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": { "Min": 0.56, "Max": 0.56 },
+        "Y": { "Min": 0.56, "Max": 0.56 }
+      },
+      "Opacity": 1,
+      "Color": "#effdff",
+      "Rotation": { "Z": { "Min": 6, "Max": 28 } }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Scale": { "X": { "Min": 0.8, "Max": 0.8 }, "Y": { "Min": 0.8, "Max": 0.8 } }
+      },
+      "22": {
+        "Opacity": 1,
+        "Scale": { "X": { "Min": 1, "Max": 1 }, "Y": { "Min": 1, "Max": 1 } }
+      },
+      "68": { "Opacity": 0.78, "Color": "#b4f5ff" },
+      "100": {
+        "Opacity": 0,
+        "Color": "#80dfff",
+        "Scale": { "X": { "Min": 0.72, "Max": 0.72 }, "Y": { "Min": 0.72, "Max": 0.72 } }
+      }
+    }
+  }
+}

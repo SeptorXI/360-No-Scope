@@ -1,0 +1,17 @@
+{
+  "Parent": "DamageEntityParent_Hit_Interrupt",
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Fire": 270
+    }
+  },
+  "DamageAttribute": "Damage",
+  "DamageEffects": {
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Fire"
+      }
+    ]
+  },
+  "Next": "ChargedMeteor_OnHit"
+}

@@ -1,0 +1,84 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 28,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Automatic_Patternbreaker_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Automatic_Patternbreaker_Primary",
+    "Secondary": "Root_RS_AS_Automatic_Patternbreaker_ADS",
+    "SwapTo": "Root_RS_AS_Automatic_Patternbreaker_ChamberHUD",
+    "Use": "Root_RS_AS_Automatic_Patternbreaker_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Automatic_Patternbreaker.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Automatic_Patternbreaker.description"
+  },
+  "Model": "Items/Arsenal/AS_Automatic_Patternbreaker/AS_Automatic_Patternbreaker.blockymodel",
+  "Texture": "Items/Arsenal/AS_Automatic_Patternbreaker/AS_Automatic_Patternbreaker.png",
+  "Icon": "Icons/ItemsGenerated/AS_Automatic_Patternbreaker.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 17
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 42
+      },
+      {
+        "ItemId": "Rock_Gem_Zephyr",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 5
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_automatic"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

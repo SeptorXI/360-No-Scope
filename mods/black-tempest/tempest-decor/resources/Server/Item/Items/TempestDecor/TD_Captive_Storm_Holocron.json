@@ -1,0 +1,121 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.TD_Captive_Storm_Holocron.name",
+    "Description": "server.items.TD_Captive_Storm_Holocron.description"
+  },
+  "Categories": [
+    "Furniture.Furniture",
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/TD_Captive_Storm_Holocron.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "Scale": 1,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "TempestDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/TempestDecor/TD_Captive_Storm_Holocron.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/TempestDecor/TD_Tempest_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "TD_Captive_Storm_Holocron",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "SupportDropType": "Break",
+    "IgnoreSupportWhenPlaced": false,
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "TD_Captive_Storm_Holocron",
+        "Quantity": 1
+      },
+      "Physics": {
+        "ItemId": "TD_Captive_Storm_Holocron"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#674a8a",
+    "Light": {
+      "Color": "#436",
+      "Radius": 0
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.577285,
+    "Translation": [
+      0.103321,
+      -16.245584
+    ],
+    "Rotation": [
+      16.172159,
+      -16.580007,
+      0.0
+    ]
+  }
+}

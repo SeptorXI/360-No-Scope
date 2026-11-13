@@ -1,0 +1,20 @@
+{
+  "title": "AB’s Tickle Time",
+  "version": "0.4.5",
+  "manifest_name": "Steven:ABTickleTime",
+  "artifact": "ABs-Tickle-Time-0.4.5.jar",
+  "installed_sha256": "321fab7171d4fb97114835ad20fa25c99930d9cf5aa82b019f80287ee13a04ec",
+  "server_version": ">=0.7.7 <0.8.0",
+  "compile_dependencies": [
+    "endless-leveling",
+    "mmo-skill-tree",
+    "simple-enchantments"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Ziggfreed:MMOSkillTree": "=1.7.4",
+    "org.herolias:SimpleEnchantments": "=1.2.1",
+    "BlueOrbit:DynamicSeasons": "=7.1.5",
+    "Config:Endgame&QoL": "=6.1.4"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Last_Deposition_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.55,
+  "BodyDamage": 25.0,
+  "HeadDamage": 40.0,
+  "Range": 125,
+  "Lifetime": 0.6944,
+  "RunTime": 0.075,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Last_Deposition_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Violet",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Violet",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.75
+      }
+    ]
+  }
+}

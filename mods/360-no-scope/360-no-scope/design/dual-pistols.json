@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "2.1.0",
+  "sourceSpecVersion": "2.0.8",
+  "weapons": [
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "name": "Wildwood Twinwardens",
+      "family": "handgun",
+      "tier": 1,
+      "artIndex": 1,
+      "quality": "Common",
+      "itemLevel": 10,
+      "region": "Emerald Wilds",
+      "description": "Oak and copper twins issued to Wildwood trail wardens. One answers while the other settles. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "projectile": "solid cartridge",
+      "damage": 7,
+      "headDamage": 10,
+      "receiverDamage": 5.25,
+      "receiverHeadDamage": 7.5,
+      "ammo": "AS_Ammo_Handgun_Twinwardens",
+      "pellets": 1,
+      "damagePerShell": 7,
+      "headDamagePerShell": 10,
+      "automatic": false,
+      "fireMode": "semiautomatic",
+      "cycleSeconds": 0.301714286,
+      "roundsPerMinute": 198.86,
+      "spreadDegrees": 2.4,
+      "range": 34,
+      "scope": 1.15,
+      "adsMoveMultiplier": 0.75,
+      "role": "Alternating paired sidearm: faster follow-up trades per-shot impact, reach and precision for a longer combined reload.",
+      "reload": {
+        "capacity": 16,
+        "durationSeconds": 2.5,
+        "style": "paired-magazines",
+        "animationId": "Reload",
+        "playerAnimationsId": "AS_AS_Handgun_Twinwardens_Player",
+        "interactionType": "Use"
+      },
+      "falloff": {
+        "metric": "traveledPath",
+        "points": [
+          {
+            "distance": 0,
+            "multiplier": 1
+          },
+          {
+            "distance": 14,
+            "multiplier": 1
+          },
+          {
+            "distance": 90,
+            "multiplier": 0.35
+          }
+        ],
+        "appliesTo": [
+          "NormalBody",
+          "NormalHead",
+          "SpecialBody",
+          "SpecialHead"
+        ]
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 1
+      },
+      "ingredients": {
+        "Ingredient_Bar_Copper": 10,
+        "Ingredient_Bar_Iron": 4,
+        "Wood_Oak_Trunk": 14,
+        "Ingredient_Leather_Light": 5,
+        "Ingredient_Crystal_White": 3
+      },
+      "requiredMemoriesLevel": 1,
+      "audio": {
+        "Fire": {
+          "Local": "AS_Audio_AS_Handgun_Twinwardens_Fire_Local",
+          "World": "AS_Audio_AS_Handgun_Twinwardens_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Handgun_Twinwardens_Fire_Tail_Owner"
+        }
+      },
+      "tradeoffs": [
+        "Faster follow-up shots than its single-pistol counterpart",
+        "Lower per-shot damage and precision, shorter reach and longer paired reload",
+        "One combined magazine; one paid round produces one projectile"
+      ],
+      "sourceWeaponId": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "sourceAmmoId": "AS_Ammo_Handgun_Trailwarden",
+      "dualWield": true,
+      "vendorOnly": false,
+      "pairing": {
+        "representation": "one inventory item rendered in both hands",
+        "roundsPerPrimary": 1,
+        "projectilesPerPrimary": 1,
+        "primaryRequiresNewClick": true,
+        "alternatingFirstHand": "Right",
+        "chainingAllowanceSeconds": 2.0,
+        "sequenceMayRestartAfterIdleOrReload": true,
+        "persistentState": "combined magazine only",
+        "rightSpawnOffset": {
+          "X": 0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "leftSpawnOffset": {
+          "X": -0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "rotateSpawnOffsetByPitch": true,
+        "rotateSpawnOffsetByYaw": true,
+        "comboFailurePolicy": "Native combo selection occurs before branch payment; a failed input can affect transient hand sequence, but spends no round and launches no projectile."
+      },
+      "ammunition": {
+        "id": "AS_Ammo_Handgun_Twinwardens",
+        "name": "Twintrail Pistol Cartridges",
+        "description": "Dedicated paired-receiver ammunition for Wildwood Twinwardens. One round pays for one alternating shot; it does not load the single-pistol receiver.",
+        "quality": "Common",
+        "compatibleWeapon": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+        "family": "handgun",
+        "artIndex": 1,
+        "stats": {
+          "damage": 1.75,
+          "headDamage": 2.5,
+          "speed": 75,
+          "gravity": 6,
+          "range": 34
+        },
+        "output": 48,
+        "ingredients": {
+          "Ingredient_Bar_Copper": 1,
+          "Ingredient_Bar_Iron": 1,
+          "Ingredient_Charcoal": 2
+        },
+        "bench": {
+          "Id": "RS_Gunsmith",
+          "Type": "Crafting",
+          "Categories": [
+            "RS_Gunsmith_Ammunition"
+          ],
+          "RequiredTierLevel": 1
+        },
+        "requiredMemoriesLevel": 1,
+        "pelletsPerRound": 1,
+        "damageBudget": {
+          "unit": "perProjectile",
+          "bodyPerRound": 1.75,
+          "headPerRound": 2.5
+        }
+      },
+      "art": {
+        "model": "Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.blockymodel",
+        "texture": "Items/Arsenal/AS_Handgun_Twinwardens/AS_Handgun_Twinwardens.png",
+        "icon": "Icons/ItemsGenerated/AS_Handgun_Twinwardens.png",
+        "playerAnimationsId": "AS_AS_Handgun_Twinwardens_Player",
+        "weaponRenderDualWielded": true,
+        "utilityCompatible": false
+      },
+      "sourceThemeWeaponId": "Weapon_Crossbow_Wildwood_Surveyor",
+      "balance": {
+        "unit": "native projectile totals; receiver/ammo shares are accounting only",
+        "bodyBurstDps": 23.200758,
+        "headBurstDps": 33.143939,
+        "bodyFullCycleDps": 15.285035,
+        "headFullCycleDps": 21.835764,
+        "fullCycleFormula": "damage * combinedCapacity / (cycleSeconds * combinedCapacity + reloadSeconds)",
+        "nativeProcCaveat": "One actual projectile per paid shot; native per-hit flat procs occur more frequently at the faster cycle."
+      }
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "name": "Mournhollow Last Rites",
+      "family": "handgun",
+      "tier": 4,
+      "artIndex": 4,
+      "quality": "Epic",
+      "itemLevel": 50,
+      "region": "Mournhollow Catacombs",
+      "description": "Two violet reliquaries from Mournhollow, each bearing half an unfinished confession. Their paired reports close the last rite. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "projectile": "charged cartridge",
+      "damage": 17,
+      "headDamage": 25,
+      "receiverDamage": 12.75,
+      "receiverHeadDamage": 18.75,
+      "ammo": "AS_Ammo_Handgun_Last_Rites",
+      "pellets": 1,
+      "damagePerShell": 17,
+      "headDamagePerShell": 25,
+      "automatic": false,
+      "fireMode": "semiautomatic",
+      "cycleSeconds": 0.329142857,
+      "roundsPerMinute": 182.29,
+      "spreadDegrees": 2.0,
+      "range": 54,
+      "scope": 1.15,
+      "adsMoveMultiplier": 0.7,
+      "role": "Alternating paired sidearm: faster follow-up trades per-shot impact, reach and precision for a longer combined reload.",
+      "reload": {
+        "capacity": 16,
+        "durationSeconds": 2.8,
+        "style": "paired-magazines",
+        "animationId": "Reload",
+        "playerAnimationsId": "AS_AS_Handgun_Last_Rites_Player",
+        "interactionType": "Use"
+      },
+      "falloff": {
+        "metric": "traveledPath",
+        "points": [
+          {
+            "distance": 0,
+            "multiplier": 1
+          },
+          {
+            "distance": 14,
+            "multiplier": 1
+          },
+          {
+            "distance": 90,
+            "multiplier": 0.35
+          }
+        ],
+        "appliesTo": [
+          "NormalBody",
+          "NormalHead",
+          "SpecialBody",
+          "SpecialHead"
+        ]
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 3
+      },
+      "ingredients": {
+        "Ingredient_Bar_Mithril": 11,
+        "Ingredient_Leather_Storm": 5,
+        "Ingredient_Voidheart": 3,
+        "Ingredient_Rune_Shard": 5,
+        "EL_MH_Reliquary_Key": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "audio": {
+        "Fire": {
+          "Local": "AS_Audio_AS_Handgun_Last_Rites_Fire_Local",
+          "World": "AS_Audio_AS_Handgun_Last_Rites_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Handgun_Last_Rites_Fire_Tail_Owner"
+        }
+      },
+      "tradeoffs": [
+        "Faster follow-up shots than its single-pistol counterpart",
+        "Lower per-shot damage and precision, shorter reach and longer paired reload",
+        "One combined magazine; one paid round produces one projectile"
+      ],
+      "progressionNote": "Reliquary Key drops from current Mournhollow packs/bosses; crafting deliberately consumes a key, not an old weapon. Do not claim it requires a full dungeon clear.",
+      "sourceWeaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "sourceAmmoId": "AS_Ammo_Handgun_Last_Confession",
+      "dualWield": true,
+      "vendorOnly": false,
+      "pairing": {
+        "representation": "one inventory item rendered in both hands",
+        "roundsPerPrimary": 1,
+        "projectilesPerPrimary": 1,
+        "primaryRequiresNewClick": true,
+        "alternatingFirstHand": "Right",
+        "chainingAllowanceSeconds": 2.0,
+        "sequenceMayRestartAfterIdleOrReload": true,
+        "persistentState": "combined magazine only",
+        "rightSpawnOffset": {
+          "X": 0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "leftSpawnOffset": {
+          "X": -0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "rotateSpawnOffsetByPitch": true,
+        "rotateSpawnOffsetByYaw": true,
+        "comboFailurePolicy": "Native combo selection occurs before branch payment; a failed input can affect transient hand sequence, but spends no round and launches no projectile."
+      },
+      "ammunition": {
+        "id": "AS_Ammo_Handgun_Last_Rites",
+        "name": "Gravesong Pistol Cartridges",
+        "description": "Dedicated paired-receiver ammunition for Mournhollow Last Rites. One round pays for one alternating shot; it does not load the single-pistol receiver.",
+        "quality": "Epic",
+        "compatibleWeapon": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+        "family": "handgun",
+        "artIndex": 4,
+        "stats": {
+          "damage": 4.25,
+          "headDamage": 6.25,
+          "speed": 150,
+          "gravity": 1,
+          "range": 54
+        },
+        "output": 48,
+        "ingredients": {
+          "Ingredient_Bar_Iron": 1,
+          "Ingredient_Bone_Fragment": 4,
+          "Ingredient_Crystal_Purple": 2,
+          "Ingredient_Void_Essence": 1
+        },
+        "bench": {
+          "Id": "RS_Gunsmith",
+          "Type": "Crafting",
+          "Categories": [
+            "RS_Gunsmith_Ammunition"
+          ],
+          "RequiredTierLevel": 3
+        },
+        "requiredMemoriesLevel": 1,
+        "pelletsPerRound": 1,
+        "damageBudget": {
+          "unit": "perProjectile",
+          "bodyPerRound": 4.25,
+          "headPerRound": 6.25
+        }
+      },
+      "art": {
+        "model": "Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.blockymodel",
+        "texture": "Items/Arsenal/AS_Handgun_Last_Rites/AS_Handgun_Last_Rites.png",
+        "icon": "Icons/ItemsGenerated/AS_Handgun_Last_Rites.png",
+        "playerAnimationsId": "AS_AS_Handgun_Last_Rites_Player",
+        "weaponRenderDualWielded": true,
+        "utilityCompatible": false
+      },
+      "sourceThemeWeaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "balance": {
+        "unit": "native projectile totals; receiver/ammo shares are accounting only",
+        "bodyBurstDps": 51.649306,
+        "headBurstDps": 75.954861,
+        "bodyFullCycleDps": 33.720601,
+        "headFullCycleDps": 49.589119,
+        "fullCycleFormula": "damage * combinedCapacity / (cycleSeconds * combinedCapacity + reloadSeconds)",
+        "nativeProcCaveat": "One actual projectile per paid shot; native per-hit flat procs occur more frequently at the faster cycle."
+      }
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "name": "Vesper & Vigil, Keepers of Firstlight",
+      "family": "handgun",
+      "tier": 6,
+      "artIndex": 6,
+      "quality": "Legendary",
+      "itemLevel": 65,
+      "region": "Luminia",
+      "description": "Vesper keeps the fading light; Vigil keeps the watch. Paired Luminia prisms carry two names beneath one unfinished dawn. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "projectile": "laser-styled projectile",
+      "damage": 19.0,
+      "headDamage": 32.0,
+      "receiverDamage": 15.25,
+      "receiverHeadDamage": 24.0,
+      "ammo": "AS_Ammo_Handgun_Vesper_And_Vigil",
+      "pellets": 1,
+      "damagePerShell": 19,
+      "headDamagePerShell": 32,
+      "automatic": false,
+      "fireMode": "semiautomatic",
+      "cycleSeconds": 0.347428571,
+      "roundsPerMinute": 172.7,
+      "spreadDegrees": 1.15,
+      "range": 70,
+      "scope": 1.2,
+      "adsMoveMultiplier": 0.84,
+      "role": "Alternating paired sidearm: faster follow-up trades per-shot impact, reach and precision for a longer combined reload.",
+      "reload": {
+        "capacity": 16,
+        "durationSeconds": 3.0,
+        "style": "paired-energy-cells",
+        "animationId": "Reload",
+        "playerAnimationsId": "AS_AS_Handgun_Vesper_And_Vigil_Player",
+        "interactionType": "Use"
+      },
+      "falloff": {
+        "metric": "traveledPath",
+        "points": [
+          {
+            "distance": 0,
+            "multiplier": 1
+          },
+          {
+            "distance": 14,
+            "multiplier": 1
+          },
+          {
+            "distance": 90,
+            "multiplier": 0.35
+          }
+        ],
+        "appliesTo": [
+          "NormalBody",
+          "NormalHead",
+          "SpecialBody",
+          "SpecialHead"
+        ]
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 5
+      },
+      "ingredients": {
+        "Ingredient_Bar_Prisma": 16,
+        "Ingredient_Leather_Prismic": 5,
+        "Rock_Gem_Emerald": 3,
+        "Ingredient_Crystal_White": 22,
+        "Endgame_Seal_Fragment_Catacombs": 1,
+        "Endgame_Seal_Fragment_Sentinel": 1,
+        "Endgame_Seal_Fragment_Spire": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "audio": {
+        "Fire": {
+          "Local": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Local",
+          "World": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Handgun_Vesper_And_Vigil_Fire_Tail_Owner"
+        },
+        "SpecialFire": {
+          "Local": "AS_Audio_AS_Handgun_Vesper_And_Vigil_SpecialFire_Local",
+          "World": "AS_Audio_AS_Handgun_Vesper_And_Vigil_SpecialFire_World",
+          "OwnerTail": "AS_Audio_AS_Handgun_Vesper_And_Vigil_SpecialFire_Tail_Owner"
+        }
+      },
+      "tradeoffs": [
+        "Faster follow-up shots than its single-pistol counterpart",
+        "Lower per-shot damage and precision, shorter reach and longer paired reload",
+        "One combined magazine; one paid round produces one projectile",
+        "Two-round focused NPC setup shot trades damage and two-second recovery for a stronger short slow; native slow immunity applies"
+      ],
+      "progressionNote": "Three seal fragments are guaranteed from the Hollow Warden, Luminian Sentinel, and Seal Herald respectively; requires revisiting those bosses if seals were spent on the gateway.",
+      "glowTheme": "White-gold channels, cyan prism faces and restrained violet motes.",
+      "ability": {
+        "name": "Vigil's Reproach",
+        "kind": "markSlow",
+        "effectKind": "markSlow",
+        "input": "Ability1",
+        "chargeSeconds": 0,
+        "bodyDamage": 28,
+        "headDamage": 50,
+        "pellets": 1,
+        "ammoPerUse": 2,
+        "cooldownSeconds": 12,
+        "sharedCooldownId": "RS_LegendaryAbility",
+        "shotRecoverySeconds": 2.0,
+        "npcOnly": true,
+        "respectsImmunity": "Immunity_Slow",
+        "markSeconds": 5,
+        "slowSeconds": 2.5,
+        "speedMultiplier": 0.8,
+        "description": "Press Q for one focused setup shot that visibly marks NPCs for 5s and slows eligible NPCs by 20% for 2.5s. Slow-immune NPCs retain only the visual mark. The shot spends two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 2s."
+      },
+      "sourceWeaponId": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "sourceAmmoId": "AS_Ammo_Handgun_Vesper",
+      "dualWield": true,
+      "vendorOnly": false,
+      "pairing": {
+        "representation": "one inventory item rendered in both hands",
+        "roundsPerPrimary": 1,
+        "projectilesPerPrimary": 1,
+        "primaryRequiresNewClick": true,
+        "alternatingFirstHand": "Right",
+        "chainingAllowanceSeconds": 2.0,
+        "sequenceMayRestartAfterIdleOrReload": true,
+        "persistentState": "combined magazine only",
+        "rightSpawnOffset": {
+          "X": 0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "leftSpawnOffset": {
+          "X": -0.22,
+          "Y": -0.12,
+          "Z": 0
+        },
+        "rotateSpawnOffsetByPitch": true,
+        "rotateSpawnOffsetByYaw": true,
+        "comboFailurePolicy": "Native combo selection occurs before branch payment; a failed input can affect transient hand sequence, but spends no round and launches no projectile."
+      },
+      "ammunition": {
+        "id": "AS_Ammo_Handgun_Vesper_And_Vigil",
+        "name": "Vigilglass Handgun Cells",
+        "description": "Dedicated paired-receiver ammunition for Vesper & Vigil, Keepers of Firstlight. One round pays for one alternating shot; it does not load the single-pistol receiver.",
+        "quality": "Legendary",
+        "compatibleWeapon": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+        "family": "handgun",
+        "artIndex": 6,
+        "stats": {
+          "damage": 3.75,
+          "headDamage": 8.0,
+          "speed": 225,
+          "gravity": 0,
+          "range": 70
+        },
+        "output": 48,
+        "ingredients": {
+          "Ingredient_Bar_Gold": 1,
+          "Ingredient_Crystal_White": 4,
+          "Ingredient_Void_Essence": 2
+        },
+        "bench": {
+          "Id": "RS_Gunsmith",
+          "Type": "Crafting",
+          "Categories": [
+            "RS_Gunsmith_Ammunition"
+          ],
+          "RequiredTierLevel": 5
+        },
+        "requiredMemoriesLevel": 1,
+        "pelletsPerRound": 1,
+        "damageBudget": {
+          "unit": "perProjectile",
+          "bodyPerRound": 3.75,
+          "headPerRound": 8.0
+        }
+      },
+      "art": {
+        "model": "Items/Arsenal/AS_Handgun_Vesper_And_Vigil/AS_Handgun_Vesper_And_Vigil.blockymodel",
+        "texture": "Items/Arsenal/AS_Handgun_Vesper_And_Vigil/AS_Handgun_Vesper_And_Vigil.png",
+        "icon": "Icons/ItemsGenerated/AS_Handgun_Vesper_And_Vigil.png",
+        "playerAnimationsId": "AS_AS_Handgun_Vesper_And_Vigil_Player",
+        "weaponRenderDualWielded": true,
+        "utilityCompatible": false
+      },
+      "sourceThemeWeaponId": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "balance": {
+        "unit": "native projectile totals; receiver/ammo shares are accounting only",
+        "bodyBurstDps": 43.174342,
+        "headBurstDps": 92.105263,
+        "bodyFullCycleDps": 28.041127,
+        "headFullCycleDps": 59.821071,
+        "fullCycleFormula": "damage * combinedCapacity / (cycleSeconds * combinedCapacity + reloadSeconds)",
+        "nativeProcCaveat": "One actual projectile per paid shot; native per-hit flat procs occur more frequently at the faster cycle."
+      }
+    }
+  ],
+  "designRules": [
+    "Three additive handgun variants; every existing weapon and every Nameless-exclusive output remains unchanged.",
+    "Exactly three new dedicated matching ammunition IDs and material-only recipes; no existing or enchanted gun is consumed.",
+    "Native combo state may restart at the right hand after idle, reload or swapping; hand parity is not a promised persistent property.",
+    "All three retain the shared handgun traveled-path falloff curve, native class/enchantment hooks and once-per-discharge ammunition refund.",
+    "F/Use reload keeps block/entity interaction precedence and leaves H available for class abilities.",
+    "Only the paired Luminia Legendary adds a Q: one projectile, two rounds, twelve-second shared lock, native mark/slow immunity rules.",
+    "All firearm/ability audio is reused through new named sound-event aliases; no duplicate owner and world playback is introduced.",
+    "Native Chaining validates/selects a hand branch before that branch consumes one round and triggers cooldown. Failed inputs may alter transient combo order; hand sequence is not saved. Persistent magazine metadata is shared by both rendered pistols."
+  ],
+  "namelessExclusivesUnchanged": true,
+  "version": "2.1.0"
+}

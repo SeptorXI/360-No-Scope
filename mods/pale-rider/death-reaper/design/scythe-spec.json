@@ -1,0 +1,244 @@
+{
+  "itemId": "DR_Harbinger_Scythe",
+  "name": "Harbinger of the Pale Rider",
+  "quality": "Legendary",
+  "lore": "A crescent of blackened mithril carries the skulls of those who bargained with the last Horseman. Their silent mouths drink the final warmth from every wound and return it as power to the hand that reaps. Death does not hurry. His tithe always comes due.",
+  "visual": "Original black-mithril crescent with three-dimensional embedded skulls, beveled faces on both sides, bone collars, violet wraps and mint soul channels.",
+  "primary": {
+    "animationFamily": "DR_Harbinger_Animations",
+    "animations": [
+      "SpinSwingLeft",
+      "SpinSwingRight"
+    ],
+    "reachBlocks": 3.5,
+    "baseDamage": {
+      "Physical": 84
+    },
+    "damageClass": "Light",
+    "randomVariance": 0.1,
+    "actionSeconds": 0.52,
+    "windupSeconds": 0.23088,
+    "activeSeconds": 0.05772,
+    "recoverySeconds": 0.2314,
+    "manaPerNativeHit": 1.5,
+    "signaturePerNativeHit": 1,
+    "lineOfSight": true
+  },
+  "secondary": {
+    "root": "Root_Weapon_Battleaxe_Secondary_Guard",
+    "startStamina": 0.5,
+    "staminaDamageCost": 20,
+    "guardAngleDegrees": 90
+  },
+  "signature": {
+    "name": "The Final Tithe",
+    "input": "Ability1 (default Q)",
+    "animation": "SpinSwingLeftHeavy",
+    "baseDamage": {
+      "Physical": 370
+    },
+    "damageClass": "Signature",
+    "actionSeconds": 1.4,
+    "windupSeconds": 1.0108,
+    "activeSeconds": 0.0777,
+    "recoverySeconds": 0.3115,
+    "reachBlocks": 3.5,
+    "signatureCostPercent": 100,
+    "signatureCapacity": 12,
+    "manaCost": 12,
+    "manaPerNativeHit": 8,
+    "healthPerNativeHit": 8,
+    "lifestealMode": "Flat native Health return per enemy hit with no multi-target falloff, capped at maximum Health",
+    "lifestealMultipliersPerEntitiesHit": [
+      1.0
+    ],
+    "lifestealMultiplierPerExtraEntityHit": 1.0,
+    "manaPerAdditionalEnemy": "Native diminishing multipliers remain unchanged",
+    "spendBeforeWindup": true,
+    "noRefundOnMissOrInterrupt": true
+  },
+  "balance": {
+    "baseline": "Installed Void Requiem: 67 Physical normal hit, approximately0.557-second tap-release graph, 35 signature charged by4 per normal first target. Q has two90 melee windows and two75 projectiles if all connect, with20-block teleport on10-second cooldown.",
+    "tradeoff": "Harbinger has 84 base melee damage and a 370-damage committed signature that steals 8 Health per enemy. It retains 12 accepted charges and 12 Mana per signature, melee reach and no teleport or ranged projectile. Void retains faster signature charging, a signature with no Mana cost, charged leap, teleport and ranged blades.",
+    "idealizedBasicDamagePerTimeAdvantageVsVoid": 0.34293915040183687,
+    "basis": "84/.52 versus67/.557, before charge-release overhead, haste, player stats, defenses and hit reliability; not measured player DPS",
+    "notProven": "Sustained DPS under player stats, enemy movement, blocking and enchanting requires client playtesting."
+  },
+  "integration": {
+    "endlessClassification": "item id contains scythe; installed weapons.json uses physical hybrid Strength+Sorcery scaling",
+    "mmoTag": "POLEARMS",
+    "nativeDamage": "Physical",
+    "primaryClass": "Necromancer armor synergy is supplied by separate armor integration.",
+    "noThirdPartyRuntimeDependency": true
+  },
+  "recipe": {
+    "TimeSeconds": 16,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Hedera_Gem",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 40
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Void",
+        "Quantity": 12
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Endgame_Bench",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ]
+  },
+  "verifiedReferences": [
+    {
+      "id": "Ingredient_Bar_Onyxium",
+      "sources": [
+        {
+          "archive": "Assets.zip",
+          "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Onyxium.json",
+          "sha256": "d3d283d0d0580f84bf7f6732caff87985675ebfca0e752c812ac5472f3513c98"
+        }
+      ]
+    },
+    {
+      "id": "Ingredient_Bar_Prisma",
+      "sources": [
+        {
+          "archive": "Assets.zip",
+          "path": "Server/Item/Items/Ingredient/Bar/Ingredient_Bar_Prisma.json",
+          "sha256": "b08e0dfe351088f1d67f6c0841b01b243aa9148de84a4b3dcadfafbf392f98ba"
+        }
+      ]
+    },
+    {
+      "id": "Ingredient_Voidheart",
+      "sources": [
+        {
+          "archive": "Assets.zip",
+          "path": "Server/Item/Items/Ingredient/Ingredient_Voidheart.json",
+          "sha256": "3aab2b8b329c285e4c27ced393c308c4519c421d8a2f0c6c8367e6e32996c96e"
+        }
+      ]
+    },
+    {
+      "id": "Hedera_Gem",
+      "sources": [
+        {
+          "archive": "EndgameAndQoL6.1.4.jar",
+          "path": "Server/Item/Items/BossItems/Hedera_Gem.json",
+          "sha256": "8719b23be18fd01e714ccbf323c84ec9af10ea69b1fccb8ec272b8720fc89467"
+        }
+      ]
+    },
+    {
+      "id": "Endgame_Seal_Fragment_Catacombs",
+      "sources": [
+        {
+          "archive": "EndgameAndQoL6.1.4.jar",
+          "path": "Server/Item/Items/Material/Endgame_Seal_Fragment_Catacombs.json",
+          "sha256": "8c24f7573ffcd763c6e7ca573a39dda01c94fcb066a09e7b59cd324947f0071a"
+        }
+      ]
+    },
+    {
+      "id": "Endgame_Seal_Fragment_Sentinel",
+      "sources": [
+        {
+          "archive": "EndgameAndQoL6.1.4.jar",
+          "path": "Server/Item/Items/Material/Endgame_Seal_Fragment_Sentinel.json",
+          "sha256": "224303e2ead7a25a04895e444602cf755885982534367e29eca801c4726aaf0e"
+        }
+      ]
+    },
+    {
+      "id": "Endgame_Seal_Fragment_Spire",
+      "sources": [
+        {
+          "archive": "EndgameAndQoL6.1.4.jar",
+          "path": "Server/Item/Items/Material/Endgame_Seal_Fragment_Spire.json",
+          "sha256": "7957ae7ae23357cb4bf49d4ec610babf3446bedc17b918d98b00ab781e96d61e"
+        }
+      ]
+    },
+    {
+      "id": "Ingredient_Void_Essence",
+      "sources": [
+        {
+          "archive": "Assets.zip",
+          "path": "Server/Item/Items/Ingredient/Ingredient_Void_Essence.json",
+          "sha256": "ae3e5fb11b9fd93c8306205e2a738398120cbbf9a89894d97eb58e49b1940ea0"
+        }
+      ]
+    },
+    {
+      "id": "Ingredient_Crystal_Void",
+      "sources": [
+        {
+          "archive": "Assets.zip",
+          "path": "Server/Item/Items/Ingredient/Crystal/Ingredient_Crystal_Void.json",
+          "sha256": "8f3659ea6e6ee5b53fce8874e82947c4491ec96bf69c555ee7fd9f4399ec9432"
+        }
+      ]
+    },
+    {
+      "id": "Spear",
+      "path": "Server/Item/Animations/Spear.json",
+      "sha256": "c681b88d2940bc7d724f0d2b1c0e7af336259f30795c12f414860d7bb6239aaa"
+    },
+    {
+      "id": "Weapon_Battleaxe_Mithril",
+      "path": "Server/Item/Items/Weapon/Battleaxe/Weapon_Battleaxe_Mithril.json",
+      "sha256": "211ca7c89d10a05600cdd424ef2f66fe14bf8358288b78e3d325058a4ba527a9"
+    },
+    {
+      "id": "Spear_Spin_Swing_Left",
+      "path": "Server/Item/Interactions/Weapons/Spear/Attacks/Spin_Swing_Left/Spear_Spin_Swing_Left.json",
+      "sha256": "c80bf589f59da03691f03d9f54b910347d94179a755687f8fe5ae68fe459d028"
+    },
+    {
+      "id": "Spear_Spin_Swing_Right",
+      "path": "Server/Item/Interactions/Weapons/Spear/Attacks/Spin_Swing_Right/Spear_Spin_Swing_Right.json",
+      "sha256": "fef83fac2a8255ac77e943c81d770fd85a084ff704ba99b80651ca391493f2b4"
+    },
+    {
+      "id": "Spear_Spin_Swing_Left_Heavy",
+      "path": "Server/Item/Interactions/Weapons/Spear/Attacks/Spin_Swing_Left_Heavy/Spear_Spin_Swing_Left_Heavy.json",
+      "sha256": "f8d160bcba76268f0aca6fe0fe6a06be43667abe83f2bef9b55aee9117193ae0"
+    }
+  ]
+}

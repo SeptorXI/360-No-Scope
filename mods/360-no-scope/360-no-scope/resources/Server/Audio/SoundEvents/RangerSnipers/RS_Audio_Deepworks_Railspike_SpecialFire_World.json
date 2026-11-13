@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": -1.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 3,
+  "MaxDistance": 72,
+  "MaxInstance": 24,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Deepworks_Railspike/SpecialFire_01.ogg",
+        "Sounds/RangerSnipers/Deepworks_Railspike/SpecialFire_02.ogg",
+        "Sounds/RangerSnipers/Deepworks_Railspike/SpecialFire_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.2,
+        "MaxPitch": 0.2,
+        "MinVolume": -0.2,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

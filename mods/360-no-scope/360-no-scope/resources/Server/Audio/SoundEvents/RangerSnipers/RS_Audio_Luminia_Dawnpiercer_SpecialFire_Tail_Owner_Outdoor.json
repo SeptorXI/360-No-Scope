@@ -1,0 +1,27 @@
+{
+  "AudioCategory": "AudioCat_Weapons",
+  "Volume": 5.0,
+  "SpatialBlend": 1,
+  "StartAttenuationDistance": 16,
+  "MaxDistance": 192,
+  "MaxInstance": 16,
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RangerSnipers/Luminia_Dawnpiercer/OutdoorSpecialFireTail_01.ogg",
+        "Sounds/RangerSnipers/Luminia_Dawnpiercer/OutdoorSpecialFireTail_02.ogg",
+        "Sounds/RangerSnipers/Luminia_Dawnpiercer/OutdoorSpecialFireTail_03.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0.128,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.1,
+        "MaxPitch": 0.1,
+        "MinVolume": -0.25,
+        "MaxVolume": 0
+      }
+    }
+  ]
+}

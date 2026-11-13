@@ -1,0 +1,296 @@
+{
+  "Parent": "Template_Weapon_Battleaxe",
+  "TranslationProperties": {
+    "Name": "server.items.DR_Harbinger_Scythe.name",
+    "Description": "server.items.DR_Harbinger_Scythe.description"
+  },
+  "Model": "Items/Weapons/Scythe/DR_Harbinger.blockymodel",
+  "Texture": "Items/Weapons/Scythe/DR_Reaper_Texture.png",
+  "Icon": "Icons/ItemsGenerated/DR_Harbinger_Scythe.png",
+  "PlayerAnimationsId": "DR_Harbinger_Animations",
+  "Quality": "Legendary",
+  "ItemLevel": 55,
+  "MaxStack": 1,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Interactions": {
+    "Primary": "DR_Harbinger_Primary",
+    "Secondary": "Root_Weapon_Battleaxe_Secondary_Guard",
+    "Ability1": "DR_Harbinger_Final_Tithe"
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Scythe"
+    ],
+    "MMO_Weapon_Type": [
+      "POLEARMS"
+    ]
+  },
+  "Weapon": {
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 12,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 0.27,
+  "Reticle": "DefaultMelee",
+  "ItemSoundSetId": "ISS_Weapon_Blunt_Large",
+  "IconProperties": {
+    "Scale": 0.17,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -126.270322,
+      -50.729678
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 16,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Hedera_Gem",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Catacombs",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Sentinel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Endgame_Seal_Fragment_Spire",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 40
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Void",
+        "Quantity": 12
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Endgame_Bench",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Spear_Spin_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "DamageEntityParent_Hit_Interrupt",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 84
+            },
+            "Type": "Absolute",
+            "Class": "Light",
+            "RandomPercentageModifier": 0.1
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "Mana",
+              "Amount": 1.5
+            },
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "WorldParticles": [
+              {
+                "SystemId": "Impact_Blade_01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Spear_Spin_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.223,
+          "Effects": {
+            "Trails": [
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Top"
+              },
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Tip"
+              }
+            ],
+            "WorldSoundEventId": "SFX_DR_Harbinger_Slash"
+          }
+        }
+      ]
+    },
+    "Spear_Spin_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "DamageEntityParent_Hit_Interrupt",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 84
+            },
+            "Type": "Absolute",
+            "Class": "Light",
+            "RandomPercentageModifier": 0.1
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "Mana",
+              "Amount": 1.5
+            },
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "WorldParticles": [
+              {
+                "SystemId": "Impact_Blade_01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Spear_Spin_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.223,
+          "Effects": {
+            "Trails": [
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Top"
+              },
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Tip"
+              }
+            ],
+            "WorldSoundEventId": "SFX_DR_Harbinger_Slash"
+          }
+        }
+      ]
+    },
+    "Spear_Spin_Swing_Left_Heavy_Damage": {
+      "Interactions": [
+        {
+          "Parent": "DamageEntityParent_Hit_Interrupt",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 370
+            },
+            "Type": "Absolute",
+            "Class": "Signature",
+            "RandomPercentageModifier": 0.1
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "Mana",
+              "Amount": 8
+            },
+            {
+              "EntityStatId": "Health",
+              "Amount": 8,
+              "MultipliersPerEntitiesHit": [
+                1.0
+              ],
+              "MultiplierPerExtraEntityHit": 1.0
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "WorldParticles": [
+              {
+                "SystemId": "Impact_Blade_01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Spear_Spin_Swing_Left_Heavy_Effect": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.223,
+          "Effects": {
+            "Trails": [
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Top"
+              },
+              {
+                "TrailId": "DR_Soul_Trail",
+                "TargetNodeName": "Blade_Tip"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Battleaxe_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 20,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  }
+}

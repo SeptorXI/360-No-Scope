@@ -1,0 +1,104 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0.0,
+  "TrailSpawnerRotationMultiplier": 0.0,
+  "MaxConcurrentParticles": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.64,
+    "Max": 0.64
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Circles/Explosion_Shockwave.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.19,
+            "Max": 0.19
+          }
+        },
+        "Opacity": 0.2,
+        "Color": "#ff4c24"
+      },
+      "12": {
+        "Scale": {
+          "X": {
+            "Min": 0.4,
+            "Max": 0.4
+          }
+        },
+        "Opacity": 0.94,
+        "Color": "#ff4b23"
+      },
+      "33": {
+        "Scale": {
+          "X": {
+            "Min": 0.77,
+            "Max": 0.77
+          }
+        },
+        "Opacity": 0.82,
+        "Color": "#ed2519"
+      },
+      "61": {
+        "Scale": {
+          "X": {
+            "Min": 0.97,
+            "Max": 0.97
+          }
+        },
+        "Opacity": 0.44,
+        "Color": "#c7251d"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.04,
+            "Max": 1.04
+          }
+        },
+        "Opacity": 0,
+        "Color": "#991a22"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 11.8,
+          "Max": 11.8
+        }
+      },
+      "Color": "#fa3118",
+      "Opacity": 1.0,
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    }
+  }
+}

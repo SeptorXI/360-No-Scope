@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.TD_Storm_Tyrant_Monument.name",
+    "Description": "server.items.TD_Storm_Tyrant_Monument.description"
+  },
+  "Categories": [
+    "Furniture.Furniture",
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/TD_Storm_Tyrant_Monument.png",
+  "MaxStack": 10,
+  "Quality": "Epic",
+  "Scale": 1,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "TempestDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/TempestDecor/TD_Storm_Tyrant_Monument.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/TempestDecor/TD_Tempest_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "TD_Storm_Tyrant_Monument",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "SupportDropType": "Break",
+    "IgnoreSupportWhenPlaced": false,
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "TD_Storm_Tyrant_Monument",
+        "Quantity": 1
+      },
+      "Physics": {
+        "ItemId": "TD_Storm_Tyrant_Monument"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#51445f"
+  },
+  "IconProperties": {
+    "Scale": 0.356782,
+    "Translation": [
+      1.352678,
+      -27.77321
+    ],
+    "Rotation": [
+      16.172159,
+      -16.580007,
+      0.0
+    ]
+  }
+}

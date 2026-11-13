@@ -1,0 +1,84 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "Weapon": {
+    "EntityStatsToClear": [
+      "Ammo"
+    ],
+    "StatModifiers": {
+      "Ammo": [
+        {
+          "Amount": 10,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Crossbow"
+    ],
+    "MMO_Weapon_Type": [
+      "ARCHERY"
+    ]
+  },
+  "PlayerAnimationsId": "AS_AS_Handgun_Quiet_Equation_Player",
+  "Interactions": {
+    "Primary": "Root_RS_AS_Handgun_Quiet_Equation_Primary",
+    "Secondary": "Root_RS_AS_Handgun_Quiet_Equation_ADS",
+    "SwapTo": "Root_RS_AS_Handgun_Quiet_Equation_ChamberHUD",
+    "Use": "Root_RS_AS_Handgun_Quiet_Equation_Reload"
+  },
+  "Reticle": "DefaultMelee",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Crossbow_AS_Handgun_Quiet_Equation.name",
+    "Description": "server.items.Weapon_Crossbow_AS_Handgun_Quiet_Equation.description"
+  },
+  "Model": "Items/Arsenal/AS_Handgun_Quiet_Equation/AS_Handgun_Quiet_Equation.blockymodel",
+  "Texture": "Items/Arsenal/AS_Handgun_Quiet_Equation/AS_Handgun_Quiet_Equation.png",
+  "Icon": "Icons/ItemsGenerated/AS_Handgun_Quiet_Equation.png",
+  "Quality": "Epic",
+  "ItemLevel": 50,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 1,
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Fullmetal",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 28
+      },
+      {
+        "ItemId": "Rock_Gem_Zephyr",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 3
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_handgun"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Last_Watch_Standard.name",
+    "Description": "server.items.ARD_Last_Watch_Standard.description"
+  },
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Last_Watch_Standard.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Last_Watch_Standard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Last_Watch_Standard",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "BlockNormal",
+      "AllowRotationKey": false,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Last_Watch_Standard",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.788636,
+    "Translation": [
+      1.536568,
+      -16.482096
+    ],
+    "Rotation": [
+      -6.842773,
+      189.026595,
+      0.0
+    ]
+  }
+}

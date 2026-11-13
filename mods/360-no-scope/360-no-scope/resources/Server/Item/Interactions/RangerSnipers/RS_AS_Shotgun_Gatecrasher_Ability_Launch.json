@@ -1,0 +1,26 @@
+{
+  "Type": "RSServerProjectile",
+  "Config": "RS_AS_Shotgun_Gatecrasher_Ability_Projectile",
+  "Lifetime": 0.2051,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Shotgun_Gatecrasher_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.625
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.99
+      }
+    ]
+  }
+}

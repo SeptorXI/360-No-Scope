@@ -1,0 +1,38 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Id": "ABTT_Storm",
+    "Cooldown": 20,
+    "SkipCooldownReset": true
+  },
+  "Rules": {
+    "BlockedBy": [
+      "Secondary",
+      "Ability1",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "SwapFrom",
+      "SwapTo"
+    ],
+    "InterruptedBy": [
+      "Secondary",
+      "Ability2",
+      "Ability3",
+      "Use",
+      "SwapFrom",
+      "SwapTo"
+    ]
+  },
+  "Tags": {
+    "Attack": [
+      "Magic",
+      "Unarmed"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "ABTTStorm"
+    }
+  ]
+}

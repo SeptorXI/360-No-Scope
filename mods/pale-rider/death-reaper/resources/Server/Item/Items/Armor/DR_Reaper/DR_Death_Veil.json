@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.DR_Death_Veil.name",
+    "Description": "server.items.DR_Death_Veil.description"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/DR_Reaper/DR_Hood.blockymodel",
+  "Texture": "Items/Armors/DR_Reaper/DR_Armor_Texture.png",
+  "Icon": "Icons/ItemsGenerated/DR_Death_Veil.png",
+  "IconProperties": {
+    "Scale": 0.352853,
+    "Rotation": [
+      23.06,
+      43.315,
+      23.06
+    ],
+    "Translation": [
+      -1.07595,
+      6.58584
+    ]
+  },
+  "MaxStack": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 18,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "Amount": 30,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Void": [
+        {
+          "Amount": 0.08,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {},
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ]
+  },
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Pale_Rider"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy"
+}

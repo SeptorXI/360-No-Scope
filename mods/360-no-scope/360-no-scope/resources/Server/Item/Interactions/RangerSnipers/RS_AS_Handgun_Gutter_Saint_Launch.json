@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_Handgun_Gutter_Saint_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 1.8,
+  "BodyDamage": 27.0,
+  "HeadDamage": 34.0,
+  "Range": 65,
+  "Lifetime": 0.3333,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_Handgun_Gutter_Saint_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.85
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.65
+      }
+    ]
+  }
+}

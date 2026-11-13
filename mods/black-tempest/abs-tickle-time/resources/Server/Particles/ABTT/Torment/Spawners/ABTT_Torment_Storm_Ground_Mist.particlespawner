@@ -1,0 +1,114 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.5,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 0,
+  "ParticleLifeSpan": {
+    "Min": 1.6,
+    "Max": 2.0
+  },
+  "SpawnRate": {
+    "Min": 4,
+    "Max": 4
+  },
+  "SpawnBurst": false,
+  "MaxConcurrentParticles": 9,
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke_Smooth2.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "UVOption": "RandomFlipU",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.7,
+          "Max": 0.7
+        },
+        "Y": {
+          "Min": 0.7,
+          "Max": 0.7
+        }
+      },
+      "Opacity": 0.22,
+      "Color": "#520c1b",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      },
+      "Rotation": {
+        "Z": {
+          "Min": 0,
+          "Max": 360
+        }
+      }
+    },
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.6,
+            "Max": 0.6
+          },
+          "Y": {
+            "Min": 0.6,
+            "Max": 0.6
+          }
+        },
+        "Opacity": 0.0
+      },
+      "25": {
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 1.0
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.6,
+            "Max": 1.6
+          },
+          "Y": {
+            "Min": 1.6,
+            "Max": 1.6
+          }
+        },
+        "Opacity": 0.0
+      }
+    },
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "SoftParticles": "Enable"
+  },
+  "Shape": "Sphere",
+  "EmitOffset": {
+    "X": {
+      "Min": 0.5,
+      "Max": 3.8
+    },
+    "Z": {
+      "Min": 0.5,
+      "Max": 3.8
+    }
+  },
+  "Attractors": [
+    {
+      "RadialAxis": {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      },
+      "RadialTangentAcceleration": 0.3
+    }
+  ]
+}

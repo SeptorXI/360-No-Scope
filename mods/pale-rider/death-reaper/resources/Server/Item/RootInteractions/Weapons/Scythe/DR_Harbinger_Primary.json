@@ -1,0 +1,24 @@
+{
+  "RequireNewClick": true,
+  "ClickQueuingTimeout": 0.25,
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "DurabilityCondition",
+      "Threshold": 0,
+      "Operator": "GreaterThan",
+      "Next": {
+        "Type": "Chaining",
+        "ChainingAllowance": 0.8,
+        "Next": [
+          "DR_Harbinger_Spin_Left",
+          "DR_Harbinger_Spin_Right"
+        ]
+      }
+    }
+  ]
+}

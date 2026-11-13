@@ -1,0 +1,26 @@
+{
+  "Type": "RSServerProjectile",
+  "Config": "RS_Dunewatch_Longshot_Projectile",
+  "Lifetime": 1.16,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_Dunewatch_Longshot_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.2
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.8
+      }
+    ]
+  }
+}

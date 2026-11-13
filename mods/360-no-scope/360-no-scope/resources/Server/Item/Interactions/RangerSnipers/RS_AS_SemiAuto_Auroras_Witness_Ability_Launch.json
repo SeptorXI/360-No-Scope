@@ -1,0 +1,26 @@
+{
+  "Type": "RSServerProjectile",
+  "Config": "RS_AS_SemiAuto_Auroras_Witness_Ability_Projectile",
+  "Lifetime": 0.6481,
+  "RunTime": 0.12,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Auroras_Witness_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.25
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Divine",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.825
+      }
+    ]
+  }
+}

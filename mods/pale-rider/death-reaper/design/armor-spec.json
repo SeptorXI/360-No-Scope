@@ -1,0 +1,38 @@
+{
+  "setName": "Vestments of the Pale Rider",
+  "quality": "Legendary",
+  "inspiration": "An original Hytale homage to Death and his Reaper transformation in Darksiders II, guided by Steven's supplied image.",
+  "affinity": "Only a primary Necromancer or an advanced class on that class path receives the listed affinity attributes. Other primary classes retain the native armor and resource bonuses. Each piece works independently; a complete set is not required.",
+  "pieces": [
+    {
+      "id": "DR_Death_Veil", "name": "Death's Veil", "slot": "Head", "model": "DR_Hood",
+      "lore": "Beneath this ragged midnight cowl, a pale mask keeps its final vigil. Its hollow gaze recalls the Horseman who walked beyond the grave and returned with the silence of kingdoms.",
+      "health": 18, "mana": 30, "stamina": 0, "physicalResistance": 0.09, "voidResistance": 0.08,
+      "affinityAttributes": {"sorcery": 5, "flow": 3},
+      "recipe": {"Ingredient_Bar_Onyxium": 12, "Ingredient_Bone_Fragment": 16, "Ingredient_Fabric_Scrap_Cindercloth": 14, "Ingredient_Void_Essence": 16}
+    },
+    {
+      "id": "DR_Reaper_Mantle", "name": "Mantle of the Reaper", "slot": "Chest", "model": "DR_Chest",
+      "lore": "A cage of ancient ribs rises into the broken wings of a deathless reaper. Verdigris iron and funerary bronze bind its spectral heart; the living hear a heartbeat where no heart remains.",
+      "health": 36, "mana": 25, "stamina": 0, "physicalResistance": 0.16, "voidResistance": 0.12,
+      "affinityAttributes": {"sorcery": 4, "life_force": 4},
+      "recipe": {"Ingredient_Bar_Onyxium": 24, "Ingredient_Bone_Fragment": 32, "Ingredient_Fabric_Scrap_Cindercloth": 24, "Ingredient_Void_Essence": 28}
+    },
+    {
+      "id": "DR_Harvester_Grasp", "name": "Harvester's Grasp", "slot": "Hands", "model": "DR_Hands",
+      "lore": "These burial-bound gauntlets close with the certainty of a final breath. Bone knuckles cradle the haft of the Harbinger, lending flesh and sorcery to the work of the Pale Rider.",
+      "health": 16, "mana": 15, "stamina": 0, "physicalResistance": 0.07, "voidResistance": 0.04,
+      "affinityAttributes": {"strength": 4, "sorcery": 4},
+      "recipe": {"Ingredient_Bar_Onyxium": 10, "Ingredient_Bone_Fragment": 12, "Ingredient_Fabric_Scrap_Cindercloth": 10, "Ingredient_Void_Essence": 12}
+    },
+    {
+      "id": "DR_Pale_Rider_Strides", "name": "Pale Rider's Strides", "slot": "Legs", "model": "DR_Legs",
+      "lore": "Tattered funeral cloth trails behind greaves that have crossed the Dead Kingdom without leaving a footprint. Every measured step carries their wearer closer to the next soul's appointed hour.",
+      "health": 26, "mana": 0, "stamina": 3, "physicalResistance": 0.13, "voidResistance": 0.06,
+      "affinityAttributes": {"flow": 3, "haste": 3},
+      "recipe": {"Ingredient_Bar_Onyxium": 18, "Ingredient_Bone_Fragment": 24, "Ingredient_Fabric_Scrap_Cindercloth": 20, "Ingredient_Void_Essence": 20}
+    }
+  ],
+  "bench": {"Id": "Endgame_Bench", "Type": "Crafting", "Categories": ["Endgame_Misc"], "RequiredTierLevel": 5},
+  "balance": "The full set provides 96 native Health, 70 Mana, 3 Stamina, and moderate physical/projectile protection. Native Stamina has a base maximum of 10. It trades Wyrmscale's higher native protection and resources for independent primary-Necromancer attributes. There is no hidden full-set multiplier, summon damage override, immunity bypass, or class allocation mutation."
+}

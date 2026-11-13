@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_Highroad_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.5,
+  "BodyDamage": 18.0,
+  "HeadDamage": 30.0,
+  "Range": 130,
+  "Lifetime": 0.963,
+  "RunTime": 0.075,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_Highroad_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Ballistic",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.75
+      }
+    ]
+  }
+}

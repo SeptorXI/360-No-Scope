@@ -1,0 +1,122 @@
+{
+  "Parent": "Armor_Iron_Legs",
+  "TranslationProperties": {
+    "Name": "server.items.BT_Stormbound_Strides.name",
+    "Description": "server.items.BT_Stormbound_Strides.description"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/Black_Tempest/BT_Strides.blockymodel",
+  "Texture": "Items/Armors/Black_Tempest/BT_Tempest_Texture.png",
+  "Icon": "Icons/ItemsGenerated/BT_Stormbound_Strides.png",
+  "IconProperties": {
+    "Scale": 0.333818,
+    "Translation": [
+      -0.134425,
+      -10.287819
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "MaxStack": 1,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 26,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "Amount": 20,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "Amount": 3,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.13,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.13,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Lightning": [
+        {
+          "Amount": 0.06,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {},
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes",
+      "Overpants"
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Black_Tempest"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Lightning_Essence",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  }
+}

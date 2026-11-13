@@ -1,0 +1,117 @@
+{
+  "Parent": "Armor_Iron_Head",
+  "TranslationProperties": {
+    "Name": "server.items.CB_Crimson_Cowl.name",
+    "Description": "server.items.CB_Crimson_Cowl.description"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/Crimson_Brotherhood/CB_Cowl.blockymodel",
+  "Texture": "Items/Armors/Crimson_Brotherhood/CB_Brotherhood_Texture.png",
+  "Icon": "Icons/ItemsGenerated/CB_Crimson_Cowl.png",
+  "IconProperties": {
+    "Scale": 0.372297,
+    "Rotation": [
+      23.06,
+      43.315,
+      23.06
+    ],
+    "Translation": [
+      -1.683711,
+      6.526383
+    ]
+  },
+  "MaxStack": 1,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 18,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "Amount": 1,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Poison": [
+        {
+          "Amount": 0.08,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {},
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Crimson_Brotherhood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Shadoweave",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Sac_Venom",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  }
+}

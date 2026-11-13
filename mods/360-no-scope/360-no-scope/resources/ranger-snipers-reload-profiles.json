@@ -1,0 +1,1243 @@
+{
+  "Profiles": [
+    {
+      "WeaponId": "Weapon_Crossbow_Wildwood_Surveyor",
+      "AmmoId": "RS_Ammo_Wayfinder",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Wildwood_Surveyor_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Dunewatch_Longshot",
+      "AmmoId": "RS_Ammo_Sirocco",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Dunewatch_Longshot_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Frostline_Sentinel",
+      "AmmoId": "RS_Ammo_Rimeglass",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Frostline_Sentinel_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "AmmoId": "RS_Ammo_Gravelight",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Mournhollow_Epitaph_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Deepworks_Railspike",
+      "AmmoId": "RS_Ammo_SiegeSlug",
+      "Capacity": 2,
+      "FlightMarker": "Root_RS_Deepworks_Railspike_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "AmmoId": "RS_Ammo_Firstlight",
+      "Capacity": 2,
+      "FlightMarker": "Root_RS_Luminia_Dawnpiercer_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Nameless_Covenant",
+      "AmmoId": "RS_Ammo_Penance",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Nameless_Covenant_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+      "AmmoId": "RS_Ammo_Threadline",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Labyrinth_Threadkeeper_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_Skybound_Farwatch",
+      "AmmoId": "RS_Ammo_Skyglass",
+      "Capacity": 1,
+      "FlightMarker": "Root_RS_Skybound_Farwatch_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 35.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 225.0,
+          "Multiplier": 0.65
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "AmmoId": "AS_Ammo_Handgun_Trailwarden",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Trailwarden_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+      "AmmoId": "AS_Ammo_Handgun_Sandbound_Oath",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Sandbound_Oath_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "AmmoId": "AS_Ammo_Handgun_Pale_Marshal",
+      "Capacity": 9,
+      "FlightMarker": "Root_RS_AS_Handgun_Pale_Marshal_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "AmmoId": "AS_Ammo_Handgun_Last_Confession",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Last_Confession_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+      "AmmoId": "AS_Ammo_Handgun_Gutter_Saint",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Gutter_Saint_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "AmmoId": "AS_Ammo_Handgun_Vesper",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Vesper_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "AmmoId": "AS_Ammo_Handgun_Absolver",
+      "Capacity": 7,
+      "FlightMarker": "Root_RS_AS_Handgun_Absolver_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+      "AmmoId": "AS_Ammo_Handgun_Quiet_Equation",
+      "Capacity": 10,
+      "FlightMarker": "Root_RS_AS_Handgun_Quiet_Equation_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "AmmoId": "AS_Ammo_Handgun_Windward_Promise",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_Handgun_Windward_Promise_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Brushfire",
+      "AmmoId": "AS_Ammo_SMG_Brushfire",
+      "Capacity": 20,
+      "FlightMarker": "Root_RS_AS_SMG_Brushfire_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+      "AmmoId": "AS_Ammo_SMG_Dust_Choir",
+      "Capacity": 22,
+      "FlightMarker": "Root_RS_AS_SMG_Dust_Choir_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "AmmoId": "AS_Ammo_SMG_Sleetweaver",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_SMG_Sleetweaver_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+      "AmmoId": "AS_Ammo_SMG_Funeral_Procession",
+      "Capacity": 22,
+      "FlightMarker": "Root_RS_AS_SMG_Funeral_Procession_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Grindhymn",
+      "AmmoId": "AS_Ammo_SMG_Grindhymn",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_SMG_Grindhymn_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Starling",
+      "AmmoId": "AS_Ammo_SMG_Starling",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_SMG_Starling_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "AmmoId": "AS_Ammo_SMG_Many_Whispers",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_SMG_Many_Whispers_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Threadstorm",
+      "AmmoId": "AS_Ammo_SMG_Threadstorm",
+      "Capacity": 26,
+      "FlightMarker": "Root_RS_AS_SMG_Threadstorm_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SMG_Kestrel",
+      "AmmoId": "AS_Ammo_SMG_Kestrel",
+      "Capacity": 22,
+      "FlightMarker": "Root_RS_AS_SMG_Kestrel_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 10.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 72.0,
+          "Multiplier": 0.25
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Waymark",
+      "AmmoId": "AS_Ammo_SemiAuto_Waymark",
+      "Capacity": 6,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Waymark_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+      "AmmoId": "AS_Ammo_SemiAuto_Dune_Canticle",
+      "Capacity": 7,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Dune_Canticle_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "AmmoId": "AS_Ammo_SemiAuto_White_Vigil",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_SemiAuto_White_Vigil_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+      "AmmoId": "AS_Ammo_SemiAuto_Tollkeeper",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Tollkeeper_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+      "AmmoId": "AS_Ammo_SemiAuto_Iron_Testament",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Iron_Testament_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+      "AmmoId": "AS_Ammo_SemiAuto_Auroras_Witness",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Auroras_Witness_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "AmmoId": "AS_Ammo_SemiAuto_Last_Deposition",
+      "Capacity": 7,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Last_Deposition_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+      "AmmoId": "AS_Ammo_SemiAuto_Proofkeeper",
+      "Capacity": 9,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Proofkeeper_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "AmmoId": "AS_Ammo_SemiAuto_Highroad",
+      "Capacity": 8,
+      "FlightMarker": "Root_RS_AS_SemiAuto_Highroad_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 25.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 175.0,
+          "Multiplier": 0.5
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Briar_March",
+      "AmmoId": "AS_Ammo_Automatic_Briar_March",
+      "Capacity": 20,
+      "FlightMarker": "Root_RS_AS_Automatic_Briar_March_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Scorchwind",
+      "AmmoId": "AS_Ammo_Automatic_Scorchwind",
+      "Capacity": 22,
+      "FlightMarker": "Root_RS_AS_Automatic_Scorchwind_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "AmmoId": "AS_Ammo_Automatic_Winter_Standard",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_Automatic_Winter_Standard_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "AmmoId": "AS_Ammo_Automatic_Dirge_Engine",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_Automatic_Dirge_Engine_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "AmmoId": "AS_Ammo_Automatic_Crown_Of_Rivets",
+      "Capacity": 26,
+      "FlightMarker": "Root_RS_AS_Automatic_Crown_Of_Rivets_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+      "AmmoId": "AS_Ammo_Automatic_Helios_Refrain",
+      "Capacity": 26,
+      "FlightMarker": "Root_RS_AS_Automatic_Helios_Refrain_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "AmmoId": "AS_Ammo_Automatic_Hollow_Regiment",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_Automatic_Hollow_Regiment_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "AmmoId": "AS_Ammo_Automatic_Patternbreaker",
+      "Capacity": 28,
+      "FlightMarker": "Root_RS_AS_Automatic_Patternbreaker_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "AmmoId": "AS_Ammo_Automatic_Gale_Banner",
+      "Capacity": 24,
+      "FlightMarker": "Root_RS_AS_Automatic_Gale_Banner_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+      "AmmoId": "AS_Ammo_Shotgun_Hollowbark",
+      "Capacity": 4,
+      "FlightMarker": "Root_RS_AS_Shotgun_Hollowbark_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+      "AmmoId": "AS_Ammo_Shotgun_Sandbreaker",
+      "Capacity": 4,
+      "FlightMarker": "Root_RS_AS_Shotgun_Sandbreaker_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "AmmoId": "AS_Ammo_Shotgun_Hearthguard",
+      "Capacity": 5,
+      "FlightMarker": "Root_RS_AS_Shotgun_Hearthguard_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "AmmoId": "AS_Ammo_Shotgun_Bellwether",
+      "Capacity": 5,
+      "FlightMarker": "Root_RS_AS_Shotgun_Bellwether_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "AmmoId": "AS_Ammo_Shotgun_Gatecrasher",
+      "Capacity": 6,
+      "FlightMarker": "Root_RS_AS_Shotgun_Gatecrasher_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Solstice",
+      "AmmoId": "AS_Ammo_Shotgun_Solstice",
+      "Capacity": 6,
+      "FlightMarker": "Root_RS_AS_Shotgun_Solstice_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "AmmoId": "AS_Ammo_Shotgun_Grave_Tithe",
+      "Capacity": 5,
+      "FlightMarker": "Root_RS_AS_Shotgun_Grave_Tithe_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+      "AmmoId": "AS_Ammo_Shotgun_Doorwarden",
+      "Capacity": 6,
+      "FlightMarker": "Root_RS_AS_Shotgun_Doorwarden_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "AmmoId": "AS_Ammo_Shotgun_Cloudburst",
+      "Capacity": 5,
+      "FlightMarker": "Root_RS_AS_Shotgun_Cloudburst_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 7.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 58.0,
+          "Multiplier": 0.15
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "AmmoId": "AS_Ammo_Handgun_Twinwardens",
+      "Capacity": 16,
+      "FlightMarker": "Root_RS_AS_Handgun_Twinwardens_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "AmmoId": "AS_Ammo_Handgun_Last_Rites",
+      "Capacity": 16,
+      "FlightMarker": "Root_RS_AS_Handgun_Last_Rites_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "AmmoId": "AS_Ammo_Handgun_Vesper_And_Vigil",
+      "Capacity": 16,
+      "FlightMarker": "Root_RS_AS_Handgun_Vesper_And_Vigil_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 14.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 90.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "AmmoId": "AS_Ammo_Automatic_Goliath_50",
+      "Capacity": 50,
+      "FlightMarker": "Root_RS_AS_Automatic_Goliath_50_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    },
+    {
+      "WeaponId": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "AmmoId": "AS_Ammo_Automatic_Rampart_SAW",
+      "Capacity": 100,
+      "FlightMarker": "Root_RS_AS_Automatic_Rampart_SAW_FlightOrigin",
+      "FalloffMetric": "traveledPath",
+      "FalloffPoints": [
+        {
+          "Distance": 0.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 20.0,
+          "Multiplier": 1.0
+        },
+        {
+          "Distance": 140.0,
+          "Multiplier": 0.35
+        }
+      ]
+    }
+  ]
+}

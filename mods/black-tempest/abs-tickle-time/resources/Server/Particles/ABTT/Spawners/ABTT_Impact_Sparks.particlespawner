@@ -1,0 +1,54 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "MaxConcurrentParticles": 4,
+  "ParticleLifeSpan": {
+    "Min": 0.18,
+    "Max": 0.18
+  },
+  "SpawnRate": {
+    "Min": 1000,
+    "Max": 1000
+  },
+  "ParticleRotateWithSpawner": true,
+  "Particle": {
+    "Texture": "Particles/ABTT/ABTT_Spark.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Disable",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.18,
+          "Max": 0.18
+        },
+        "Y": {
+          "Min": 0.18,
+          "Max": 0.18
+        }
+      },
+      "Color": "#c6a3ff",
+      "Opacity": 1
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1
+      },
+      "70": {
+        "Opacity": 0.7
+      },
+      "100": {
+        "Opacity": 0
+      }
+    }
+  },
+  "TotalParticles": {
+    "Min": 4,
+    "Max": 4
+  }
+}

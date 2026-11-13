@@ -1,0 +1,28 @@
+Group {
+  Anchor: (Full: 0);
+
+  Group #AmmoCounter {
+    Anchor: (Right: 244, Bottom: 178, Width: 176, Height: 20);
+    Background: #111b29(0.90);
+
+    Group {
+      Anchor: (Left: 0, Top: 0, Bottom: 0, Width: 3);
+      Background: #dfb574;
+    }
+
+    Label #Magazine {
+      Anchor: (Left: 9, Top: 1, Width: 71, Height: 18);
+      Style: LabelStyle(FontName: "Secondary", FontSize: 14, RenderBold: true, TextColor: #f1f4f8);
+    }
+
+    Group {
+      Anchor: (Left: 82, Top: 4, Width: 1, Height: 12);
+      Background: #506278;
+    }
+
+    Label #Reserve {
+      Anchor: (Left: 90, Right: 5, Top: 3, Height: 14);
+      Style: LabelStyle(FontName: "Secondary", FontSize: 11, RenderBold: true, TextColor: #b6c6da);
+    }
+  }
+}

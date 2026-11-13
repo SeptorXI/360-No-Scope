@@ -1,0 +1,41 @@
+{
+  "Parent": "Rifle",
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Idle_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Idle_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Idle_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": true,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "Shoot": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Shoot_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Shoot_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Shoot_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.035,
+      "ClipsGeometry": true
+    },
+    "Reload": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Reload_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Reload_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Reload_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    },
+    "ShootFlintlockCharging": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Charge_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Charge_TPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Arsenal/AS_Automatic_Goliath_50/Charge_TPS.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "BlendingDuration": 0.08,
+      "ClipsGeometry": true
+    }
+  }
+}

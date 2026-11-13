@@ -1,0 +1,31 @@
+{
+  "Type": "ASScatter",
+  "Config": "RS_AS_SemiAuto_White_Vigil_Projectile",
+  "Pellets": 1,
+  "SpreadDegrees": 0.5,
+  "BodyDamage": 19.0,
+  "HeadDamage": 30.0,
+  "Range": 112,
+  "Lifetime": 0.8296,
+  "RunTime": 0.075,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "RS_AS_SemiAuto_White_Vigil_Recoil",
+    "Particles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 1.0
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "RS_Muzzle_Energy_Cyan",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Muzzle",
+        "Scale": 0.75
+      }
+    ]
+  }
+}

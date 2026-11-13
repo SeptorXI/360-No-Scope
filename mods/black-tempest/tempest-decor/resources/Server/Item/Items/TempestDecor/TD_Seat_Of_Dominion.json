@@ -1,0 +1,134 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.TD_Seat_Of_Dominion.name",
+    "Description": "server.items.TD_Seat_Of_Dominion.description"
+  },
+  "Categories": [
+    "Furniture.Furniture",
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/TD_Seat_Of_Dominion.png",
+  "MaxStack": 10,
+  "Quality": "Epic",
+  "Scale": 1,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "TempestDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 6,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/TempestDecor/TD_Seat_Of_Dominion.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/TempestDecor/TD_Tempest_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "TD_Seat_Of_Dominion",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "SupportDropType": "Break",
+    "IgnoreSupportWhenPlaced": false,
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "TD_Seat_Of_Dominion",
+        "Quantity": 1
+      },
+      "Physics": {
+        "ItemId": "TD_Seat_Of_Dominion"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#42394d",
+    "Seats": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0.0546875,
+          "Z": 0.2
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": "Block_Seat"
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.403898,
+    "Translation": [
+      0.194641,
+      -23.451355
+    ],
+    "Rotation": [
+      19.290046,
+      -16.30927,
+      0.0
+    ]
+  }
+}

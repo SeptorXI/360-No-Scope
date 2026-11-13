@@ -1,0 +1,74 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.72
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.96
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.32
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.08
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 1.02
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Automatic_Rampart_SAW_ReloadClose_World"
+      }
+    }
+  ]
+}

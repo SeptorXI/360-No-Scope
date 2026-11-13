@@ -1,0 +1,110 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.DR_Reaper_Mantle.name",
+    "Description": "server.items.DR_Reaper_Mantle.description"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Legendary",
+  "ItemLevel": 70,
+  "Model": "Items/Armors/DR_Reaper/DR_Chest.blockymodel",
+  "Texture": "Items/Armors/DR_Reaper/DR_Armor_Texture.png",
+  "Icon": "Icons/ItemsGenerated/DR_Reaper_Mantle.png",
+  "IconProperties": {
+    "Scale": 0.167874,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      8.932999,
+      7.045172
+    ]
+  },
+  "MaxStack": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 28
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Endgame_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Endgame_Misc"
+        ],
+        "RequiredTierLevel": 5
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 36,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "Amount": 25,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.16,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.16,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Void": [
+        {
+          "Amount": 0.12,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {},
+    "CosmeticsToHide": [
+      "Overtop"
+    ]
+  },
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 0.5,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Pale_Rider"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy"
+}

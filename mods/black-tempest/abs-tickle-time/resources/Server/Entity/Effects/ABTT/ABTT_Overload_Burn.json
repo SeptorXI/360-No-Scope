@@ -1,0 +1,41 @@
+{
+  "Parent": "Burn_Template",
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer",
+      "Inverse": true
+    },
+    {
+      "Id": "InFluid",
+      "Tags": [
+        "Water"
+      ],
+      "Inverse": true
+    },
+    {
+      "Id": "HasEffect",
+      "EffectId": "Immunity_Fire",
+      "Inverse": true
+    }
+  ],
+  "Duration": 3,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "StatusEffectIcon": "UI/StatusEffects/Burn.png",
+  "DamageCalculatorCooldown": 1,
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Fire": 3
+    }
+  },
+  "ApplicationEffects": {
+    "EntityTopTint": "#cb6cff",
+    "EntityBottomTint": "#1b052b",
+    "Particles": [
+      {
+        "SystemId": "Effect_Fire"
+      }
+    ]
+  },
+  "DeathMessageKey": "server.general.deathCause.burn"
+}

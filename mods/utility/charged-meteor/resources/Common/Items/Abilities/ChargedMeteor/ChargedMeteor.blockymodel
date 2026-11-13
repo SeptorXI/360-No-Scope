@@ -1,0 +1,2787 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Origin",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "shape": {
+        "type": "none",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "MeteorBody",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "MeteorRock",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "none",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "5",
+                  "name": "Core",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "orientation": {
+                    "x": 0.1065,
+                    "y": 0.213,
+                    "z": 0.0426,
+                    "w": 0.970296
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 12.87,
+                      "y": 11.7,
+                      "z": 11.934
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 26,
+                        "y": 25,
+                        "z": 25
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 1,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 29,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 85,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 57,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 113,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 141,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "6",
+                  "name": "Crown",
+                  "position": {
+                    "x": -28.08,
+                    "y": 84.24,
+                    "z": 23.4
+                  },
+                  "orientation": {
+                    "x": -0.272037,
+                    "y": -0.0,
+                    "z": -0.081611,
+                    "w": 0.95882
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 10.764,
+                      "y": 7.722,
+                      "z": 10.764
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 24,
+                        "y": 22,
+                        "z": 22
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 169,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 197,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 253,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 225,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 281,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 309,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "7",
+                  "name": "Keel",
+                  "position": {
+                    "x": 18.72,
+                    "y": -91.26,
+                    "z": 11.7
+                  },
+                  "orientation": {
+                    "x": 0.106759,
+                    "y": 0.05338,
+                    "z": 0.266898,
+                    "w": 0.956305
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 10.296,
+                      "y": 7.956,
+                      "z": 10.53
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 23,
+                        "y": 22,
+                        "z": 22
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 337,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 365,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 421,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 393,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 449,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 477,
+                          "y": 1
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "8",
+                  "name": "WestCrust",
+                  "position": {
+                    "x": -98.28,
+                    "y": 14.04,
+                    "z": -23.4
+                  },
+                  "orientation": {
+                    "x": -0.21161,
+                    "y": -0.042322,
+                    "z": -0.126966,
+                    "w": 0.968148
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 7.254,
+                      "y": 9.36,
+                      "z": 8.658
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 23,
+                        "y": 24,
+                        "z": 24
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 1,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 29,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 85,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 57,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 113,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 141,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "9",
+                  "name": "EastCrust",
+                  "position": {
+                    "x": 98.28,
+                    "y": -7.02,
+                    "z": 21.06
+                  },
+                  "orientation": {
+                    "x": -0.061254,
+                    "y": -0.091881,
+                    "z": -0.306269,
+                    "w": 0.945519
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 7.722,
+                      "y": 10.062,
+                      "z": 8.424
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 22,
+                        "y": 24,
+                        "z": 23
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 169,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 197,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 253,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 225,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 281,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 309,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "10",
+                  "name": "FrontPlate",
+                  "position": {
+                    "x": 23.4,
+                    "y": 11.7,
+                    "z": -95.94
+                  },
+                  "orientation": {
+                    "x": -0.148519,
+                    "y": -0.371298,
+                    "z": -0.07426,
+                    "w": 0.913545
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 9.828,
+                      "y": 9.594,
+                      "z": 7.02
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 24,
+                        "y": 23,
+                        "z": 22
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 337,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 365,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 421,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 393,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 449,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 477,
+                          "y": 29
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "11",
+                  "name": "BackPlate",
+                  "position": {
+                    "x": -16.38,
+                    "y": 28.08,
+                    "z": 100.62
+                  },
+                  "orientation": {
+                    "x": 0.099343,
+                    "y": 0.198686,
+                    "z": 0.331143,
+                    "w": 0.91706
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 9.594,
+                      "y": 8.892,
+                      "z": 7.02
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 24,
+                        "y": 21,
+                        "z": 22
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 1,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 29,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 85,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 57,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 113,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 141,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "12",
+                  "name": "BrokenShoulder",
+                  "position": {
+                    "x": 98.28,
+                    "y": 84.24,
+                    "z": -46.8
+                  },
+                  "orientation": {
+                    "x": 0.275416,
+                    "y": 0.055083,
+                    "z": 0.247875,
+                    "w": 0.927184
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 6.318,
+                      "y": 5.148,
+                      "z": 6.552
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 20,
+                        "y": 20,
+                        "z": 19
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 169,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 197,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 253,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 225,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 281,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 309,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "13",
+                  "name": "BrokenKeel",
+                  "position": {
+                    "x": -95.94,
+                    "y": -70.2,
+                    "z": 56.16
+                  },
+                  "orientation": {
+                    "x": 0.113882,
+                    "y": 0.265725,
+                    "z": 0.379607,
+                    "w": 0.878817
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 6.552,
+                      "y": 6.084,
+                      "z": 5.85
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 20,
+                        "y": 20,
+                        "z": 19
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 337,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 365,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 421,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 393,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 449,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 477,
+                          "y": 57
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "14",
+                  "name": "KeelCrack",
+                  "position": {
+                    "x": 32.76,
+                    "y": -58.5,
+                    "z": -149.76
+                  },
+                  "orientation": {
+                    "x": -0.029316,
+                    "y": -0.13192,
+                    "z": -0.146578,
+                    "w": 0.979925
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 7.02,
+                      "y": 1.404,
+                      "z": 2.106
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 15,
+                        "y": 10,
+                        "z": 16
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 1,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 29,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 85,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 57,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 113,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 141,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "15",
+                  "name": "CrownCrack",
+                  "position": {
+                    "x": -107.64,
+                    "y": 56.16,
+                    "z": 112.32
+                  },
+                  "orientation": {
+                    "x": -0.068393,
+                    "y": -0.341967,
+                    "z": -0.136787,
+                    "w": 0.927184
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 1.638,
+                      "y": 6.318,
+                      "z": 2.106
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 14,
+                        "y": 12,
+                        "z": 16
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 169,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 197,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 253,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 225,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 281,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 309,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "16",
+                  "name": "WestCrack",
+                  "position": {
+                    "x": -154.44,
+                    "y": 18.72,
+                    "z": -84.24
+                  },
+                  "orientation": {
+                    "x": 0.119057,
+                    "y": 0.071434,
+                    "z": 0.238114,
+                    "w": 0.961262
+                  },
+                  "shape": {
+                    "type": "box",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "stretch": {
+                      "x": 1.638,
+                      "y": 5.616,
+                      "z": 2.106
+                    },
+                    "settings": {
+                      "isPiece": false,
+                      "size": {
+                        "x": 15,
+                        "y": 11,
+                        "z": 13
+                      }
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {
+                          "x": 337,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {
+                          "x": 365,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {
+                          "x": 421,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "back": {
+                        "offset": {
+                          "x": 393,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {
+                          "x": 449,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {
+                          "x": 477,
+                          "y": 85
+                        },
+                        "mirror": {
+                          "x": false,
+                          "y": false
+                        },
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "fullbright"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "name": "MeteorTrail",
+              "position": {
+                "x": 0,
+                "y": 140,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "none",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "40",
+          "name": "VortexAnchor",
+          "position": {
+            "x": 0,
+            "y": 800,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": []
+        },
+        {
+          "id": "60",
+          "name": "MeteorChipKeelPath",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "50",
+              "name": "MeteorChipKeel",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "box",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 3.1,
+                  "y": 3.1,
+                  "z": 3.1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 12,
+                    "y": 8,
+                    "z": 10
+                  }
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 2,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 18,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 34,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 50,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {
+                      "x": 66,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 82,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "70",
+              "name": "MeteorChipKeelWake1",
+              "position": {
+                "x": 0,
+                "y": 9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.156434,
+                "z": 0,
+                "w": 0.987688
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "71",
+              "name": "MeteorChipKeelWake2",
+              "position": {
+                "x": 0,
+                "y": 12,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.809017,
+                "z": 0,
+                "w": 0.587785
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "61",
+          "name": "MeteorChipWestPath",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "51",
+              "name": "MeteorChipWest",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "box",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 3.108,
+                  "y": 3.145,
+                  "z": 2.775
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 10,
+                    "y": 8,
+                    "z": 8
+                  }
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 98,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 114,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 130,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 146,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {
+                      "x": 162,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 178,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "72",
+              "name": "MeteorChipWestWake1",
+              "position": {
+                "x": 0,
+                "y": 9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.156434,
+                "z": 0,
+                "w": 0.987688
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "73",
+              "name": "MeteorChipWestWake2",
+              "position": {
+                "x": 0,
+                "y": 12,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.809017,
+                "z": 0,
+                "w": 0.587785
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "name": "MeteorChipEastPath",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "52",
+              "name": "MeteorChipEast",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "box",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 3.2291,
+                  "y": 3.2938,
+                  "z": 3.1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 12,
+                    "y": 8,
+                    "z": 9
+                  }
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 194,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 210,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 226,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 242,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {
+                      "x": 258,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 274,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "74",
+              "name": "MeteorChipEastWake1",
+              "position": {
+                "x": 0,
+                "y": 9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.156434,
+                "z": 0,
+                "w": 0.987688
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "75",
+              "name": "MeteorChipEastWake2",
+              "position": {
+                "x": 0,
+                "y": 12,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.809017,
+                "z": 0,
+                "w": 0.587785
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "63",
+          "name": "MeteorChipFrontPath",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "53",
+              "name": "MeteorChipFront",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "box",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 3.2938,
+                  "y": 3.1,
+                  "z": 2.945
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 8,
+                    "y": 7,
+                    "z": 10
+                  }
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 290,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 306,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 322,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 338,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {
+                      "x": 354,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 370,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "76",
+              "name": "MeteorChipFrontWake1",
+              "position": {
+                "x": 0,
+                "y": 9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.156434,
+                "z": 0,
+                "w": 0.987688
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "77",
+              "name": "MeteorChipFrontWake2",
+              "position": {
+                "x": 0,
+                "y": 12,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.809017,
+                "z": 0,
+                "w": 0.587785
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "64",
+          "name": "MeteorChipBackPath",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0,
+            "w": 1.0
+          },
+          "shape": {
+            "type": "none",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "54",
+              "name": "MeteorChipBack",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "type": "box",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.812,
+                  "y": 3.2067,
+                  "z": 2.775
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 10,
+                    "y": 6,
+                    "z": 8
+                  }
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 386,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 402,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 418,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 434,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {
+                      "x": 450,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 466,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "78",
+              "name": "MeteorChipBackWake1",
+              "position": {
+                "x": 0,
+                "y": 9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.156434,
+                "z": 0,
+                "w": 0.987688
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            },
+            {
+              "id": "79",
+              "name": "MeteorChipBackWake2",
+              "position": {
+                "x": 0,
+                "y": 12,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.809017,
+                "z": 0,
+                "w": 0.587785
+              },
+              "shape": {
+                "type": "quad",
+                "offset": {
+                  "x": 0,
+                  "y": 20,
+                  "z": 0
+                },
+                "stretch": {
+                  "x": 2.2,
+                  "y": 1.72,
+                  "z": 1
+                },
+                "settings": {
+                  "isPiece": false,
+                  "size": {
+                    "x": 9,
+                    "y": 30
+                  },
+                  "normal": "+Z",
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {
+                      "x": 484,
+                      "y": 474
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "fullbright"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

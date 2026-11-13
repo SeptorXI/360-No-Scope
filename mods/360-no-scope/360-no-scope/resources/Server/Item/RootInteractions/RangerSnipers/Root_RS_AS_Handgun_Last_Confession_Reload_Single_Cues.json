@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.35
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.333333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.533333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.05
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.25
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Mournhollow_Epitaph_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.216666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_Handgun_Last_Confession_ReloadClose_World"
+      }
+    }
+  ]
+}

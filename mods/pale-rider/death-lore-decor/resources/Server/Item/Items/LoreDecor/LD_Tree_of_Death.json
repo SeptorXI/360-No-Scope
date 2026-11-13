@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LD_Tree_of_Death.name",
+    "Description": "server.items.LD_Tree_of_Death.description"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/LD_Tree_of_Death.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "LoreDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bone_Fragment",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Storage"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/LoreDecor/LD_Tree_of_Death.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/LoreDecor/LD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "LD_Tree_of_Death",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "LD_Tree_of_Death",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.532492,
+    "Translation": [
+      -0.198695,
+      -17.814421
+    ],
+    "Rotation": [
+      -16.172159,
+      196.580007,
+      0.0
+    ]
+  }
+}

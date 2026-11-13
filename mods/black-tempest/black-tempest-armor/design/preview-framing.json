@@ -1,0 +1,139 @@
+{
+  "reference": "Full exported visible bounds; explicit per-piece scale/camera transform. Approximate orthographic frame, actual client unverified.",
+  "pieces": {
+    "BT_Tyrants_Cowl": {
+      "Scale": 0.386203,
+      "Translation": [
+        0.85844,
+        4.410006
+      ],
+      "Rotation": [
+        22.5,
+        45,
+        22.5
+      ]
+    },
+    "BT_Dominion_Mantle": {
+      "Scale": 0.28403,
+      "Translation": [
+        0.060395,
+        -1.908761
+      ],
+      "Rotation": [
+        22.5,
+        45,
+        22.5
+      ]
+    },
+    "BT_Stormbound_Strides": {
+      "Scale": 0.333818,
+      "Translation": [
+        -0.134425,
+        -10.287819
+      ],
+      "Rotation": [
+        22.5,
+        45,
+        22.5
+      ]
+    }
+  },
+  "measurements": [
+    {
+      "item": "BT_Tyrants_Cowl",
+      "rawBounds": [
+        [
+          -17.960528254468635,
+          -38.0,
+          -17.15
+        ],
+        [
+          17.960528254468635,
+          8.4,
+          13.524999999999999
+        ]
+      ],
+      "projectedSize": [
+        52.43757946955047,
+        56.96480034588109,
+        55.122120919069445
+      ],
+      "properties": {
+        "Scale": 0.386203,
+        "Translation": [
+          0.85844,
+          4.410006
+        ],
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ]
+      }
+    },
+    {
+      "item": "BT_Dominion_Mantle",
+      "rawBounds": [
+        [
+          -23.316425703420414,
+          -33.64137106789074,
+          -13.59
+        ],
+        [
+          23.316425703420414,
+          40.7570999439852,
+          13.977500000000001
+        ]
+      ],
+      "projectedSize": [
+        57.332362436118395,
+        77.45668539889674,
+        72.79500647899687
+      ],
+      "properties": {
+        "Scale": 0.28403,
+        "Translation": [
+          0.060395,
+          -1.908761
+        ],
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ]
+      }
+    },
+    {
+      "item": "BT_Stormbound_Strides",
+      "rawBounds": [
+        [
+          -15.983592223529815,
+          2.7499979999999997,
+          -14.273007622764851
+        ],
+        [
+          15.983592223529815,
+          62.250467793893904,
+          14.133848188534898
+        ]
+      ],
+      "projectedSize": [
+        46.619542158272694,
+        65.90416515257513,
+        65.33718340758293
+      ],
+      "properties": {
+        "Scale": 0.333818,
+        "Translation": [
+          -0.134425,
+          -10.287819
+        ],
+        "Rotation": [
+          22.5,
+          45,
+          22.5
+        ]
+      }
+    }
+  ]
+}

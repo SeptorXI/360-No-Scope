@@ -1,0 +1,72 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Core",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 7.1,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Billow",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 6.8,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Underbelly",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 6.3,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Flicker",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 6.8,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Crawlers",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 6.3999999999999995,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Cloud_Rain",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 6.2,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Rain_Splash",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.05,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "ABTT_Torment_Storm_Ground_Mist",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.15,
+        "Z": 0
+      }
+    }
+  ],
+  "CullDistance": 96.0,
+  "IsImportant": false,
+  "BoundingRadius": 8.0,
+  "LifeSpan": 3.0
+}

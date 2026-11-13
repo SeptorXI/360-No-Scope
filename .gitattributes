@@ -1,6 +1,3 @@
-# Preserve accepted game resources and source hashes exactly on every platform.
-* -text
-* whitespace=cr-at-eol
-*.png binary
-*.ogg binary
-*.blend binary
+# Keep the packaged asset bytes consistent across platforms.
+**/resources/** -text
+**/season-hud-left-overlay/manifest.json -text

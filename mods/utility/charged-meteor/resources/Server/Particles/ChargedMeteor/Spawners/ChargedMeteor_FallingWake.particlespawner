@@ -1,0 +1,147 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "MaxConcurrentParticles": 19,
+  "ParticleLifeSpan": {
+    "Min": 0.31,
+    "Max": 0.43
+  },
+  "LifeSpan": 2.04,
+  "SpawnRate": {
+    "Min": 16,
+    "Max": 22
+  },
+  "Shape": "Sphere",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 1.6
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.75
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 1.6
+    }
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": 0,
+      "Max": 360
+    },
+    "Pitch": {
+      "Min": 68,
+      "Max": 89
+    },
+    "Speed": {
+      "Min": 3.3,
+      "Max": 7.2
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Fire_Thin.png",
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Enable",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 0.55,
+            "Max": 0.55
+          },
+          "Y": {
+            "Min": 0.55,
+            "Max": 0.55
+          }
+        },
+        "Opacity": 0.08,
+        "Color": "#ff9e54"
+      },
+      "20": {
+        "Scale": {
+          "X": {
+            "Min": 0.85,
+            "Max": 0.85
+          },
+          "Y": {
+            "Min": 0.85,
+            "Max": 0.85
+          }
+        },
+        "Opacity": 0.53,
+        "Color": "#fc722b"
+      },
+      "49": {
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 0.4,
+        "Color": "#bf3525"
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 1.22,
+            "Max": 1.22
+          },
+          "Y": {
+            "Min": 1.22,
+            "Max": 1.22
+          }
+        },
+        "Opacity": 0,
+        "Color": "#67202d"
+      }
+    },
+    "InitialAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.92,
+          "Max": 1.46
+        },
+        "Y": {
+          "Min": 1.72,
+          "Max": 2.7
+        }
+      },
+      "Color": "#d94d21",
+      "Opacity": 1.0,
+      "Rotation": {
+        "Z": {
+          "Min": -17,
+          "Max": 17
+        }
+      }
+    }
+  },
+  "UVMotion": {
+    "Texture": "Particles/Textures/UVMotion/FlowMapSmoke.png",
+    "Scale": 1.35,
+    "SpeedX": -0.09,
+    "SpeedY": 0.37,
+    "Strength": 0.27,
+    "StrengthCurveType": "Constant"
+  }
+}

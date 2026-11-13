@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "group": "Steven",
+  "name": "CrimsonBrotherhoodDecor",
+  "displayName": "Brotherhood Sanctuary Relics",
+  "version": "0.1.2",
+  "artifact": "Crimson-Brotherhood-Decor-0.1.2.zip",
+  "pluginId": "Steven:CrimsonBrotherhoodDecor",
+  "description": "Four original Elder Scrolls-inspired home furnishings for the Crimson Brotherhood armor and The Diddlers.",
+  "items": [
+    {
+      "id": "CBD_Crimson_Oath_Effigy",
+      "name": "Effigy of the Crimson Oath",
+      "kind": "armored sanctuary effigy",
+      "placement": "Floor",
+      "quality": "Epic",
+      "maxStack": 20,
+      "description": "Ebony-dark plates close around a faceless sentinel, its twin fangs lowered in the reverse grip of the Crimson Brotherhood. A black hand marks its divided crimson shroud. Those who kneel before it swear that no oath is broken while the silent watcher stands.",
+      "loreRefs": [
+        "CB_Crimson_Cowl",
+        "CB_Oathbound_Shroud",
+        "CB_Silence_Grasp",
+        "CB_Nightstalker_Strides",
+        "Weapon_Daggers_Oblivions_Tithe"
+      ],
+      "inspiration": "The Elder Scrolls Dark Brotherhood's hooded assassin identity and Black Hand, combined with the original Crimson Brotherhood armor and Daedric-inspired paired daggers.",
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 14
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Leather_Light",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Red",
+          "Quantity": 6
+        }
+      ],
+      "model": "Blocks/BrotherhoodDecor/CBD_Crimson_Oath_Effigy.blockymodel",
+      "texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/CBD_Crimson_Oath_Effigy.png"
+    },
+    {
+      "id": "CBD_Twin_Fangs_Covenant",
+      "name": "Altar of the Twin Fangs",
+      "kind": "Daedric-inspired altar",
+      "placement": "Floor",
+      "quality": "Rare",
+      "maxStack": 20,
+      "description": "A pointed black arch encloses a crimson sigil-stone, recalling the dread gates of Mehrunes Dagon. Two hooked fangs bow beneath it, their edges stained by a covenant no living tongue will name. The Brotherhood leaves its final offerings between them.",
+      "loreRefs": [
+        "Weapon_Daggers_Oblivions_Tithe"
+      ],
+      "inspiration": "Oblivion gate and sigil-stone imagery associated with Mehrunes Dagon, expressed through original sculpted architecture and fixed miniature Daedric-style daggers.",
+      "ingredients": [
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 8
+        },
+        {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 2
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Red",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Sac_Venom",
+          "Quantity": 2
+        }
+      ],
+      "model": "Blocks/BrotherhoodDecor/CBD_Twin_Fangs_Covenant.blockymodel",
+      "texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/CBD_Twin_Fangs_Covenant.png"
+    },
+    {
+      "id": "CBD_Black_Hand_Banner",
+      "name": "Banner of the Fivefold Silence",
+      "kind": "Black Hand sanctuary banner",
+      "placement": "Wall",
+      "quality": "Rare",
+      "maxStack": 20,
+      "description": "Five black fingers rise upon deep crimson, framed by forged talons and funeral cloth. Beneath this sign of the Black Hand, names are surrendered, vows are whispered, and the silence of the sanctuary is kept.",
+      "loreRefs": [
+        "CB_Crimson_Cowl",
+        "CB_Oathbound_Shroud"
+      ],
+      "inspiration": "The Dark Brotherhood's recognizable five-fingered hand motif, newly authored as carved relief and crimson fabric ornament rather than a copied game texture.",
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 4
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 10
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Red",
+          "Quantity": 2
+        }
+      ],
+      "model": "Blocks/BrotherhoodDecor/CBD_Black_Hand_Banner.blockymodel",
+      "texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/CBD_Black_Hand_Banner.png"
+    },
+    {
+      "id": "CBD_Silent_Mother_Reliquary",
+      "name": "Reliquary of the Silent Mother",
+      "kind": "Night Mother-inspired sealed reliquary",
+      "placement": "Floor",
+      "quality": "Epic",
+      "maxStack": 20,
+      "description": "Behind black iron ribs and a crimson wax seal, a veiled matron lies beneath the five-fingered mark. Votive candles keep their low vigil for the Night Mother, while the Brotherhood entrusts its whispered petitions to the listening dark of Sithis.",
+      "loreRefs": [
+        "CB_Crimson_Cowl",
+        "CB_Oathbound_Shroud",
+        "CB_Silence_Grasp",
+        "CB_Nightstalker_Strides"
+      ],
+      "inspiration": "The Elder Scrolls Night Mother and Dark Brotherhood sanctuary/coffin imagery, represented as an original non-graphic wrapped relief behind fixed ritual fittings.",
+      "ingredients": [
+        {
+          "ResourceTypeId": "Wood_Trunk",
+          "Quantity": 10
+        },
+        {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 10
+        },
+        {
+          "ItemId": "Ingredient_Bone_Fragment",
+          "Quantity": 12
+        },
+        {
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Fabric_Scrap_Linen",
+          "Quantity": 6
+        },
+        {
+          "ItemId": "Ingredient_Crystal_Red",
+          "Quantity": 4
+        }
+      ],
+      "model": "Blocks/BrotherhoodDecor/CBD_Silent_Mother_Reliquary.blockymodel",
+      "texture": "Blocks/BrotherhoodDecor/CBD_Decor_Atlas.png",
+      "icon": "Icons/ItemsGenerated/CBD_Silent_Mother_Reliquary.png"
+    }
+  ],
+  "crafting": {
+    "bench": {
+      "Id": "Furniture_Bench",
+      "Type": "Crafting",
+      "Categories": [
+        "Furniture_Storage"
+      ],
+      "RequiredTierLevel": 1
+    },
+    "knowledgeRequired": false,
+    "timeSeconds": 4,
+    "outputQuantity": 1
+  },
+  "cosmetic": {
+    "combatBonuses": false,
+    "classRestrictions": false,
+    "equippedGearConsumed": false,
+    "storageInventory": false,
+    "runtimeActors": false,
+    "claim": "Original Elder Scrolls-inspired furnishings, not official Bethesda artifacts or claims of new Elder Scrolls canon. Night Mother/Sithis and Daedric/Mehrunes Dagon imagery are distinct inspirations, not conflated deities."
+  },
+  "sources": [
+    {
+      "url": "https://www.elderscrollsonline.com/en-gb/updates/dlc/darkbrotherhood",
+      "use": "Official Dark Brotherhood, Night Mother, Sithis and Void thematic grounding; original descriptions, no copied prose."
+    },
+    {
+      "url": "https://international.gear.bethesda.net/en-eu/products/the-elder-scrolls-iv-oblivion-gates-ingot",
+      "use": "Official Oblivion gate association with Mehrunes Dagon; original gate sculpture and original sigil motif."
+    },
+    {
+      "path": "../brotherhood-armor/content/armor-spec.json",
+      "use": "Crimson Brotherhood armor names and original oath lore."
+    },
+    {
+      "path": "../legendary-daggers/content/dagger-spec.json",
+      "use": "The Diddlers' original Daedric-inspired lore and reverse-grip visual language."
+    }
+  ],
+  "deployment": {
+    "requestedState": "staged",
+    "productionModified": false,
+    "serverStopOrRestartScheduled": false
+  }
+}

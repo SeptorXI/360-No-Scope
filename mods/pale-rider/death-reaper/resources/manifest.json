@@ -1,0 +1,16 @@
+{
+  "Group": "Steven",
+  "Name": "DeathReaper",
+  "Version": "0.1.11",
+  "Main": "steven.deathreaper.DeathReaperPlugin",
+  "Description": "Harbinger of the Pale Rider and four Legendary Reaper vestments with primary Necromancer affinity.",
+  "Authors": [{"Name": "Steven"}],
+  "ServerVersion": ">=0.7.5 <0.8.0",
+  "Dependencies": {
+    "Hytale:ItemModule": "*",
+    "Hytale:InteractionModule": "*",
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Config:Endgame&QoL": "=6.1.4"
+  },
+  "IncludesAssetPack": true
+}

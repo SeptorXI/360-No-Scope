@@ -1,0 +1,1002 @@
+{
+  "schemaVersion": 1,
+  "scope": "All current 360-no-scope guns; excludes armor, scythe, daggers and gauntlets.",
+  "canonicalSources": [
+    "360-no-scope/modules/weapons/design/sniper-spec.json",
+    "360-no-scope/modules/weapons/design/arsenal-spec.json",
+    "360-no-scope/modules/weapons/design/dual-pistols.json",
+    "360-no-scope/modules/weapons/design/heavy-guns.json",
+    "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+    "360-no-scope/modules/weapons/resources/ranger-snipers-reload-profiles.json"
+  ],
+  "counts": {
+    "guns": 59,
+    "coveredGuns": 59,
+    "uncoveredGuns": 0,
+    "regionalLoreFamilies": 9,
+    "decorations": 11,
+    "coverageLinks": 61
+  },
+  "uncoveredWeaponIds": [],
+  "decorations": [
+    {
+      "id": "ARD_Wayfinder_Compass",
+      "name": "Wayfinder's Hearth Compass",
+      "theme": "Emerald Wilds",
+      "sourceLoreAnchor": "Wildwood Surveyor: oak/copper and the Emerald Wilds' quiet paths. Five arsenal families: peened copper trail stations and a notch for each traveler brought home. Twinwardens: two answering wardens.",
+      "loreRefs": [
+        "Weapon_Crossbow_Wildwood_Surveyor",
+        "Weapon_Crossbow_AS_Handgun_Trailwarden",
+        "Weapon_Crossbow_AS_SMG_Brushfire",
+        "Weapon_Crossbow_AS_SemiAuto_Waymark",
+        "Weapon_Crossbow_AS_Automatic_Briar_March",
+        "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+        "Weapon_Crossbow_AS_Handgun_Twinwardens"
+      ]
+    },
+    {
+      "id": "ARD_Last_Watch_Standard",
+      "name": "Last Watch Sun Standard",
+      "theme": "Howling Sands",
+      "sourceLoreAnchor": "Dunewatch Longshot: sand-sealed watchposts of the Howling Sands. Five arsenal families: sand-colored wraps, thorium seal, and a watch whose oath outlasts banners buried by dunes. Rampart: Oath of the Last Bastion.",
+      "loreRefs": [
+        "Weapon_Crossbow_Dunewatch_Longshot",
+        "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+        "Weapon_Crossbow_AS_SMG_Dust_Choir",
+        "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+        "Weapon_Crossbow_AS_Automatic_Scorchwind",
+        "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ]
+    },
+    {
+      "id": "ARD_Whisperfrost_Lantern",
+      "name": "Whisperfrost Vigil Lantern",
+      "theme": "Whisperfrost",
+      "sourceLoreAnchor": "Frostline Sentinel: silver-lined cobalt, bitter winds and a pale tracer through snowfall. Five arsenal families: cold-worked cobalt, silver tracery and a pattern kept beside the hearth when the white fields moved.",
+      "loreRefs": [
+        "Weapon_Crossbow_Frostline_Sentinel",
+        "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+        "Weapon_Crossbow_AS_SMG_Sleetweaver",
+        "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+        "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+        "Weapon_Crossbow_AS_Shotgun_Hearthguard"
+      ]
+    },
+    {
+      "id": "ARD_Epitaph_Reliquary",
+      "name": "Epitaph Reliquary",
+      "theme": "Mournhollow Catacombs",
+      "sourceLoreAnchor": "Mournhollow Epitaph: a reliquary key reforged into a violet chamber. Five arsenal families: inscriptions of names left unfinished until the living return. Last Rites: two reliquaries bearing halves of an unfinished confession.",
+      "loreRefs": [
+        "Weapon_Crossbow_Mournhollow_Epitaph",
+        "Weapon_Crossbow_AS_Handgun_Last_Confession",
+        "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+        "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+        "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+        "Weapon_Crossbow_AS_Shotgun_Bellwether",
+        "Weapon_Crossbow_AS_Handgun_Last_Rites"
+      ]
+    },
+    {
+      "id": "ARD_Deepworks_Heart",
+      "name": "Requiem Engine Reliquary",
+      "theme": "The Deepworks",
+      "sourceLoreAnchor": "Gobliterator's Requiem: recovered wreck, stolen heart, amber coils, cyan rail and last hymn. Five Deepworks arsenal families: broken heart in an amber lattice, battered iron ribs and a stubborn rhythm remembered by smiths.",
+      "loreRefs": [
+        "Weapon_Crossbow_Deepworks_Railspike",
+        "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+        "Weapon_Crossbow_AS_SMG_Grindhymn",
+        "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+        "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+        "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ]
+    },
+    {
+      "id": "ARD_Firstlight_Orrery",
+      "name": "Firstlight Seal Orrery",
+      "theme": "Luminia",
+      "sourceLoreAnchor": "Dawnpiercer: three shattered seals in Prisma, white-gold runes, violet star and dawn beneath stone. Five Luminia arsenal families: three fallen seal fragments, sanctum-door light and unfinished vigil. Vesper & Vigil: fading light and watch beneath one dawn.",
+      "loreRefs": [
+        "Weapon_Crossbow_Luminia_Dawnpiercer",
+        "Weapon_Crossbow_AS_Handgun_Vesper",
+        "Weapon_Crossbow_AS_SMG_Starling",
+        "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+        "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+        "Weapon_Crossbow_AS_Shotgun_Solstice",
+        "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil"
+      ]
+    },
+    {
+      "id": "ARD_Unblinking_Shrine",
+      "name": "Unblinking Eye Shrine",
+      "theme": "Dungeon of Fear",
+      "sourceLoreAnchor": "Malediction: dark-silver covenant at the Nameless God's altar and a caged eye. Five Fear arsenal families: silver skull, hidden red oath-mark, violet plates and no surviving maker's name. Original rifle reference notes: dark arched altar and silver prayer-skull motifs.",
+      "loreRefs": [
+        "Weapon_Crossbow_Nameless_Covenant",
+        "Weapon_Crossbow_AS_Handgun_Absolver",
+        "Weapon_Crossbow_AS_SMG_Many_Whispers",
+        "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+        "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+        "Weapon_Crossbow_AS_Shotgun_Grave_Tithe"
+      ]
+    },
+    {
+      "id": "ARD_Threadkeeper_Maze",
+      "name": "Threadkeeper's Maze",
+      "theme": "Fullmetal Labyrinth",
+      "sourceLoreAnchor": "Labyrinth Threadkeeper: chrome ribs around a cyan thread through black halls. Five Labyrinth arsenal families: Fullmetal ribs, measured lattice and one thread left unclosed to invite the next way through. Reference notes: dark machined steel, chrome edges and angular cyan crystal.",
+      "loreRefs": [
+        "Weapon_Crossbow_Labyrinth_Threadkeeper",
+        "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+        "Weapon_Crossbow_AS_SMG_Threadstorm",
+        "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+        "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+        "Weapon_Crossbow_AS_Shotgun_Doorwarden"
+      ]
+    },
+    {
+      "id": "ARD_Windward_Mobile",
+      "name": "Windward Promise Sky-Chart",
+      "theme": "Tritale Airshop",
+      "sourceLoreAnchor": "Skybound Farwatch: wandering sky trader, darkwood, red bindings, blue steel and an old green carving. Five Skybound arsenal families: windworn brass, green sight-stone and the Airshop couriers' promise above clouds. Ammo and original reference notes: wind-test green seal and ivory/green carved receiver.",
+      "loreRefs": [
+        "Weapon_Crossbow_Skybound_Farwatch",
+        "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+        "Weapon_Crossbow_AS_SMG_Kestrel",
+        "Weapon_Crossbow_AS_SemiAuto_Highroad",
+        "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+        "Weapon_Crossbow_AS_Shotgun_Cloudburst"
+      ]
+    },
+    {
+      "id": "ARD_Goliath_Trophy",
+      "name": "Iron Colossus Heart Trophy",
+      "theme": "goliath",
+      "sourceLoreAnchor": "Heavy-guns design: Heart of the Iron Colossus and squared Deepworks siege receiver. Accepted legendary-heavy art brief: fortress shoulder towers, split crown muzzle, piston spine and furnace window.",
+      "loreRefs": [
+        "Weapon_Crossbow_AS_Automatic_Goliath_50"
+      ]
+    },
+    {
+      "id": "ARD_Rampart_Trophy",
+      "name": "Last Bastion Governor Trophy",
+      "theme": "rampart",
+      "sourceLoreAnchor": "Heavy-guns design: Oath of the Last Bastion and Dunewatch support-gun identity. Accepted legendary-heavy art brief: side flywheel regulator, swept solar cooling vanes, forked muzzle and arched stock.",
+      "loreRefs": [
+        "Weapon_Crossbow_AS_Automatic_Rampart_SAW"
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "id": "Weapon_Crossbow_Wildwood_Surveyor",
+      "name": "Wildwood Surveyor",
+      "family": "sniper",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak and copper built for the quiet paths of the Emerald Wilds. One steady breath, one clean shot.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak and copper built for the quiet paths of the Emerald Wilds. One steady breath, one clean shot.\\nLoaded normal shot: 22 body / 33 head before modifiers. Rifle 16/24 + ammo 6/9. 2.8s cycle | 4x scope.\\nHold secondary to aim; click primary once to fire. Uses Wayfinder Cartridges (one per shot).\\nF: reload 1 round(s) in 2.3s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 88.0% at the 100-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Dunewatch_Longshot",
+      "name": "Dunewatch Longshot",
+      "family": "sniper",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "A sand-sealed long rifle assembled for the watchposts of the Howling Sands. The horizon is closer than it looks.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A sand-sealed long rifle assembled for the watchposts of the Howling Sands. The horizon is closer than it looks.\\nLoaded normal shot: 30 body / 45 head before modifiers. Rifle 20/30 + ammo 10/15. 2.8s cycle | 6x scope.\\nHold secondary to aim; click primary once to fire. Uses Sirocco Longshot Rounds (one per shot).\\nF: reload 1 round(s) in 2.5s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 83.4% at the 125-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Frostline_Sentinel",
+      "name": "Frostline Sentinel",
+      "family": "sniper",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver-lined cobalt keeps this sentinel true through Whisperfrost's bitter winds. Its pale tracer cuts through the snowfall.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver-lined cobalt keeps this sentinel true through Whisperfrost's bitter winds. Its pale tracer cuts through the snowfall.\\nLoaded normal shot: 42 body / 63 head before modifiers. Rifle 30/45 + ammo 12/18. 3s cycle | 8x scope.\\nHold secondary to aim; click primary once to fire. Uses Rimeglass Match Rounds (one per shot).\\nF: reload 1 round(s) in 2.7s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 78.8% at the 150-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Mournhollow_Epitaph",
+      "name": "Mournhollow Epitaph",
+      "family": "sniper",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A reliquary key reforged into a violet focusing chamber. Below Mournhollow, every echo deserves a final word.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A reliquary key reforged into a violet focusing chamber. Below Mournhollow, every echo deserves a final word.\\nLoaded normal shot: 56 body / 84 head before modifiers. Rifle 40/60 + ammo 16/24. 3.1s cycle | 8x scope.\\nHold secondary to aim; click primary once to fire. Uses Gravelight Reliquary Rounds (one per shot).\\nF: reload 1 round(s) in 2.85s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 74.2% at the 175-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Deepworks_Railspike",
+      "name": "Gobliterator's Requiem",
+      "family": "sniper",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "Recovered from the wreck of the Gobliterator, this rifle carries a heart that has forgotten how to stop. Deepworks artificers meant its rail chamber to shatter gates. A patient marksman taught it a quieter purpose. Amber coils kindle around a cyan rail, the scope settles, and the stolen core begins its last hymn. Then comes a single iron verdict, followed by a long, rattling breath while the chamber cools. The last sound of the Deepworks belongs to whoever holds this weapon.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Recovered from the wreck of the Gobliterator, this rifle carries a heart that has forgotten how to stop. Deepworks artificers meant its rail chamber to shatter gates. A patient marksman taught it a quieter purpose. Amber coils kindle around a cyan rail, the scope settles, and the stolen core begins its last hymn. Then comes a single iron verdict, followed by a long, rattling breath while the chamber cools. The last sound of the Deepworks belongs to whoever holds this weapon.\\nLoaded normal shot: 78 body / 98 head before modifiers. Rifle 60/75 + ammo 18/23. 2.9s cycle | 6x scope.\\nHold secondary to aim; click primary once to fire. Uses Gobliterator Siege Slugs (one per shot).\\nF: reload 2 round(s) in 2.7s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 77.0% at the 160-block nominal travel limit. Uses actual projectile path.\\nReactor Break: Hold Q 1s; 120/150 damage, 0.5s NPC stagger. Costs 2 matching rounds. 12s shared special cooldown; 5.5s firing recovery.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Luminia_Dawnpiercer",
+      "name": "Dawnpiercer, Last Light of Luminia",
+      "family": "sniper",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three shattered seals sleep within a lattice of Prisma. When their fragments align, white-gold runes awaken along the stock and a violet star gathers behind the lens. Luminian wardens are said to have carried such lights when the sanctums fell silent, saving each brilliant shot for the shape at the far end of the dark. This remnant answers the same oath: hold fast, choose the moment, and let a single ray speak. Between shots, its crystal hums like dawn remembered beneath stone.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three shattered seals sleep within a lattice of Prisma. When their fragments align, white-gold runes awaken along the stock and a violet star gathers behind the lens. Luminian wardens are said to have carried such lights when the sanctums fell silent, saving each brilliant shot for the shape at the far end of the dark. This remnant answers the same oath: hold fast, choose the moment, and let a single ray speak. Between shots, its crystal hums like dawn remembered beneath stone.\\nLoaded normal shot: 52 body / 130 head before modifiers. Rifle 40/100 + ammo 12/30. 2.9s cycle | 10x scope.\\nHold secondary to aim; click primary once to fire. Uses Firstlight Prism Cartridges (one per shot).\\nF: reload 2 round(s) in 2.7s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 65.0% at the 225-block nominal travel limit. Uses actual projectile path.\\nRadiant Brand: Press Q; 30/45 damage, marks for 6s and slows eligible NPCs 20% for 4s. Costs 2 matching rounds. 12s shared special cooldown; 2.9s firing recovery.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Nameless_Covenant",
+      "name": "Malediction, the Unblinking Eye",
+      "family": "sniper",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "A dark-silver covenant struck at the Nameless God's altar. The caged eye holds its gaze until the chamber falls silent.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A dark-silver covenant struck at the Nameless God's altar. The caged eye holds its gaze until the chamber falls silent.\\nLoaded normal shot: 56 body / 84 head before modifiers. Rifle 38/57 + ammo 18/27. 3.1s cycle | 8x scope.\\nHold secondary to aim; click primary once to fire. Uses Penance Rounds (one per shot).\\nF: reload 1 round(s) in 2.85s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 74.2% at the 175-block nominal travel limit. Uses actual projectile path.\\nSold exclusively through The Nameless God's Barter: Weapons, Tier 2. Price: 40 Dark Coins + 1 Silver Skull.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Labyrinth_Threadkeeper",
+      "name": "Labyrinth Threadkeeper",
+      "family": "sniper",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Chrome ribs guard a cyan thread through the Labyrinth's black halls. Trace the line, hold your breath, and make the way clear.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Chrome ribs guard a cyan thread through the Labyrinth's black halls. Trace the line, hold your breath, and make the way clear.\\nLoaded normal shot: 58 body / 87 head before modifiers. Rifle 38/57 + ammo 20/30. 3.2s cycle | 8x scope.\\nHold secondary to aim; click primary once to fire. Uses Threadline Sabots (one per shot).\\nF: reload 1 round(s) in 2.95s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 72.4% at the 185-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_Skybound_Farwatch",
+      "name": "Skybound Farwatch",
+      "family": "sniper",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Darkwood, red bindings, and blue steel from a wandering sky trader. An old green carving watches over every distant trail.",
+      "source": "360-no-scope/modules/weapons/design/sniper-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Darkwood, red bindings, and blue steel from a wandering sky trader. An old green carving watches over every distant trail.\\nLoaded normal shot: 40 body / 60 head before modifiers. Rifle 30/45 + ammo 10/15. 3s cycle | 6x scope.\\nHold secondary to aim; click primary once to fire. Uses Skyglass Scout Cartridges (one per shot).\\nF: reload 1 round(s) in 2.6s. Matching ammo transfers only when reloading finishes.\\nDistance: full base damage through 35 blocks, then gradual falloff; about 78.8% at the 150-block nominal travel limit. Uses actual projectile path.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Trailwarden",
+      "name": "Wildwood Trailwarden",
+      "family": "handgun",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n8/12 body/head before class, enchantments and armor. 0.78s cycle; 8 rounds; F reload 1.65s.\\nClick primary once per shot; secondary aims. Uses only Waytrail Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 45 blocks.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Sandbound_Oath",
+      "name": "Dunewatch Sandbound Oath",
+      "family": "handgun",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n11/17 body/head before class, enchantments and armor. 0.78s cycle; 8 rounds; F reload 1.7s.\\nClick primary once per shot; secondary aims. Uses only Sirocco Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 52 blocks.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Pale_Marshal",
+      "name": "Frostline Pale Marshal",
+      "family": "handgun",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n15/23 body/head before class, enchantments and armor. 0.82s cycle; 9 rounds; F reload 1.8s.\\nClick primary once per shot; secondary aims. Uses only Rimeglass Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 62 blocks.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Last_Confession",
+      "name": "Mournhollow Last Confession",
+      "family": "handgun",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n20/30 body/head before class, enchantments and armor. 0.85s cycle; 8 rounds; F reload 1.95s.\\nClick primary once per shot; secondary aims. Uses only Gravelight Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 70 blocks.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Gutter_Saint",
+      "name": "Gutter Saint, Mercy of the Deepworks",
+      "family": "handgun",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n27/34 body/head before class, enchantments and armor. 0.9s cycle; 8 rounds; F reload 2.1s.\\nClick primary once per shot; secondary aims. Uses only Cindercoil Handgun Cells. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 65 blocks.\\nQ — Absolution Hammer: 42/53 body/head, costs 2 rounds; 12s shared special cooldown; 2.52s recovery. Hold Q for 0.35s to fire one focused shot; eligible NPCs stagger for 0.2s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds and locks firing for 2.52s. Releasing before the charge completes cancels without spending rounds or starting the special cooldown.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Vesper",
+      "name": "Vesper, the Dawn Unspent",
+      "family": "handgun",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n18/45 body/head before class, enchantments and armor. 0.9s cycle; 8 rounds; F reload 2.1s.\\nClick primary once per shot; secondary aims. Uses only Vesperglass Handgun Cells. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 90 blocks.\\nQ — Evening Benediction: 10/18 body/head, costs 2 rounds; 12s shared special cooldown; 1.6s recovery. Press Q for a low-damage setup shot that visibly marks NPCs for 8s and slows eligible NPCs by 10% for 2s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds and locks firing for 1.6s.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Absolver",
+      "name": "Black Sacrament",
+      "family": "handgun",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Mobile close-to-mid-range sidearm with measured follow-up shots. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Mobile close-to-mid-range sidearm with measured follow-up shots. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.\\n19/30 body/head before class, enchantments and armor. 0.87s cycle; 7 rounds; F reload 1.9s.\\nClick primary once per shot; secondary aims. Uses only Penance Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 62 blocks.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Quiet_Equation",
+      "name": "Labyrinth Quiet Equation",
+      "family": "handgun",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n21/32 body/head before class, enchantments and armor. 0.95s cycle; 10 rounds; F reload 2.05s.\\nClick primary once per shot; secondary aims. Uses only Threadline Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 78 blocks.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Windward_Promise",
+      "name": "Skybound Windward Promise",
+      "family": "handgun",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Mobile close-to-mid-range sidearm with measured follow-up shots.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Mobile close-to-mid-range sidearm with measured follow-up shots.\\n14/24 body/head before class, enchantments and armor. 0.78s cycle; 8 rounds; F reload 1.7s.\\nClick primary once per shot; secondary aims. Uses only Skyglass Pistol Cartridges. Ammo transfers at reload completion.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 68 blocks.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Brushfire",
+      "name": "Wildwood Brushfire",
+      "family": "smg",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n2.5/3.5 body/head before class, enchantments and armor. 0.19s cycle; 20 rounds; F reload 2.2s.\\nHold primary for automatic fire; secondary aims. Uses only Waytrail Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 35 blocks.\\nAmmunition load: Light. 315.79 rounds/minute.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Dust_Choir",
+      "name": "Dunewatch Dust Choir",
+      "family": "smg",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n3.5/5 body/head before class, enchantments and armor. 0.21s cycle; 22 rounds; F reload 2.3s.\\nHold primary for automatic fire; secondary aims. Uses only Sirocco Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 42 blocks.\\nAmmunition load: Light. 285.71 rounds/minute.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Sleetweaver",
+      "name": "Frostline Sleetweaver",
+      "family": "smg",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n4.5/6.5 body/head before class, enchantments and armor. 0.23s cycle; 24 rounds; F reload 2.4s.\\nHold primary for automatic fire; secondary aims. Uses only Rimeglass Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 48 blocks.\\nAmmunition load: Standard. 260.87 rounds/minute.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Funeral_Procession",
+      "name": "Mournhollow Funeral Procession",
+      "family": "smg",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n6/8.5 body/head before class, enchantments and armor. 0.26s cycle; 22 rounds; F reload 2.55s.\\nHold primary for automatic fire; secondary aims. Uses only Gravelight Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 55 blocks.\\nAmmunition load: Standard. 230.77 rounds/minute.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Grindhymn",
+      "name": "Grindhymn, the Gobliterator's Encore",
+      "family": "smg",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n8/10 body/head before class, enchantments and armor. 0.29s cycle; 24 rounds; F reload 2.9s.\\nHold primary for automatic fire; secondary aims. Uses only Cindercoil SMG Cells. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 50 blocks.\\nQ — Grinding Halt: 18/23 body/head, costs 2 rounds; 12s shared special cooldown; 1.6s recovery. Hold Q for 0.8s to fire one focused shot; eligible NPCs stagger for 0.55s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds and locks firing for 1.6s. Releasing before the charge completes cancels without spending rounds or starting the special cooldown.\\nAmmunition load: Heavy. 206.9 rounds/minute.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Starling",
+      "name": "Starling, Chorus of First Light",
+      "family": "smg",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n5.5/13.5 body/head before class, enchantments and armor. 0.24s cycle; 24 rounds; F reload 2.9s.\\nHold primary for automatic fire; secondary aims. Uses only Vesperglass SMG Cells. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 72 blocks.\\nQ — Firstlight Refrain: 6/10 body/head, costs 2 rounds; 12s shared special cooldown; 1.6s recovery. Press Q for a low-damage setup shot that visibly marks NPCs for 2s and slows eligible NPCs by 35% for 1s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds and locks firing for 1.6s.\\nAmmunition load: Standard. 250 rounds/minute.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Many_Whispers",
+      "name": "Choir of the Damned",
+      "family": "smg",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Short-range automatic pressure; steep travel falloff and frequent reloads. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Short-range automatic pressure; steep travel falloff and frequent reloads. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.\\n5.75/8.5 body/head before class, enchantments and armor. 0.26s cycle; 24 rounds; F reload 2.65s.\\nHold primary for automatic fire; secondary aims. Uses only Penance Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 52 blocks.\\nAmmunition load: Standard. 230.77 rounds/minute.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Threadstorm",
+      "name": "Labyrinth Threadstorm",
+      "family": "smg",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n6.5/9.5 body/head before class, enchantments and armor. 0.28s cycle; 26 rounds; F reload 2.85s.\\nHold primary for automatic fire; secondary aims. Uses only Threadline Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 60 blocks.\\nAmmunition load: Heavy. 214.29 rounds/minute.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SMG_Kestrel",
+      "name": "Skybound Kestrel",
+      "family": "smg",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Short-range automatic pressure; steep travel falloff and frequent reloads.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Short-range automatic pressure; steep travel falloff and frequent reloads.\\n4.25/6.5 body/head before class, enchantments and armor. 0.22s cycle; 22 rounds; F reload 2.35s.\\nHold primary for automatic fire; secondary aims. Uses only Skyglass Compact Rounds. Ammo transfers at reload completion.\\nFull base damage through 10 blocks of actual projectile travel, falling to 25% at 72. Nominal travel limit 54 blocks.\\nAmmunition load: Light. 272.73 rounds/minute.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Waymark",
+      "name": "Wildwood Waymark",
+      "family": "semiauto",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n10/16 body/head before class, enchantments and armor. 1.05s cycle; 6 rounds; F reload 2.1s.\\nClick primary once per shot; secondary aims. Uses only Waytrail Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 80 blocks.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Dune_Canticle",
+      "name": "Dunewatch Dune Canticle",
+      "family": "semiauto",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n14/22 body/head before class, enchantments and armor. 1.05s cycle; 7 rounds; F reload 2.2s.\\nClick primary once per shot; secondary aims. Uses only Sirocco Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 95 blocks.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_White_Vigil",
+      "name": "Frostline White Vigil",
+      "family": "semiauto",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n19/30 body/head before class, enchantments and armor. 1.1s cycle; 8 rounds; F reload 2.35s.\\nClick primary once per shot; secondary aims. Uses only Rimeglass Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 112 blocks.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Tollkeeper",
+      "name": "Mournhollow Tollkeeper",
+      "family": "semiauto",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n25/40 body/head before class, enchantments and armor. 1.15s cycle; 8 rounds; F reload 2.55s.\\nClick primary once per shot; secondary aims. Uses only Gravelight Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 130 blocks.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Iron_Testament",
+      "name": "Iron Testament, Voice of the Deepworks",
+      "family": "semiauto",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n34/43 body/head before class, enchantments and armor. 1.25s cycle; 8 rounds; F reload 2.9s.\\nClick primary once per shot; secondary aims. Uses only Cindercoil Marksman Cells. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 120 blocks.\\nQ — Iron Verdict: 54/68 body/head, costs 2 rounds; 12s shared special cooldown; 3.5s recovery. Hold Q for 1.1s to fire one focused shot; eligible NPCs stagger for 0.5s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds and locks firing for 3.5s. Releasing before the charge completes cancels without spending rounds or starting the special cooldown.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Auroras_Witness",
+      "name": "Aurora's Witness, Oath of Luminia",
+      "family": "semiauto",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n23/59 body/head before class, enchantments and armor. 1.25s cycle; 8 rounds; F reload 2.9s.\\nClick primary once per shot; secondary aims. Uses only Vesperglass Marksman Cells. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 175 blocks.\\nQ — Witness Mark: 15/25 body/head, costs 2 rounds; 12s shared special cooldown; 1.875s recovery. Press Q for a low-damage setup shot that visibly marks NPCs for 8s and slows eligible NPCs by 10% for 5s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds and locks firing for 1.875s.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Last_Deposition",
+      "name": "The Heretic's Verdict",
+      "family": "semiauto",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Deliberate precision follow-ups between a sidearm and a bolt-action sniper. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Deliberate precision follow-ups between a sidearm and a bolt-action sniper. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.\\n25/40 body/head before class, enchantments and armor. 1.15s cycle; 7 rounds; F reload 2.5s.\\nClick primary once per shot; secondary aims. Uses only Penance Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 125 blocks.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Proofkeeper",
+      "name": "Labyrinth Proofkeeper",
+      "family": "semiauto",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n27/44 body/head before class, enchantments and armor. 1.2s cycle; 9 rounds; F reload 2.7s.\\nClick primary once per shot; secondary aims. Uses only Threadline Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 145 blocks.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_SemiAuto_Highroad",
+      "name": "Skybound Highroad",
+      "family": "semiauto",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Deliberate precision follow-ups between a sidearm and a bolt-action sniper.\\n18/30 body/head before class, enchantments and armor. 1.05s cycle; 8 rounds; F reload 2.2s.\\nClick primary once per shot; secondary aims. Uses only Skyglass Marksman Cartridges. Ammo transfers at reload completion.\\nFull base damage through 25 blocks of actual projectile travel, falling to 50% at 175. Nominal travel limit 130 blocks.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Briar_March",
+      "name": "Wildwood Briar March",
+      "family": "automatic",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n3/4.5 body/head before class, enchantments and armor. 0.24s cycle; 20 rounds; F reload 2.5s.\\nHold primary for automatic fire; secondary aims. Uses only Waytrail Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 65 blocks.\\nAmmunition load: Standard. 250 rounds/minute.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Scorchwind",
+      "name": "Dunewatch Scorchwind",
+      "family": "automatic",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n4.25/6.5 body/head before class, enchantments and armor. 0.26s cycle; 22 rounds; F reload 2.6s.\\nHold primary for automatic fire; secondary aims. Uses only Sirocco Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 78 blocks.\\nAmmunition load: Standard. 230.77 rounds/minute.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Winter_Standard",
+      "name": "Frostline Winter Standard",
+      "family": "automatic",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n5.5/8.5 body/head before class, enchantments and armor. 0.29s cycle; 24 rounds; F reload 2.7s.\\nHold primary for automatic fire; secondary aims. Uses only Rimeglass Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 90 blocks.\\nAmmunition load: Heavy. 206.9 rounds/minute.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "name": "Mournhollow Dirge Engine",
+      "family": "automatic",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n7.5/11.5 body/head before class, enchantments and armor. 0.32s cycle; 24 rounds; F reload 2.9s.\\nHold primary for automatic fire; secondary aims. Uses only Gravelight Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 105 blocks.\\nAmmunition load: Heavy. 187.5 rounds/minute.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "name": "Crown of Rivets, the Unbroken March",
+      "family": "automatic",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n10/12.5 body/head before class, enchantments and armor. 0.34s cycle; 26 rounds; F reload 3.2s.\\nHold primary for automatic fire; secondary aims. Uses only Cindercoil Automatic Cells. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 95 blocks.\\nQ — Rivetbreaker: 24/30 body/head, costs 2 rounds; 12s shared special cooldown; 1.6s recovery. Hold Q for 0.65s to fire one focused shot; eligible NPCs stagger for 0.3s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds and locks firing for 1.6s. Releasing before the charge completes cancels without spending rounds or starting the special cooldown.\\nAmmunition load: Siege. 176.47 rounds/minute.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Helios_Refrain",
+      "name": "Helios Refrain, Light Beyond the Siege",
+      "family": "automatic",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n7/17.5 body/head before class, enchantments and armor. 0.3s cycle; 26 rounds; F reload 3.2s.\\nHold primary for automatic fire; secondary aims. Uses only Vesperglass Automatic Cells. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 140 blocks.\\nQ — Helios Brand: 8/14 body/head, costs 2 rounds; 12s shared special cooldown; 1.6s recovery. Press Q for a low-damage setup shot that visibly marks NPCs for 5s and slows eligible NPCs by 25% for 2s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds and locks firing for 1.6s.\\nAmmunition load: Heavy. 200 rounds/minute.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Hollow_Regiment",
+      "name": "Legion of Ruin",
+      "family": "automatic",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.\\n7.25/11 body/head before class, enchantments and armor. 0.32s cycle; 24 rounds; F reload 2.95s.\\nHold primary for automatic fire; secondary aims. Uses only Penance Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 100 blocks.\\nAmmunition load: Heavy. 187.5 rounds/minute.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "name": "Labyrinth Patternbreaker",
+      "family": "automatic",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n8/12.5 body/head before class, enchantments and armor. 0.33s cycle; 28 rounds; F reload 3.15s.\\nHold primary for automatic fire; secondary aims. Uses only Threadline Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 120 blocks.\\nAmmunition load: Heavy. 181.82 rounds/minute.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Gale_Banner",
+      "name": "Skybound Gale Banner",
+      "family": "automatic",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Sustained mid-range automatic fire balanced by recoil, reload cost and travel falloff.\\n5.25/8.5 body/head before class, enchantments and armor. 0.27s cycle; 24 rounds; F reload 2.6s.\\nHold primary for automatic fire; secondary aims. Uses only Skyglass Assault Cartridges. Ammo transfers at reload completion.\\nFull base damage through 20 blocks of actual projectile travel, falling to 35% at 140. Nominal travel limit 105 blocks.\\nAmmunition load: Standard. 222.22 rounds/minute.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Hollowbark",
+      "name": "Wildwood Hollowbark",
+      "family": "shotgun",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak panels and peened copper recall the Emerald Wilds' trail stations. Its maker cut a fresh notch for every traveler brought home. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 3/3.5 body/head per pellet (maximum 18/21 per shell) before class, enchantments and armor. 1.65s cycle; 4 rounds; F reload 2.7s.\\nClick primary once per shot; secondary aims. Uses only Waytrail Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 28 blocks.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Sandbreaker",
+      "name": "Dunewatch Sandbreaker",
+      "family": "shotgun",
+      "quality": "Uncommon",
+      "region": "Howling Sands",
+      "lore": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Sand-colored wraps cover a thorium-sealed action. In the Howling Sands, the watch keeps its oath long after its banners disappear beneath the dunes. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 4.25/5 body/head per pellet (maximum 25.5/30 per shell) before class, enchantments and armor. 1.65s cycle; 4 rounds; F reload 2.8s.\\nClick primary once per shot; secondary aims. Uses only Sirocco Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 32 blocks.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Hearthguard",
+      "name": "Frostline Hearthguard",
+      "family": "shotgun",
+      "quality": "Rare",
+      "region": "Whisperfrost",
+      "lore": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Silver tracery runs through cold-worked cobalt. Whisperfrost wardens kept this pattern beside the hearth, ready when the white fields moved. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 5.5/6.5 body/head per pellet (maximum 33/39 per shell) before class, enchantments and armor. 1.75s cycle; 5 rounds; F reload 3s.\\nClick primary once per shot; secondary aims. Uses only Rimeglass Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 38 blocks.",
+      "decorIds": [
+        "ARD_Whisperfrost_Lantern"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Bellwether",
+      "name": "Mournhollow Bellwether",
+      "family": "shotgun",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "A Mournhollow reliquary key seats behind a violet chamber. Its inscriptions are names, each left unfinished until the living return. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 7.5/9 body/head per pellet (maximum 45/54 per shell) before class, enchantments and armor. 1.85s cycle; 5 rounds; F reload 3.2s.\\nClick primary once per shot; secondary aims. Uses only Gravelight Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 44 blocks.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Gatecrasher",
+      "name": "Gatecrasher, the Gobliterator's Wake",
+      "family": "shotgun",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "The Gobliterator's broken heart turns within an amber lattice. Deepworks smiths listened to the wreckage and forged its stubborn rhythm into a weapon. Cyan rails flare between battered iron ribs; every discharge is followed by the scrape and sigh of machinery forced to remember its purpose. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 10/11.5 body/head per pellet (maximum 60/69 per shell) before class, enchantments and armor. 2s cycle; 6 rounds; F reload 3.5s.\\nClick primary once per shot; secondary aims. Uses only Cindercoil Shotgun Cells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 40 blocks.\\nQ — Breach Bell: 82/98 body/head, costs 2 rounds; 12s shared special cooldown; 5.6s recovery. Hold Q for 1.2s to fire one focused shot; eligible NPCs stagger for 0.75s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds and locks firing for 5.6s. Releasing before the charge completes cancels without spending rounds or starting the special cooldown. This special replaces the six-pellet fan with one focused slug; its listed damage is the whole shot.",
+      "decorIds": [
+        "ARD_Deepworks_Heart"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Solstice",
+      "name": "Solstice, Seven Lamps of Luminia",
+      "family": "shotgun",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Three fragments of Luminia's fallen seals lie aligned within a pale prism. White-gold channels awake around a violet star, casting the small light once kept above the sanctum doors. Its bearer inherits an unfinished vigil: guide the faithful through the dark, and spend the dawn with care. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 7/14 body/head per pellet (maximum 42/84 per shell) before class, enchantments and armor. 2s cycle; 6 rounds; F reload 3.5s.\\nClick primary once per shot; secondary aims. Uses only Vesperglass Shotgun Cells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 58 blocks.\\nQ — Solstice Beacon: 22/36 body/head, costs 2 rounds; 12s shared special cooldown; 3s recovery. Press Q for a low-damage setup shot that visibly marks NPCs for 3s and slows eligible NPCs by 40% for 1.25s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds and locks firing for 3s. This special replaces the six-pellet fan with one focused slug; its listed damage is the whole shot.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Grave_Tithe",
+      "name": "Hellmaw, Devourer of Souls",
+      "family": "shotgun",
+      "quality": "Epic",
+      "region": "Dungeon of Fear",
+      "lore": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Six-projectile close-range shell; pellet budget is shared across the spread. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Dark silver and a silver skull frame the Nameless God's compact covenant. A red oath-mark hides beneath each violet-lit plate; no maker's name survives. Six-projectile close-range shell; pellet budget is shared across the spread. Sold exclusively through The Nameless God's Barter: Weapons, Tier 2.\\n6 pellets; 7/9 body/head per pellet (maximum 42/54 per shell) before class, enchantments and armor. 1.85s cycle; 5 rounds; F reload 3.2s.\\nClick primary once per shot; secondary aims. Uses only Penance Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 42 blocks.",
+      "decorIds": [
+        "ARD_Unblinking_Shrine"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Doorwarden",
+      "name": "Labyrinth Doorwarden",
+      "family": "shotgun",
+      "quality": "Epic",
+      "region": "Fullmetal Labyrinth",
+      "lore": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Fullmetal ribs bind a cyan focus in a measured lattice. Labyrinth artificers left one thread unclosed, an invitation to find the next way through. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 8/10 body/head per pellet (maximum 48/60 per shell) before class, enchantments and armor. 1.95s cycle; 6 rounds; F reload 3.45s.\\nClick primary once per shot; secondary aims. Uses only Threadline Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 50 blocks.",
+      "decorIds": [
+        "ARD_Threadkeeper_Maze"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Shotgun_Cloudburst",
+      "name": "Skybound Cloudburst",
+      "family": "shotgun",
+      "quality": "Rare",
+      "region": "Tritale Airshop",
+      "lore": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Six-projectile close-range shell; pellet budget is shared across the spread.",
+      "source": "360-no-scope/modules/weapons/design/arsenal-spec.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Windworn brass guards sky-blue steel and a green sight-stone. The Airshop's couriers prefer a light pack and one promise kept above the clouds. Six-projectile close-range shell; pellet budget is shared across the spread.\\n6 pellets; 5.25/6.5 body/head per pellet (maximum 31.5/39 per shell) before class, enchantments and armor. 1.7s cycle; 5 rounds; F reload 2.9s.\\nClick primary once per shot; secondary aims. Uses only Skyglass Scatter Shells. Ammo transfers at reload completion.\\nFull base damage through 7 blocks of actual projectile travel, falling to 15% at 58. Nominal travel limit 42 blocks.",
+      "decorIds": [
+        "ARD_Windward_Mobile"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Twinwardens",
+      "name": "Wildwood Twinwardens",
+      "family": "paired-handgun",
+      "quality": "Common",
+      "region": "Emerald Wilds",
+      "lore": "Oak and copper twins issued to Wildwood trail wardens. One answers while the other settles. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "source": "360-no-scope/modules/weapons/design/dual-pistols.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oak and copper twins issued to Wildwood trail wardens. One answers while the other settles. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.\\n7/10 body/head before class, enchantments and armor. 0.528s cycle (113.64 RPM); 12 rounds shared between both pistols; F reload 2.5s.\\nClick primary once per shot; secondary aims. Uses only Twintrail Pistol Cartridges. Ammo transfers at reload completion. Alternation may restart after an idle gap or reload.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 34 blocks.",
+      "decorIds": [
+        "ARD_Wayfinder_Compass"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Last_Rites",
+      "name": "Mournhollow Last Rites",
+      "family": "paired-handgun",
+      "quality": "Epic",
+      "region": "Mournhollow Catacombs",
+      "lore": "Two violet reliquaries from Mournhollow, each bearing half an unfinished confession. Their paired reports close the last rite. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "source": "360-no-scope/modules/weapons/design/dual-pistols.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Two violet reliquaries from Mournhollow, each bearing half an unfinished confession. Their paired reports close the last rite. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.\\n17/25 body/head before class, enchantments and armor. 0.576s cycle (104.17 RPM); 10 rounds shared between both pistols; F reload 2.8s.\\nClick primary once per shot; secondary aims. Uses only Gravesong Pistol Cartridges. Ammo transfers at reload completion. Alternation may restart after an idle gap or reload.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 54 blocks.",
+      "decorIds": [
+        "ARD_Epitaph_Reliquary"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Handgun_Vesper_And_Vigil",
+      "name": "Vesper & Vigil, Keepers of Firstlight",
+      "family": "paired-handgun",
+      "quality": "Legendary",
+      "region": "Luminia",
+      "lore": "Vesper keeps the fading light; Vigil keeps the watch. Paired Luminia prisms carry two names beneath one unfinished dawn. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.",
+      "source": "360-no-scope/modules/weapons/design/dual-pistols.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Vesper keeps the fading light; Vigil keeps the watch. Paired Luminia prisms carry two names beneath one unfinished dawn. Paired sidearm: alternate one shot per primary click. The displayed magazine total serves both pistols; each shot spends one matching round. Greater follow-up pressure trades reach and precision for a longer paired reload.\\n15/32 body/head before class, enchantments and armor. 0.608s cycle (98.68 RPM); 12 rounds shared between both pistols; F reload 3s.\\nClick primary once per shot; secondary aims. Uses only Vigilglass Handgun Cells. Ammo transfers at reload completion. Alternation may restart after an idle gap or reload.\\nFull base damage through 14 blocks of actual projectile travel, falling to 35% at 90. Nominal travel limit 70 blocks.\\nQ — Vigil's Reproach: 8/14 body/head. Press Q for one focused setup shot that visibly marks NPCs for 5s and slows eligible NPCs by 20% for 2.5s. Slow-immune NPCs retain only the visual mark. The shot spends two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 2s.",
+      "decorIds": [
+        "ARD_Firstlight_Orrery"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "name": "Deepworks Goliath .50",
+      "family": "heavy-automatic",
+      "quality": "Legendary",
+      "region": "The Deepworks",
+      "lore": "Heart of the Iron Colossus. A squared Deepworks siege receiver and long shrouded barrel drive oversized linked rounds with a deliberate, punishing cadence.",
+      "source": "360-no-scope/modules/weapons/design/heavy-guns.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Heart of the Iron Colossus. A squared Deepworks siege receiver and long shrouded barrel drive oversized linked rounds with a deliberate, punishing cadence.\\n26/36 body/head before class, enchantments and armor. Hold primary for full-auto fire; 125 RPM (0.48s cycle). Siege round load 30.\\n50-round feed box; F swaps the box in 8s. Uses only Goliath .50 Linked Rounds; each inventory ammunition item is one linked round. The missing rounds transfer from matching stacks when reloading finishes; cancelling transfers none.\\nSecondary aims at 1.3x with 20% movement speed. Full base damage through 20 blocks of actual projectile travel, falling to 35% at 140; nominal travel limit 120 blocks.\\nQ — Colossus Breaker: Hold Q for 0.75s to commit one focused 104/156 body/head shot and stagger eligible NPCs for 0.75s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 1.25s after commitment. Releasing early cancels without spending rounds or starting the special cooldown.",
+      "decorIds": [
+        "ARD_Deepworks_Heart",
+        "ARD_Goliath_Trophy"
+      ]
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "name": "Dunewatch Rampart SAW",
+      "family": "heavy-automatic",
+      "quality": "Legendary",
+      "region": "Howling Sands",
+      "lore": "Oath of the Last Bastion. A Dunewatch squad support gun pairs a shoulder stock, folding bipod and side-fed box with a faster stream of lighter linked rounds.",
+      "source": "360-no-scope/modules/weapons/design/heavy-guns.json",
+      "nameSource": "360-no-scope/modules/weapons/resources/Server/Languages/en-US/server.lang",
+      "currentDescription": "Oath of the Last Bastion. A Dunewatch squad support gun pairs a shoulder stock, folding bipod and side-fed box with a faster stream of lighter linked rounds.\\n14/20 body/head before class, enchantments and armor. Hold primary for full-auto fire; 200 RPM (0.3s cycle). Heavy round load 12.\\n100-round feed box; F swaps the box in 6s. Uses only Rampart Linked Rounds; each inventory ammunition item is one linked round. The missing rounds transfer from matching stacks when reloading finishes; cancelling transfers none.\\nSecondary aims at 1.6x with 40% movement speed. Full base damage through 20 blocks of actual projectile travel, falling to 35% at 140; nominal travel limit 95 blocks.\\nQ — Suppressor's Brand: Press Q for one focused 28/40 body/head shot that visibly marks NPCs for 10s and slows eligible NPCs by 35% for 4s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 1s after commitment.",
+      "decorIds": [
+        "ARD_Last_Watch_Standard",
+        "ARD_Rampart_Trophy"
+      ]
+    }
+  ]
+}

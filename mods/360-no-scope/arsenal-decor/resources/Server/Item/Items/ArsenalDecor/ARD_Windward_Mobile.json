@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.ARD_Windward_Mobile.name",
+    "Description": "server.items.ARD_Windward_Mobile.description"
+  },
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Icon": "Icons/ItemsGenerated/ARD_Windward_Mobile.png",
+  "MaxStack": 20,
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "ArsenalDecor"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/ArsenalDecor/ARD_Windward_Mobile.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ArsenalDecor/ARD_Decor_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ARD_Windward_Mobile",
+    "RotationYawPlacementOffset": "OneEighty",
+    "PlacementSettings": {
+      "RotationMode": "BlockNormal",
+      "AllowRotationKey": false,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "ARD_Windward_Mobile",
+        "Quantity": 1
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "ParticleColor": "#6d6b70"
+  },
+  "IconProperties": {
+    "Scale": 0.771918,
+    "Translation": [
+      1.883012,
+      -16.453955
+    ],
+    "Rotation": [
+      -6.842773,
+      189.026595,
+      0.0
+    ]
+  }
+}

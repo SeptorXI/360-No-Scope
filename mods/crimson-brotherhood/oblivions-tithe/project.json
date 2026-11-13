@@ -1,0 +1,17 @@
+{
+  "title": "Oblivion’s Tithe",
+  "version": "0.1.5",
+  "manifest_name": "Steven:OblivionsTithe",
+  "artifact": "Oblivions-Tithe-0.1.5.jar",
+  "installed_sha256": "0300238de668eae1d5abc25eddf5f1c20f647b4cddb26db83ba15d66fc4ca198",
+  "server_version": ">=0.7.5 <0.8.0",
+  "compile_dependencies": [
+    "mmo-skill-tree"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": ">=14.4.0 <15.0.0",
+    "Ziggfreed:MMOSkillTree": "=1.7.4",
+    "org.herolias:SimpleEnchantments": "=1.2.1",
+    "Config:Endgame&QoL": ">=6.1.4 <7.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Endless Menu Acknowledgements",
+  "version": "1.0.2",
+  "manifest_name": "Local:EndlessMenuAcknowledgements",
+  "artifact": "Endless-Menu-Acknowledgements-1.0.2.jar",
+  "installed_sha256": "d7982e97027c0133f0c402963365abf14a9cb960b4b578f1ca60b938ba7dfd40",
+  "server_version": ">=0.7.7 <0.7.8",
+  "compile_dependencies": [
+    "endless-leveling"
+  ],
+  "runtime_dependencies": {
+    "Airijko:EndlessLevelingCore": "=14.5.6"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "RequireNewClick": false,
+  "Rules": {
+    "BlockedBy": [],
+    "Blocking": [],
+    "InterruptedBy": [
+      "SwapFrom",
+      "SwapTo",
+      "Death"
+    ]
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "RunTime": 0.516666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadOpen_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadOpen_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.5
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeStart_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeStart_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.783333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeMid_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeMid_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.083333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadInsert_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadInsert_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.383333333
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeEnd_Local",
+        "WorldSoundEventId": "RS_Audio_Luminia_Dawnpiercer_ChargeEnd_World"
+      }
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0.316666667
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 0,
+      "Effects": {
+        "LocalSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadClose_Local",
+        "WorldSoundEventId": "RS_Realistic_AS_SMG_Starling_ReloadClose_World"
+      }
+    }
+  ]
+}

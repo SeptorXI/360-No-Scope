@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "version": "2.4.19",
+  "sourceVersion": "2.2.0",
+  "sourceArtifactSHA256": "9b21ed02f55e090da58195e09ac2f60356dadb5cfba0dc3efc4e70658241c5eb",
+  "weapons": [
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+      "name": "Deepworks Goliath .50",
+      "family": "automatic",
+      "tier": 5,
+      "artIndex": 5,
+      "quality": "Legendary",
+      "itemLevel": 80,
+      "region": "Deepworks",
+      "description": "Heart of the Iron Colossus. A squared Deepworks siege receiver and long shrouded barrel drive oversized linked rounds with a deliberate, punishing cadence.",
+      "projectile": "solid linked cartridge",
+      "damage": 26,
+      "headDamage": 36,
+      "receiverDamage": 19.5,
+      "receiverHeadDamage": 27.0,
+      "ammo": "AS_Ammo_Automatic_Goliath_50",
+      "pellets": 1,
+      "damagePerShell": 26,
+      "headDamagePerShell": 36,
+      "automatic": true,
+      "fireMode": "full-auto",
+      "cycleSeconds": 0.116,
+      "roundsPerMinute": 517.24,
+      "spreadDegrees": 2.4,
+      "range": 120,
+      "scope": 1.3,
+      "adsMoveMultiplier": 0.2,
+      "role": "Slow heavy-impact belt-fed support gun",
+      "reload": {
+        "capacity": 50,
+        "durationSeconds": 8,
+        "style": "belt-box",
+        "animationId": "Reload",
+        "playerAnimationsId": "AS_AS_Automatic_Goliath_50_Player",
+        "interactionType": "Use",
+        "transferRule": "One missing loaded round consumes one matching linked-round item at completion. Cancelled reload transfers none. The animation swaps the feed box; inventory ammunition items are individual rounds.",
+        "cueTimesSeconds": {
+          "open": 0.96,
+          "boxOut": 2.24,
+          "seat": 4.0,
+          "feed": 5.44,
+          "close": 6.8,
+          "ready": 8.0
+        }
+      },
+      "falloff": {
+        "metric": "traveledPath",
+        "points": [
+          {
+            "distance": 0,
+            "multiplier": 1
+          },
+          {
+            "distance": 20,
+            "multiplier": 1
+          },
+          {
+            "distance": 140,
+            "multiplier": 0.35
+          }
+        ],
+        "appliesTo": [
+          "NormalBody",
+          "NormalHead",
+          "SpecialBody",
+          "SpecialHead"
+        ]
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_automatic"
+        ],
+        "RequiredTierLevel": 5
+      },
+      "ingredients": {
+        "Ingredient_Bar_Onyxium": 48,
+        "Ingredient_Bar_Prisma": 20,
+        "Ingredient_Gadget_Assembly": 24,
+        "Ingredient_Gobliterator_Core": 3,
+        "Ingredient_Voidheart": 8,
+        "Ingredient_Scraps": 256,
+        "Endgame_Seal_Fragment_Catacombs": 1,
+        "Endgame_Seal_Fragment_Sentinel": 1,
+        "Endgame_Seal_Fragment_Spire": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "audio": {
+        "Fire": {
+          "Local": "AS_Audio_AS_Automatic_Goliath_50_Fire_Local",
+          "World": "AS_Audio_AS_Automatic_Goliath_50_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Automatic_Goliath_50_Fire_Tail_Owner"
+        },
+        "SpecialFire": {
+          "Local": "AS_Audio_AS_Automatic_Goliath_50_Fire_Local",
+          "World": "AS_Audio_AS_Automatic_Goliath_50_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Automatic_Goliath_50_Fire_Tail_Owner"
+        },
+        "SpecialCharge": {
+          "Local": "RS_Audio_Deepworks_Railspike_SpecialCharge_Local",
+          "World": "RS_Audio_Deepworks_Railspike_SpecialCharge_World"
+        }
+      },
+      "tradeoffs": [
+        "A large box sustains fire between long reloads",
+        "Wide spread, low aimed movement and low magnification limit mobile precision",
+        "Signature Q shares the global twelve-second Legendary lock; ordinary armor and native NPC control immunities remain active"
+      ],
+      "roundWeightClass": "Siege",
+      "relativeRoundWeight": 30,
+      "subfamily": "belt-box",
+      "sourceWeaponId": "Weapon_Crossbow_AS_Automatic_Patternbreaker",
+      "sourceAmmoId": "AS_Ammo_Automatic_Patternbreaker",
+      "sourceAudioWeaponId": "Weapon_Crossbow_AS_Automatic_Crown_Of_Rivets",
+      "sourceThemeWeaponId": "Weapon_Crossbow_Deepworks_Railspike",
+      "vendorOnly": false,
+      "ammunition": {
+        "id": "AS_Ammo_Automatic_Goliath_50",
+        "name": "Goliath .50 Linked Rounds",
+        "description": "Individual linked rounds dedicated to Deepworks Goliath .50. One item loads one round. F swaps the feed box and draws the missing rounds from matching inventory stacks; this ammunition item is not a whole box.",
+        "quality": "Legendary",
+        "compatibleWeapon": "Weapon_Crossbow_AS_Automatic_Goliath_50",
+        "family": "automatic",
+        "artIndex": 5,
+        "stats": {
+          "damage": 6.5,
+          "headDamage": 9.0,
+          "speed": 234,
+          "gravity": 1,
+          "range": 120
+        },
+        "output": 50,
+        "ingredients": {
+          "Ingredient_Bar_Onyxium": 1,
+          "Ingredient_Bar_Gold": 2,
+          "Ingredient_Scraps": 20,
+          "Ingredient_Charcoal": 8
+        },
+        "bench": {
+          "Id": "RS_Gunsmith",
+          "Type": "Crafting",
+          "Categories": [
+            "RS_Gunsmith_Ammunition"
+          ],
+          "RequiredTierLevel": 4
+        },
+        "requiredMemoriesLevel": 1,
+        "pelletsPerRound": 1,
+        "damageBudget": {
+          "unit": "perProjectile",
+          "bodyPerRound": 6.5,
+          "headPerRound": 9.0
+        },
+        "roundWeightClass": "Siege",
+        "relativeRoundWeight": 30,
+        "cadenceSeconds": 0.48
+      },
+      "art": {
+        "model": "Items/Arsenal/AS_Automatic_Goliath_50/AS_Automatic_Goliath_50.blockymodel",
+        "texture": "Items/Arsenal/AS_Automatic_Goliath_50/AS_Automatic_Goliath_50.png",
+        "icon": "Icons/ItemsGenerated/AS_Automatic_Goliath_50.png",
+        "playerAnimationsId": "AS_AS_Automatic_Goliath_50_Player",
+        "weaponRenderDualWielded": false,
+        "utilityCompatible": false
+      },
+      "balance": {
+        "damageAccounting": "Native single-projectile hit assets use the total body/head values once; receiver/ammo fractions are design accounting only.",
+        "bodyBurstDps": 54.166667,
+        "headBurstDps": 75.0,
+        "bodyFullCycleDps": 40.625,
+        "headFullCycleDps": 56.25,
+        "fullCycleFormula": "damage * capacity / (cycleSeconds * capacity + reloadSeconds)",
+        "nativeProcCaveat": "One native projectile launch per paid round and one claimed damaging impact on contact. High magazine capacity extends native per-hit class/enchantment procs; the gun adds no extra proc per round."
+      },
+      "impactFeedback": {
+        "bodyParticle": "Impact_Sword_Basic",
+        "criticalParticle": "Impact_Critical",
+        "bodyScale": 1.0,
+        "criticalScale": 1.2,
+        "damageApplicationsPerPaidShot": 1,
+        "areaDamage": false,
+        "guaranteedCrowdControl": false
+      },
+      "maxDurability": 500,
+      "legendaryEpithet": "Heart of the Iron Colossus",
+      "progressionNote": "Three endgame seal fragments are guaranteed from the Hollow Warden, Luminian Sentinel and Seal Herald; the recipe also consumes repeatable Gobliterator cores. No existing gun is consumed. Ammunition keeps the prior affordable linked-round ingredient costs and batch size.",
+      "ability": {
+        "name": "Colossus Breaker",
+        "kind": "stagger",
+        "effectKind": "stagger",
+        "input": "Ability1",
+        "chargeSeconds": 0.75,
+        "bodyDamage": 104,
+        "headDamage": 156,
+        "pellets": 1,
+        "ammoPerUse": 2,
+        "cooldownSeconds": 12,
+        "sharedCooldownId": "RS_LegendaryAbility",
+        "shotRecoverySeconds": 1.25,
+        "npcOnly": true,
+        "respectsImmunity": "Immunity_Freeze",
+        "staggerSeconds": 0.75,
+        "additionalImmunity": "Hit_Interrupt_Enraged",
+        "description": "Hold Q for 0.75s to commit one focused 104/156 body/head shot and stagger eligible NPCs for 0.75s. Freeze immunity and enraged interrupt immunity prevent the stagger. The shot commits two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 1.25s after commitment. Releasing early cancels without spending rounds or starting the special cooldown."
+      },
+      "signatureRole": "High direct alpha and a charged single-target interrupt; slower rate and aim movement reward deliberate positioning.",
+      "cadenceSource": "Measured interval between reports in the selected recording"
+    },
+    {
+      "id": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+      "name": "Dunewatch Rampart SAW",
+      "family": "automatic",
+      "tier": 5,
+      "artIndex": 2,
+      "quality": "Legendary",
+      "itemLevel": 80,
+      "region": "Dunewatch",
+      "description": "Oath of the Last Bastion. A Dunewatch squad support gun pairs a shoulder stock, folding bipod and side-fed box with a faster stream of lighter linked rounds.",
+      "projectile": "solid linked cartridge",
+      "damage": 14,
+      "headDamage": 20,
+      "receiverDamage": 10.5,
+      "receiverHeadDamage": 15.0,
+      "ammo": "AS_Ammo_Automatic_Rampart_SAW",
+      "pellets": 1,
+      "damagePerShell": 14,
+      "headDamagePerShell": 20,
+      "automatic": true,
+      "fireMode": "full-auto",
+      "cycleSeconds": 0.074,
+      "roundsPerMinute": 810.81,
+      "spreadDegrees": 1.9,
+      "range": 95,
+      "scope": 1.6,
+      "adsMoveMultiplier": 0.4,
+      "role": "Box-fed squad support gun with longer uninterrupted strings",
+      "reload": {
+        "capacity": 100,
+        "durationSeconds": 6,
+        "style": "belt-box",
+        "animationId": "Reload",
+        "playerAnimationsId": "AS_AS_Automatic_Rampart_SAW_Player",
+        "interactionType": "Use",
+        "transferRule": "One missing loaded round consumes one matching linked-round item at completion. Cancelled reload transfers none. The animation swaps the feed box; inventory ammunition items are individual rounds.",
+        "cueTimesSeconds": {
+          "open": 0.72,
+          "boxOut": 1.68,
+          "seat": 3.0,
+          "feed": 4.08,
+          "close": 5.1,
+          "ready": 6.0
+        }
+      },
+      "falloff": {
+        "metric": "traveledPath",
+        "points": [
+          {
+            "distance": 0,
+            "multiplier": 1
+          },
+          {
+            "distance": 20,
+            "multiplier": 1
+          },
+          {
+            "distance": 140,
+            "multiplier": 0.35
+          }
+        ],
+        "appliesTo": [
+          "NormalBody",
+          "NormalHead",
+          "SpecialBody",
+          "SpecialHead"
+        ]
+      },
+      "bench": {
+        "Id": "RS_Gunsmith",
+        "Type": "Crafting",
+        "Categories": [
+          "AS_Gunsmith_automatic"
+        ],
+        "RequiredTierLevel": 5
+      },
+      "ingredients": {
+        "Ingredient_Bar_Prisma": 32,
+        "Ingredient_Bar_Mithril": 32,
+        "Ingredient_Bar_Thorium": 32,
+        "Ingredient_Gadget_Assembly": 18,
+        "Ingredient_Gobliterator_Core": 2,
+        "Ingredient_Crystal_Yellow": 32,
+        "Ingredient_Leather_Prismic": 8,
+        "Endgame_Seal_Fragment_Catacombs": 1,
+        "Endgame_Seal_Fragment_Sentinel": 1,
+        "Endgame_Seal_Fragment_Spire": 1
+      },
+      "requiredMemoriesLevel": 1,
+      "audio": {
+        "Fire": {
+          "Local": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Local",
+          "World": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Tail_Owner"
+        },
+        "SpecialFire": {
+          "Local": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Local",
+          "World": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_World",
+          "OwnerTail": "AS_Audio_AS_Automatic_Rampart_SAW_Fire_Tail_Owner"
+        },
+        "BurstFire": {
+          "Local": "AS_Audio_AS_Automatic_Rampart_SAW_BurstFire_Local",
+          "World": "AS_Audio_AS_Automatic_Rampart_SAW_BurstFire_World"
+        }
+      },
+      "tradeoffs": [
+        "A large box sustains fire between long reloads",
+        "Wide spread, low aimed movement and low magnification limit mobile precision",
+        "Signature Q shares the global twelve-second Legendary lock; ordinary armor and native NPC control immunities remain active"
+      ],
+      "roundWeightClass": "Heavy",
+      "relativeRoundWeight": 12,
+      "subfamily": "belt-box",
+      "sourceWeaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "sourceAmmoId": "AS_Ammo_Automatic_Dirge_Engine",
+      "sourceAudioWeaponId": "Weapon_Crossbow_AS_Automatic_Dirge_Engine",
+      "sourceThemeWeaponId": "Weapon_Crossbow_Dunewatch_Longshot",
+      "vendorOnly": false,
+      "ammunition": {
+        "id": "AS_Ammo_Automatic_Rampart_SAW",
+        "name": "Rampart Linked Rounds",
+        "description": "Individual linked rounds dedicated to Dunewatch Rampart SAW. One item loads one round. F swaps the feed box and draws the missing rounds from matching inventory stacks; this ammunition item is not a whole box.",
+        "quality": "Legendary",
+        "compatibleWeapon": "Weapon_Crossbow_AS_Automatic_Rampart_SAW",
+        "family": "automatic",
+        "artIndex": 2,
+        "stats": {
+          "damage": 3.5,
+          "headDamage": 5.0,
+          "speed": 180,
+          "gravity": 1,
+          "range": 95
+        },
+        "output": 100,
+        "ingredients": {
+          "Ingredient_Bar_Iron": 3,
+          "Ingredient_Bar_Thorium": 2,
+          "Ingredient_Scraps": 10,
+          "Ingredient_Charcoal": 6
+        },
+        "bench": {
+          "Id": "RS_Gunsmith",
+          "Type": "Crafting",
+          "Categories": [
+            "RS_Gunsmith_Ammunition"
+          ],
+          "RequiredTierLevel": 3
+        },
+        "requiredMemoriesLevel": 1,
+        "pelletsPerRound": 1,
+        "damageBudget": {
+          "unit": "perProjectile",
+          "bodyPerRound": 3.5,
+          "headPerRound": 5.0
+        },
+        "roundWeightClass": "Heavy",
+        "relativeRoundWeight": 12,
+        "cadenceSeconds": 0.3
+      },
+      "art": {
+        "model": "Items/Arsenal/AS_Automatic_Rampart_SAW/AS_Automatic_Rampart_SAW.blockymodel",
+        "texture": "Items/Arsenal/AS_Automatic_Rampart_SAW/AS_Automatic_Rampart_SAW.png",
+        "icon": "Icons/ItemsGenerated/AS_Automatic_Rampart_SAW.png",
+        "playerAnimationsId": "AS_AS_Automatic_Rampart_SAW_Player",
+        "weaponRenderDualWielded": false,
+        "utilityCompatible": false
+      },
+      "balance": {
+        "damageAccounting": "Native single-projectile hit assets use the total body/head values once; receiver/ammo fractions are design accounting only.",
+        "bodyBurstDps": 46.666667,
+        "headBurstDps": 66.666667,
+        "bodyFullCycleDps": 38.888889,
+        "headFullCycleDps": 55.555556,
+        "fullCycleFormula": "damage * capacity / (cycleSeconds * capacity + reloadSeconds)",
+        "nativeProcCaveat": "One native projectile launch per paid round and one claimed damaging impact on contact. High magazine capacity extends native per-hit class/enchantment procs; the gun adds no extra proc per round."
+      },
+      "impactFeedback": {
+        "bodyParticle": "Impact_Sword_Basic",
+        "criticalParticle": "Impact_Critical",
+        "bodyScale": 0.8,
+        "criticalScale": 1.0,
+        "damageApplicationsPerPaidShot": 1,
+        "areaDamage": false,
+        "guaranteedCrowdControl": false
+      },
+      "maxDurability": 500,
+      "legendaryEpithet": "Oath of the Last Bastion",
+      "progressionNote": "Three endgame seal fragments are guaranteed from the Hollow Warden, Luminian Sentinel and Seal Herald; the recipe also consumes repeatable Gobliterator cores. No existing gun is consumed. Ammunition keeps the prior affordable linked-round ingredient costs and batch size.",
+      "ability": {
+        "name": "Suppressor's Brand",
+        "kind": "markSlow",
+        "effectKind": "markSlow",
+        "input": "Ability1",
+        "chargeSeconds": 0,
+        "bodyDamage": 28,
+        "headDamage": 40,
+        "pellets": 1,
+        "ammoPerUse": 2,
+        "cooldownSeconds": 12,
+        "sharedCooldownId": "RS_LegendaryAbility",
+        "shotRecoverySeconds": 1,
+        "npcOnly": true,
+        "respectsImmunity": "Immunity_Slow",
+        "markSeconds": 10,
+        "slowSeconds": 4,
+        "speedMultiplier": 0.65,
+        "description": "Press Q for one focused 28/40 body/head shot that visibly marks NPCs for 10s and slows eligible NPCs by 35% for 4s. Slow-immune NPCs retain only the visual mark. The shot commits two loaded rounds, shares the twelve-second Legendary lock and prevents firing for 1s after commitment."
+      },
+      "signatureRole": "Sustained support fire and a focused marked slow target; lower damage per round, wider spread and long reload limit mobile precision.",
+      "cadenceSource": "Measured interval between reports in the selected recording"
+    }
+  ],
+  "namelessExclusivesUnchanged": true,
+  "designRules": [
+    "The two existing heavy weapon IDs become level80 Tier5 Legendaries. Other57 weapons keep their stats, recipes and mechanics; separately authorized visual muzzle flashes are handled by the release overlay.",
+    "Every gun uses its existing unique matching individual linked rounds. One paid primary shot consumes one round and launches one projectile; the box-swap animation does not make one ammunition item a whole box.",
+    "Hard material-only receiver recipes consume three guaranteed endgame seal fragments plus repeatable Gobliterator cores and high-tier materials. No existing or enchanted gun is consumed.",
+    "Ammo ingredients, output50/100, MaxStack100 and priorTier4/3 ammo crafting access remain unchanged; post-craft upkeep stays affordable.",
+    "Cycle=.18+.01*relativeRoundWeight remains unchanged. Siege begins at16 without an upper cap; rating30/12 means equivalent discharge load, not grams or heat.",
+    "F/Use box reload preserves world interaction precedence, late transfer and cancellation. H class abilities remain available. Capacities50/100, cycles.48/.30, reload8/6 and handling stay unchanged.",
+    "Goliath ColossusBreaker is one charged focused native projectile with an immunity-respecting NPC stagger. SAW SuppressorsBrand is one focused native projectile with visual NPC mark and immunity-respecting slow. Both cost two loaded rounds and share the existing12s Legendary lock.",
+    "No area damage, armor bypass, homing, mark damage amplification or guaranteed boss control is introduced. New Qs use existing native effects and firing/charge sounds; all prior audio waves and native events remain unchanged.",
+    "The existing automatic-family traveled-path falloff stays0/20=100%,140=35%, with nominal travel limits120/95."
+  ]
+}
